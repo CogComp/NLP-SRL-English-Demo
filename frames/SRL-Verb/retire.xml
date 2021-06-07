@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="retire">
+<note>
+  Frames file for 'retire' based on sentences in financial subcorpus.
+  No Verbnet entry, comparison with 'hire' and 'fire'.  Why is it that
+  all verbs of employment rhyme with 'ire'?
+</note>
+
+<roleset id="retire.01" name="stop working">
+<roles>
+  <role n="0"  descr="retiree"/>
+  <role n="1"  descr="former job"/>
+</roles>
+
+<example name="intransitive">
+<text>
+    Mr. Achenbaum's move follows the announcement last month that his
+    consulting partner, Stanley Canter, 66, would retire. 
+</text>
+        <arg n="0">his consulting partner, Stanley Canter, 66,</arg>
+        <arg n="M" f="MOD">would</arg>
+        <rel>retire</rel>
+</example>
+
+<example name="with job">
+  <text>
+    John retired as head of BigHugeCo.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >retired</rel>
+  <arg n="1" f="as">head of BigHugeCo</arg>
+</example>
+
+<note>
+Might also see job as a from-phrase.
+</note>
+
+</roleset>
+
+<roleset id="retire.02" name="cease, end, as of debt">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing (eg debt) being retired"/>
+</roles>
+
+<example name="retiring debt">
+<text>
+    BSN will increase its debt by $9 million, but it also will
+    recognize a $2 million gain from *trace* retiring the old debt,
+    said Michael J. Blumenfeld, president. 
+</text>
+        <arg n="0">*trace* ->  it</arg>
+        <rel>retiring</rel>
+        <arg n="1">the old debt</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

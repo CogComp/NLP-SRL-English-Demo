@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="pamper">
+<note>
+  Frames file for 'pamper' based on sentences in financial subcorpus.
+  No Verbnet entry.  No comparison.
+</note>
+
+<roleset id="pamper.01" name="indulge, treat (excessively?) nicely">
+<roles>
+  <role n="0"  descr="pamperer"/>
+  <role n="1"  descr="pampered"/>
+</roles>
+
+<example name="transitive">
+<text>
+    He pampers them; he invites them to fabulous parties; he strokes
+    them. 
+</text>
+        <arg n="0">He</arg>
+        <rel>pampers</rel>
+        <arg n="1">them</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

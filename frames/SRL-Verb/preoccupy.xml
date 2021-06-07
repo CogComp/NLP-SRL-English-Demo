@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="preoccupy">
+<note>
+  Frames file for 'preoccupy' based on sentences in wsj.  Verbnet
+  entry 31.1 (verbs of emotion).
+</note>
+
+<roleset id="preoccupy.01" name="demand full attention" vncls="31.1">
+<roles>
+  <role descr="preoccupied entity" n="1"><vnrole vncls="31.1" vntheta="Cause"/></role>
+  <role descr="focus of attention" n="2"><vnrole vncls="31.1" vntheta="Experiencer"/></role>
+</roles>
+
+<example name="usually passive">
+<inflection aspect="ns" form="participle" person="ns" tense="present" voice="passive"/>
+<text>
+    Worst of all, Nissan was preoccupied *trace* with management
+    infighting, cronyism and corporate rigidity. 
+</text>
+        <arg f="DIS" n="M">Worst of all</arg>
+        <rel>preoccupied</rel>
+        <arg n="1">*trace* -&gt;  Nissan</arg>
+        <arg f="with" n="2">management infighting, cronyism and
+        corporate rigidity</arg> 
+</example>
+
+<example name="occasionally active">
+<inflection aspect="perfect" form="participle" person="third" tense="present" voice="ns"/>
+<text>
+    Foreign exchange dealers said that the currency market has begun
+    to distance itself from the volatile stock exchange, which *trace*
+    has preoccupied the market since Oct. 13, when the Dow Jones
+    Industrial Average plunged more than 190 points.
+</text>
+        <arg n="2">*trace* -&gt;  which -&gt;  the volatile stock exchange</arg>
+        <rel>preoccupied</rel>
+        <arg n="1">the market</arg>
+        <arg f="TMP" n="M">since Oct. 13, when the Dow Jones
+        Industrial Average plunged more than 190 points</arg> 
+</example>
+
+<note>
+Note that the focus of attention cannot be regarded as an arg0 'agent'
+because it cannot be introduced by the usual preposition in passive
+sentences: *Nissan was preoccupied by cronyism.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

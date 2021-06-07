@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="legalize">
+<note>
+  Frames file for 'legalize' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="legalize.01" vncls="-" name="make legal">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing now legal"/>
+</roles>
+
+<example name="pretty simple, really">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+    In East Berlin, Communist Party officials considered *trace*
+    legalizing New Forum, the country's largest opposition alliance,
+    as about 20,000 demonstrators staged protests in three cities to
+    press demands for democratic freedoms. 
+</text>
+        <arg n="0">*trace* ->  Communist Party officials</arg>
+        <rel>legalizing</rel>
+        <arg n="1">New Forum, the country's largest opposition alliance</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

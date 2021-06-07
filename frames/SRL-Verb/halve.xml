@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="halve">
+<note>
+  Frames file for 'halve' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="halve.01" vncls="-" name="cut in half">
+<roles>
+  <role n="0"  descr="cutter"/>
+  <role n="1"  descr="thing cut in half"/>
+</roles>
+
+<example name="basic pattern">
+<inflection person="ns" tense="ns" aspect="perfect" voice="active" form="participle"/>
+<text>
+    Among them are the shipbuilders, which *trace* had halved their
+    shipyard work forces to cut costs during a prolonged slump in
+    demand but now are capturing an increased share of the
+    strengthening global market. 
+</text>
+        <arg n="0">*trace* ->  which ->  the shipbuilders</arg>
+        <rel>halved</rel>
+        <arg n="1">their shipyard work forces</arg>
+        <arg n="M" f="PNC">to cut costs</arg>
+        <arg n="M" f="TMP">during a prolonged slump in demand</arg>
+</example>
+
+<note>
+Perhaps an instrument argument?  Probably not.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

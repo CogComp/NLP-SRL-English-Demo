@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="renounce">
+<note>
+  Frames file for 'renounce' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="renounce.01" vncls="-" name="repudiate, deny">
+<roles>
+  <role descr="denier" n="0"/>
+  <role descr="thing denied" n="1"/>
+  <role n="2" descr="benefactive"/>
+</roles>
+
+<example name="some things never change">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Israel has long claimed Mr. Arafat never meant *trace* to renounce
+    terrorism, particularly because he and his lieutenants reserved
+    the right to press ``armed struggle'' against the Jewish state. 
+</text>
+        <arg n="0">*trace* ->  Mr. Arafat</arg>
+        <rel>renounce</rel>
+        <arg n="1">terrorism</arg>
+</example>
+
+<example name="weird benefactive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+     Kidder Peabody became the most recent firm to swear off
+     stock-index arbitrage trading for its own account, and Merrill
+     Lynch late yesterday took the major step of *trace* renouncing
+     the trading strategy even for its clients. 
+</text>
+        <arg n="0">*trace* ->  Merrill Lynch</arg>
+        <rel>renouncing</rel>
+        <arg n="1">the trading strategy</arg>
+        <arg n="M" f="DIS">even</arg>
+        <arg n="2" f="for">even for its clients</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

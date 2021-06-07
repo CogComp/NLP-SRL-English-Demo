@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="nullify">
+<note>
+  Frames file for 'nullify' based on sentences in financial subcorpus.
+  No Verbnet entry.  No Framenet entry.  No comparison.
+</note>
+
+<roleset id="nullify.01" name="cause to not exist">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing going poof"/>
+</roles>
+
+<example name="basic transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    DPC, an investor group led  by New York-based Crescott Investment
+    Associates, had itself filed a suit in state court in Los Angeles
+    *trace* seeking *trace* to nullify the agreement. 
+</text>
+        <arg n="0">*trace* -> *trace* ->  DPC, an investor group led
+        by New York-based Crescott Investment Associates,</arg> 
+        <rel>nullify</rel>
+        <arg n="1">the agreement</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

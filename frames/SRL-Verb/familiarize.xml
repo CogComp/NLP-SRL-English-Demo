@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="familiarize">
+<note>
+  Frames file for 'familiarize' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="familiarize.01" vncls="-" name="make familiar">
+<roles>
+  <role n="0"  descr="agent, causer of familiarity"/>
+  <role n="1"  descr="entity becoming familiar"/>
+  <role n="2"  descr="familiar with"/>
+</roles>
+
+<example name="the one example">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+     Subsequent meetings, initiated after the company and two of its
+     units were briefly suspended from federal contracts, were held
+     [*-1] [*] to familiarize Mr. Orr with the company's self-policing
+     procedures and to disclose additional information, according to
+     GE. 
+</text>
+        <arg n="0">[*] ->  [*-1] ->  Subsequent meetings, initiated
+        after the company and two of its units were briefly suspended
+        from federal contracts,</arg> 
+        <rel>familiarize</rel>
+        <arg n="1">Mr. Orr</arg>
+        <arg n="2" f="with">the company's self-policing procedures</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="muster">
+<roleset id="muster.01" name="assent to" source="verb-approve.01" vncls="31.3">
+<roles>
+
+<role descr="approver" n="0">
+<vnrole vncls="31.3" vntheta="Experiencer"/></role>
+
+<role descr="thing approved" n="1">
+<vnrole vncls="31.3" vntheta="Cause"/></role>
+
+<role descr="secondary attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to pass public muster
+</text>
+<arg n="1">NIL</arg>
+<arg n="Support">pass</arg>
+<arg n="0">public</arg>
+<rel>muster</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

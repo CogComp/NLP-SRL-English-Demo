@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="warm">
+<note>
+Frames file for 'warm' based on sentences in financial subcorpus and
+automatic expansion via verbnet.
+</note>
+
+<roleset id="warm.01" name="(cause to) become warm" vncls="45.4">
+<roles>
+  <role descr="agent" n="0">
+		<vnrole vncls="45.4" vntheta="Agent"/>
+  </role>
+
+  <role descr="thing becoming warm" n="1">
+		<vnrole vncls="45.4" vntheta="Patient"/>
+  </role>
+
+</roles>
+
+<example name="agentive">
+  <inflection aspect="ns" form="full" person="ns" tense="past" voice="active"/>
+  <text>
+     John warmed his buns in the toaster.
+  </text>
+  <arg n="0">John</arg>
+  <rel>warmed</rel>
+  <arg n="1">his buns</arg>
+  <arg f="LOC" n="m">in the toaster</arg>
+</example>
+</roleset>
+</predicate>
+
+<predicate lemma="warm_up">
+<roleset id="warm.02" name="(cause to) become warm" vncls="45.4">
+<roles>
+  <role descr="agent" n="0">
+		<vnrole vncls="45.4" vntheta="Agent"/>
+  </role>
+
+  <role descr="thing becoming warm" n="1">
+		<vnrole vncls="45.4" vntheta="Patient"/>
+  </role>
+
+</roles>
+
+<example name="ergative">
+  <inflection aspect="ns" form="full" person="ns" tense="ns" voice="ns"/>
+  <text>
+    Try as he might, John just couldn't warm up after coming in from
+    the storm.
+  </text>
+  <arg f="ADV" n="m">Try as he might</arg>
+  <arg n="1">John</arg>
+  <arg f="DIS" n="m">just</arg>
+  <arg f="MOD" n="m">could</arg>
+  <arg f="NEG" n="m">n't</arg>
+  <rel>warm up</rel>
+  <arg f="TMP" n="m">after coming in from the storm.</arg>
+</example>
+
+
+</roleset>
+
+</predicate>
+</frameset>

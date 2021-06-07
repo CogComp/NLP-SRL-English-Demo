@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="electrify">
+<note>
+  Frames file for 'electrify' based on sentences in wsj.  Verbnet
+  entry 31.1, which is only the metaphorical usage.
+</note>
+
+<roleset id="electrify.01" vncls="31.1" name="apply electricity to, excite">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="electrified entity"/>
+</roles>
+
+<example name="metaphorical">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Readers were electrified [*-1] by the paper's audacity and
+    appalled by the dark side of life it uncovered. 
+</text>
+        <rel>electrified</rel>
+        <arg n="1">[*-1] ->  Readers</arg>
+        <arg n="0" f="by">the paper's audacity</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

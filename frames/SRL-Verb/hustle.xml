@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="hustle">
+<note>
+  Frames file for 'hustle' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="hustle.01" name="to act or cause to proceed quickly"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity hustled"/>
+  <role n="2"  descr="hustled to/into"/>
+</roles>
+
+<example name="with Arg2">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ These days he hustles to house-painting jobs in his Chevy pickup before and after [*-1] training with the Tropics .
+</text>
+	<arg n="M" f="TMP">These days</arg>
+	<arg n="0">he</arg>
+	<rel>hustles</rel>
+	<arg n="2" f="to">house-painting jobs</arg>
+	<arg n="M" f="LOC">in his Chevy pickup</arg>
+	<arg n="M" f="TMP">before and after [*-1] training with the Tropics</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

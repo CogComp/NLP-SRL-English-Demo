@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="buck">
+<roleset id="buck.01" name="nomlike" source="verb-blame.01">
+<roles>
+
+<role descr="blamer" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="recipient" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He is just passing the buck to young people .
+</text>
+<arg n="0">He</arg>
+<arg n="Support">passing</arg>
+<rel>buck</rel>
+<arg n="2">to young people</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

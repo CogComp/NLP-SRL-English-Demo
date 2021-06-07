@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="program">
+<note>
+  Frames file for 'program' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="program.01" name="to design a program"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity  programmed"/>
+  <role n="2"  descr="attribute"/>
+</roles>
+
+
+
+<example name="with Arg2">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Larry Biehl , a money manager in San Mateo , Calif. , blames that on the advent of program trading , in which computers used [*] by big institutional investors are programmed [*-2] to buy and sell big blocks when certain market conditions prevail [*T*-3] [*T*-1] .
+</text>
+	<arg n="1">computers used [*] by big institutional investors</arg>
+	<rel>programmed</rel>
+	<arg n="2">[*-2] to buy and sell big blocks when certain market conditions prevail [*T*-3]</arg>
+</example>
+
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ `` You 'll start [*-1] to see shows where viewers program the program [*T*-2] .
+</text>
+	<arg n="0">viewers</arg>
+	<rel>program</rel>
+	<arg n="1">the program</arg>
+	<arg n="M" f="LOC">[*T*-2] ->  where ->  shows</arg>
+</example>
+
+
+<example name="passive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Mr. LeBaron , who [*T*-1] manages $ 10 billion [*U*] , says , `` We turned the trading system on , and it did whatever it was programmed [*-3] to do [*T*-2] . ''
+</text>
+	<arg n="1">it</arg>
+	<rel>programmed</rel>
+	<arg n="2">[ whatever] [ [*-3] to do [*T*-2]]</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

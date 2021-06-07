@@ -1,0 +1,84 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="time">
+<note>
+  Frames file for 'time' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="time.01" vncls="-" name="measure the time it takes to do
+an action">
+<roles>
+  <role n="0"  descr="measurer"/>
+  <role n="1"  descr="action"/>
+  <role n="2"  descr="time required"/>
+</roles>
+
+<example name="passive">
+  <inflection person="third" tense="past" aspect="ns" voice="passive" form="participle"/>
+  <text>
+    John ran the Boston Marathon last week, and *trace* was timed
+    *trace at one week, three days, four hours, sixteen minutes and 27
+    seconds, his best performance yet.
+  </text>
+  <rel              >timed</rel>
+  <arg n="1"        >*trace* -> *trace* -> John</arg>
+  <arg n="2" f="at">one week, three days, four hours, sixteen minutes and 27
+    seconds</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="time.02" vncls="-" name="synchronize">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="first thing synchronized"/>
+  <role n="2"  descr="second thing, if separate"/>
+</roles>
+
+<example name="merged things">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+     Totally absorbed, the ringers stare straight ahead, *trace* using
+     peripheral vision (they call it ``rope-sight'') *trace* to watch
+     the other ropes and thus time their pulls. 
+</text>
+        <arg n="0">*trace* -> *trace* ->  the ringers</arg>
+        <rel>time</rel>
+        <arg n="1">their pulls</arg>
+</example>
+
+<example name="second thing, sorta">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Renaissance declined to confirm the move, but its stock purchases
+    were thought to have begun Tuesday, timed *trace* to coincide with
+    the maturity this week of Treasury bills owned by the firm. 
+</text>
+        <arg n="1">*trace* ->  its stock purchases</arg>
+        <rel>timed</rel>
+        <arg n="2">to coincide with the maturity this week of Treasury
+        bills owned by the firm</arg> 
+</example>
+
+<example name="clearer arg2">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John timed his snoring with Mary's breathing.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >timed</rel>
+  <arg n="1"        >his snoring</arg>
+  <arg n="2" f="with">Mary's breathing</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

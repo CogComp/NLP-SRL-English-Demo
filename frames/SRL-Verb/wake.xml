@@ -1,0 +1,74 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="wake">
+<note>
+  Frames file for 'wake' based on sentences in financial subcorpus.
+  "Waken" is in Verbnet entry other_cos-45.4, which is close enough.
+</note>
+
+<roleset id="wake.01" name="(cause to) become awake">
+<roles>
+  <role n="0"  descr="alarm clock, eg"/>
+  <role n="1"  descr="sleeper"/>
+  <role n="2"  descr="sleep (oft metaphorical)"/>
+</roles>
+
+<example name="all args">
+  <text>
+    Mary woke John from a deep sleep.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >woke</rel>
+  <arg n="1"        >John</arg>
+  <arg n="2" f="from">a deep sleep</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="wake_up">
+<note>
+   This will probably be much more common.
+</note>
+
+<roleset id="wake.02" name="(cause to) become awake, with particle">
+<roles>
+  <role n="0"  descr="alarm clock, eg"/>
+  <role n="1"  descr="sleeper"/>
+  <role n="2"  descr="sleep (oft metaphorical)"/>
+</roles>
+
+<example name="inchoative">
+<text>
+    Technology stocks woke up, helping the over-the-counter market
+    rise from its recent doldrums. 
+</text>
+        <arg n="1">Technology stocks</arg>
+        <rel>[woke] [up]</rel>
+        <arg n="M" f="ADV">helping the over-the-counter market rise
+        from its recent doldrums</arg> 
+</example>
+
+<example name="non-contiguous phrasal verb">
+  <text>
+    Mary woke John up from a deep sleep.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >[woke] [up]</rel>
+  <arg n="1"        >John</arg>
+  <arg n="2" f="from">a deep sleep</arg>
+</example>
+
+<note>
+"Awaken" and "awake" do not occur in the financial subcorpus, but if
+they do they'll take the exact same framing.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

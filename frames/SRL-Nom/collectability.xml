@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="collectability">
+<roleset id="collectability.01" name="acquire" source="verb-collect.01" vncls="13.5.2">
+<roles>
+
+<role descr="agent, entity acquiring something" n="0">
+<vnrole vncls="13.5.2" vntheta="Agent"/></role>
+
+<role descr="thing acquired" n="1">
+<vnrole vncls="13.5.2" vntheta="Theme"/></role>
+
+<role descr="seller" n="2">
+<vnrole vncls="13.5.2" vntheta="Source"/></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the collectability of receivables owed to National Heritage by
+some of the real estate partnerships it manages
+</text>
+<rel>collectability</rel>
+<arg n="1">
+of receivables owed to National Heritage by some of the real
+estate partnerships it manages</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

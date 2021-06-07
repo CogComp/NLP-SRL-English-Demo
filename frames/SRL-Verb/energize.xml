@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="energize">
+<note>
+  Frames file for 'energize' based on sentences in wsj.  Verbnet entry 45.4.
+</note>
+
+<roleset id="energize.01" vncls="45.4" name="give energy to">
+<roles>
+  <role n="0"  descr="giver of energy"/>
+  <role n="1"  descr="recipient"/>
+  <role n="2"  descr="source of energy"/>
+</roles>
+
+<example name="only one arg">
+<inflection person="third" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+     But market activity was energized *trace* as investors started to
+     view the lower price levels as attractive. 
+</text>
+        <arg n="M" f="DIS">But</arg>
+        <rel>energized</rel>
+        <arg n="1">*trace* ->  market activity</arg>
+        <arg n="M" f="TMP">as investors started  to view the lower
+        price levels as attractive</arg> 
+</example>
+
+<example name="all args">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     John energized himself with fifteen shots of espresso.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >energized</rel>
+  <arg n="1" f="REC">himself</arg>
+  <arg n="2" f="with">fifteen shots of espresso</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

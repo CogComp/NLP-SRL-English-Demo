@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="envision">
+<note>
+  Frames file for 'envision' based on sentences in financial
+  subcorpus.  No Verbnet entry, no comparison.
+</note>
+
+<roleset id="envision.01" vncls="-" name="imagine">
+<roles>
+  <role n="0"  descr="imaginer"/>
+  <role n="1"  descr="imagined"/>
+</roles>
+
+<example name="pretty basic">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    In fact, DLJ says, the company envisions capital expenses of about
+    $180 million a year. 
+</text>
+        <arg n="M" f="DIS">In fact</arg>
+        <arg n="0">the company</arg>
+        <rel>envisions</rel>
+        <arg n="1">capital expenses of about $180 million a year</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

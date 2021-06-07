@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="reveal">
+<note>
+  Frames file for 'reveal' based on sentences in financial subcorpus.
+  Verbnet entry 37.8, other framed members include announce, claim,
+  declare, mention, observe, reiterate, repeat, restate, and state.
+  Framenet classes Evidence and Statement.  Comparison with say.
+</note>
+
+<roleset id="reveal.01" name="say something that used to be not known,
+  show">
+<roles>
+  <role n="0"  descr="speaker, revealer"/>
+  <role n="1"  descr="utterance, truth condition"/>
+  <role n="2"  descr="hearer"/>
+  <role n="3"  descr="attribute"/>
+</roles>
+
+<example name="just transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    But the Memphis, Tenn., facility wasn't to begin turning out
+    product until 1993, so the decision may reveal a more pessimistic
+    long-term outlook as well. 
+</text>
+        <arg n="0">the decision</arg>
+        <arg n="M" f="MOD">may</arg>
+        <rel>reveal</rel>
+        <arg n="1">a more pessimistic long-term outlook</arg>
+        <arg n="M" f="DIS">as well</arg>
+</example>
+
+<example name="with hearer">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John revealed his secret identity to Mary.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >revealed</rel>
+  <arg n="1"        >his secret identity</arg>
+  <arg n="2" f="to">Mary</arg>
+</example>
+
+<example name="with attribute">
+  <inflection person="third" tense="past" aspect="ns" voice="passive" form="participle"/>
+  <text>
+    John was revealed *trace* to be an idiot.
+  </text>
+  <rel              >revealed</rel>
+  <arg n="1"        >*trace* -> John</arg>
+  <arg n="3" f="PRD">to be an idiot</arg>
+</example>
+
+<note>
+Be prepared for the usual syntactes of utterance: inverted, fronted, split.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="suppressant">
+<roleset id="suppressant.01" name="attempt to) conceal, push down" source="verb-suppress.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+fire suppressants
+</text>
+<arg n="1">fire</arg>
+<arg n="0">suppressants</arg>
+<rel>suppressants</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

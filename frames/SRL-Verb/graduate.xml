@@ -1,0 +1,74 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="graduate">
+<note>
+  Frames file for 'graduate.01' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="graduate.01" vncls="-" name="move from one level to the next">
+<roles>
+  <role n="A"  descr="causal agent"/>
+  <role n="0"  descr="graduate"/>
+  <role n="1"  descr="old level"/>
+  <role n="2"  descr="new level"/>
+</roles>
+
+<example name="show-off">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+     Moving rapidly through school, he graduated Phi Beta Kappa from
+     the University of Kentucky at age 18, after spending only 2 1/2
+     years in college. 
+</text>
+        <arg n="0">he</arg>
+        <rel>graduated</rel>
+        <arg n="M" f="MNR">Phi Beta Kappa</arg>
+        <arg n="1" f="from">the University of Kentucky</arg>
+        <arg n="M" f="TMP">at age 18</arg>
+        <arg n="M" f="TMP">after spending only 2 1/2 years in
+        college</arg> 
+</example>
+
+<example name="why didn't I think of this?">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    Families that do not need the loan can make money simply by
+    putting the loan in the bank and paying it back when the student
+    graduates. 
+</text>
+        <arg n="0">the student</arg>
+        <rel>graduates</rel>
+</example>
+
+<example name="apparently passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    No student should be permitted *trace* to be graduated *trace*
+    from elementary school without having mastered the 3 R's at the
+    level that prevailed 20 years ago. 
+</text>
+        <rel>graduated</rel>
+        <arg n="0">*trace* -> *trace* ->  No student</arg>
+        <arg n="1" f="from">elementary school</arg>
+        <arg n="M" f="MNR">without having mastered the 3 R's at the
+        level that prevailed 20 years ago</arg> 
+</example>
+
+<example name="with ArgA">
+  <inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+  <text>
+    Penn graduates only 59% of its incoming freshman class.
+  </text>
+  <arg n="A"        >Penn</arg>
+  <rel              >graduates</rel>
+  <arg n="0"        >only 59% of its incoming freshman class</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

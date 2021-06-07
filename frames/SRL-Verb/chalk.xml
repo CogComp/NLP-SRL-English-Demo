@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="chalk_up">
+<note>
+  Frames file for 'chalk' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+
+<roleset id="chalk.01" name="to earn, score"  vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr=""/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="participle"/>
+<text>
+ Mr. Thomson played outfield and third base until 1960 , [*-1] posting a lifetime .270 batting average and chalking up 264 home runs before [*-2] retiring and going into paper-goods sales .
+</text>
+	<arg n="0">[*-1] ->  Mr. Thomson</arg>
+	<rel>[ chalking] [ up]</rel>
+	<arg n="1">264 home runs</arg>
+	<arg n="M" f="TMP">before [*-2] retiring and going into paper-goods sales</arg>
+</example>
+
+
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+ `` We got calls from big block houses asking us if we want [*-2] to make bids on anything , '' said [*T*-1] Mr. Weisman , who , [*-4] happy with his returns on investments chalked [*] up earlier , [*T*-3] declined the offers .
+</text>
+	<rel>[ chalked] [ up]</rel>
+	<arg n="1">[*] ->  investments</arg>
+	<arg n="M" f="TMP">earlier</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

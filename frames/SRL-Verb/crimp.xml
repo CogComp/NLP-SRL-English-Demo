@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="crimp">
+<note>
+  Frames file for 'crimp' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+
+<roleset id="crimp.01" name="to have an obstructive effect" vncls="-">
+<roles>
+  <role n="0"  descr="agent, causer"/>
+  <role n="1"  descr="thing crimped"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+ The shortage of nurses is crimping profit at Personnel Pool , said [0] [*T*-1] the second money manager .
+</text>
+	<arg n="0">The shortage of nurses</arg>
+	<rel>crimping</rel>
+	<arg n="1">profit</arg>
+	<arg n="M" f="LOC">at Personnel Pool</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

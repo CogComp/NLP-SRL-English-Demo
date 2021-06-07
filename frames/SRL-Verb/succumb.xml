@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="succumb">
+<note>
+  Frames file for 'succumb' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="succumb.01" name="to give up or give in"
+vncls="-">
+<roles>
+  <role n="0"  descr="entity giving in"/>
+  <role n="1"  descr="succumbed to"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ But Intel later succumbed to the stock market 's plunge , [*] closing at $ 31.75 [*U*] , down $ 2.125 [*U*] .
+</text>
+	<arg n="M" f="DIS">But</arg>
+	<arg n="0">Intel</arg>
+	<arg n="M" f="TMP">later</arg>
+	<rel>succumbed</rel>
+	<arg n="1" f="to">the stock market 's plunge</arg>
+	<arg n="M" f="ADV">[*] closing at $ 31.75 [*U*] , down $ 2.125 [*U*]</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

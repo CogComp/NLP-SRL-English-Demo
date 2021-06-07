@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="overpay">
+<note>
+  Frames file for 'overpay' based on survey of sentences in the WSJ
+  corpus. Comparison with 'pay'. 
+</note>
+
+
+<roleset id="overpay.01" name="to pay too much "  vncls="-">
+<roles>
+  <role n="0"  descr="payer"/>
+  <role n="1"  descr="thing paid for"/>
+  <role n="2"  descr="person being paid"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ But from his vantage point , it is n't that Mr. Paul , a customer of his too , overpaid for the work , `` a gargantuan painting by an artist who [*T*-1] is not a household word . ''
+</text>
+	<arg n="0">Mr. Paul , a customer of his too ,</arg>
+	<rel>overpaid</rel>
+	<arg n="1" f="for">the work , `` a gargantuan painting by an artist who [*T*-1] is not a household word</arg>
+</example>
+
+
+<example name="with Arg2">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ To the extent [0] we lack manpower [0] [*T*-3] to staff menial jobs in hospitals [*T*-2] , for example , we should raise pay , pursue labor-saving technology , or allow more legal immigration , rather than overpay high school graduates as short-term workers and cause resentment among permanent workers paid [*] lesser amounts [*-1] to do the same jobs .
+</text>
+	<arg n="0">we</arg>
+	<rel>overpay</rel>
+	<arg n="2">high school graduates</arg>
+	<arg n="M" f="PRD">as short-term workers</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

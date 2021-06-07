@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="expect">
+<note>
+  Frames file for 'expect' based on first so-and-so of sentences from large corpus
+</note>
+
+<roleset id="expect.01" name="look forward to, anticipate">
+<roles>
+  <role n="0"   descr="expecter"/>
+  <role n="1"   descr="thing expected"/>
+</roles>
+
+<example name="nominal arg1">
+  <text>
+    Portfolio managers expect further declines in interest rates.
+  </text>
+  <arg n="0">Portfolio managers</arg>
+  <rel      >expect</rel>
+  <arg n="1">further declines in interest rates</arg>
+</example>
+
+<example name="sentential arg1">
+  <text>
+    The company expects [(*trace*=company) to obtain regulatory approval.]
+  </text>
+  <arg n="0"        >The company</arg>
+  <rel              >expects</rel>
+  <arg n="1" f="PRD">*trace*=company to obtain regulatory approval</arg>
+</example>
+
+<example name="passivised">
+  <text>
+    Regulatory approval is expected soon [by everyone]
+  </text>
+  <arg n="1"         >Regulatory approval</arg>
+  <rel               >is expected</rel>
+  <arg n="M" f="TMP" >soon</arg>
+  <arg n="0" f="by"  >by everyon</arg>
+</example>
+
+<example name="passivised with extraction">
+  <text>
+    The Senate isn't expected [(*trace*=Senate) to act until next week.]
+  </text>
+  <arg n="1"        >The Senate</arg>
+  <arg n="M" f="NEG">n't</arg>
+  <rel voice="passive"  >expected</rel>
+  <arg n="1" f="PRD">*trace*=Senate to act until next week</arg>
+</example>
+
+<example name="discourse-connective">
+  <text>
+    As *trace* expected *trace*, Dubya said something stupid again.
+  </text>
+  <arg n="0">*trace*</arg>
+  <rel      >expected</rel>
+  <arg n="1">*trace*</arg>
+</example>
+
+<note>traces don't connect to anything</note>
+</roleset>
+</predicate>
+
+</frameset>

@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="flatten">
+<note>
+  Frames file for 'flatten' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="flatten.01" name="to make flat or flatter"
+vncls="45.4">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing flattened"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ The changes come as Reebok , which [*T*-1] grew rapidly in the mid-1980s but has seen its sales flatten of late , is seeking [*-2] to regain momentum in the athletic-shoe business against rivals Nike Inc. and L.A. Gear Inc .
+</text>
+	<arg n="1">its sales</arg>
+	<rel>flatten</rel>
+</example>
+
+<example name="with PRED">
+<inflection person="ns" tense="present" aspect="perfect" voice="passive" form="participle"/>
+<text>
+ In areas where the freeway made giant concrete sandwiches of itself [*T*-3] lie [*T*-4] cars that police say [0] [*T*-2] have been flattened [*-1] into foot-thick slabs .
+</text>
+	<rel>flattened</rel>
+	<arg n="1">[*-1] ->  [*T*-2] ->  that ->  cars</arg>
+	<arg n="M" f="PRED">into foot-thick slabs</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

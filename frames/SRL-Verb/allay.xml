@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="allay">
+<note>
+  Frames file for 'allay' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="allay.01" name="to relieve, calm" vncls="-">
+<roles>
+  <role n="0"  descr="agent, causer"/>
+  <role n="1"  descr="entity relieved"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Mr. Dinkins also has failed [*-1] to allay Jewish voters ' fears about his association with the Rev. Jesse Jackson , despite the fact that few local non-Jewish politicians have been as vocal for Jewish causes in the past 20 years as Mr. Dinkins has [*?*] .
+</text>
+	<arg n="0">[*-1] ->  Mr. Dinkins</arg>
+	<rel>allay</rel>
+	<arg n="1">Jewish voters ' fears about his association with the Rev. Jesse Jackson</arg>
+</example>
+
+
+<example name="extracted subject">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ [*] Seeking [*-3] to allay European concerns , U.S. Agriculture Secretary Clayton Yeutter said in Washington that the new U.S. plan would n't `` put farmers out of business '' but would encourage them to `` grow what the markets desire [*T*-1] instead of what the government wants [*T*-2] . ''
+</text>
+	<arg n="0">U.S. Agriculture Secretary Clayton Yeutter ->  [*-3] ->  [*]</arg>
+	<rel>allay</rel>
+	<arg n="1">European concerns</arg>
+</example>
+
+
+
+<example name="inanimate causer">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Mr. Cecin of Piper Jaffray says [0] some action from government policy makers would allay investor fears .
+</text>
+	<arg n="0">some action from government policy makers</arg>
+	<arg n="M" f="MOD">would</arg>
+	<rel>allay</rel>
+	<arg n="1">investor fears</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

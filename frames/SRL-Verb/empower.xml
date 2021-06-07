@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="empower">
+<note>
+  Frames file for 'empower' based on sentences in wsj.  No Verbnet
+  entry, might could fit into "other causative".
+</note>
+
+<roleset id="empower.01" vncls="-" name="give power to">
+<roles>
+  <role n="0"  descr="giver of power"/>
+  <role n="1"  descr="empowered entity"/>
+  <role n="2"  descr="use of power"/>
+</roles>
+
+<example name="useless power :)">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    A group of 27 Senators has written Mr. Kemp urging him to reject
+    Cranston-Mitchell and focus on programs that *trace* empower the
+    poor rather than create vast new government obligations. 
+</text>
+        <arg n="0">*trace* ->  that ->  programs</arg>
+        <rel>empower</rel>
+        <arg n="1">the poor</arg>
+</example>
+
+<example name="with use">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    It also empowers the president to make recess appointments,
+    without Senate approval: ``The President shall have Power to fill
+    up all Vacancies that may happen during the Recess of the Senate,
+    by granting Commissions which shall expire at the End of their
+    next Session.'' 
+</text>
+        <arg n="0">It</arg>
+        <arg n="M" f="DIS">also</arg>
+        <rel>empowers</rel>
+        <arg n="1">the president</arg>
+        <arg n="2" f="PRD">to make recess appointments, without Senate
+        approval</arg> 
+</example>
+
+<example name="passive warrants separation of powered and power">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    The report is subject to review by the State Commission on
+    Judicial Conduct , which *trace* is empowered *trace* to impose
+    sanctions. 
+</text>
+        <rel>empowered</rel>
+        <arg n="1">*trace* -> *trace* ->  which ->  the State
+        Commission on Judicial Conduct</arg> 
+        <arg n="2" f="PRD">to impose sanctions</arg>
+</example>
+
+<note>
+Actually rather close to 'allow' etc.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

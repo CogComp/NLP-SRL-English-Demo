@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="squint">
+<note>
+  Frames file for 'squint' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="squint.01" name="to look with the eyes partly closed"
+vncls="-">
+<roles>
+ <role n="0"  descr="agent"/>
+ <role n="1"  descr="squint at"/>
+</roles>
+
+
+<example name="both arguments">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Eventually little French farmers and their little French farmwives came out of their stone houses and put their hands above their tiny eyes and squinted at us .
+</text>
+	<arg n="M" f="TMP">Eventually</arg>
+	<arg n="0">little French farmers and their little French farmwives</arg>
+	<rel>squinted</rel>
+	<arg n="1" f="at">us</arg>
+</example>
+
+
+
+
+<example name="intransitive">
+<inflection person="ns" tense="present" aspect="progressive" voice="ns" form="participle"/>
+<text>
+ Republicans are squinting most painfully , at least at first , which [*T*-2] is only fair because they 've been shielded [*-1] the most .
+</text>
+	<arg n="0">Republicans</arg>
+	<rel>squinting</rel>
+	<arg n="M" f="MNR">most painfully</arg>
+	<arg n="M" f="TMP">at least at first</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

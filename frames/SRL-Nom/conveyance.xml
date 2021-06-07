@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="conveyance">
+<roleset id="conveyance.01" name="nomlike" source="verb-carry.01" vncls="11.4">
+<roles>
+
+<role descr="carrier" n="0">
+<vnrole vncls="11.4" vntheta="Agent"/></role>
+
+<role descr="thing carried" n="1">
+<vnrole vncls="11.4" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+<role descr="with' reflecting back on arg0" n="3"></role>
+
+<role descr="beneficiary (predicted but not seen" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a public conveyance
+</text>
+<arg n="1">public</arg>
+<arg n="2">conveyance</arg>
+<rel>conveyance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

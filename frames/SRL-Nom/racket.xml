@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="racket">
+<roleset id="racket.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the numbers racket on Wall Street
+</text>
+<arg n="1">numbers</arg>
+<rel>racket</rel>
+<arg n="0">on Wall Street</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

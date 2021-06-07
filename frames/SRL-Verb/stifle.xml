@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="stifle">
+<note>
+  Frames file for 'stifle' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="stifle.01" vncls="-" name="stifle, suppress">
+<roles>
+  <role n="0"  descr="stifler, suppressor"/>
+  <role n="1"  descr="thing stifled"/>
+</roles>
+
+<example name="just transitive">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    But according to David Jones, Humana's chief executive, it
+    promotes technology monopolies, stifles innovation and raises
+    prices. 
+</text>
+        <arg n="0">it</arg>
+        <rel>stifles</rel>
+        <arg n="1">innovation</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="ally">
+<note>
+  Frames file for 'ally'  based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="ally.01" name="to unite or connect"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent, causer"/>  
+  <role n="1"  descr="entity united"/>   
+  <role n="2"  descr="entity united with"/>  
+</roles>
+
+
+<example name="all arguments">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Perhaps even more offensive is [*T*-1] the statement , `` It is surprising that George Bush and the White House inner circle would ally themselves with this crabby philosophy . ''
+</text>
+	<arg n="0">George Bush and the White House inner circle</arg>
+	<arg n="M" f="MOD">would</arg>
+	<rel>ally</rel>
+	<arg n="1">themselves</arg>
+	<arg n="2" f="with">this crabby philosophy</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

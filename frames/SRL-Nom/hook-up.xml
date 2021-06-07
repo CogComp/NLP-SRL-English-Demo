@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hook-up">
+<roleset id="hook-up.01" name="attach, phrasal variant" source="verb-hook.02" vncls="22.4">
+<roles>
+
+<role descr="causer of attachment" n="0">
+<vnrole vncls="22.4" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="22.4" vntheta="Patient1"/></role>
+
+<role descr="theme2" n="2">
+<vnrole vncls="22.4" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it would have been interested in a hook-up with Thomson-CSF
+</text>
+<arg n="1">it</arg>
+<arg n="Support">interested in</arg>
+<rel>hook-up</rel>
+<arg n="2">with Thomson-CSF</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

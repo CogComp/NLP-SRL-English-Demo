@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="underperform">
+<note>
+  Frames file for 'underperform' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="underperform.01" name="to perform not as well as smth else" vncls="-">
+<roles>
+  <role n="0"  descr="underperformer"/>
+  <role n="1"  descr="entity compared to"/>
+</roles>
+
+
+<example name="transitive with adverbials">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ But while the merits of diversification shine through when times are tough [*T*-1] , there 's also a price [0] [*] to pay [*T*-2] : A diversified portfolio always underperforms an undiversified portfolio during those times when the investment in the undiversified portfolio is truly hot [*T*-3] .
+</text>
+	<arg n="0">A diversified portfolio</arg>
+	<arg n="M" f="TMP">always</arg>
+	<rel>underperforms</rel>
+	<arg n="1">an undiversified portfolio</arg>
+	<arg n="M" f="TMP">during those times when the investment in the undiversified portfolio is truly hot [*T*-3]</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

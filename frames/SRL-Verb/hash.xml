@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hash_out">
+<note>
+  Frames file for 'hash'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="hash.01" name="to review, discuss"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>    
+  <role n="1"  descr="entity hashed out"/>  
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="gerund"/>
+<text>
+ The House and Senate are [*-1] to begin soon [*-2] hashing out an agreement for sanctions legislation .
+</text>
+	<arg n="0">[*-2] ->  [*-1] ->  The House and Senate</arg>
+	<rel>[ hashing] [ out]</rel>
+	<arg n="1">an agreement for sanctions legislation</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

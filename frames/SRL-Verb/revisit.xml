@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="revisit">
+<note>
+  Frames file for 'revisit' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="revisit.01" vncls="-" name="visit again, examine an issue
+again">
+<roles>
+  <role n="0"  descr="visitor"/>
+  <role n="1"  descr="visited, issue"/>
+</roles>
+
+<example name="fairly typical">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    ``Each time [0] the court revisits an issue [*T*-2], the justices
+    will be forced by a dissent to reconsider the fundamental
+    questions and to rethink the result,'' he said. 
+</text>
+        <arg n="0">the court</arg>
+        <rel>revisits</rel>
+        <arg n="1">an issue</arg>
+        <arg n="M" f="TMP">[*T*-2] ->  [0] ->  Each time</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

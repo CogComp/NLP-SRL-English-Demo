@@ -1,0 +1,89 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="aid">
+<note>
+  Frames file for 'aid' based on survey of sentences in the WSJ
+  corpus. Comparison with 'help'.
+</note>
+
+<roleset id="aid.01" name="help" vncls="-">
+<roles>
+  <role n="0"  descr="helper"/>
+  <role n="1"  descr="project"/>
+  <role n="2"  descr="benefactor"/>
+</roles>
+
+
+<example name="with Arg2">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+ The Fed chairman 's caution was apparent again on the Monday morning after the market 's plunge , when the central bank took only modest steps [0] [*T*-2] to aid the markets [*T*-1] .
+</text>
+	<arg n="0">[*T*-2] ->  [0] ->  the central bank</arg>
+	<rel>aid</rel>
+	<arg n="2">the markets</arg>
+</example>
+
+
+<example name="with Arg1 and Arg2">
+<inflection person="ns" tense="future" aspect="ns" voice="active" form="full"/>
+<text>
+ Though Spain has an excess of banks , analysts say [0] the country still has one of the most profitable markets in Europe , which [*T*-1] will aid Banco Exterior with the tough tasks [0] it faces [*T*-2] ahead .
+</text>
+	<arg n="0">[*T*-1] ->  which ->  one</arg>
+	<arg n="M" f="MOD">will</arg>
+	<rel>aid</rel>
+	<arg n="2">Banco Exterior</arg>
+	<arg n="1" f="with">the tough tasks [0] it faces [*T*-2] ahead</arg>
+</example>
+
+
+
+
+<example name="with a prepositional Arg1">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ The House , meanwhile , approved $ 2.85 billion [*U*] [0] [*T*-1] to aid in the recovery from the temblor and from Hurricane Hugo as state legislators moved toward a temporary sales-tax increase .
+</text>
+	<arg n="0">[*T*-1] ->  [0] ->  $ 2.85 billion [*U*]</arg>
+	<rel>aid</rel>
+	<arg n="1" f="in">the recovery from the temblor and from Hurricane Hugo</arg>
+</example>
+
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Salomon posted an unexpectedly big gain in quarterly earnings , [*-1] aided [*-2] by its securities trading and investment banking activities .
+</text>
+	<rel>aided</rel>
+	<arg n="1">[*-2] ->  [*-1] ->  an unexpectedly big gain in quarterly earnings</arg>
+	<arg n="0" f="by">its securities trading and investment banking activities</arg>
+</example>
+
+
+
+<example name="simple transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ An increase in production at some major oil fields in the North Sea , which [*T*-2] had been knocked [*-1] out by an explosion in July 1988 , also aided results .
+</text>
+	<arg n="0">An increase in production at some major oil fields in the North Sea , which [*T*-2] had been knocked [*-1] out by an explosion in July 1988</arg>
+	<arg n="M" f="DIS">also</arg>
+	<rel>aided</rel>
+	<arg n="1">results</arg>
+</example>
+
+
+<note>
+  frames created by Olga
+</note>
+
+</roleset>
+</predicate>
+</frameset>
+
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="proclaim">
+<note>
+  Frames file for 'proclaim' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="proclaim.01" name="to announce officially and publicly"
+vncls="37.3">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="utterance"/>
+  <role n="2"  descr="recipient"/>
+</roles>
+
+<example name="all arguments">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="gerund"/>
+<text>
+ Mr. Stoltzman tied the composer in by [*-4] proclaiming him `` the great improviser of the 18th century , '' and then built on the image by [*-4] joining with Mr. Douglas in some Bach two-part inventions , cleverly arranged [*] for clarinet and bassoon by Mr. Douglas .
+</text>
+	<arg n="0">[*-4] ->  Mr. Stoltzman</arg>
+	<rel>proclaiming</rel>
+	<arg n="2">him</arg>
+	<arg n="1">the great improviser of the 18th century</arg>
+</example>
+
+
+
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ `` I do not support federal funding for abortions except where the mother 's life is threatened [*-1] [*T*-2] , '' he proclaimed [*T*-3] , and finally vetoed the measure last weekend .
+</text>
+	<arg n="0">he</arg>
+	<rel>proclaimed</rel>
+	<arg n="1">[*T*-3] ->  I do not support federal funding for abortions except where the mother 's life is threatened [*-1] [*T*-2]</arg>
+</example>
+
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

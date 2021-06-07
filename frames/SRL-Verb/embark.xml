@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="embark">
+<note>
+  Frames file for 'embark' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="embark.01" vncls="-" name="begin">
+<roles>
+  <role n="0"  descr="beginner"/>
+  <role n="1"  descr="thing begun"/>
+</roles>
+
+<example name="basic transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    ``In order to restore confidence and ensure the support of our
+    principal lenders,'' Mr. Bond said, ``we embarked on fundamantal
+    changes in the structure and direction of the group.'' 
+</text>
+        <arg n="M" f="PRP">In order to restore confidence and ensure
+        the support of our principal lenders</arg> 
+        <arg n="0">we</arg>
+        <rel>embarked</rel>
+        <arg n="1" f="on">fundamantal changes in the structure and
+        direction of the group</arg> 
+</example>
+
+<note>
+Is there also a sense 'get on' or 'depart', as in a travel sense?  Or
+does that only occur in the inverse 'disembark'?
+</note>
+
+</roleset>
+</predicate>
+</frameset>

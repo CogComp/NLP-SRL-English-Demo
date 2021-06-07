@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="avenge">
+<note>
+  Frames file for 'avenge' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="avenge.01" name="to take revenge for a perceived wrong"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="a perceived wrong"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Gunmen in Lebanon assassinated a Saudi Arabian Embassy employee , and the pro-Iranian Islamic Jihad took responsibility for the slaying [0] [*T*-1] to avenge the beheading of 16 terrorists by Riyadh 's government in September .
+</text>
+	<arg n="0">[*T*-1] ->  [0] ->  the slaying</arg>
+	<rel>avenge</rel>
+	<arg n="1">the beheading of 16 terrorists by Riyadh 's government in September</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="jog">
+<note>
+  Frames file for 'jog' based on sentences in wsj.  Verbnet entry
+  51.3.2, Framenet entry Self motion.
+</note>
+
+<roleset id="jog.01" vncls="51.3.2" name="run slowly">
+<roles>
+  <role n="0"  descr="runner"/>
+  <role n="1"  descr="path"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    A couple in fashionable spandex warm-up suits jogs by, headphones
+    jauntily in place, [*-2] weaving their way along a street of
+    fractured and fallen houses. 
+</text>
+        <arg n="0">A couple in fashionable spandex warm-up suits</arg>
+        <rel>jogs</rel>
+        <arg n="M" f="LOC">by</arg>
+        <arg n="M" f="ADV">headphones jauntily in place</arg>
+        <arg n="M" f="ADV">[*-2] weaving their way along a street of
+        fractured and fallen houses</arg> 
+</example>
+
+<example name="transitive of extent">
+  <inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+  <text>
+     John jogs 53 miles a day.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >jogs</rel>
+  <arg n="1"        >53 miles</arg>
+  <arg n="m" f="TMP">a day</arg>
+</example>
+
+<note>
+There's also a usage "jog one's memory" that I'm avoiding for the time being.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

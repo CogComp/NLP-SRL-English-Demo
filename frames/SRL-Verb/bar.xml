@@ -1,0 +1,55 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="bar">
+<note>
+  Frames file for 'bar' based on sentences in financial subcorpus.  No
+  Verbnet entry.  Comparison with 'prevent' et al.
+</note>
+
+<roleset id="bar.01" name="stop, prevent">
+<roles>
+  <role n="0"  descr="Agent"/>
+  <role n="1"  descr="Theme (action or object being prevented)"/>
+  <role n="2"  descr="secondary predication or action"/>
+  <role n="3"  descr="instrument"/>
+</roles>
+
+<example name="args 1 2 and 3">
+<text>
+   Temple added that Sea Containers is still mired in legal problems
+   in Bermuda, where the Supreme Court has temporarily barred Sea
+   Containers from buying back its own stock in a case brought by
+   Stena and Tiphook. 
+</text>
+        <arg n="0">the Supreme Court</arg>
+        <arg n="M" f="TMP">temporarily</arg>
+        <rel>barred</rel>
+        <arg n="1">Sea Containers</arg>
+        <arg n="2" f="from">buying back its own stock</arg>
+        <arg n="M" f="LOC">in a case brought  by Stena and Tiphook</arg>
+</example>
+
+<example name="with instrument">
+<text>
+    But neither the pilots nor the machinists appear interested, and
+    Mr. Davis is barred *trace* from making a new bid under terms of
+    an agreement he made with UAL in September unless UAL accepts an
+    offer below $300 a share. 
+</text>
+        <rel>barred</rel>
+        <arg n="1">*trace* ->  Mr. Davis</arg>
+        <arg n="2" f="from">making a new bid</arg>
+        <arg n="3" f="under">terms of an agreement he made with UAL in
+        September</arg> 
+        <arg n="M" f="ADV">unless UAL accepts an offer below $300 a
+        share</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="provoke">
+<note>
+  Frames file for 'provoke' based on sentences in wsj.  Verbnet entry
+  31.1, but that's not accurate for common usage.
+</note>
+
+<roleset id="provoke.01" vncls="-" name="cause (us. emotional reaction)">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="reaction"/>
+  <role n="2"  descr="react-or, when separate from reaction"/>
+</roles>
+
+<example name="basic case">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Economists say a buildup in inventories can provoke cutbacks in
+    production that can lead to a recession. 
+</text>
+        <arg n="0">a buildup in inventories</arg>
+        <arg n="M" f="MOD">can</arg>
+        <rel>provoke</rel>
+        <arg n="1">cutbacks in production that can lead to a
+        recession</arg> 
+</example>
+
+<example name="misparsed object">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    The compromise bill passed the House last week but has now
+    provoked jurisdictional fights with the Senate Foreign Relations
+    Committee, which jealously protects its prerogatives over
+    operations at the State Department. 
+</text>
+        <arg n="0">*trace* ->  The compromise bill</arg>
+        <arg n="M" f="TMP">now</arg>
+        <rel>provoked</rel>
+        <arg n="1">[ jurisdictional fights] [ with the Senate Foreign
+        Relations Committee, which jealously protects its prerogatives
+        over operations at the State Department]</arg> 
+</example>
+
+<example name="with separate reactor">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+     To say that the Pentagon should act irresponsibly because acting
+     responsibly will provoke Congress into acting irresponsibly leads
+     to the conclusion that the Pentagon should deliberately
+     exaggerate its needs in the national interest; in other words,
+     that it is justified in committing a crime --  lying to Congress
+     -- because it is morally superior. 
+</text>
+        <arg n="0">acting responsibly</arg>
+        <arg n="M" f="MOD">will</arg>
+        <rel>provoke</rel>
+        <arg n="2">Congress</arg>
+        <arg n="1" f="into">acting irresponsibly</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

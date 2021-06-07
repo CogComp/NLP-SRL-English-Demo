@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="rekindle">
+<note>
+  Frames file for 'rekindle' based on sentences in wsj.  Verbnet entry 45.4.  
+</note>
+
+<roleset id="rekindle.01" vncls="45.4" name="start a fire again">
+<roles>
+  <role n="0"  descr="firestarter"/>
+  <role n="1"  descr="fire"/>
+</roles>
+
+<example name="rarely a literal fire">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    Last week, a mediator failed [*-2] to rekindle talks between the
+    company and the strikers, who have rejected a pay raise offer of
+    10% over three years. 
+</text>
+        <arg n="0">[*-2] ->  a mediator</arg>
+        <rel>rekindle</rel>
+        <arg n="1">talks between the company and the strikers, who
+        have rejected a pay raise offer of 10% over three years</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="migrate">
+<note>
+  Frames file for 'migrate' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="migrate.01" name="to change location"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="destination"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="future" aspect="ns" voice="active" form="full"/>
+<text>
+ Much of the 800 service will `` migrate to 900 , '' predicts [*T*-1] Jack Lawless , general manager of US Sprint 's 900 product .
+</text>
+	<arg n="0">Much of the 800 service</arg>
+	<arg n="M" f="MOD">will</arg>
+	<rel>migrate</rel>
+	<arg n="1" f="to">900</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

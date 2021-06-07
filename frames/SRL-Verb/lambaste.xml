@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lambaste">
+<note>
+  Frames file for 'lambaste'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="lambaste.01" name="to give a thrashing to"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>    
+  <role n="1"  descr="entity lambasted"/>
+  <role n="2"  descr="entity lambasted for"/>   
+</roles>
+
+<example name="all arguments">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ China frequently lambastes the U.S. Embassy for [*-2] harboring astrophysicist Fang Lizhi , a political dissident who [*T*-1] took refuge there after the massacre .
+</text>
+	<arg n="0">China</arg>
+	<arg n="M" f="TMP">frequently</arg>
+	<rel>lambastes</rel>
+	<arg n="1">the U.S. Embassy</arg>
+	<arg n="2" f="for">[*-2] harboring astrophysicist Fang Lizhi , a political dissident who [*T*-1] took refuge there after the massacre</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

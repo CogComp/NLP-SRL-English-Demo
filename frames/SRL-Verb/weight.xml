@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="weight">
+<note>
+  Frames file for 'weight' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="weight.01" name="to present with a bias" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="0"  descr="entity weighted"/>
+  <role n="0"  descr="attribute"/>
+</roles>
+
+
+<example name="with Arg2">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ At the very least , the odds are heavily weighted [*-1] against the prospects of [*] preventing the Khmer Rouge and Cambodia 's communists from [*-2] ultimately moving against their opponents .
+</text>
+	<arg n="M" f="DIS">At the very least</arg>
+	<arg n="M" f="MNR">heavily</arg>
+	<rel>weighted</rel>
+	<arg n="1">[*-1] ->  the odds</arg>
+	<arg n="2" f="against">the prospects of [*] preventing the Khmer Rouge and Cambodia 's communists from [*-2] ultimately moving against their opponents</arg>
+</example>
+
+
+<example name="with adverbials">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Responses were weighted [*-1] on the basis of age and gender [*-1] to conform with U.S. Census data .
+</text>
+	<rel>weighted</rel>
+	<arg n="1">[*-1] ->  Responses</arg>
+	<arg n="M" f="MNR">on the basis of age and gender</arg>
+	<arg n="M" f="PNC">[*-1] to conform with U.S. Census data</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

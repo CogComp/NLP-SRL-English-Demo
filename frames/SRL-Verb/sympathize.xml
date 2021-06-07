@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="sympathize">
+<note>
+  Frames file for 'sympathize' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="sympathize.01" name="to share the feelings or ideas"
+vncls="-">
+<roles>
+  <role n="0"  descr="experiencer"/>
+  <role n="1"  descr="shared feelings or ideas"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ We sympathize with Mrs. Thatcher 's reluctance [*] to tie her currency to one governed [*] by the domestic political imperatives of West Germany .
+</text>
+	<arg n="0">We</arg>
+	<rel>sympathize</rel>
+	<arg n="1" f="with">Mrs. Thatcher 's reluctance [*] to tie her currency to one governed [*] by the domestic political imperatives of West Germany</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

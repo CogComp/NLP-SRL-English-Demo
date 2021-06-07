@@ -1,0 +1,99 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lodge">
+<note>
+  Frames file for 'lodge' based on sentences in wsj.  Verbnet entries
+  46, 9.10 and 9.1, Framenet entries Residence and Placing.
+</note>
+
+<roleset id="lodge.01" vncls="46" name="reside (temporarily?)">
+<roles>
+  <role n="0"  descr="entity residing"/>
+  <role n="1"  descr="location"/>
+</roles>
+
+<example name="near-death experience">
+  <inflection person="third" tense="present" aspect="both" voice="active" form="participle"/>
+  <text>
+    Since his death, John has been lodging with a pleasant immigrant
+    family in Peoria.
+  </text>
+  <arg n="m" f="TMP">Since his death</arg>
+  <arg n="0"        >John</arg>
+  <rel              >lodging</rel>
+  <arg n="1" f="with">a pleasant immigrant family in Peoria</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="lodge.02" vncls="9.10 9.1" name="put firmly">
+<roles>
+  <role n="0"  descr="agent, putter"/>
+  <role n="1"  descr="thing lodged"/>
+  <role n="2"  descr="where"/>
+</roles>
+
+<example name="troubling ergative">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Once asbestos is released into the environment, it can lodge
+    anywhere,'' says Richard A. Dennis, the assistant U.S. attorney
+    who prosecuted the case. 
+</text>
+        <arg n="1">it</arg>
+        <arg n="M" f="MOD">can</arg>
+        <rel>lodge</rel>
+        <arg n="2">anywhere</arg>
+</example>
+
+<example name="all args">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="full"/>
+<text>
+    ``The explosion of junk bonds and takeovers has lodged a lot of
+    insecure securities in the hands of investors and loaded the
+    corporations that are the objects of takeovers or feared takeovers
+    with huge amounts of debt rather than equity. 
+</text>
+        <arg n="0">The explosion of junk bonds and takeovers</arg>
+        <rel>lodged</rel>
+        <arg n="1">a lot of insecure securities</arg>
+        <arg n="2" f="in">the hands of investors</arg>
+</example>
+
+<note>
+ergatives in lodge.02 and transitives in lodge.01 will be very
+difficult to distinguish.
+</note>
+
+</roleset>
+
+<roleset id="lodge.03" vncls="-" name="file a complaint">
+<roles>
+  <role n="0"  descr="complainer"/>
+  <role n="1"  descr="formal complaint, lawsuit etc"/>
+  <role n="2"  descr="against whom"/>
+</roles>
+
+<example name="passive gets the point across">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    ``With the FBI around here, bragging rights are a thing of the
+    past,'' said one trader , referring to the federal investigation
+    of futures trading that so far has resulted in 46 indictments
+    lodged [*] against individuals on the Merc and the Chicago Board
+    of Trade. 
+</text>
+        <rel>lodged</rel>
+        <arg n="1">[*] ->  46 indictments</arg>
+        <arg n="2" f="against">individuals on the Merc and the Chicago
+        Board of Trade</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

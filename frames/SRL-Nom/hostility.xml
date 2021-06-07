@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hostility">
+<roleset id="hostility.01" name="attribute/nomadj-hostile">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="target/enemy" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But in the three leading political contests of 1989 , the
+negative ads have reached new levels of hostility , raising fears
+that this kind of mudslinging , empty of significant issues , is
+ushering in a new era of campaigns without content .
+</text>
+<arg n="1">the negative ads</arg>
+<arg n="Support">reached levels of</arg>
+<arg f="REF" n="2">hostility</arg>
+<rel>hostility</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

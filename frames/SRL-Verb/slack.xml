@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="slack_off">
+<note>
+  Frames file for 'slack' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="slack.01" name="to become less intense"
+vncls="-">
+<roles>
+  <role n="1"  descr="entity becoming less intense"/>
+  <role n="2"  descr="extent"/>
+</roles>
+
+<example name="with extent">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ But Mr. Wyss said [0] he will watch the numbers [*-1] to get an inkling of whether consumers ' general buying habits may slack off as much as their auto-buying apparently has [*?*] .
+</text>
+	<arg n="1">consumers ' general buying habits</arg>
+	<arg n="M" f="MOD">may</arg>
+	<rel>[ slack] [ off]</rel>
+	<arg n="2">as much as their auto-buying apparently has [*?*]</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

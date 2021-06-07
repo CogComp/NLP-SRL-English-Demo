@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="refurbish">
+<note>
+  Frames file for 'refurbish' based on sentences in financial subcorpus.
+  No Verbnet entry.  
+</note>
+
+<roleset id="refurbish.01" vncls="-" name="update structure">
+<roles>
+  <role n="0"  descr="refurbisher"/>
+  <role n="1"  descr="thing refurbished"/>
+</roles>
+
+<example name="unspecified agent">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Proceeds from the offering are expected to be used for *trace*
+    remodeling the company's Desert Inn resort in Las Vegas,
+    refurbishing certain aircraft of the MGM Grand Air unit, and to
+    acquire the property for the new resort. 
+</text>
+        <arg n="0"></arg>
+        <rel>refurbishing</rel>
+        <arg n="1">certain aircraft of the MGM Grand Air unit</arg>
+</example>
+
+<note>
+Instrumental arg?  Perhaps.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

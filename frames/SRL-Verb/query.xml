@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="query">
+<note>
+  Frames file for 'query' based on sentences in wsj.  NO Verbnet
+  entry, Framenet entry Questioning.
+</note>
+
+<roleset id="query.01" vncls="-" name="ask">
+<roles>
+  <role n="0"  descr="asker, querier"/>
+  <role n="1"  descr="oracle, answerer"/>
+</roles>
+
+<example name="just answerer">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    In a public opinion poll published in the October issue of Parents
+    Magazine, a third of those queried *trace* said they believe that
+    ghosts or spirits make themselves known to people. 
+</text>
+        <rel>queried</rel>
+        <arg n="1">*trace* ->  those</arg>
+</example>
+
+
+<example name="just questioner">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    The radio queries again.
+</text>
+        <arg n="0">The radio</arg>
+        <rel>queries</rel>
+        <arg n="M" f="TMP">again</arg>
+</example>
+
+<note>
+Unlike ask, query doesn't seem to allow explicit mention of the
+question itself.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

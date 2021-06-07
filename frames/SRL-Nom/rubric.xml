@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rubric">
+<roleset id="rubric.01" name="issue">
+<roles>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its rubric
+</text>
+<arg n="1">its</arg>
+<rel>rubric</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="ascribe">
+<note>
+  Frames file for 'ascribe' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="ascribe.01" vncls="-" name="assign attribute">
+<roles>
+  <role n="0"  descr="assigner"/>
+  <role n="1"  descr="thing assigned (attribute)"/>
+  <role n="2"  descr="assigned to"/>
+</roles>
+
+<example name="active">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Both Deryck C. Maughan, who heads Salomon in Tokyo, and John
+    S. Wadsworth, who heads Morgan Stanley there, ascribe a good part
+    of their firms' success in Tokyo to their ability to offer
+    sophisticated, futures-related investment strategies to big
+    institutional clients. 
+</text>
+        <arg n="0">Both Deryck C. Maughan, who heads Salomon in Tokyo,
+        and John S. Wadsworth, who heads Morgan Stanley there,</arg> 
+        <rel>ascribe</rel>
+        <arg n="1">a good part of their firms' success in Tokyo</arg>
+        <arg n="2" f="to">their ability to offer sophisticated,
+        futures-related investment strategies to big institutional
+        clients</arg> 
+</example>
+
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    As a public figure, Mr. Masson had to prove malice and, as proof
+    of malice, Mr. Masson contended that defamatory quotations
+    ascribed *trace* to him by Ms. Malcolm were in fact fabricated. 
+</text>
+        <rel>ascribed</rel>
+        <arg n="1">*trace* ->  defamatory quotations</arg>
+        <arg n="2" f="to">him</arg>
+        <arg n="0" f="by">Ms. Malcolm</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,173 @@
+##PRELIMINARY PAS LEXICAL ENTRY FOR "serve"
+##CONSTRUCTED VIA LEVIN
+##EDITED THROUGH COMPARISON WITH INITIAL 25% OF "serve.sents"
+
+
+
+##INTRANSITIVE 
+
+##"John served."
+
+ARG0 REL
+
+
+	##WITH MANNER MODIFIER
+
+	##"John served honorably."
+	##"John served without pay."
+
+	ARG0 REL ARGM-MNR
+
+
+	##WITH LOCATIVE MODIFIER
+
+	##"John served in Korea."
+	##"John served in the military."
+	##"John served on the company's board of directors."
+
+	ARG0 REL ARGM-LOC
+		
+		
+		##WITH TEMPORAL MODIFIER
+
+		##"John served in the military for ten years."
+
+		ARG0 REL ARGM-LOC ARGM-TMP
+
+
+
+
+##TRANSITIVE
+
+##"John serves dinner."
+
+ARG0 REL ARG1
+
+### Note also phrasal variant "John served up dinner"			###
+### Same arg structure, but serve_up				Paul	###
+
+### Note also significant variant:					###
+### "The media's treatment ... serves to emasculate the people who ...	###
+###	Arg0			REL	Arg1			Paul	###
+
+
+##'RECIPIENT' TRANSITIVE
+
+##"The votality of smaller tech companies serves mega-financiers."
+##"John served the president."
+##"The senator served two disparate groups."
+##"Institutions serve their high-volume clients."
+##"John serves commercial customers."
+
+ARG0 REL ARG2
+
+
+		##WITH TEMPORAL MODIFIER 
+
+		##"John served the president for ten years."
+
+		ARG0 REL ARG2 ARGM-TMP
+
+
+
+		##WITH LOCATIVE MODIFIER 
+
+		##"John served the president in the secret service."
+		##"John served the shareholders on the company's board of directors."
+
+		ARG0 REL ARG2 ARGM-LOC
+
+
+
+
+##DATIVE
+
+##"John serves dinner to Mary."
+
+ARG0 REL ARG1 ARG2-to
+
+
+
+	##DOUBLE OBJECT
+
+	##"John serves Mary dinner."
+
+	ARG0 REL ARG2 ARG1
+
+
+
+	##FULFILLING VARIANT
+
+	##"The judge served John with a subpeona."
+
+	ARG0 REL ARG2 ARG1-with 
+
+
+
+
+##"Dinner is served on this flight."
+
+ARG1 REL.passive ARGM-LOC
+
+
+
+##'EVENT'/'MASS-AGENT' SUBJECT VARIANT
+
+##"This flight serves dinner." 
+
+ARG0 REL ARG1
+
+
+
+##'as' VARIANT
+
+##"John served as Senator."
+##"London serves as a conduit for program trading of U.S stocks."
+##"Restraints serve as corrective measures."
+##"The results serve as evidence."
+
+ARG0 REL ARG1-as
+
+##"John served his country as Senator."
+
+ARG0 REL ARG2 ARG1-as
+
+
+
+##DURATIVE EVENT TRANSITIVE
+##(typically used for prolonged imprisonment)
+
+##"John served a two-year jail sentence."
+
+ARG0 REL ARG1
+
+
+
+##DURATIVE EVENT DI-TRANSITIVE
+
+##"The judge served John a two-year jail sentence."
+
+ARG0 REL ARG2 ARG1
+
+
+	##DURATIVE EVENT 'with' DI-TRANSITIVE
+
+	##"The judge served John with a two-year jail sentence."
+
+	ARG0 REL ARG2 ARG1-with
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

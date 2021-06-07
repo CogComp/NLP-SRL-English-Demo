@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="glut">
+<note>
+  Frames file for 'glut' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="glut.01" vncls="-" name="fill beyond capacity">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="container"/>
+  <role n="2"  descr="substance"/>
+</roles>
+
+<example name="all args">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    In addition, competition has glutted the market with both skins
+    and coats, [*] driving prices down. 
+</text>
+        <arg n="M" f="DIS">In addition</arg>
+        <arg n="0">competition</arg>
+        <rel>glutted</rel>
+        <arg n="1">the market</arg>
+        <arg n="2" f="with">both skins and coats</arg>
+        <arg n="M">[*] driving prices down</arg>
+</example>
+
+<example name="unmentioned substance">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    But industry and OPEC officials agree that a handful of members
+    still have enough unused capacity [*] to glut the market and cause
+    an oil-price collapse a few months from now if OPEC doesn't soon
+    adopt a new quota system to corral its chronic cheaters. 
+</text>
+        <arg n="0">[*] ->  a handful of members</arg>
+        <rel>glut</rel>
+        <arg n="1">the market</arg>
+        <arg n="M" f="ADV">if OPEC doesn't soon adopt a new quota
+        system to corral its chronic cheaters</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

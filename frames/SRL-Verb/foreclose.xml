@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="foreclose">
+<note>
+  Frames file for 'foreclose' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="foreclose.01" vncls="-" name="when good mortgages go bad">
+<roles>
+  <role n="0"  descr="bank"/>
+  <role n="1"  descr="property"/>
+</roles>
+
+<example name="active">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    Sunbelt foreclosed on the ranch.
+</text>
+        <arg n="0">Sunbelt</arg>
+        <rel>foreclosed</rel>
+        <arg n="1" f="on">the ranch</arg>
+</example>
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="perfect" voice="passive" form="participle"/>
+<text>
+    Many troubled properties haven't been foreclosed on *trace* and
+    are hard to identify, says Albert I. Berger, who heads the
+    Secaucus, N.J., office of Helmsley-Spear Inc., a real estate
+    brokerage. 
+</text>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>foreclosed</rel>
+        <arg n="1" f="on">*trace* ->  Many troubled properties</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

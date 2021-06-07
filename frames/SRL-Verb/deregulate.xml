@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="deregulate">
+<note>
+  Frames file for 'deregulate' based on transformation of frames for
+  'regulate.'  No sentences examined.
+  entry. 
+</note>
+
+<roleset id="deregulate.01" vncls="-" name="supervise, watch over">
+<roles>
+  <role n="0"  descr="(de)regulator"/>
+  <role n="1"  descr="thing deregulated"/>
+</roles>
+
+<example name="stated regulator">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    The finding probably will support those who argue that the
+    U.S. should deregulate the class of asbestos including crocidolite
+    more stringently than the common kind of asbestos, chrysotile,
+    found in most schools and other buildings, Dr. Talcott said. 
+</text>
+        <arg n="0">the U.S.</arg>
+        <arg n="M" f="MOD">should</arg>
+        <rel>deregulate</rel>
+        <arg n="1">the class of asbestos including crocidolite</arg>
+        <arg n="M" f="MNR">more stringently than the common kind of
+        asbestos, chrysotile, found in most schools and other
+        buildings</arg> 
+</example>
+
+<example name="unstated agent">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    ``Such research may ultimately result in the ability to regenerate
+    damaged tissues or to turn off genes that cause cancer'' or
+    *trace* to deregulate genes that cause Down's syndrome, the leading
+    cause of mental retardation, according to an NIH summary. 
+</text>
+        <arg n="0"></arg>
+        <rel>deregulate</rel>
+        <arg n="1">genes that cause Down's syndrome, the leading cause
+        of mental retardation, according to an NIH summary</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

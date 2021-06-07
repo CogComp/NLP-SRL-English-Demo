@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="silence">
+<note>
+  Frames file for 'silence'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="silence.01" name="to make silent"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity silenced"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="perfect" voice="passive" form="participle"/>
+<text>
+ In the past 10 years about 50 journalists have been silenced [*-1] forever , murdered [*-1] .
+</text>
+	<arg n="M" f="TMP">In the past 10 years</arg>
+	<rel>silenced</rel>
+	<arg n="1">[*-1] ->  about 50 journalists</arg>
+	<arg n="M" f="TMP">forever</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

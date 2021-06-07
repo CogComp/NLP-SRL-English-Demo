@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="feast">
+<note>
+  Frames file for 'feast' based on sentences in wsj.  Verbnet entry
+  39.5, Framenet entry Ingestion.
+</note>
+
+<roleset id="feast.01" vncls="39.5" name="eat (a lot) celebratorily">
+<roles>
+  <role n="0"  descr="eater"/>
+  <role n="1"  descr="eaten"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    Law firms that [*T*-1] have feasted and grown on the revenue from
+    mergers and acquisitions work are feeling the squeeze as that work
+    declines. 
+</text>
+        <arg n="0">[*T*-1] ->  that ->  Law firms</arg>
+        <rel>feasted</rel>
+        <arg n="1" f="on">the revenue from mergers and acquisitions work</arg>
+</example>
+
+<example name="intransitive">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     Last night, John feasted.  Today, he eats only Tums.
+  </text>
+  <arg n="m" f="TMP">Last night</arg>
+  <arg n="0"        >John</arg>
+  <rel              >feasted</rel>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

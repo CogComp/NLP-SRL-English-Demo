@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="texasness">
+<roleset id="texasness.01" name="attribute/nomadj-texasness">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the company 's ` Texasness
+</text>
+<arg n="1">the company 's</arg>
+<arg f="REF" n="2">Texasness</arg>
+<rel>Texasness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

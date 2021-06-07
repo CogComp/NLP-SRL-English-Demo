@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<note>
+Frames file for 'try' based on survey of initial sentences from big corpus
+</note>
+<predicate lemma="try">
+<roleset id="try.01" name="Attempt" vncls="-">
+  <roles>
+    <role descr="Agent/Entity Trying" n="0"/>
+    <role descr="thing tried (often PRD)" n="1"/>
+  </roles>
+
+<example name="predicative arg1">
+  <text>
+    Newsweek is trying to keep pace with rival Time magazine.
+  </text>
+  <arg n="0">Newsweek</arg>
+  <rel>trying</rel>
+  <arg f="PRD" n="1">to keep pace with rival Time magazine</arg>
+</example>
+
+<example name="nominal Arg1">
+  <text>  
+    Banks have tried packaging before.
+  </text>
+  <arg n="0">Banks</arg>
+  <rel>tried</rel>
+  <arg n="1">packaging</arg>
+  <arg f="TMP" n="M">before</arg>
+</example>
+
+<note>
+  Watch out for fragments!
+
+He spends his days sketching passers-by, or *trace=he* trying to *trace*
+					    Arg0	rel   Arg1-PRD
+(second trace should be linked to &quot;sketching passers-by&quot;)
+</note>
+</roleset>
+
+<roleset id="try.02" name="Lawsuit" vncls="-">
+  <roles>
+    <role descr="Litigant" n="0"/>
+    <role descr="Lawsuit" n="1"/>
+  </roles>
+
+<example name="ergative">
+  <text>
+    The case wasn't   tried in court.
+    Arg1     ArgM-NEG rel   ArgM-LOC
+  </text>
+  <arg n="1">The case</arg>
+  <arg f="NEG" n="M">n't</arg>
+  <rel>tried</rel>
+  <arg f="LOC" n="M">in court</arg>
+</example>
+</roleset>
+</predicate>
+</frameset>

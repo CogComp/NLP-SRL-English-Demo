@@ -1,0 +1,81 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="credit">
+<note>
+  Frames file for 'credit' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="credit.01" name="give someone credit for smth" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity credited"/>
+  <role n="2"  descr="credited for"/>
+</roles>
+
+
+<example name="with all arguments">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ John Sculley , chairman and chief executive officer , credited the Macintosh SE\/30 and IIcx computers , introduced [*] in the winter , for the brightened sales performance .
+</text>
+	<arg n="0">John Sculley , chairman and chief executive officer ,</arg>
+	<rel>credited</rel>
+	<arg n="1">the Macintosh SE\/30 and IIcx computers , introduced [*] in the winter ,</arg>
+	<arg n="2" f="for">the brightened sales performance</arg>
+</example>
+
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ The 41-year-old Mr. Azoff , a former rock 'n' roll manager , is credited [*-1] with [*-2] turning around MCA 's once-moribund music division in his six years at the company .
+</text>
+	<rel>credited</rel>
+	<arg n="1">[*-1] ->  The 41-year-old Mr. Azoff , a former rock 'n' roll manager ,</arg>
+	<arg n="2" f="with">[*-2] turning around MCA 's once-moribund music division in his six years at the company</arg>
+</example>
+
+
+
+<example name="Arg2 as a with-PP">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+ Ohbayashi cited industry publications crediting Howell , currently capitalized [*] at $ 2.2 million [*U*] , with [*-1] receiving orders valued [*] at $ 225 million [*U*] in 1988 .
+</text>
+	<arg n="0">industry publications</arg>
+	<rel>crediting</rel>
+	<arg n="1">Howell , currently capitalized [*] at $ 2.2 million [*U*] ,</arg>
+	<arg n="2" f="with">[*-1] receiving orders valued [*] at $ 225 million [*U*] in 1988</arg>
+</example>
+
+
+</roleset>
+
+<roleset id="credit.02" name="to enter as a credit" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="amount credited"/>
+  <role n="2"  descr="account, credited to"/>
+</roles>
+
+<example name="with Arg1 and Arg2">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+ As interest rates paid depositors [*] were lowered [*-1] , thrift withdrawals exceeded deposits by $ 5.1 billion [*U*] , not including interest credited [*] to accounts .
+</text>
+	<rel>credited</rel>
+	<arg n="1">[*] ->  interest</arg>
+	<arg n="2" f="to">accounts</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

@@ -1,0 +1,117 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="summon">
+<note>
+  Frames file for 'summon' based on sentences in wsj.  No Verbnet
+  entry, Framenet entry Request.
+</note>
+
+<roleset id="summon.01" vncls="-" name="invite">
+<roles>
+  <role n="0"  descr="inviter"/>
+  <role n="1"  descr="invited"/>
+  <role n="2"  descr="invited-to"/>
+</roles>
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    The committee also has summoned Mr. Wall's predecessor, Edwin
+    Gray. 
+</text>
+        <arg n="0">The committee</arg>
+        <arg n="M" f="DIS">also</arg>
+        <rel>summoned</rel>
+        <arg n="1">Mr. Wall 's predecessor , Edwin Gray</arg>
+</example>
+
+<example name="all args">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+     Air-raid sirens sounded the alarm at 2:25 a.m., *trace* summoning
+     12,000 air wardens to duty. 
+</text>
+        <arg n="0">*trace* ->  Air-raid sirens</arg>
+        <rel>summoning</rel>
+        <arg n="1">12,000 air wardens</arg>
+        <arg n="2" f="to">duty</arg>
+</example>
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    In January 1980, Jerome Sanford, as assistant U.S. attorney, was
+    summoned *trace* to a meeting with a Federal Bureau of
+    Investigation agent assigned to the Bureau of Alcohol, Tobacco and
+    Firearms in Miami. 
+</text>
+        <arg n="M" f="TMP">In January 1980</arg>
+        <arg n="M">as assistant U.S. attorney</arg>
+        <rel>summoned</rel>
+        <arg n="1">*trace* ->  Jerome Sanford</arg>
+        <arg n="2" f="to">a meeting with a Federal Bureau of
+        Investigation agent assigned to the Bureau of Alcohol, Tobacco
+        and Firearms in Miami</arg> 
+</example>
+
+<example name="watch out for purpose clauses!">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    The Ministry of International Trade and Industry summoned
+    executives from the companies  to ``make sure they understood''
+    the concern about such practices, according to a government
+    spokesman. 
+</text>
+        <arg n="0">The Ministry of International Trade and Industry</arg>
+        <rel>summoned</rel>
+        <arg n="1">executives from the companies</arg>
+        <arg n="M" f="PNC">to ``make sure  they understood'' the
+        concern about such practices, according to a government
+        spokesman</arg> 
+</example>
+
+<example name="destination and purpose">
+<inflection person="ns" tense="past" aspect="perfect" voice="passive" form="participle"/>
+<text>
+    Mr. Gonzalez expressed concern over a report that the two had been
+    summoned *trace* to Washington by Mr. Wall last week to discuss
+    their testimony in advance. 
+</text>
+        <rel>summoned</rel>
+        <arg n="1">*trace* ->  the two</arg>
+        <arg n="2" f="to">Washington</arg>
+        <arg n="0" f="by">Mr. Wall</arg>
+        <arg n="M" f="TMP">last week</arg>
+        <arg n="M" f="PNC">to discuss their testimony in advance</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<predicate lemma="summon_forth">
+<roleset id="summon.02" vncls="-" name="cause to appear">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="thing appearing"/>
+</roles>
+
+<example name="come out, come out, wherever you are">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+     Among other things, the stronger devices may be able *trace* to
+     summon forth half-forgotten memories and induce mood changes,
+     neurologists say. 
+</text>
+        <arg n="0">*trace* ->  the stronger devices</arg>
+        <rel>[summon] [forth]</rel>
+        <arg n="1">half-forgotten memories</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

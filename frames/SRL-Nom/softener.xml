@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="softener">
+<roleset id="softener.01" name="to make soft or softer" source="verb-soften.01" vncls="45.4">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="entity softened" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+detergent and fabric softener combinations
+</text>
+<arg n="1">fabric</arg>
+<arg n="0">softener</arg>
+<rel>softener</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

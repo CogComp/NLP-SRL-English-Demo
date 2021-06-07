@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="attest">
+<note>
+  Frames file for 'attest' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="attest.01" name="to affirm to be correct, indicate"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing attested"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ I can attest that a recent Colombian visitor to the U.S. was offered [*-1] drugs three times in the few blocks ' walk between Grand Central Terminal and the Waldorf Astoria Hotel in midtown Manhattan .
+</text>
+	<arg n="0">I</arg>
+	<arg n="M" f="MOD">can</arg>
+	<rel>attest</rel>
+	<arg n="1">a recent Colombian visitor to the U.S. was offered [*-1] drugs three times in the few blocks ' walk between Grand Central Terminal and the Waldorf Astoria Hotel in midtown Manhattan</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+
+

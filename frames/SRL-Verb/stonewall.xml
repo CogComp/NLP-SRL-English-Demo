@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="stonewall">
+<note>
+  Frames file for 'stonewall' based on sentences in wsj.  No Verbnet
+  entry. 
+</note>
+
+<roleset id="stonewall.01" vncls="-" name="play defensively">
+<roles>
+  <role n="0"  descr="stonewaller"/>
+</roles>
+
+<example name="the one example">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    In 1987, USAir Chairman Edwin Colodny stonewalled when Trans World
+    Airlines Chairman Carl Icahn threatened to take over the carrier. 
+</text>
+        <arg n="M" f="TMP">In 1987</arg>
+        <arg n="0">USAir Chairman Edwin Colodny</arg>
+        <rel>stonewalled</rel>
+        <arg n="M" f="TMP">when Trans World Airlines Chairman Carl
+        Icahn threatened  to take over the carrier </arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

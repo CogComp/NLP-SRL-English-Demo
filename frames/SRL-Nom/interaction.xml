@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="interaction">
+<roleset id="interaction.01" name="nom-interact/reciprocal">
+<roles>
+
+<role descr="actor1" n="0"></role>
+
+<role descr="actor2" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The interactions between health and homelessness
+</text>
+<rel>interactions</rel>
+<arg n="0">between health and homelessness</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

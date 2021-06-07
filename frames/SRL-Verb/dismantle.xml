@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="dismantle">
+<note>
+  Frames file for 'dismantle' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+
+<roleset id="dismantle.01" name="to take apart"  vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity dismantled"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Congress still is struggling [*-1] to dismantle the unpopular Catastrophic Care Act of 1988 , which [*T*-39] boosted benefits for the elderly and [*-2] taxed them [*-3] to pay for the new coverage .
+</text>
+	<arg n="0">[*-1] ->  Congress</arg>
+	<rel>dismantle</rel>
+	<arg n="1">the unpopular Catastrophic Care Act of 1988 , which [*T*-39] boosted benefits for the elderly and [*-2] taxed them [*-3] to pay for the new coverage</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

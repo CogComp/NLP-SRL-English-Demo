@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="vacillate">
+<note>
+  Frames file for 'vacillate' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="vacillate.01" vncls="-" name="not make up ones mind">
+<roles>
+  <role n="0"  descr="undecided entity"/>
+  <role n="1"  descr="topic, question"/>
+</roles>
+
+<example name="pseudo-transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Mr. Bush's problem isn't so much that he seems to be agonizing
+    over the issue as it is that he seems [*-3] to vacillate on it. 
+</text>
+        <arg n="0">[*-3] ->  he</arg>
+        <rel>vacillate</rel>
+        <arg n="1" f="on">it</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

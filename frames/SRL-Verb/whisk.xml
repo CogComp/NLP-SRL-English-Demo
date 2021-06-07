@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="whisk">
+<note>
+  Frames file for 'whisk'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="whisk.01" name="to move or cause to move "
+vncls="10.4.1-1">
+<roles> 
+ <role n="0"  descr="causer"/> 
+ <role n="1"  descr="entity moving"/>  
+ <role n="2"  descr="location moving from"/> 
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Visitors , [*-2] whisked [*] from the Strip on a moving walkway , will glide over a habitat for rare white tigers , which [*T*-1] will star in performances by the famed illusionist team of Siegfried &amp; Roy .
+</text>
+	<rel>whisked</rel>
+	<arg n="1">[*] ->  [*-2] ->  Visitors</arg>
+	<arg n="2" f="from">the Strip</arg>
+	<arg n="M" f="LOC">on a moving walkway</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

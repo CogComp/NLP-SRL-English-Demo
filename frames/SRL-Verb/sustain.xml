@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="sustain">
+<note>
+  Frames file for 'sustain' based on sentences in financial
+  subcorpus.  No access to verbnet.  Comparison with 'continue'.
+</note>
+
+<roleset id="sustain.01" name="continue">
+<roles>
+  <role n="0"   descr="Intentional agent (often inanimate, though)"/>
+  <role n="1"   descr="thing continuing"/>
+</roles>
+
+<example name="keep on truckin'">
+<text>
+    He predicted that the most popular growth companies will be those
+    with ``some kind of unique product or franchise'' that makes them
+    appear able *trace* to sustain their momentum. 
+</text>
+        <arg n="0">*trace* ->  them</arg>
+        <rel>sustain</rel>
+        <arg n="1">their momentum</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="sustain.02" name="suffer (a loss)">
+<roles>
+  <role n="0"   descr="entity suffering a loss"/>
+  <role n="1"   descr="the loss"/>
+</roles>
+
+<example name="oh, the tragedy">
+<text>
+    Richard Rifenburgh, chairman and chief executive of the Longmont,
+    Colo., disk-drive maker, also said the company continued losing
+    money in the third quarter and expects *trace* to sustain further
+    losses through the end of the year. 
+</text>
+        <arg n="0">*trace* ->  the company</arg>
+        <rel>sustain</rel>
+        <arg n="1">further losses</arg>
+        <arg n="M" f="TMP">through the end of the year</arg>
+</example>
+
+</roleset>
+
+<note>
+These could perhaps be merged, since the syntax is the same, but I
+suspect an arg2 might be necessary for the 'continue' roleset.
+</note>
+
+</predicate>
+</frameset>

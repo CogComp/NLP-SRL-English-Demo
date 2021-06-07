@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="immerse">
+<note>
+  Frames file for 'immerse'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="immerse.01" name="to engage wholly or deeply"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity immersed"/>
+  <role n="2"  descr="entity immersed into"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ That was followed [*-1] by three months at the Aetna Institute in Hartford , where she was immersed [*-2] in [*] learning how [*-3] to read and interpret policies [*T*-4] .
+</text>
+	<rel>immersed</rel>
+	<arg n="1">[*-2] ->  she</arg>
+	<arg n="2" f="in">[*] learning how [*-3] to read and interpret policies [*T*-4]</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

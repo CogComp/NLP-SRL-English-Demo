@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="crouch">
+<note>
+  Frames file for 'crouch' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="crouch.01" name="to bend forward"
+vncls="50">
+<roles>
+  <role n="0"  descr="agent"/>
+</roles>
+
+
+<example name="with ArgM-DIR">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ She crouched down by the car window and addressed her husband with her favorite nickname :
+</text>
+	<arg n="0">She</arg>
+	<rel>crouched</rel>
+	<arg n="M" f="DIR">down</arg>
+	<arg n="M" f="LOC">by the car window</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

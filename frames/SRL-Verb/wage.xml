@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="wage">
+<note>
+  Frames file for 'wage' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="wage.01" vncls="-" name="wage war">
+<roles>
+  <role n="0"  descr="combatant"/>
+  <role n="1"  descr="war"/>
+</roles>
+
+<example name="the tail that wages the dog?">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    In 1986, Baker, Nye waged a proxy fight for control of Leaseway
+    Transportation Inc. that  ultimately led to Leaseway's being
+    sold. 
+</text>
+        <arg n="M" f="TMP">In 1986</arg>
+        <arg n="0">Baker, Nye</arg>
+        <rel>waged</rel>
+        <arg n="1">a proxy fight for control of Leaseway
+        Transportation Inc. that ultimately led to Leaseway's being
+        sold </arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shedding">
+<roleset id="shedding.01" name="get rid of, remove" source="verb-shed.01" vncls="43.4">
+<roles>
+
+<role descr="entity removing" n="0">
+<vnrole vncls="43.4" vntheta="Agent"/></role>
+
+<role descr="thing being removed (defaults to 'hair" n="1">
+<vnrole vncls="43.4" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it has surged back to profitability as a result of cost-cutting
+and shedding of unprofitable operations
+</text>
+<arg n="0">it ---> *</arg>
+<rel>shedding</rel>
+<arg n="1">of unprofitable operations</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

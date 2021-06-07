@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="expound">
+<note>
+  Frames file for 'expound' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="expound.01" vncls="-" name="explain, talk about">
+<roles>
+  <role n="0"  descr="expounder, speaker"/>
+  <role n="1"  descr="thing explained, topic"/>
+</roles>
+
+<example name="sentential topic">
+<inflection person="third" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Rivals carp at ``the principle of Pilson,'' as NBC's Arthur Watson
+    once put it -- ``he's always expounding that rights are too high,
+    then he's going crazy.'' 
+</text>
+        <arg n="0">he</arg>
+        <arg n="M" f="TMP">always</arg>
+        <rel>expounding</rel>
+        <arg n="1">rights are too high</arg>
+</example>
+
+<note>
+Could take listener arg?
+</note>
+
+</roleset>
+</predicate>
+</frameset>

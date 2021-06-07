@@ -1,0 +1,55 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="din">
+<note>
+  Frames file for 'din' because the lemmatizer misparses 'dining'.
+</note>
+
+<roleset id="din.01" vncls="-" name="eat dinner">
+<roles>
+  <role n="0"  descr="eater, diner"/>
+</roles>
+
+<example name="mangia">
+  <inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+  <text>
+    John dines nightly at McDonald's.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >dines</rel>
+  <arg n="m" f="TMP">nightly</arg>
+  <arg n="m" f="LOC">at McDonald's</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="din_out">
+
+<roleset id="din.02" vncls="-" name="eat dinner at a restaurant">
+<roles>
+  <role n="0"  descr="eater, diner"/>
+</roles>
+
+<example name="living the high life">
+<inflection person="ns" tense="past" aspect="progressive" voice="active" form="participle"/>
+<text>
+     He and Mr. Roderick were even dining out together.
+</text>
+        <arg n="0">He and Mr. Roderick</arg>
+        <arg n="M" f="DIS">even</arg>
+        <rel>[ dining] [ out]</rel>
+        <arg n="M" f="MNR">together</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

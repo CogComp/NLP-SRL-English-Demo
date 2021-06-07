@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="tank">
+<note>
+  Frames file for 'tank' based on sentences in wsj.  No Verbnet entry,
+  are you kidding me?
+</note>
+
+<roleset id="tank.01" vncls="-" name="do very poorly">
+<roles>
+  <role n="0"  descr="tanker"/>
+</roles>
+
+<example name="tank you bery mudge">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    In fact, ``the market has always tanked.
+</text>
+        <arg n="M" f="DIS">In fact</arg>
+        <arg n="0">the market</arg>
+        <arg n="M" f="TMP">always</arg>
+        <rel>tanked</rel>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

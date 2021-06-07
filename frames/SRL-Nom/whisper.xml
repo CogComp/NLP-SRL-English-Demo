@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="whisper">
+<roleset id="whisper.01" name="speak quietly" source="verb-whisper.01" vncls="37.3">
+<roles>
+
+<role descr="speaker" n="0">
+<vnrole vncls="37.3" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="37.3" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="37.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` Fundamentally dangerous ... , '' Mr. Smith said , almost in a
+whisper , `` ... . fundamentally weak ... fairly vulnerable still
+... extremely dangerously poised ...
+</text>
+<arg n="1">
+Fundamentally dangerous fundamentally weak ... fairly vulnerable
+still ... extremely dangerously poised</arg>
+<arg n="0">Mr. Smith</arg>
+<arg n="Support">said in</arg>
+<rel>whisper</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

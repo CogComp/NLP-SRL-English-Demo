@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+
+<frameset>
+<predicate lemma="crunch">
+<note>
+  Frames file for 'crunch' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="crunch.01" name="reduce to small pieces" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing crunched"/>
+  <role n="2"  descr="endstate"/>
+</roles>
+
+<example name="without endstate">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ At this point , the options were : [*] Crunch money [*-1] to stop the boost in the aggregates , as Sir Alan surely advised [*?*] , and [*] forget the soaring pound .
+</text>
+	<arg n="0">[*]</arg>
+	<rel>Crunch</rel>
+	<arg n="1">money</arg>
+</example>
+
+
+<example name="with endstate">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ At 10:33 , when the S&amp;P 500 December futures contract crunched to a 12-point loss under the force of sell programs [*T*-4] , S&amp;P futures trading was halted [*-1] and program trades on the Big Board were routed [*-2] into a special computer that [*T*-3] scans for order imbalances .
+</text>
+	<arg n="1">the S&amp;P 500 December futures contract</arg>
+	<rel>crunched</rel>
+	<arg n="2" f="to">a 12-point loss</arg>
+	<arg n="M" f="ADV">under the force of sell programs</arg>
+	<arg n="M" f="TMP">[*T*-4] ->  when ->  10:33</arg>
+</example>
+
+
+<note>
+  frames created by Olga
+</note>
+
+</roleset>
+</predicate>
+</frameset>

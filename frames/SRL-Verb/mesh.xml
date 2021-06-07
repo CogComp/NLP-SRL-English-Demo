@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mesh">
+<note>
+  Frames file for 'mesh' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="mesh.01" vncls="-" name="coordinate">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity coordinated"/>
+  <role n="2"  descr="entity coordinated with"/>
+</roles>
+
+<example name="missing agent">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    But just how does Mr. Downey's unorthodox style mesh with the
+    sedate tone of CNBC's business programming? 
+</text>
+        <arg n="M" f="DIS">But</arg>
+        <arg n="1">Mr. Downey 's unorthodox style</arg>
+        <rel>mesh</rel>
+        <arg n="2" f="with">the sedate tone of CNBC 's business
+        programming</arg> 
+        <arg n="M" f="MNR">[*T*-2] ->  just how</arg>
+</example>
+
+<example name="with agent?">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary meshed her plans for life after John's demise with those of
+    her evil twin.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >meshed</rel>
+  <arg n="1"        >her plans for life after John's demise</arg>
+  <arg n="2" f="with">those of her evil twin</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

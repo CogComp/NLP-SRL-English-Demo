@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="regenerate">
+<note>
+  Frames file for 'regenerate' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="regenerate.01" vncls="-" name="make anew">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing becoming new again"/>
+</roles>
+
+<example name="hustings?">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    ``What I'd like to see, if he is up to it, is for Reagan to take
+    to the hustings *trace* to regenerate enthusiasm for SDI,'' the
+    congressman says. 
+</text>
+        <arg n="0">*trace* ->  Reagan</arg>
+        <rel>regenerate</rel>
+        <arg n="1">enthusiasm for SDI</arg>
+</example>
+
+<note>
+Might take additional args (start state, eg) but the corpus isn't
+forthcoming with examples.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

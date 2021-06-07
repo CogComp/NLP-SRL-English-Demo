@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="levy">
+<note>
+  Frames file for 'levy' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="levy.01" name="to impose or collect"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity levied"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Still , Hugo 's impact may revive unsuccessful proposals [*] to give local governments authority [*] to levy sales taxes .
+</text>
+	<arg n="0">[*] ->  [*] ->  local governments</arg>
+	<rel>levy</rel>
+	<arg n="1">sales taxes</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

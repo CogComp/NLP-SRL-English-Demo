@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="damp">
+<note>
+  Frames file for 'damp' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="damp.01" name="to restrain or weaken" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing damped"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Comments by John Major , who [*T*-1] has succeeded Mr. Lawson , also failed [*-2] to damp market concern , despite his pledge [*] to maintain relatively high British interest rates .
+</text>
+	<arg n="0">[*-2] ->  Comments by John Major , who [*T*-1] has succeeded Mr. Lawson ,</arg>
+	<rel>damp</rel>
+	<arg n="1">market concern</arg>
+</example>
+
+<example name="transitive with purpose">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ But in certain conditions such as autoimmune diseases and allergies and transplant rejection , doctors would like [*-1] to damp the immune response so such cells do n't touch off harmful inflammatory reactions or cell destruction .
+</text>
+	<arg n="0">[*-1] ->  doctors</arg>
+	<rel>damp</rel>
+	<arg n="1">the immune response</arg>
+	<arg n="M" f="PRP">so such cells do n't touch off harmful inflammatory reactions or cell destruction</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

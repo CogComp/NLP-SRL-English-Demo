@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="poll">
+<note>
+Frames file for 'poll' based on sentences in financial subcorpus and
+automatic expansion via verbnet.  Well, not actually, b/c Levin
+includes this in the 'pit' class which doesn't make any sense to me.
+Comparison with 'question' instead.  Note that args 1 and 2 have been
+reversed from 'question'
+</note>
+
+<roleset id="poll.01" vncls="-" name="survey, as of voters">
+<roles>
+  <role n="0"  descr="poller"/>
+  <role n="1"  descr="people asked"/>
+  <role n="2"  descr="topic"/>
+</roles>
+
+<example name="without topic">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    The consensus of economists polled *trace* by Dow Jones Capital
+    Markets Report calls for a 2.5% annual growth rate for GNP during
+    the quarter. 
+</text>
+        <rel>polled</rel>
+        <arg n="1">*trace* ->  economists</arg>
+        <arg n="0" f="by">Dow Jones Capital Markets Report</arg>
+</example>
+
+<example name="with topic">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John polled everyone in the grocery store about their favorite
+    flavors of ice cream.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >polled</rel>
+  <arg n="1"        >everyone in the grocey store</arg>
+  <arg n="2" f="about">their favorite flavors of ice cream</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>
+
+
+
+

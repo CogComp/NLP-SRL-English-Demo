@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="ignite">
+<note>
+  Frames file for 'ignite' based on sentences in wsj.  Verbnet entry 45.4.
+</note>
+
+<roleset id="ignite.01" vncls="45.4" name="set on fire">
+<roles>
+  <role n="0"  descr="agent, firestarter"/>
+  <role n="1"  descr="thing now burning"/>
+</roles>
+
+<example name="active">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    This trend appears to be especially true at General Motors Corp.,
+    which [*T*-1] used both dealer and consumer incentives [*-3] to
+    ignite sales in August and September. 
+</text>
+        <arg n="0">[*-3] ->  [*T*-1] ->  which ->  General Motors Corp.</arg>
+        <rel>ignite</rel>
+        <arg n="1">sales</arg>
+        <arg n="M" f="TMP">in August and September</arg>
+</example>
+
+
+<example name="passive">
+<inflection person="third" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Chancellor of the Exchequer Nigel Lawson views the high rates as
+    his chief weapon against inflation, which [*T*-2] was ignited
+    [*-1] by tax cuts and loose credit policies in 1986 and 1987. 
+</text>
+        <rel>ignited</rel>
+        <arg n="1">[*-1] ->  [*T*-2] ->  which ->  inflation</arg>
+        <arg n="0" f="by">tax cuts and loose credit policies</arg>
+        <arg n="M" f="TMP">in 1986 and 1987</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

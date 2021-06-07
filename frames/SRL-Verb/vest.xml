@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="vest">
+<note>
+  Frames file for 'vest' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="vest.01" name="to provide with power and authority "
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity vested"/>
+  <role n="2"  descr="vested with"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ The court hearing began in early October at the request of Anthony Hazell , district auditor for Hammersmith , who [*T*-63] argued that local councils are n't vested with constitutional authority [*] to engage in such capital-markets activities .
+</text>
+	<arg n="1">local councils</arg>
+	<arg n="M" f="NEG">n't</arg>
+	<rel>vested</rel>
+	<arg n="2" f="with">constitutional authority [*] to engage in such capital-markets activities</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

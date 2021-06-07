@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="revolutionize">
+<note>
+  Frames file for 'revolutionize' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="revolutionize.01" name="to bring about a radical change"
+vncls="-">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="entity changed"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ But researchers say [0] the drug , called [*] FK-506 , could revolutionize the transplantation field by [*] reducing harmful side effects and by [*] lowering rejection rates .
+</text>
+	<arg n="0">the drug , called [*] FK-506 ,</arg>
+	<arg n="M" f="MOD">could</arg>
+	<rel>revolutionize</rel>
+	<arg n="1">the transplantation field</arg>
+	<arg n="M" f="MNR">by [*] reducing harmful side effects and by [*] lowering rejection rates</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

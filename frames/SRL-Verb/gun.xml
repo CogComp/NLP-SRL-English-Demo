@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gun_down">
+<note>
+  Frames file for 'gun'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="gun.01" name="to shoot"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>    
+  <role n="1"  descr="entity shot"/>    
+</roles>
+
+
+<example name="passive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="full"/>
+<text>
+ A man in a wheelchair was gunned [*-1] down in the crossfire of a Miami drug battle .
+</text>
+	<rel>[ gunned] [ down]</rel>
+	<arg n="1">[*-1] ->  A man in a wheelchair</arg>
+	<arg n="M" f="LOC">in the crossfire of a Miami drug battle</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

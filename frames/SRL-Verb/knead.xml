@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="knead">
+<note>
+  Frames file for 'knead' based on sentences in wsj.  Verbnet entry
+  26.5, Framenet entry Manipulation.
+</note>
+
+<roleset id="knead.01" vncls="26.5" name="form dough into a loaf">
+<roles>
+  <role n="0"  descr="kneader"/>
+  <role n="1"  descr="dough"/>
+  <role n="2"  descr="loaf"/>
+</roles>
+
+<example name="not bread, but still yummy">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Nearby, five temporary residents of the school shelter sit on
+    stools, having their necks and backs kneaded by volunteer
+    masseuses. 
+</text>
+        <arg n="1">their necks and backs</arg>
+        <rel>kneaded</rel>
+        <arg n="0" f="by">volunteer masseuses</arg>
+</example>
+
+<example name="only bread takes arg2">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John kneaded the dough into a loaf.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >kneaded</rel>
+  <arg n="1"        >the dough</arg>
+  <arg n="2" f="into">a loaf</arg>
+</example>
+
+<note>
+That last example sounds weird even to me.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

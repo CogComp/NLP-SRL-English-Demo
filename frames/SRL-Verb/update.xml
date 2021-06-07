@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="update">
+<note>
+  Frames file for 'update' based on sentences in financial subcorpus.
+  No Verbnet entry, no comparison.
+</note>
+
+<roleset id="update.01" vncls="-" name="make more modern">
+<roles>
+  <role n="0"  descr="updated"/>
+  <role n="1"  descr="thing becoming more modern"/>
+</roles>
+
+<example name="boring transitive">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Batch processing is the high-volume, single-job data processing
+    that most mainframes typically chug through at night, such as
+    *trace* updating accounts at banks. 
+</text>
+        <arg n="0">*trace* ->  Batch processing</arg>
+        <rel>updating</rel>
+        <arg n="1">accounts</arg>
+        <arg n="M" f="LOC">at banks</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

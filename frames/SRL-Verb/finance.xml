@@ -1,0 +1,75 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="finance">
+<note>
+  Frames file for 'finance' based on survey of initial sentences of
+  big corpus
+</note>
+
+<roleset id="finance.01" name="provide money for, get money for">
+<roles>
+  <role n="0"  descr="financ(i)er"/>
+  <role n="1"  descr="thing financed"/>
+  <role n="2"  descr="money"/>
+</roles>
+
+<example name="transitive">
+  <text>
+  Japanese companies have financed small and medium-sized US firms for
+  years.
+  </text>
+  <arg n="0"        >Japanese companies</arg>
+  <rel              >financed</rel>
+  <arg n="1"        >small and medium-sized US firms</arg>
+  <arg n="m" f="TMP">for years.</arg>
+</example>
+
+<example name="with money">
+  <text>
+  A host of electronics firms in California's Silicon Valley were
+  financed *trace* with trading-company capital.
+  </text>
+  <arg n="1"        >*trace*=A host of electronics firms in
+  California's Silicon Valley</arg> 
+  <rel voice="passive">financed</rel>
+  <arg n="2" f="with">trading-company capital</arg>
+</example>
+
+<example name="Arg2 as subject">
+  <text>
+  Junk bonds are often used *trace* to finance restructurings and
+  takeovers.
+  </text>
+  <arg n="2"        >*trace*=Junk bonds</arg>
+  <rel              >finance</rel>
+  <arg n="1"        >restructurings and takeovers.</arg>
+</example>
+</roleset>
+
+<roleset id="finance.02" name="buy using someone else's money">
+<roles>
+  <role n="0"  descr="buyer"/>
+  <role n="1"  descr="thing bought"/>
+  <role n="2"  descr="money or provider of money"/>
+</roles>
+
+<example name="car payments">
+  <text>
+  Buyers financed part of a car purchase through the General Motors
+  Acceptance Corp.
+  </text>
+  <arg n="0"        >Buyers</arg>
+  <rel              >financed</rel>
+  <arg n="1"        >part of a car purchase</arg>
+  <arg n="2" f="through">the General Motors Acceptance Corp.</arg>
+</example>
+
+<note>
+These rolesets can be hard to distinguish.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

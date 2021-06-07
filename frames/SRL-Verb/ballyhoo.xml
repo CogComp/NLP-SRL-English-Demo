@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="ballyhoo">
+<note>
+  Frames file for 'ballyhoo' based on sentences in financial
+  subcorpus.  No Verbnet entry, no Framenet entry.  No comparison.
+</note>
+
+<roleset id="ballyhoo.01" vncls="-" name="advertise noisily or blatantly">
+<roles>
+  <role n="0"  descr="advertiser"/>
+  <role n="1"  descr="ad"/>
+</roles>
+
+<example name="I'll eat my hat if there's another example in the
+	 entire friggin corpus">
+<inflection person="third" tense="present" aspect="progressive" voice="passive" form="participle"/>
+<text>
+    The problem is being ballyhooed *trace*, experts say, because the
+    486 is Intel's future flagship. 
+</text>
+        <rel>ballyhooed</rel>
+        <arg n="1">*trace* ->  The problem</arg>
+        <arg n="M">, experts say   ,</arg>
+        <arg n="M" f="CAU">because the 486 is Intel's future
+        flagship</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

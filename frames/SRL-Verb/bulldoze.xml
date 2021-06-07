@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bulldoze">
+<note>
+  Frames file for 'bulldoze' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="bulldoze.01" vncls="-" name="destroy with a bulldozer">
+<roles>
+  <role n="0"  descr="agent of destruction"/>
+  <role n="1"  descr="thing destroyed"/>
+</roles>
+
+<example name="passive">
+<inflection person="third" tense="present" aspect="perfect" voice="passive" form="participle"/>
+<text>
+    ``If Flynn hadn't lived there, the property might have been priced
+    $1 million lower,'' says Mr. Rambo, noting that Flynn's house has
+    been bulldozed [*-1], and only the swimming pool remains. 
+</text>
+        <rel>bulldozed</rel>
+        <arg n="1">[*-1] ->  Flynn 's house</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

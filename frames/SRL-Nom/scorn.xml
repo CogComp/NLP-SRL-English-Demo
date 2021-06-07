@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="scorn">
+<roleset id="scorn.01" name="despise" source="verb-scorn.01" vncls="33">
+<roles>
+
+<role descr="scorner" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="thing scorned" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="reason" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+As your editorial rightly pointed out , Samuel Pierce , former
+HUD secretary , and Lance Wilson , Mr. Pierce 's former aide , ``
+are currently being held up to scorn for taking the Fifth
+Amendment .
+</text>
+<arg n="1">
+Samuel Pierce , former HUD secretary , and Lance Wilson , Mr.
+Pierce 's former aide , ---> *-1</arg>
+<arg n="Support">held up to</arg>
+<rel>scorn</rel>
+<arg n="2">for taking the Fifth Amendment</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Unfortunately , by my rough guess , he used better than 5,000
+words heaping scorn on the witnesses for exercising the Fifth .
+</text>
+<arg n="0">he ---> *-1</arg>
+<arg n="Support">heaping</arg>
+<rel>scorn</rel>
+<arg n="1">on the witnesses</arg>
+<arg n="2">for exercising the Fifth</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

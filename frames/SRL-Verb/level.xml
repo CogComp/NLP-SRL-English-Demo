@@ -1,0 +1,86 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="level">
+<note>
+  Frames file for 'level' based on sentences in financial subcorpus.
+  No access to verbnet.  No comparison.
+</note>
+
+<roleset id="level.01" name="cause to become level, even" vncls="45.4">
+<roles>
+  <role descr="agent" n="0">
+		<vnrole vncls="45.4" vntheta="Agent"/>
+  </role>
+
+  <role descr="thing becoming level" n="1">
+		<vnrole vncls="45.4" vntheta="Patient"/>
+  </role>
+
+  <role descr="instrument, if separate from agent" n="2">
+		<vnrole vncls="45.4" vntheta="Instrument"/>
+  </role>
+
+</roles>
+
+<example name="all args">
+  <text>
+    John levelled the cup of flour with the bottom of his shoe.
+  </text>
+  <arg n="0">John</arg>
+  <rel>levelled</rel>
+  <arg n="1">the cup of flour</arg>
+  <arg f="with" n="2">the bottom of his shoe</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="level_off">
+<note>
+    Could be just an intensive of the previous sense, or an unaccusative.
+</note>
+
+<roleset id="level.02" name="become level, even" vncls="45.4">
+<roles>
+  <role descr="agent" n="0">
+		<vnrole vncls="45.4" vntheta="Agent"/>
+  </role>
+
+  <role descr="thing becoming level" n="1">
+		<vnrole vncls="45.4" vntheta="Patient"/>
+  </role>
+
+  <role descr="instrument, if separate from agent" n="2">
+		<vnrole vncls="45.4" vntheta="Instrument"/>
+  </role>
+
+</roles>
+
+<example name="unaccusative">
+<text>
+    ECONOMIC GROWTH APPEARS *trace* to be leveling off, latest reports
+    suggest.  
+</text>
+        <arg n="1">*trace* -&gt; ECONOMIC GROWTH</arg>
+        <rel>[ leveling] [ off]</rel>
+</example>
+
+<example name="agentive">
+  <text>
+    John levelled off the cup of flour with the bottom of his shoe.
+  </text>
+  <arg n="0">John</arg>
+  <rel>[levelled] [off]</rel>
+  <arg n="1">the cup of flour</arg>
+  <arg f="with" n="2">the bottom of his shoe</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

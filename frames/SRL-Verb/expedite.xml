@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="expedite">
+<note>
+  Frames file for 'expedite'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="expedite.01" name="to accelerate"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>  
+  <role n="1"  descr="entity expedited"/>  
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="gerund"/>
+<text>
+ Yesterday 's vote on Japanese-American reparations ensures final enactment of the entitlement provision , which [*T*-1] abandons earlier efforts [*] to find offsetting cuts but is seen [*-2] as a more realistic path to [*] expediting compensation first authorized [*] in 1988 .
+</text>
+	<arg n="0">[*] ->  [*T*-1] ->  which ->  the entitlement provision</arg>
+	<rel>expediting</rel>
+	<arg n="1">compensation first authorized [*] in 1988</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

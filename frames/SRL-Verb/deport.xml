@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deport">
+<note>
+  Frames file for 'deport'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="deport.01" name="to expel from a country"
+vncls="10.2">
+<roles> 
+ <role n="0"  descr="causer"/>
+ <role n="1"  descr="entity deported"/>  
+<role n="2"  descr="country  deported from"/>  
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Another 250 Libyans were already in Italy [*-2] to stage a day of mourning for victims of Italy 's colonial rule between 1911 and 1943 , when Tripoli says [0] Rome kidnapped 5,000 Libyans and deported them as forced labor [*T*-1] .
+</text>
+	<arg n="0">Rome</arg>
+	<rel>deported</rel>
+	<arg n="1">them</arg>
+	<arg n="M" f="MNR">as forced labor</arg>
+	<arg n="M" f="TMP">[*T*-1] ->  when ->  1911 and 1943</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

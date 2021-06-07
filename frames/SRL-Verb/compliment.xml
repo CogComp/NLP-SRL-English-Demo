@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="compliment">
+<note>
+  Frames file for 'compliment' based on sentences in wsj.  Verbnet
+  entry 33, Framenet entry Judgement.
+</note>
+
+<roleset id="compliment.01" vncls="33" name="give a compliment to">
+<roles>
+  <role n="0"  descr="giver of compliment"/>
+  <role n="1"  descr="recipient"/>
+  <role n="2"  descr="reason"/>
+</roles>
+
+<example name="all args">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Now, when I play with orchestras, the musicians often compliment
+    me on my intonation.'' 
+</text>
+        <arg n="M" f="TMP">Now</arg>
+        <arg n="M" f="TMP">when I play with orchestras</arg>
+        <arg n="0">the musicians</arg>
+        <arg n="M" f="TMP">often</arg>
+        <rel>compliment</rel>
+        <arg n="1">me</arg>
+        <arg n="2" f="on">my intonation</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

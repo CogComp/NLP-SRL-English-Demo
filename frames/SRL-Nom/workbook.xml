@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="workbook">
+<roleset id="workbook.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+test-coaching workbooks and worksheets
+</text>
+<arg n="1">test-coaching</arg>
+<rel>workbooks</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

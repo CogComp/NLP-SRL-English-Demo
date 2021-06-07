@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="restore">
+<note>
+  Frames file for 'restore' based on sentences in financial subcorpus.
+  Verbnet entry contribute-13.2, other framed members include refer,
+  relinquish, sacrifice, surrender, transfer.  Comparison with those
+  for one roleset.
+</note>
+
+<roleset id="restore.01" name="give back">
+<roles>
+  <role n="0"  descr="giver, restorer"/>
+  <role n="1"  descr="gift, thing restored"/>
+  <role n="2"  descr="benefactive, restored-to"/>
+</roles>
+
+<example name="no benefactive">
+<text>
+    Stock prices surged as a multibillion-dollar takeover proposal
+    helped *trace* restore market players' confidence about the
+    prospects for further deal-making. 
+</text>
+        <arg n="0">*trace* ->  a multibillion-dollar takeover
+        proposal</arg> 
+        <rel>restore</rel>
+        <arg n="1">market players' confidence about the prospects for
+        further deal-making</arg> 
+</example>
+
+<example name="with benefactive">
+<text>
+    Pacific Gas &amp; Electric fell 3/8 to 19 5/8 in Big Board
+    composite trading of 1.7 million shares and Pacific Telesis Group
+    slipped 5/8 to 44 5/8 as the companies worked *trace* to restore
+    service to areas affected by the quake. 
+</text>
+        <arg n="0">*trace* ->  the companies</arg>
+        <rel>restore</rel>
+        <arg n="1">service</arg>
+        <arg n="2" f="to">areas affected  by the quake</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="restore.02" name="name like new">
+<roles>
+  <role n="0"  descr="restorer"/>
+  <role n="1"  descr="thing restored, renewed"/>
+  <role n="2"  descr="end state"/>
+</roles>
+
+<example name="art">
+  <text>
+    John restored the priceless Gaugin painting to its original splendor.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >restored</rel>
+  <arg n="1"        >the priceless Gaugin painting</arg>
+  <arg n="2" f="to">its original splendor</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

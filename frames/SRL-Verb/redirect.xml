@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="redirect">
+<note>
+  Frames file for 'redirect' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="redirect.01" name="to change the direction or course of" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity redirected"/>
+  <role n="2"  descr="new direction"/>
+</roles>
+
+<example name="all arguments">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+ For the last year , Santa Fe Pacific has redirected its real estate operations toward longer-term development of its properties , [*] hurting profits that the parent had generated [*T*-1] in the past from periodic sales from its portfolio .
+</text>
+	<arg n="M" f="TMP">For the last year</arg>
+	<arg n="0">Santa Fe Pacific</arg>
+	<rel>redirected</rel>
+	<arg n="1">its real estate operations</arg>
+	<arg n="2" f="toward">longer-term development of its properties</arg>
+	<arg n="M" f="ADV">[*] hurting profits that the parent had generated [*T*-1] in the past from periodic sales from its portfolio</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

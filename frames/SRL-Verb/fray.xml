@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="fray">
+<note>
+  Frames file for 'fray' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="fray.01" name="to loosen, wear away"  vncls="45.4">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity frayed"/>
+</roles>
+
+
+<example name="passive">
+<inflection person="ns" tense="past" aspect="perfect" voice="passive" form="participle"/>
+<text>
+ Its relationship with parent General Electric Co. had been frayed [*-1] since a big Kidder insider-trading scandal two years ago .
+</text>
+	<rel>frayed</rel>
+	<arg n="1">[*-1] ->  Its relationship with parent General Electric Co.</arg>
+	<arg n="M" f="TMP">since a big Kidder insider-trading scandal two years ago</arg>
+</example>
+
+
+<example name="intransitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ But the build-up of S&amp;P futures sell orders weighed on the market , and the link with stocks began [*-1] to fray again .
+</text>
+	<arg n="1">[*-1] ->  the link with stocks</arg>
+	<rel>fray</rel>
+	<arg n="M" f="TMP">again</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

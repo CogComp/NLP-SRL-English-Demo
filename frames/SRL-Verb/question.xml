@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="question">
+<note>
+  Frames file for 'question' based on sentences in financial
+  subcorpus.  No verbnet entry.  Comparison with 'ask' and 'doubt'. 
+</note>
+
+<roleset id="question.01" vncls="-" name="ask a question, express doubts">
+<roles>
+  <role n="0"  descr="asker"/>
+  <role n="1"  descr="question or thing in doubt"/>
+  <role n="2"  descr="entity asked, hearer"/>
+</roles>
+
+<example name="transitive">
+<text>
+    Many analysts question management's credibility.
+</text>
+        <arg n="0">Many analysts</arg>
+        <rel>question</rel>
+        <arg n="1">management's credibility</arg>
+</example>
+
+<example name="with hearer">
+  <text>
+     Mary questioned John about his whereabouts last night.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >questioned</rel>
+  <arg n="2"        >John</arg>
+  <arg n="1" f="about">his whereabouts last night</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

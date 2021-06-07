@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="de-emphasize">
+<note>
+  Frames file for 'de-emphasize' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="de-emphasize.01" name="to minimize the importance of"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity  de-emphasized"/>
+</roles>
+
+
+<example name="passive">
+<inflection person="ns" tense="past" aspect="perfect" voice="passive" form="participle"/>
+<text>
+ While [*] renewing military aid had been considered [*T*-1] out of the question , [*-1] rejected [*-2] by Congress and de-emphasized [*-2] by the Bush administration , Mr. Ortega 's statement provides Contra supporters with the opportunity [*] to press the administration on the issue .
+</text>
+	<rel>de-emphasized</rel>
+	<arg n="1">[*-2] ->  [*-1] ->  [*] renewing military aid</arg>
+	<arg n="0" f="by">the Bush administration</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

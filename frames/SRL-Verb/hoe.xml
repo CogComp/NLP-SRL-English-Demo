@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="hoe">
+<note>
+  Frames file for 'hoe'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="hoe.01" name="to cultivate or dig up with a hoe"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>  
+  <role n="1"  descr="entity hoed"/>  
+</roles>
+
+<example name="infinitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ I was impressed [*-1] by the perceptiveness of your Sept. 12 story `` Rural Enterprise : Tough Row [0] [*] To Hoe [*T*-2] . ''
+</text>
+	<arg n="0">[*]</arg>
+	<rel>Hoe</rel>
+	<arg n="1">[*T*-2] ->  [0] ->  Tough Row</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

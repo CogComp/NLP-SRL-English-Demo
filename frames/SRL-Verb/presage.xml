@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="presage">
+<note>
+  Frames file for 'presage' based on sentences in wsj.  No Verbnet
+  entry.  
+</note>
+
+<roleset id="presage.01" vncls="-" name="show the future">
+<roles>
+  <role n="0"  descr="sign"/>
+  <role n="1"  descr="future"/>
+</roles>
+
+<example name="pretty simple, really">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Analysts said the move could presage even harsher action by the
+    banks. 
+</text>
+        <arg n="0">the move</arg>
+        <arg n="M" f="MOD">could</arg>
+        <rel>presage</rel>
+        <arg n="1">even harsher action by the banks</arg>
+</example>
+
+<note>
+Presage seems to always take a negative-valued arg1.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

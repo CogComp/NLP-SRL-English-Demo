@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="heavy-handedness">
+<roleset id="heavy-handedness.01" name="nomadj-heavy-handed">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the heavy-handedness of the satire
+</text>
+<rel>heavy-handedness</rel>
+<arg n="1">of the satire</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

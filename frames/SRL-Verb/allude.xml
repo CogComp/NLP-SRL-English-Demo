@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="allude">
+<note>
+  Frames file for 'allude' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="allude.01" name="to make an indirect reference"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/> 
+  <role n="1"  descr="entity alluded to"/> 
+</roles>
+
+<example name="with adverbials">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Mobil alluded to the work-force cuts last week when it took a $ 40 million [*U*] charge as part of its third-quarter earnings and attributed it to a restructuring .
+</text>
+	<arg n="0">Mobil</arg>
+	<rel>alluded</rel>
+	<arg n="1" f="to">the work-force cuts</arg>
+	<arg n="M" f="TMP">last week</arg>
+	<arg n="M" f="TMP">when it took a $ 40 million [*U*] charge as part of its third-quarter earnings and attributed it to a restructuring</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="meld">
+<note>
+  Frames file for 'meld' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+
+<roleset id="meld.01" name="to mix, merge" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="theme"/>
+  <role n="2"  descr="melded with"/>
+</roles>
+
+
+<example name="all arguments">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ P&amp;G already has shown [0] it can meld some traditional packaged-goods techniques with the image-making of the cosmetics trade in the mass-market end of the business .
+</text>
+	<arg n="0">it</arg>
+	<arg n="M" f="MOD">can</arg>
+	<rel>meld</rel>
+	<arg n="1">some traditional packaged-goods techniques</arg>
+	<arg n="2" f="with">the image-making of the cosmetics trade</arg>
+	<arg n="M" f="LOC">in the mass-market end of the business</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

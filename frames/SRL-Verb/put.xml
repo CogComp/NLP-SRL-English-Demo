@@ -1,0 +1,276 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<note>
+Frames file for 'put' based on survey of initial sentences of big corpus
+</note>
+
+<predicate lemma="put">
+<roleset id="put.01" name="location" vncls="9.1">
+<roles>
+  <role descr="putter" n="0">
+		<vnrole vncls="9.1" vntheta="Agent"/>
+  </role>
+
+  <role descr="thing put" n="1">
+		<vnrole vncls="9.1" vntheta="Theme"/>
+  </role>
+
+  <role descr="where put" f="LOC" n="2">
+		<vnrole vncls="9.1" vntheta="Destination"/>
+  </role>
+
+</roles>
+
+<example name="Arg0 rel Arg1 Arg2-LOC">
+  <text>
+    Wilder has put the onus on Cole.
+  </text>
+  <arg n="0">Wilder</arg>
+  <rel>has put</rel>
+  <arg n="1">the onus</arg>
+  <arg f="LOC" n="2">on Cole</arg>
+</example>
+
+
+<example name="Arg0 ArgM-TMP  rel Arg1 Arg2-LOC">
+  <text>
+    Japanese companies often put their money behind odd projects.
+  </text>
+  <arg n="0">Japanese companies</arg>
+  <arg f="TMP" n="M">often</arg>
+  <rel>put</rel>
+  <arg n="1">their money</arg>
+</example>
+
+<example name="Arg0 rel Arg1 ArgM Arg2-LOC">
+  <text>
+    It's too late *trace=empty* to put the genie back in the bottle.
+  </text>
+  <arg n="0">*trace=empty*</arg>
+  <rel>to put</rel>
+  <arg n="1">the genie</arg>
+  <arg n="M">back</arg>
+  <arg f="LOC" n="2">in the bottle</arg>
+</example>
+
+</roleset>
+<roleset id="put.02" name="say" vncls="-">
+<roles>
+  <role descr="speaker" n="0"/>
+  <role descr="thing said" n="1"/>
+  <role descr="attribute" n="2"/>
+</roles>
+
+<example name="Arg0 rel Arg1">
+  <text>
+    As Dorothy Arighi puts it, blah blah blah
+  </text>
+  <arg n="0">Dorothy Arighi</arg>
+  <rel>puts</rel>
+  <arg n="1">it</arg>
+</example>
+
+<example name="Arg0 rel Arg1 Arg2-as">
+  <text>
+    The pilots put the amount as high as $100 million.
+  </text>
+  <arg n="0">The pilots</arg>
+  <rel>put</rel>
+  <arg n="1">the amount</arg>
+  <arg f="as" n="2">as high as $100 million</arg>
+</example>
+
+<example name="Arg0 rel Arg1 Arg2">
+  <text>
+    Let's put it bluntly.
+  </text>
+  <arg n="0">us ('s)</arg>
+  <rel>put</rel>
+  <arg n="1">it</arg>
+  <arg n="2">bluntly</arg>
+</example>
+
+</roleset>
+<roleset id="put.03" name="result, attributive" vncls="-">
+<roles>
+  <role descr="putter" n="0"/>
+  <role descr="thing put" n="1"/>
+  <role descr="attribute" n="2"/>
+</roles>
+
+</roleset>
+</predicate>
+
+<predicate lemma="put_together">
+<roleset id="put.04" name="synthesize" vncls="-">
+<roles>
+</roles>
+
+<example name="Arg1 rel Arg2-PRD Arg0-by">
+  <text>
+    That fund was put together by Blackstone Group.
+  </text>
+  <arg n="1">That fund</arg>
+  <rel>was put together</rel>
+  <arg f="by" n="0">by Blackstone Group</arg>
+</example>
+
+</roleset>
+</predicate>
+  
+<predicate lemma="put_in">
+<roleset id="put.05" name="contribute, submit" vncls="-">
+<roles>
+</roles>
+
+<example name="Arg0 rel Arg1">
+  <text>
+    Many salarymen put in unproductive overtime hours.
+  </text>
+  <arg n="0">Many salarymen</arg>
+  <rel>put in</rel>
+  <arg n="1">unproductive overtime hours</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<predicate lemma="put_off">
+<roleset id="put.06" name="delay" vncls="-">
+<roles>
+</roles>
+
+<example name="Arg0 rel Arg2-for Arg1 Arg0 rel Arg2-to">
+  <text>
+    *t* Never put off for tomorrow what you can put off to the day after that.
+  </text>
+  <arg n="0">*t*</arg>
+  <rel>put off</rel>
+  <arg f="for" n="2">for tomorrow</arg>
+  <arg n="1">what</arg>
+  <arg n="0">you</arg>
+  <rel>can put off</rel>
+  <arg f="to" n="2">to the day after that</arg>
+</example>
+
+</roleset>
+
+<roleset id="put.07" name="offended" vncls="-">
+<roles>
+</roles>
+
+<example name="Arg1 rel Arg0-by">
+  <text>
+    Japanese investors are put off by American exuberance.
+  </text>
+  <arg n="1">Japanese investors</arg>
+  <rel>are put off</rel>
+  <arg f="by" n="0">by American exuberance</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<predicate lemma="put_on">
+<roleset id="put.08" name="assume, acquire, wear" vncls="-">
+<roles>
+  <role descr="wearer" n="0"/>
+  <role descr="clothing" n="1"/>
+</roles>
+
+<example name="Arg0 rel Arg1"> 
+  <text>
+    The occasional Englishman puts on airs.
+  </text>
+  <arg n="0">The occasional Englishman</arg>
+  <rel>puts on</rel>
+  <arg n="1">airs</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<predicate lemma="put_out">
+<roleset id="put.09" name="extinguish" vncls="-">
+<roles>
+</roles>
+
+<example name="Arg0 rel Arg1 ArgM-TMP">
+  <text>
+    Smokers must put out their cigarettes before entering the building.
+  </text>
+  <arg n="0">Smokers</arg>
+  <rel>must put out</rel>
+  <arg n="1">their cigarettes</arg>
+  <arg f="TMP" n="M">before entering the building</arg>
+</example>
+
+</roleset>
+
+<roleset id="put.10" name="disseminate" vncls="-">
+<roles>
+</roles>
+
+<example name="Arg0 rel Arg1">
+  <text>
+    John put out a report about PAS tagging.
+  </text>
+  <arg n="0">John</arg>
+  <rel>put out</rel>
+  <arg n="1">a report about PAS tagging</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<predicate lemma="put_up">
+<roleset id="put.11" name="furnish" vncls="-">
+<roles>
+</roles>
+
+<example name="Arg0 rel Arg1 Arg2-for">
+  <text>
+    Few banks will put up new money for New Zealand.
+  </text>
+  <arg n="0">Few banks</arg>
+  <rel>will put up</rel>
+  <arg n="1">new money</arg>
+  <arg f="for" n="2">for New Zealand</arg>
+</example>
+
+<note>
+&quot;hard put&quot; is an adjective and should not be tagged as a verb.
+  We would be hard put *trace=we* to call it a game.
+</note>
+</roleset>
+
+<roleset id="put.12" name="tolerate, put up with" vncls="-">
+<roles>
+  <role descr="tolerater" n="0"/>
+  <role descr="thing tolerated" n="1"/>
+</roles>
+
+<example name="they pretty much all look like this">
+<text>
+    Even with mutual funds, the little investor continues *trace* to
+    put up with high fees, high commissions and poor performance, while
+    index-fund managers slowly amass a better record with lower fees,
+    lower commissions and less risk. 
+</text>
+        <arg n="0">*trace* -&gt;  the little investor</arg>
+        <rel>put up</rel>
+        <arg f="with" n="1">high fees , high commissions and poor
+        performance</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+<note>
+I'm probably still missing a few phrasals, but you get the picture.
+If you find any others, please add them.
+</note>
+
+</frameset>

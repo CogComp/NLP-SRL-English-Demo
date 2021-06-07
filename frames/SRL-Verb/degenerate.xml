@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="degenerate">
+<note>
+Frames file for 'degenerate' based on sentences in wsj and automatic
+expansion via verbnet.
+</note>
+
+<roleset id="degenerate.01" vncls="45.4" name="become bad">
+<roles>
+	<role n="0" descr="agent (rarely or never occuring)" />
+	<role n="1" descr="thing getting worse" />
+        <role n="2" descr="EXT"/>
+        <role n="3" descr="start point"/>
+        <role n="4" descr="end point"/>
+</roles>
+
+<example name="usually with just end point">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+     Demonstrations are particularly apt *trace* to degenerate into
+     criminal conduct when they leave the site of the grievance and
+     become mobile. 
+</text>
+        <arg n="1">*trace* ->  Demonstrations</arg>
+        <rel>degenerate</rel>
+        <arg n="4" f="into">criminal conduct</arg>
+</example>
+
+<example name="explicit start state" src="change.01">
+  <text>
+  Customers degenerate from borrowers to savers/investors.
+  </text>
+  <arg n="1">Customers</arg>
+  <rel>degenerate</rel>
+  <arg f="from" n="3">borrowers</arg>
+  <arg f="to" n="4">savers/investors</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

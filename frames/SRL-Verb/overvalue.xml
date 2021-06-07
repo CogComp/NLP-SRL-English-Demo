@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="overvalue">
+<note>
+  Frames file for 'overvalue' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="overvalue.01" name="to assign too high a value to"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity overvalued"/>
+</roles>
+
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+ He found 85 still overvalued [*] and 15 fairly valued [*] .
+</text>
+	<arg n="M" f="TMP">still</arg>
+	<rel>overvalued</rel>
+	<arg n="1">[*] ->  85</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

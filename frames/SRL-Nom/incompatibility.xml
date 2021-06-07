@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="incompatibility">
+<roleset id="incompatibility.01" name="nomlike" source="verb-argue.01" vncls="37.6">
+<roles>
+
+<role descr="speaker" n="0">
+<vnrole vncls="37.6" vntheta="Actor1"/></role>
+
+<role descr="theme/argument" n="1">
+<vnrole vncls="37.6" vntheta="Topic"/></role>
+
+<role descr="listener" n="2">
+<vnrole vncls="37.6" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the incompatibility between sitcom preachiness and Mr. Mason 's
+comic persona
+</text>
+<rel>incompatibility</rel>
+<arg n="0">between sitcom preachiness and Mr. Mason 's comic persona</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,98 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="dream">
+<note>
+  Frames file for 'dream' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="dream.01" vncls="-" name="dream">
+<roles>
+  <role n="0"  descr="dreamer"/>
+  <role n="1"  descr="dream"/>
+</roles>
+
+<example name="dream about">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    I even dreamt about school and new things to do with my
+    students.'' 
+</text>
+        <arg n="0">I</arg>
+        <arg n="M" f="DIS">even</arg>
+        <rel>dreamt</rel>
+        <arg n="1" f="about">school and new things to do with my
+        students</arg> 
+</example>
+
+<example name="dream of"> 
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    It's one more, too, for the fans who *trace* dream of a season
+that never ends. 
+</text>
+        <arg n="0">*trace* ->  who ->  the fans</arg>
+        <rel>dream</rel>
+        <arg n="1" f="of">a season that  never ends</arg>
+</example>
+
+<note>
+This roleset can also take a cognate NP arg1: "dream a little dream of
+me." 
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="dream_up">
+
+<roleset id="dream.02" vncls="-" name="come up with, devise, create">
+<roles>
+  <role n="0"  descr="dreamer"/>
+  <role n="1"  descr="thing dreamed up"/>
+</roles>
+
+<example name="living in a dream world">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    To further load the stakes, Mr. Lane dreamed up a highly
+    improbable romance for the Artist, with a young woman who owns her
+    own children's shop and who lives in an expensive high-rise
+    apartment building. 
+</text>
+        <arg n="0">Mr. Lane</arg>
+        <rel>[ dreamed] [ up]</rel>
+        <arg n="1">a highly improbable romance for the Artist, with a
+        young woman who owns her own children's shop and who lives in
+        an expensive high-rise apartment building</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="dream_on">
+
+<roleset id="dream.03" vncls="-" name="continue dreaming">
+<roles>
+  <role n="0"  descr="dreamer"/>
+</roles>
+
+<example name="this really occurred">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="full"/>
+<text>
+    *trace* Dream on. 
+</text>
+        <arg n="0">*trace*</arg>
+        <rel>[ Dream] [ on]</rel>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

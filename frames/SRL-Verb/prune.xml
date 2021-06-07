@@ -1,0 +1,69 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prune">
+<note>
+  Frames file for 'prune.01' based on sentences in wsj.  Verbnet
+  entries 21.2 and 10.4.1.
+</note>
+
+<roleset id="prune.01" vncls="21.2 10.4.1" name="remove branches">
+<roles>
+  <role n="0"  descr="agent">
+		<vnrole vncls="10.4.1" vntheta="Agent"/>
+		<vnrole vncls="21.2" vntheta="Agent"/>
+  </role>
+  <role n="1"  descr="branches">
+		<vnrole vncls="10.4.1" vntheta="Theme"/>
+		<vnrole vncls="21.2" vntheta="Patient"/>
+  </role>
+  <role n="2"  descr="whole plant">
+		<vnrole vncls="10.4.1" vntheta="Source"/>
+  </role>
+  <role n="3"  descr="instrument, pruning shears">
+                <vnrole vncls="21.2" vntheta="Instrument"/>
+  </role>
+</roles>
+
+<example name="usual usage">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    ``We aren't inclined [*-1] to prune stock portfolios now,'' says
+    Steven G. Einhorn, chairman of the investment policy committee of
+    Goldman, Sachs &amp; Co. 
+</text>
+        <arg n="0">[*-1] ->  We</arg>
+        <rel>prune</rel>
+        <arg n="2">stock portfolios</arg>
+        <arg n="M" f="TMP">now</arg>
+</example>
+
+<example name="with branches">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     John pruned all the blooming flowers off the rose bush, leaving
+     only the deadheads.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >pruned</rel>
+  <arg n="1"        >all the blooming flowers</arg>
+  <arg n="2" f="off">the rose bush</arg>
+  <arg n="m" f="ADV">leaving on the deadheads</arg>
+</example>
+
+<example name="with instrument">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     John pruned the rosebushes with a chainsaw.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >pruned</rel>
+  <arg n="2"        >the rosebushes</arg>
+  <arg n="3" f="with">a chainsaw</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

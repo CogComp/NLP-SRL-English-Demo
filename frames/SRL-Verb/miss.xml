@@ -1,0 +1,79 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="miss">
+<note>
+  Frames file for 'miss' based on sentences in financial subcorpus.
+  Verbnet entries 31.2, 47.8; other framed members include despise,
+  dislike, enjoy, favor, fear, love, resent; contain, dominate,
+  surround and top.  No Framenet entry.  Comparison with 'love' and
+  'surround'.
+</note>
+
+<roleset id="miss.01" name="long for" vncls="31.2">
+<roles>
+  <role descr="person experiencing emotion" n="0">
+		<vnrole vncls="31.2" vntheta="Experiencer"/>
+  </role>
+
+  <role descr="thing longed for" n="1">
+		<vnrole vncls="31.2" vntheta="Cause"/>
+  </role>
+
+</roles>
+
+<example name="Romeo, Romeo, where art thou Romeo?">
+<inflection aspect="ns" form="full" person="third" tense="present" voice="active"/>
+<text>
+    Moreover, the price volatility that is amplified by program
+    trading is undercutting efforts to woo individual investors back
+    to an OTC market that *trace* sorely misses them. 
+</text>
+        <arg n="0">*trace* -&gt;  that -&gt;  an OTC market</arg>
+        <arg f="MNR" n="M">sorely</arg>
+        <rel>misses</rel>
+        <arg n="1">them</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="miss.02" name="not hit, skip" vncls="-">
+<roles>
+  <role descr="misser" n="0"/>
+  <role descr="missed" n="1"/>
+  <role descr="instrument" n="2"/>
+</roles>
+
+<example name="oops">
+<inflection aspect="perfect" form="participle" person="third" tense="present" voice="active"/>
+<text>
+    The company has already missed its initial Oct. 1 target date for
+    completing the merger. 
+</text>
+        <arg n="0">The company</arg>
+        <arg f="TMP" n="M">already</arg>
+        <rel>missed</rel>
+        <arg n="1">its initial Oct. 1 target date for  completing the
+        merger</arg> 
+</example>
+
+<example name="you sank my battleship!">
+  <inflection aspect="ns" form="full" person="ns" tense="past" voice="active"/>
+  <text>
+    Mary missed John with the hammer.
+  </text>
+  <arg n="0">Mary</arg>
+  <rel>missed</rel>
+  <arg n="1">John</arg>
+  <arg f="with" n="2">the hammer</arg>
+</example>
+
+<note>
+Latter example is a little weird, but serves to distinguish the rolesets.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

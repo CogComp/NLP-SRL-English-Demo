@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="repeal">
+<note>
+  Frames file for 'repeal' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="repeal.01" name="to revoke, annul"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity repealed"/>
+</roles>
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Thus , with one brief passage in an appropriations bill , Congress repeals the president 's power [*] to make recess appointments under Article II .
+</text>
+	<arg n="M" f="DIS">Thus</arg>
+	<arg n="M" f="MNR">with one brief passage in an appropriations bill</arg>
+	<arg n="0">Congress</arg>
+	<rel>repeals</rel>
+	<arg n="1">the president 's power [*] to make recess appointments under Article II</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

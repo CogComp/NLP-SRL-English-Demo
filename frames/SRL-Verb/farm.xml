@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="farm">
+<note>
+  Frames file for 'farm' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="farm.01" name="to cultivate or produce a crop on"
+vncls="-">
+<roles>
+  <role n="0"  descr="farmer"/>
+  <role n="1"  descr="land"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ He farms 12 acres in Grabowiec , two miles from the Soviet border in one of Poland 's poorest places .
+</text>
+	<arg n="0">He</arg>
+	<rel>farms</rel>
+	<arg n="1">12 acres in Grabowiec , two miles from the Soviet border in one of Poland 's poorest places</arg>
+</example>
+</roleset>
+</predicate>
+
+<predicate lemma="farm_out">
+<roleset id="farm.02" name="to subcontract"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="work"/>
+ <role n="2"  descr="contractor"/>
+</roles>
+
+
+
+<example name="all arguments">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+ The move is consistent with a trend for corporate legal staffs to do more work in-house , instead of [*-1] farming it out to law firms .
+</text>
+	<arg n="0">[*-1] ->  corporate legal staffs</arg>
+	<rel>[ farming] [ out]</rel>
+	<arg n="1">it</arg>
+	<arg n="2" f="to">law firms</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

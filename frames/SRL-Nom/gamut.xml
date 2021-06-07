@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gamut">
+<roleset id="gamut.01" name="nom/partitive-quant" source="verb-vary.01">
+<roles>
+
+<role descr="causer of motion" n="0"></role>
+
+<role descr="thing moving" n="1"></role>
+
+<role descr="ext or mnr" n="2"></role>
+
+<role descr="low point" n="3"></role>
+
+<role descr="high point" n="4"></role>
+
+<role descr="medium" n="5"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The show runs the gamut , from a blender to chairs to a model of
+the Citicorp building .
+</text>
+<arg n="1">The show</arg>
+<arg n="Support">runs</arg>
+<rel>gamut</rel>
+<arg n="3">from a blender</arg>
+<arg n="4">to chairs</arg>
+<arg n="4">to a model of the Citicorp building</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

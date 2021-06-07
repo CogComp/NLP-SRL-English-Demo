@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="word">
+<note>
+  Frames file for 'word' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="word.01" name="to express in words "
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="text"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ But Robert Gabele , president of Invest\/Net , a North Miami , Fla. , company that [*T*-6] packages and sells the insider-trading data , said [0] the proposal is worded [*-4] so vaguely that key officials may fail [*-1] to file the reports .
+</text>
+	<rel>worded</rel>
+	<arg n="1">[*-4] ->  the proposal</arg>
+	<arg n="M" f="MNR">so vaguely that key officials may fail [*-1] to file the reports</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

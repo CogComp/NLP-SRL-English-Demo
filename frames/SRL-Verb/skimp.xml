@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="skimp">
+<note>
+  Frames file for 'skimp' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="skimp.01" name="to use less than is necessary" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity used"/>
+</roles>
+
+<example name="automatically generated">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Compaq 's notebooks , by contrast , may be the first in their weight class not to skimp on features found [*] in much bigger machines .
+</text>
+	<arg n="0">Compaq 's notebooks</arg>
+	<arg n="M" f="NEG">not</arg>
+	<rel>skimp</rel>
+	<arg n="1" f="on">features found [*] in much bigger machines</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

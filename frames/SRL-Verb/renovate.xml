@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="renovate">
+<note>
+  Frames file for 'renovate' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="renovate.01" vncls="-" name="make new-looking">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing becoming new"/>
+</roles>
+
+<example name="nice and clear">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    State and city officials are still negotiating with developers
+    [*-1] to renovate historic theaters and build and operate a
+    merchandise mart and hotel. 
+</text>
+        <arg n="0">[*-1] ->  State and city officials</arg>
+        <rel>renovate</rel>
+        <arg n="1">historic theaters</arg>
+</example>
+
+<note>
+Many cases with tough trace chains.  Be careful, and don't be afraid
+to leave infinitives without and explicit agent (arg0: *, in other
+words). 
+</note>
+
+</roleset>
+</predicate>
+</frameset>

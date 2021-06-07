@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="impact">
+<note>
+  Frames file for 'impact' based on sentences in financial subcorpus.
+  No Verbnet entry.  Comparison with 'hit' and 'affect'.
+</note>
+
+<roleset id="impact.01" name="have an effect on">
+<roles>
+  <role n="0"  descr="thing affecting"/>
+  <role n="1"  descr="thing affected"/>
+</roles>
+
+<example name="transitive">
+<text>
+    ``They may believe this can impact contract negotiations...''
+</text>
+        <arg n="0">this</arg>
+        <arg n="M" f="MOD">can</arg>
+        <rel>impact</rel>
+        <arg n="1">contract negotiations</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="impact.02" name="hit, strike">
+<roles>
+  <role n="1"  descr="thing hit"/>
+  <role n="2"  descr="instrument, thing hit by or with"/>
+</roles>
+
+<example name="poor John">
+  <text>
+    The slushball impacted John right in the face.
+  </text>
+  <arg n="2"        >The slushball</arg>
+  <rel              >impacted</rel>
+  <arg n="1"        >John</arg>
+  <arg n="m" f="LOC">right in the face</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

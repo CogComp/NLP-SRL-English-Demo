@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="nurture">
+<note>
+  Frames file for 'nurture' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="nurture.01" name="help grow, develop" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity nurtured"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ He also vowed [*-3] to `` make every effort [*] to nurture ... a constructive new relationship that [*T*-2] has been forged [*-1] with participating employee groups . ''
+</text>
+	<arg n="0">[*] ->  [*-3] ->  He</arg>
+	<rel>nurture</rel>
+	<arg n="1">a constructive new relationship that [*T*-2] has been forged [*-1] with participating employee groups</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

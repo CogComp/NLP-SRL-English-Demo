@@ -1,0 +1,162 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<note>
+Frames for MATCH as developed by Christiane Fellbaum and
+refined by Martha Palmer and Paul Kingsbury
+</note>
+
+<predicate lemma="match">
+<roleset id="match.01" name="match">
+<roles>
+  <role n="0" descr="person performing match"/>
+  <role n="1" descr="matching objects"/>
+</roles>
+
+<note>
+Alternations:
+</note>
+
+<example name="Arg0 Arg1">
+  <text>
+    The architect matched the paint and the wallpaper
+  </text>
+  <arg n="0">The architect</arg>
+  <rel      >matched</rel>
+  <arg n="1">the paint and the wallpaper</arg>
+</example>
+
+<example name="Arg0 Arg1 Arg1-WITH">
+  <text>
+    The architect matched the paint with the wallpaper
+  </text>
+  <arg n="0">The architect</arg>
+  <rel      >matched</rel>
+  <arg n="1">the paint</arg>
+  <arg n="1" f="WITH">with the wallpaper</arg>
+</example> 
+
+<example name="Arg0 Arg1 Arg1-TO">
+  <text>
+    The architect matched the paint to the wallpaper
+  </text>
+  <arg n="0">The architect</arg>
+  <rel      >matched</rel>
+  <arg n="1">the paint</arg>
+  <arg n="1" f="TO">to the wallpaper</arg>
+</example> 
+
+<example name="Arg0 Arg1 Arg1-WITH">
+  <text>
+    The architect matched the wallpaper with the paint 
+  </text>
+  <arg n="0">The architect</arg>
+  <rel      >matched</rel>
+  <arg n="1">the wallpaper</arg>
+  <arg n="1" f="WITH">with the paint</arg>
+</example>
+
+<example name="Arg0 Arg1 Arg1-TO">
+  <text>
+    The architect matched the wallpaper to the paint 
+  </text>
+  <arg n="0">The architect</arg>
+  <rel      >matched</rel>
+  <arg n="1">the wallpaper</arg>
+  <arg n="1" f="TO">to the paint</arg>
+</example>
+
+<example name="Arg0 Arg1">
+  <text>
+    The architect matched them 
+  </text>
+  <arg n="0">The architect</arg>
+  <rel      >matched</rel>
+  <arg n="1">them</arg>
+</example>
+
+<example name="Arg1">
+  <text>
+    The paint and the wallpaper matched 
+  </text>
+  <arg n="1">The paint and the wallpaper</arg>
+  <rel      >matched</rel>
+</example>
+
+<example name="Arg1 Arg1">
+  <text>
+    The paint matches the wallpaper
+  </text>
+  <arg n="1">The paint</arg>
+  <rel      >matches</rel>
+  <arg n="1">the wallpaper</arg>
+</example>
+
+<example name="Arg1 Arg1">
+  <text>
+    The wallpaper matches the paint
+  </text>
+  <arg n="1">The wallpaper</arg>
+  <rel      >matches</rel>
+  <arg n="1">the paint</arg>
+</example>
+  
+<example name="Arg0 Arg1">
+  <text>
+    The company matched Kodak's higher prices.
+  </text>
+  <arg n="0">The company</arg>
+  <rel      >matched</rel>
+  <arg n="1">Kodak's higher prices</arg>
+</example>
+
+<note>
+(The idea in (6) above is that the second Arg1 (presumably the company's prices)
+ is unstated but fairly easily recoverable.  This happens a lot in real usage.)
+</note>
+
+<note>
+The matched items all have the same status as arguments/semantic roles. 
+This can be seen from the fact that they can be expressed conjointly, as
+in sentences 3,4. (This is similar to reciprocals like John kissed Mary/
+John and Mary kissed) and also byt the fact that (5a) and (5b) have the 
+same meaning. 
+There is a difference with respect to Figure/Ground 
+mapping (sentence 2), but the PA tagger does not provide for this. 
+</note>
+
+<note>
+There are passives
+
+(6a) The paint is matched (by the wallpaper)
+(6b) The wallpaper is matched (by the paint)
+
+but these are adjectival, not verbal, as the tests show: 
+
+The paint was unmatched 
+The paint is well matched
+*At noon, the paint was matched my the wallpaper
+
+Therefore, (6) are predicative sentences, and the participle is 
+an adjective, just like "peeling." So the (optional) by-phrase 
+is an adverbial; the noun in the by-phrase is not an A0 (agent) 
+argument.
+
+(6a) The paint is [matched (by the wallpaper)]
+                   AdjP
+(6b) The wallpaper is [matched (by the paint)]
+                      AdjP 
+
+(And therefore these cases are not to be tagged--Paul)
+</note>
+
+</roleset>
+</predicate>
+</frameset>
+
+
+
+
+
+

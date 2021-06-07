@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="tackle">
+<note>
+  Frames file for 'tackle' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="tackle.01" name="to deal with" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing tackled"/>
+  <role n="2"  descr="means, strategy"/>
+</roles>
+
+<example name="arbitrary subject">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ With lipsticks , liners , lotions and creams , There are still beauty plans left [0] [*] to tackle [*T*-1] : But as the years go by , it seems That before I paint , I should spackle .
+</text>
+	<arg n="0">[*]</arg>
+	<rel>tackle</rel>
+	<arg n="1">[*T*-1] ->  [0] ->  beauty plans</arg>
+</example>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ The program is n't afraid [*-1] to tackle controversial topics such as nuclear weapons and the environment .
+</text>
+	<arg n="0">[*-1] ->  The program</arg>
+	<rel>tackle</rel>
+	<arg n="1">controversial topics such as nuclear weapons and the environment</arg>
+</example>
+
+
+<example name="with Arg2">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+ International Business Machines Corp. unveiled a broad strategy [0] [*T*-2] to tackle the biggest problem that manufacturers face [*T*-1] when [*] computerizing their operations [*T*-3] : Most machines ca n't talk to each other .
+</text>
+	<arg n="2">[*T*-2] ->  [0] ->  a broad strategy</arg>
+	<rel>tackle</rel>
+	<arg n="1">the biggest problem that manufacturers face [*T*-1] when [*] computerizing their operations [*T*-3] : Most machines ca n't talk to each other</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

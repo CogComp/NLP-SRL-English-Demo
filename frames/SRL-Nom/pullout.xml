@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pullout">
+<roleset id="pullout.01" name="try to) cause motion" source="verb-pull.01">
+<roles>
+
+<role descr="puller" n="0"></role>
+
+<role descr="thing pulled" n="1"></role>
+
+<role descr="dir or attribute of arg1" n="2"></role>
+
+<role descr="ext, distance moved" n="3"></role>
+
+<role descr="goal, placed moved to" n="4"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+a complete Syrian troop pullout from Lebanon , where about 70,000
+people marched to the headquarters of Christian leader Aoun to
+support his rejection of a peace plan approved Sunday by Lebanon
+'s legislature
+</text>
+<arg n="0">Syrian</arg>
+<arg n="1">troop</arg>
+<arg n="2">pullout</arg>
+<rel>pullout</rel>
+<arg n="4">
+from Lebanon , where about 70,000 people marched to the
+headquarters of Christian leader Aoun to support his rejection of
+a peace plan approved Sunday by Lebanon 's legislature</arg>
+</example>
+
+<example name="autogen3">
+<text>
+a Syrian troop pullout from Lebanon
+</text>
+<arg n="0">Syrian</arg>
+<arg n="1">troop</arg>
+<arg n="2">pullout</arg>
+<rel>pullout</rel>
+<arg n="4">from Lebanon</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

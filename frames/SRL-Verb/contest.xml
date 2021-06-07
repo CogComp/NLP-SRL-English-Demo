@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="contest">
+<note>
+  Frames file for 'contest' based on sentences in wsj.  No Verbnet
+  entry. 
+</note>
+
+<roleset id="contest.01" vncls="-" name="challenge">
+<roles>
+  <role n="0"  descr="challenger"/>
+  <role n="1"  descr="challenged"/>
+</roles>
+
+<example name="ridiculously easy, really">
+<inflection person="third" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+    The company is contesting the fine.
+</text>
+        <arg n="0">The company</arg>
+        <rel>contesting</rel>
+        <arg n="1">the fine</arg>
+</example>
+
+<note>
+A few adjectival usages (a hotly-contested race) have crept in--ignore
+them, but leave the automatic tagging.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

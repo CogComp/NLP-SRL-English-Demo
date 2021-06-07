@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="scour">
+<note>
+  Frames file for 'scour' based on sentences in financial subcorpus.
+  Verbnet entry wipe_manner-10.4.1, other framed members include
+  squeeze and trim.
+</note>
+
+<roleset id="scour.01" name="clean with harsh abrasives">
+<roles>
+  <role n="0"  descr="cleaner"/>
+  <role n="1"  descr="thing being cleaned"/>
+  <role n="2"  descr="instrument (ie abrasive)"/>
+</roles>
+
+<example name="ewwww">
+  <text>
+    John scoured his bathtub with sandpaper to get the soap scum off.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >scoured</rel>
+  <arg n="1"        >his bathtub</arg>
+  <arg n="2" f="with">sandpaper</arg>
+  <arg n="m" f="PRP">to get the soap scum off</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="scour.02" name="look very intently for">
+<roles>
+  <role n="0"  descr="searcher"/>
+  <role n="1"  descr="locale searched"/>
+  <role n="2"  descr="thing searched for"/>
+</roles>
+
+<example name="all args">
+<text>
+    He said that investors will scour the October employment report,
+    due out Friday, for clues about the direction of the economy and
+    the immediate outlook for interest rates. 
+</text>
+        <arg n="0">investors</arg>
+        <arg n="M" f="MOD">will</arg>
+        <rel>scour</rel>
+        <arg n="1">the October employment report, due out
+        Friday,</arg> 
+        <arg n="2" f="for">clues about the direction of the economy
+        and the immediate outlook for interest rates</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

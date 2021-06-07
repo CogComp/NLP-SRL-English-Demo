@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trudge">
+<note>
+  Frames file for 'trudge' based on sentences in wsj.  Verbnet entry
+  51.3.2, Framenet entry Self motion.
+</note>
+
+<roleset id="trudge.01" vncls="51.3.2." name="mode of motion">
+<roles>
+  <role n="0"  descr="entity in motion"/>
+  <role n="1"  descr="path"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+    Call it the uninformed trudging after the incomprehensible.
+</text>
+        <arg n="0">the uninformed</arg>
+        <rel>trudging</rel>
+        <arg n="M" f="DIR">after the incomprehensible</arg>
+</example>
+
+
+<example name="with path, sorta">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Unlike other writers who either battled the fascists during the
+    Civil War, or left Spain when Franco triumphed, Mr. Cela fought
+    briefly on the general's side, no doubt earning with his war wound
+    some forbearance when he went on to depict a country with a high
+    population of vagabonds, murderers and rural idiots trudging
+    aimlessly through a dried-out land. 
+</text>
+        <arg n="0">vagabonds , murderers and rural idiots</arg>
+        <rel>trudging</rel>
+        <arg n="M" f="MNR">aimlessly</arg>
+        <arg n="1" f="through">a dried-out land</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

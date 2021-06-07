@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="feud">
+<note>
+  Frames file for 'feud' based on sentences in wsj.  Verbnet entry 36.1.
+</note>
+
+<roleset id="feud.01" vncls="36.1" name="fight constantly">
+<roles>
+  <role n="0"  descr="first fighter"/>
+  <role n="1"  descr="second fighter, if separate"/>
+  <role n="2"  descr="spoils or point of contention"/>
+</roles>
+
+<example name="merged combatants">
+<inflection person="ns" tense="present" aspect="both" voice="active" form="participle"/>
+<text>
+    Mr. Blair and Hees have been feuding for months. 
+</text>
+        <arg n="0">Mr. Blair and Hees</arg>
+        <rel>feuding</rel>
+        <arg n="M" f="TMP">for months</arg>
+</example>
+
+<example name="separated combatants">
+<inflection person="third" tense="present" aspect="both" voice="active" form="participle"/>
+<text>
+    Mr. Tonkin, who *trace* has been feuding with the Big Three since
+    he took office earlier this year, said that with half of the
+    nation's dealers losing money or breaking even, it was time for
+    ``emergency action.'' 
+</text>
+        <arg n="0">*trace* ->  who ->  Mr. Tonkin</arg>
+        <rel>feuding</rel>
+        <arg n="1" f="with">the Big Three</arg>
+        <arg n="M" f="TMP">since he took office earlier this year</arg>
+</example>
+
+
+<example name="with point of contention">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    But more recently, the Pentagon and the Commerce Department openly
+    feuded over the extent to which Cocom should liberalize exports of
+    personal computers to the bloc. 
+</text>
+        <arg n="M" f="DIS">But</arg>
+        <arg n="M" f="TMP">more recently</arg>
+        <arg n="0">the Pentagon and the Commerce Department</arg>
+        <arg n="M" f="MNR">openly</arg>
+        <rel>feuded</rel>
+        <arg n="2" f="over">the extent to which Cocom should
+        liberalize exports of personal computers to the bloc </arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

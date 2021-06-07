@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="phase-out">
+<roleset id="phase-out.01" name="eliminate" source="verb-phase.01">
+<roles>
+
+<role descr="eliminator" n="0"></role>
+
+<role descr="thing eliminated" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the phase-out of a battery facility in Greenville , N.C.
+</text>
+<rel>phase-out</rel>
+<arg n="1">of a battery facility in Greenville , N.C.</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

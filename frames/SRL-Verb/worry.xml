@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="worry">
+<note>
+  Frames file for 'worry' based on annotation-on-the-fly of the
+  financial subcorpus.
+</note>
+
+<roleset id="worry.01" name="worry" vncls="31.1 31.3">
+<roles>
+  <role descr="worrier" n="0">
+		<vnrole vncls="31.1" vntheta="Experiencer"/>
+		<vnrole vncls="31.3" vntheta="Experiencer"/>
+  </role>
+
+  <role descr="worry about" n="1">
+		<vnrole vncls="31.1" vntheta="Cause"/>
+		<vnrole vncls="31.3" vntheta="Cause"/>
+  </role>
+
+  <role descr="reason for worrying" n="A"/>
+</roles>
+
+<example name="no reason">
+  <text>
+  John's mother worries constantly.
+  </text>
+  <arg n="0">John's mother</arg>
+  <rel>worries</rel>
+  <arg f="TMP" n="m">constantly</arg>
+</example>
+
+<example name="worry about">
+  <text>
+  John's mother worries constantly about her baby.
+  </text>
+  <arg n="0">John's mother</arg>
+  <rel>worries</rel>
+  <arg f="TMP" n="m">constantly</arg>
+  <arg f="about" n="1">her baby</arg>
+</example>
+
+<example name="Arg0 object">
+  <text>
+  Mr. Rowe also noted that political concerns also worried New England
+  Electric.
+  </text>
+  <arg n="1">political concerns</arg>
+  <arg f="DIS" n="m">also</arg>
+  <rel>worried</rel>
+  <arg n="0">New England Electric.</arg>
+</example>
+
+<example name="with ArgA">
+  <inflection aspect="ns" form="full" person="ns" tense="past" voice="active"/>
+  <text>
+    John worried his mother with his habit of talking to strangers.
+  </text>
+  <arg n="A">John</arg>
+  <rel>worried</rel>
+  <arg n="0">his mother</arg>
+  <arg f="with" n="1">his habit of talking to strangers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

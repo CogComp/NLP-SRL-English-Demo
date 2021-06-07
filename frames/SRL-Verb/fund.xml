@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="fund">
+<note>
+  Frames file for 'fund' based on survey of sentences in financial
+  subcorpus and comparison with 'finance.'  No verbnet entry.
+</note>
+
+<roleset id="fund.01" name="provide money for, get money for">
+<roles>
+  <role n="0"  descr="financ(i)er"/>
+  <role n="1"  descr="thing financed"/>
+  <role n="2"  descr="money"/>
+</roles>
+
+<example name="active">
+  <text>
+    Cray Research did not want *trace* to fund a project that did not
+    include Seymour.
+  </text>
+  <arg n="0"        >*trace*=Cray Research</arg>
+  <rel              >fund</rel>
+  <arg n="1"        >a project that did not include Seymour.</arg>
+</example>
+
+<example name="passive, with instrument (money)">
+  <text>
+    The contributions were funded *trace* by monthly payments of
+    $1,000 to $2,000 to Appleyard.
+  </text>
+  <arg n="1"        >*trace*=The contributions</arg>
+  <rel              >funded</rel>
+  <arg n="2" f="by">monthly payments of
+    $1,000 to $2,000 to Appleyard.</arg>
+</example>
+
+<example name="instrumental subject">
+  <text>
+    Of the proceeds, $500 million will be used *trace* to fund its
+    tender offer.
+  </text>
+  <arg n="2"        >*trace*=$500 million</arg>
+  <rel              >fund</rel>
+  <arg n="1"        >its tender offer.</arg>
+</example>
+
+<example name="all args">
+  <text>
+    Orkem, France's third-largest chemical group, said it would fund
+    the acquisition through internal resources.
+  </text>
+  <arg n="0"        >it</arg>
+  <arg n="m" f="MOD">would</arg>
+  <rel              >fund</rel>
+  <arg n="1"        >the acquisition</arg>
+  <arg n="2" f="through">internal resources</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

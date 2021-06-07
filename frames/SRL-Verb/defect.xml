@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="defect">
+<note>
+  Frames file for 'defect' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="defect.01" name="to abandon a position or association"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity defected from"/>
+  <role n="2"  descr="entity defected to"/>
+</roles>
+
+<example name="with Arg2">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+ The latter comes from the perception [*ICH*-1] , on the part of many people in network TV , that their only hope of [*] keeping viewers from [*-2] defecting to cable is [*] to fill the airwaves with an increasingly raw sensationalism .
+</text>
+	<arg n="0">[*-2] ->  viewers</arg>
+	<rel>defecting</rel>
+	<arg n="2" f="to">cable</arg>
+</example>
+
+
+<example name="intransitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ In last week 's House vote , 41 Republicans defected .
+</text>
+	<arg n="M" f="LOC">In last week 's House vote</arg>
+	<arg n="0">41 Republicans</arg>
+	<rel>defected</rel>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

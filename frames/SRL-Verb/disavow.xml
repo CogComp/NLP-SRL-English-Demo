@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="disavow">
+<note>
+  Frames file for 'disavow' based on sentences in wsj.  No Verbnet
+  entry. 
+</note>
+
+<roleset id="disavow.01" vncls="-" name="disclaim knowledge of,
+  responsibility for, or association with; repudiate">
+<roles>
+  <role n="0"  descr="disavower"/>
+  <role n="1"  descr="thing disavowed"/>
+</roles>
+
+<example name="the one example">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    But when the judge received his payment book, he disavowed the
+    deal. 
+</text>
+        <arg n="0">he</arg>
+        <rel>disavowed</rel>
+        <arg n="1">the deal</arg>
+</example>
+
+<note>
+And I don't think that usage even reflects the dictionary definition.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

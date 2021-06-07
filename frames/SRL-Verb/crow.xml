@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="crow">
+<note>
+  Frames file for 'crow'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="crow.01" name="to gloat or boast"
+vncls="37.3">
+<roles> 
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity crowed about"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Ford officials , for example , crowed about their first-ever Tokyo Grand Prix racing victory .
+</text>
+	<arg n="0">Ford officials</arg>
+	<arg n="M" f="DIS">for example</arg>
+	<rel>crowed</rel>
+	<arg n="1" f="about">their first-ever Tokyo Grand Prix racing victory</arg>
+</example>
+
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

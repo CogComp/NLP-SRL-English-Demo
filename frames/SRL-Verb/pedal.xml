@@ -1,0 +1,72 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="pedal">
+<note>
+  Frames file for 'pedal' based on sentences in wsj.  Verbnet entry
+  51.4.2, Framenet entry Transportation.
+</note>
+
+<roleset id="pedal.01" vncls="51.4.2" name="make a bicycle go">
+<roles>
+  <role n="0"  descr="pedaller"/>
+  <role n="1"  descr="bicycle"/>
+  <role n="2"  descr="path"/>
+</roles>
+
+<example name="with bicycle">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="gerund"/>
+<text>
+    This place is 12 miles into the back country -- a day-long trudge
+    for a hiker, but reached by Ms. Peterson and six others in a mere
+    two hours of *trace* pedaling fat-tired mountain bikes. 
+</text>
+        <arg n="0">*trace* ->  Ms. Peterson and six others</arg>
+        <rel>pedaling</rel>
+        <arg n="1">fat-tired mountain bikes</arg>
+</example>
+
+<example name="one kind of path">
+<inflection person="ns" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+     When they return to their desks at 1 p.m., they have pedaled 20
+     miles. 
+</text>
+        <arg n="M" f="TMP">When they return to their desks at 1 p.m. </arg>
+        <arg n="0">they</arg>
+        <rel>pedaled</rel>
+        <arg n="2">20 miles</arg>
+</example>
+
+<example name="another kind of path">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    They wanted a machine that would allow them to pedal into rugged
+    terrain then inaccessible to cycles. 
+</text>
+        <arg n="0">them</arg>
+        <rel>pedal</rel>
+        <arg n="2" f="into">rugged terrain then inaccessible to cycles</arg>
+</example>
+
+<example name="not a path!">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    Bikers -- many of them ardent environmentalists -- proclaim their
+    sport an efficient, safe, fitness-promoting way to get back to
+    nature, while asserting a right, as taxpayers, *trace* to pedal on
+    public lands. 
+</text>
+        <arg n="0">*trace* ->  Bikers -- many of them ardent
+        environmentalists --</arg> 
+        <rel>pedal</rel>
+        <arg n="M" f="LOC">on public lands</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

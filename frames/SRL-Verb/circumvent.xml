@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="circumvent">
+<note>
+  Frames file for 'circumvent' based on sentences in financial
+  subcorpus.  No Verbnet entry, no Framenet entry.  Comparison to
+  avoid.
+</note>
+
+<roleset id="circumvent.01" vncls="-" name="avoid, get around">
+<roles>
+  <role descr="avoider" n="0"/>
+  <role descr="thing avoided" n="1"/>
+</roles>
+
+<example name="really easy">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    IBM has no plans to recall its add-on cards, the spokeswoman said,
+    and could probably circumvent the bugs without long product
+    delays. 
+</text>
+        <arg n="0">IBM</arg>
+        <arg n="M" f="MOD">could</arg>
+        <arg n="M" f="DIS">probably</arg>
+        <rel>circumvent</rel>
+        <arg n="1">the bugs</arg>
+        <arg n="M" f="MNR">without long product delays</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

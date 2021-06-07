@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="dissect">
+<note>
+  Frames file for 'dissect' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="dissect.01" name="to examine or analyze"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity dissected"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="participle"/>
+<text>
+ He fusses endlessly over economic statistics , [*-1] dissecting them in dozens of ways , [*-1] probing for hours in search of potential problems .
+</text>
+	<arg n="0">[*-1] ->  He</arg>
+	<rel>dissecting</rel>
+	<arg n="1">them</arg>
+	<arg n="M" f="MNR">in dozens of ways</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

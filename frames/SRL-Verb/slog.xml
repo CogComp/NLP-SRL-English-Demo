@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="slog">
+<note>
+  Frames file for 'slog'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="slog.01" name="to walk or proceed  with a slow heavy pace"
+vncls="51.3.2">
+<roles> 
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity slogging through"/>
+</roles>
+
+<example name="both arguments">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ The petite , 29-year-old Ms. Johnson , dressed [*] in jeans and a sweatshirt as she slogs through the steady afternoon rain , is a claims adjuster with Aetna Life &amp; Casualty .
+</text>
+	<arg n="0">she</arg>
+	<rel>slogs</rel>
+	<arg n="1" f="through">the steady afternoon rain</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="credit-worthiness">
+<roleset id="credit-worthiness.01" name="attribute/nomadj-credit-worthy">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their credit-worthiness
+</text>
+<arg n="1">their</arg>
+<arg f="REF" n="2">credit-worthiness</arg>
+<rel>credit-worthiness</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the credit-worthiness of millions of American companies
+</text>
+<arg f="REF" n="2">credit-worthiness</arg>
+<rel>credit-worthiness</rel>
+<arg n="1">of millions of American companies</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

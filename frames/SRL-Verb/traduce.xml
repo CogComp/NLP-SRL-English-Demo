@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="traduce">
+<note>
+  Frames file for 'traduce' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="traduce.01" name="to badmouth, malign "
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity traduced"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ This is the U.N. group that [*T*-26] managed [*-1] to traduce its own charter of [*] promoting education , science and culture .
+</text>
+	<arg n="0">[*-1] ->  [*T*-26] ->  that ->  the U.N. group</arg>
+	<rel>traduce</rel>
+	<arg n="1">its own charter of [*] promoting education , science and culture</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

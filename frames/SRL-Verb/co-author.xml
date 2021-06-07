@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="co-author">
+<note>
+  Frames file for 'co-author'  based on transformation of frames for 'author'.
+  corpus. 
+</note>
+
+<roleset id="co-author.01" name="to write or construct jointly"
+vncls="-">
+<roles> 
+ <role n="0"  descr="one or all agents"/>
+ <role n="1"  descr="text authored"/>  
+ <role n="2"  descr="additional authors"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Although the proposal , co-authored [*] by Mr. Packwood and Sen. William Roth ( R. , Del. ) , appears [*-1] to have general backing by Republicans , their votes are n't sufficient [*] to pass it .
+</text>
+	<rel>co-authored</rel>
+	<arg n="1">[*] ->  the proposal</arg>
+	<arg n="0" f="by">Mr. Packwood and Sen. William Roth ( R. , Del. )</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga, transformed to co-author by Paul.
+</note>
+
+</frameset>
+

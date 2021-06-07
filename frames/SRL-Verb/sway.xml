@@ -1,0 +1,74 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="sway">
+<note>
+  Frames file for 'sway' based on sentences in wsj.  Verbnet entry
+  47.3, Framenet entry Suasion2.
+</note>
+
+<roleset id="sway.01" vncls="47.3" name="move ">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="thing swaying"/>
+  <role n="2"  descr="degree of motion"/>
+</roles>
+
+<example name="normally intransitive">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Suddenly the woman begins swaying and then writhing.
+</text>
+        <arg n="1">the woman</arg>
+        <rel>swaying</rel>
+</example>
+
+<example name="occasionally with EXT">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Staffers at Thompson, whose offices are in the ultramodern
+    Embarcadero Center, watched pictures drop from the walls and then
+    felt the skyscraper sway seven to eight feet, according to a
+    spokeswoman. 
+</text>
+        <arg n="1">the skyscraper</arg>
+        <rel>sway</rel>
+        <arg n="2" f="EXT">seven to eight feet</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="sway.02" vncls="-" name="persuade (per-sway-d?)">
+<roles>
+  <role n="0"  descr="persuader"/>
+  <role n="1"  descr="persuaded"/>
+</roles>
+
+<example name="cause to change mind">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    As a result, many of those now planning to leave Hong Kong can't
+    easily be swayed *trace* by momentary improvements in the colony's
+    political and economic climate. 
+</text>
+        <arg n="M" f="DIS">As a result</arg>
+        <arg n="M" f="MOD">ca</arg>
+        <arg n="M" f="NEG">n't</arg>
+        <arg n="M" f="MNR">easily</arg>
+        <rel>swayed</rel>
+        <arg n="1">*trace* ->  many of those now planning to leave
+        Hong Kong</arg> 
+        <arg n="0" f="by">momentary improvements in the colony's
+        political and economic climate</arg> 
+</example>
+
+<note>
+Never in active?
+</note>
+
+</roleset>
+</predicate>
+</frameset>

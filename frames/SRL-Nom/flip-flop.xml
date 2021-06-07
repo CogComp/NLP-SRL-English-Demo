@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="flip-flop">
+<roleset id="flip-flop.01" name="decide" source="verb-decide.01">
+<roles>
+
+<role descr="decider" n="0"></role>
+
+<role descr="decision" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the superpower flip-flop of the late 1970s on the Horn of Africa
+</text>
+<arg n="0">superpower</arg>
+<rel>flip-flop</rel>
+<arg f="TMP" n="M">of the late 1970s</arg>
+<arg n="1">on the Horn of Africa</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

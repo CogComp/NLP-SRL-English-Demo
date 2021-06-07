@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="squat">
+<note>
+  Frames file for 'squat' based on sentences in wsj.  Verbnet entries
+  47.6, 50; Framenet entries Residence and Posture.
+</note>
+
+<roleset id="squat.01" vncls="47.6 50" name="sit ungracefully">
+<roles>
+  <role n="1"  descr="thing sitting, squatting"/>
+  <role n="2"  descr="location"/>
+</roles>
+
+<example name="passive?">
+<inflection person="ns" tense="present" aspect="progressive" voice="passive" form="participle"/>
+<text>
+    ``But the Filipinos and the Americans, when I talk to them,
+    there's so much passion about Filipino manhood being diminished
+    *trace* as a result of *trace* being squatted upon *trace* by the
+    Americans and so on. 
+</text>
+        <rel>squatted</rel>
+        <arg n="2" f="upon">*trace* -> *trace* -> *trace* ->  Filipino manhood</arg>
+        <arg n="1" f="by">the Americans</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="squat.02" vncls="-" name="occupy a building illegally">
+<roles>
+  <role n="0"  descr="occupier"/>
+  <role n="1"  descr="occupied"/>
+</roles>
+
+<example name="I don't have a good feel for this example">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John squatted (in) Mary's house, hoping to get permission to move
+    in legally.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >squatted</rel>
+  <arg n="1" f="(in)">Mary's house</arg>
+  <arg n="m" f="ADV">hoping to get permission to move in legally</arg>
+</example>
+
+<note>
+I'm not sure if the preposition is necessary or even allowed.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

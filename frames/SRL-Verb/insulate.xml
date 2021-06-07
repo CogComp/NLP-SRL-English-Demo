@@ -1,0 +1,72 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="insulate">
+<note>
+  Frames file for 'insulate' based on survey of sentences in the
+ WSJ  corpus. Comparison with 'protect'.
+</note>
+
+<roleset id="insulate.01" name="protect from heat, cold, etc">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="protected"/>
+  <role n="2"  descr="protected from"/>
+  <role n="3"  descr="instrument"/>
+</roles>
+
+
+
+<example name="with instrument">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Polyurethane foam is a highly efficient insulator , which [*T*-2] accounts for why the walls of refrigerators and freezers can be thinner now than they were [*?*] back in the days when they were insulated [*-1] with glass fiber [*T*-3] [*T*-4] .
+</text>
+	<rel>insulated</rel>
+	<arg n="1">[*-1] ->  they</arg>
+	<arg n="3" f="with">glass fiber</arg>
+	<arg n="M" f="TMP">[*T*-3] ->  when ->  the days</arg>
+</example>
+
+
+<example name="with Arg2">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+ Separately , the company 's board adopted a proposal [*] to amend its 1986 shareholder rights plan , [*-1] further insulating the company from takeover .
+</text>
+	<arg n="0">[*-1] ->  the company 's board</arg>
+	<rel>insulating</rel>
+	<arg n="1">the company</arg>
+	<arg n="2" f="from">takeover</arg>
+</example>
+</roleset>
+
+<roleset id="insulate.02" name="isolate">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="isolated"/>
+  <role n="2"  descr="isolated from"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="perfect" voice="passive" form="participle"/>
+<text>
+ `` People in this business have been insulated [*-1] , '' says [*T*-2] Josh Pons , a horse breeder from Bel Air , Md .
+</text>
+	<rel>insulated</rel>
+	<arg n="1">[*-1] ->  People in this business</arg>
+</example>
+
+<note>
+  frames created by Olga
+</note>
+
+</roleset>
+</predicate>
+</frameset>
+
+
+
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="pipe">
+<note>
+  Frames file for 'pipe' based on sentences in wsj.  Verbnet entries
+  38 and 43.2, which are both classes of sound emission.  Huh?
+</note>
+
+<roleset id="pipe.01" vncls="-" name="transport in a pipe">
+<roles>
+  <role n="0"  descr="causer of motion"/>
+  <role n="1"  descr="thing in motion"/>
+  <role n="2"  descr="destination"/>
+  <role n="3"  descr="source"/>
+</roles>
+
+<example name="all args">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    In his lifetime, 47 years, the Communists brought electricity to
+    his village and piped in drinking water from the reservoir. 
+</text>
+        <arg n="M" f="TMP">In his lifetime, 47 years,</arg>
+        <arg n="0">the Communists</arg>
+        <rel>piped</rel>
+        <arg n="2" f="DIR">in</arg>
+        <arg n="1">drinking water</arg>
+        <arg n="3" f="from">the reservoir</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="pipe_up">
+
+<roleset id="pipe.02" vncls="-" name="begin speaking">
+<roles>
+  <role n="0"  descr="speaker"/>
+  <role n="1"  descr="utterance"/>
+</roles>
+
+<example name="incautious statement">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     ``Gee Mary,'' piped up John, ``those pants make your butt look
+     really huge.''
+  </text>
+  <rel              >piped up</rel>
+  <arg n="1"        >Gee Mary, those pants make your butt look really
+  huge</arg> 
+  <arg n="0"        >John</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="pipe_down">
+
+<roleset id="pipe.03" vncls="-" name="stop speaking">
+<roles>
+  <role n="0"  descr="(non-) speaker"/>
+</roles>
+
+<example name="shut up!">
+  <inflection person="ns" tense="ns" aspect="ns" voice="active" form="full"/>
+  <text>
+     ``*trace* Pipe down in there!'' yelled John at the raucous party.
+  </text>
+  <arg n="0"        >*trace*</arg>
+  <rel              >pipe down</rel>
+  <arg n="m" f="LOC">in there</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

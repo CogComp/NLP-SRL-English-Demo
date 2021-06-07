@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="deliberate">
+<note>
+  Frames file for 'deliberate' based on sentences in wsj.  No Verbnet
+  entry. 
+</note>
+
+<roleset id="deliberate.01" vncls="-" name="think about, as a judge">
+<roles>
+  <role n="0"  descr="thinker"/>
+</roles>
+
+<example name="only intransitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    The Senate will deliberate behind closed doors today and is
+    scheduled to vote on the impeachment tomorrow. 
+</text>
+        <arg n="0">The Senate</arg>
+        <arg n="M" f="MOD">will</arg>
+        <rel>deliberate</rel>
+        <arg n="M" f="LOC">behind closed doors</arg>
+        <arg n="M" f="TMP">today</arg>
+</example>
+
+<note>
+Higher #'d args?  Hard to say.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

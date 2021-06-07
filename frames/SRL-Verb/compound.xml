@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="compound">
+<note>
+  Frames file for 'compound' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="compound.01" name="to combine or increase" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="theme"/>
+</roles>
+
+
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ The proposal is just part of legislation that [*T*-1] would require businesses to provide health benefits , an idea that [*T*-2] is strongly opposed [*-4] by small business who [*T*-3] say [0] it would just compound the insurance-cost problems .
+</text>
+	<arg n="0">it</arg>
+	<arg n="M" f="MOD">would</arg>
+	<arg n="M" f="ADV">just</arg>
+	<rel>compound</rel>
+	<arg n="1">the insurance-cost problems</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

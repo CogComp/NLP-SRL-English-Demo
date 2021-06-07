@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="hoodwink">
+<note>
+  Frames file for 'hoodwink'  based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="hoodwink.01" name="to deceive"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent, causer"/>  
+  <role n="1"  descr="entity decieved"/>   
+  <role n="2"  descr="action deceived into"/>  
+</roles>
+
+
+<example name="all arguments">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ You depict the bill as something [0] Democratic leaders `` hoodwinked '' the administration into [*] endorsing [*T*-1] .
+</text>
+	<arg n="0">Democratic leaders</arg>
+	<rel>hoodwinked</rel>
+	<arg n="1">the administration</arg>
+	<arg n="2" f="into">[*] endorsing [*T*-1]</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

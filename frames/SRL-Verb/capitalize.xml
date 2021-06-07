@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="capitalize">
+<note>
+  Frames file for 'capitalize' based on sentences in financial
+  subcorpus.  No verbnet entry.  Comparison to 'take' and 'value'.
+</note>
+
+<roleset id="capitalize.01" name="assign a value">
+<roles>
+  <role n="0"  descr="assigner"/>
+  <role n="1"  descr="assigned to"/>
+  <role n="2"  descr="value"/>
+</roles>
+
+<example name="passivized">
+<text>
+    Some think Columbia's thrift, which now is seeking a new chief
+    operating officer, might be capitalized *trace* at, say $300
+    million, and shopped to a commercial bank that wants a California
+    presence. 
+</text>
+        <arg n="M" f="MOD">might</arg>
+        <rel>capitalized</rel>
+        <arg n="1">*trace* ->  Columbia's thrift, which now is seeking
+        a new chief operating officer,</arg> 
+        <arg n="M" f="DIS">, say</arg>
+        <arg n="2" f="at">$300 million</arg>
+</example>
+
+<note>
+You figure out the corresponding active.
+</note>
+
+</roleset>
+
+<roleset id="capitalize.02" name="take advantage of">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing exploited"/>
+</roles>
+
+<example name="take advantage of">
+<text>
+    Sales climbed 71% to $6.36 billion from $3.72 billion as the
+    company capitalized on the ravenous global demand for commercial
+    airliners. 
+</text>
+        <arg n="0">the company</arg>
+        <rel>capitalized</rel>
+        <arg n="1" f="on">the ravenous global demand for commercial
+        airliners</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

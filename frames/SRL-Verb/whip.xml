@@ -1,0 +1,90 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="whip">
+<note>
+  Frames file for 'whip' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="whip.01" name="to strike or force"
+vncls="-">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="entity whipped"/>
+  <role n="2"  descr="entity whipped into"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="participle"/>
+<text>
+ Ralph Neas was the organizing genius , [*-1] whipping a conglomerate of pressure groups into an irresistible attacking force .
+</text>
+	<arg n="0">[*-1] ->  Ralph Neas</arg>
+	<rel>whipping</rel>
+	<arg n="1">a conglomerate of pressure groups</arg>
+	<arg n="2" f="into">an irresistible attacking force</arg>
+</example>
+</roleset>
+</predicate>
+
+<predicate lemma="whip_out">
+<roleset id="whip.02" name="to take quickly"
+vncls="-">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="entity whipped"/>
+</roles>
+
+
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ After 11:30 a.m. or so `` we have them standing and waiting , '' she says [*T*-1] , as she whips out orders for hamburgers and the daily special ( grilled roast beef , cheese and jalapeno pepper sandwich on whole wheat , potato salad , baked beans and pudding , plus coffee or iced tea .
+</text>
+	<arg n="0">she</arg>
+	<rel>[ whips] [ out]</rel>
+	<arg n="1">orders for hamburgers and the daily special ( grilled roast beef , cheese and jalapeno pepper sandwich on whole wheat , potato salad , baked beans and pudding , plus coffee or iced tea</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<predicate lemma="whip_up">
+<roleset id="whip.03" name="to excite"
+vncls="-">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="entity whipped"/>
+</roles>
+
+
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="perfect" voice="active" form="full"/>
+<text>
+ But Saatchi 's troubles have only whipped up interest among outsiders interested [*] in [*] picking off pieces of its ad businesses .
+</text>
+	<arg n="M" f="DIS">But</arg>
+	<arg n="0">Saatchi 's troubles</arg>
+	<arg n="M" f="ADV">only</arg>
+	<rel>[ whipped] [ up]</rel>
+	<arg n="1">interest</arg>
+	<arg n="M" f="LOC">among outsiders interested [*] in [*] picking off pieces of its ad businesses</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

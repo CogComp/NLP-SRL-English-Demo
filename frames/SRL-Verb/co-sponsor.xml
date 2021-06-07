@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="co-sponsor">
+<note>
+  Frames file for 'co-sponsor'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="co-sponsor.01" name="to sponsor together with another sponsor"
+vncls="-">
+<roles> 
+  <role n="0"  descr="additional sponsor"/>    
+  <role n="1"  descr="entity sponsored"/>  
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Rep. Byron Dorgan ( D. , N.D . ) has introduced a bill [*ICH*-1] [*ICH*-2] in Congress , co-sponsored [*] by Rep. Lee Hamilton ( D. , Ind. ) , that [*T*-3] would put the treasury secretary back on the board .
+</text>
+	<rel>co-sponsored</rel>
+	<arg n="1">[*] ->  a bill</arg>
+	<arg n="0" f="by">Rep. Lee Hamilton ( D. , Ind. )</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

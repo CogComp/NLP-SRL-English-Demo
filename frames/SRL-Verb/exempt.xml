@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="exempt">
+<note>
+  Frames file for 'exempt' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="exempt.01" name="to free from an obligation"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity exempted"/>
+  <role n="2"  descr="entity exempted from"/>
+</roles>
+
+<example name="all arguments">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ They make the argument in letters to the agency about rule changes proposed [*] this past summer that , among other things , [*T*-1] would exempt many middle-management executives from [*-2] reporting trades in their own companies ' shares .
+</text>
+	<arg n="M" f="LOC">among other things</arg>
+	<arg n="0">[*T*-1] ->  that ->  rule changes</arg>
+	<arg n="M" f="MOD">would</arg>
+	<rel>exempt</rel>
+	<arg n="1">many middle-management executives</arg>
+	<arg n="2" f="from">[*-2] reporting trades in their own companies ' shares</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

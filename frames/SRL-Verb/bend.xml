@@ -1,0 +1,86 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="bend">
+<note>
+  Frames file for 'bend' based on sentences in wsj.  Verbnet entries
+  47.6, 26.5, 50, and 45.2; Framenet entries Body movement, Posture,
+  and Path shape.  Fortunately all of these fit into a single rolest.
+  I think.
+</note>
+
+<roleset id="bend.01" vncls="47.6 26.5 50 45.2" name="(cause to) form
+  a curve">
+<roles>
+  <role n="0"  descr="bender"/>
+  <role n="1"  descr="thing forming a curve"/>
+</roles>
+
+<example name="both args, and directional">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Even that met with Mr. Greenspan's disapproval because it might
+    subject the Fed ``to a more intensely political perspective'' and
+    ``could risk *trace* bending monetary policy away from long-term
+    strategic goals.'' 
+</text>
+        <arg n="0">*trace* ->  it</arg>
+        <rel>bending</rel>
+        <arg n="1">monetary policy</arg>
+        <arg n="M" f="DIR">away from long-term strategic goals</arg>
+</example>
+
+<example name="intransitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    But the legislation reflected a compromise agreed to on Tuesday by
+    President Bush and Democratic leaders in Congress, after
+    congressional Republicans urged the White House *trace* to bend a
+    bit from its previous resistance to compromise. 
+</text>
+        <arg n="0">*trace* ->  the White House</arg>
+        <rel>bend</rel>
+        <arg n="M" f="MNR">a bit</arg>
+        <arg n="M" f="DIR">from its previous resistance to compromise</arg>
+</example>
+
+<example name="ergative">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John continued to drive straight, even as the road bent.
+  </text>
+  <arg n="1"        >the road</arg>
+  <rel              >bent</rel>
+</example>
+
+<note>
+Sounds better with 'curved'.  Oh well, you get the point.
+</note>
+
+</roleset>
+
+<roleset id="bow.02" vncls="-" name="yield, give way">
+<roles>
+  <role n="0"  descr="thing giving way"/>
+  <role n="1"  descr="thing that succeeded"/>
+</roles>
+
+<example name="uncle!  uncle!">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Furthermore, it is also likely to encourage those on Capitol Hill
+    asking for cuts in the assistance to El Salvador if President
+    Cristiani does not bend to demands of the Marxist guerrillas. 
+</text>
+        <arg n="0">President Cristiani</arg>
+        <arg n="M" f="NEG">not</arg>
+        <rel>bend</rel>
+        <arg n="1" f="to">demands of the Marxist guerrillas</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

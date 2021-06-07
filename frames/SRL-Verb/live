@@ -1,0 +1,142 @@
+##PRELIMINARY LEXICAL ENTRY FOR "live"
+##CONSTRUCTED VIA LEVIN
+##EDITED THROUGH COMPARISON WITH INITIAL 27% OF "live.sents"
+##REQUIRES NEW 'ARGM' FUNCTION TAG ('-REC') TO DEAL WITH RECIPROCALS. 
+##(SEE BELOW FOR USE OF '-REC')
+
+
+
+##INTRANSITIVE
+
+##"John lives!"
+
+ARG0 REL 
+
+
+	##" ... the greatest analyst who * ever lived."
+
+	ARG0 (*=ARG0) ARGM-TMP REL
+
+
+
+##LOCATIVE
+
+##"John lives in Denver."
+##"John lives in an expensive high-rise apartment."
+##"John lives in a small community."
+##"The children live in foster homes."
+##"John lives there."
+
+ARG0 REL ARGM-LOC 
+
+
+	##" ... for a thinking person * to live among societies rooted in the past."
+
+	ARGO (*=ARG0) REL ARGM-among
+	##or '-LOC' ????
+
+
+	##"John lives where he works *T*."
+
+	ARG0 REL ARGM-LOC
+
+
+		##" ... where people want * to live *T*."
+	
+		ARGM-LOC ARG0 ('want') (*=ARG0) REL (*T*=ARGM-LOC) 
+
+
+	##WITH MODIFIER
+
+	##"John lived in rural areas many years."
+
+	ARG0 REL ARGM-LOC ARGM-TMP
+
+
+
+##MANNER
+
+##"John lives in poor conditions."
+##"John lives in hopes that he will win the lottery."
+##"John lives near the poverty level."
+##"John lives well."
+
+ARG0 REL ARGM-MNR
+
+
+	##'with' VARIANT
+
+	##"John has lived forever with this problem."
+
+	ARGO REL ARGM-TMP ARGM-with
+
+
+	##'by' VARIANT
+
+	##"Most retailers live by certain rules."
+
+	ARG0 REL ARGM-MNR
+	## OR: 'ARGM-by' ???
+
+
+### What about purpose clauses?						###
+### Investors ... lived to regret it.					###
+### I live for the weekend.					Paul	###
+
+### Similarly, what about:						###
+### Mr. Smith lived through the Blitz				Paul	###
+
+##SUBJECT RECIPROCAL VARIANT
+
+##"All Amreicans can live together."
+
+ARGO REL ARGM-MNR
+
+
+	##" ... * to live together."
+
+	(*=ARG0) REL ARGM-MNR
+
+
+	##WITH MODIFIER (MANNER)
+
+	##"All Amreicans can live together cooperatively."
+
+	ARGO REL ARGM-MNR ARGM-MNR
+
+
+
+##LIVE_ON
+
+##"Their legacy lives on."
+
+ARG0 REL 
+
+### This misses the more important type of live_on:			###
+### Grad students live on less than a dollar a day			###
+### This could be regarded as an ArgM-MNR again, but I'm not sure. Paul	###
+
+
+##LIVE_UP
+
+##"Brazil finally lives up to its potential."
+##"Mussolini failed to live up to his promise."
+##"John lived up to his responsibilities."
+
+ARG0 REL ARGM-to 
+
+### Problem--ArgM-to isn't one of our options.			Paul	###
+
+????????????????????????????????????????????????????
+
+
+##LEVIN PREDICTIONS NOT (YET) EXHIBITED
+
+
+##'there'-INSERTION ("EXISTENTIAL-AGENT" VARIANT)
+##"There lived a prince of legend."
+
+ARGA REL ARG0
+
+
+

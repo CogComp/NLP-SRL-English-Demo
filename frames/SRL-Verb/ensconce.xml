@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ensconce">
+<note>
+  Frames file for 'ensconce'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="ensconce.01" name="to settle"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>  
+  <role n="1"  descr="entity ensconced"/>  
+  <role n="2"  descr="place"/>  
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ The former congressman , who [*T*-2] resigned as speaker of the House after an investigation of his financial dealings , is ensconced [*-1] in his district office , maintained [*] by taxpayers on a $ 200,000 [*U*] allowance .
+</text>
+	<rel>ensconced</rel>
+	<arg n="1">[*-1] ->  The former congressman , who [*T*-2] resigned as speaker of the House after an investigation of his financial dealings ,</arg>
+	<arg n="2" f="in">his district office , maintained [*] by taxpayers on a $ 200,000 [*U*] allowance</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

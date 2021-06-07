@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="whoosh">
+<note>
+  Frames file for 'whoosh' based on sentences in wsj.  Verbnet entry 43.2.
+</note>
+
+<roleset id="whoosh.01" vncls="43.2" name="make a whooshing noise">
+<roles>
+  <role n="0"  descr="maker of noise"/>
+</roles>
+
+<example name="poor John">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    The wind whooshed as John's coffin was carried to the graveyard.
+  </text>
+  <arg n="0"        >The wind</arg>
+  <rel              >whooshed</rel>
+  <arg n="m" f="TMP">as John's coffin was carried to the graveyard</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="whoosh.02" vncls="-" name="move so as to make a whooshing
+  noise">
+<roles>
+  <role n="0"  descr="entity in motion"/>
+</roles>
+
+<example name="also intransitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    ``Tivoli Motel,'' I read a sign in the usual pronunciation of the
+    name as we whoosh through. 
+</text>
+        <arg n="0">we</arg>
+        <rel>whoosh</rel>
+        <arg n="M" f="DIR">through</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

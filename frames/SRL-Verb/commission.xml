@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="commission">
+<note>
+  Frames file for 'commission' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="commission.01" name="to grant a commission, authorize"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="task"/>
+  <role n="2"  descr="recepient"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ [*-1] To find out why , the group recently commissioned a study of the past 20 years of bowling-related research .
+</text>
+	<arg n="0">the group</arg>
+	<arg n="M" f="TMP">recently</arg>
+	<rel>commissioned</rel>
+	<arg n="1">a study of the past 20 years of bowling-related research</arg>
+</example>
+
+
+<example name="all arguments">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="gerund"/>
+<text>
+ And she further stunned her listeners by [*-2] revealing her secret garden design method : [*] Commissioning a friend to spend `` five or six thousand dollars ... on books that I ultimately cut up [*T*-1] . ''
+</text>
+	<arg n="0">[*]</arg>
+	<rel>Commissioning</rel>
+	<arg n="2">a friend</arg>
+	<arg n="1">to spend `` five or six thousand dollars ... on books that I ultimately cut up [*T*-1]</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

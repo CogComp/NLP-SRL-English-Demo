@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="pervade">
+<note>
+  Frames file for 'pervade' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="pervade.01" name="to spread or diffuse"  vncls="-">
+<roles>
+  <role n="0"  descr="entity spreading"/>
+  <role n="1"  descr="entity spread through"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ But `` an eerie silence pervaded '' the junk market Friday as prices tumbled on hundreds of high-yield bonds despite `` no active trading , '' says [*T*-1] John Lonski , an economist at Moody 's Investors Service Inc .
+</text>
+	<arg n="M" f="DIS">But</arg>
+	<arg n="0">an eerie silence</arg>
+	<rel>pervaded</rel>
+	<arg n="1">the junk market</arg>
+	<arg n="M" f="TMP">Friday</arg>
+	<arg n="M" f="TMP">as prices tumbled on hundreds of high-yield bonds despite `` no active trading</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

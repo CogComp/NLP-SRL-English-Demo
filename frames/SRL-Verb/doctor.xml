@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="doctor">
+<note>
+  Frames file for 'doctor'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="doctor.01" name="to falsify or alter"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>  
+  <role n="1"  descr="entity doctored"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Members find it [*EXP*-1] easy [*] to doctor legislation by [*] slipping in special provisions that [*T*-2] could never survive in the cold light of day .
+</text>
+	<arg n="0">[*]</arg>
+	<rel>doctor</rel>
+	<arg n="1">legislation</arg>
+	<arg n="M" f="MNR">by [*] slipping in special provisions that [*T*-2] could never survive in the cold light of day</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

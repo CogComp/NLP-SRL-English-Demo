@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="assassinate">
+<note>
+  Frames file for 'assassinate' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="assassinate.01" name="to murder"
+vncls="42.1">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="person assassinated"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ As [*] recounted [*-4] in a stipulation that [*T*-1] summarized government documents released [*] for the North trial , Mr. Noriega offered [*-2] to assassinate the Sandinista leadership in exchange `` for a promise [*] to help [*-3] clean up Noriega 's image and a commitment [*] to lift the } U.S. . { ban on military sales to the Panamanian Defense Forces . ''
+</text>
+	<arg n="0">[*-2] ->  Mr. Noriega</arg>
+	<rel>assassinate</rel>
+	<arg n="1">the Sandinista leadership</arg>
+</example>
+
+
+<example name="passive">
+<inflection person="ns" tense="past" aspect="perfect" voice="passive" form="participle"/>
+<text>
+ Mrs. Gandhi had been assassinated [*-1] by separatist Sikhs , and many Indians feared [0] their country might split apart .
+</text>
+	<rel>assassinated</rel>
+	<arg n="1">[*-1] ->  Mrs. Gandhi</arg>
+	<arg n="0" f="by">separatist Sikhs</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

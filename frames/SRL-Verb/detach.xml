@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="detach">
+<note>
+  Frames file for 'detach' based on sentences in wsj.  Verbnet entry
+  23.3, Framenet entry 23.3.
+</note>
+
+<roleset id="detach.01" vncls="23.3" name="take off">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing removed"/>
+  <role n="2"  descr="whole, source"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    They set up absurd situations, detached *trace* from reality, and
+    then try to reason from them. 
+</text>
+        <rel>detached</rel>
+        <arg n="1">*trace* ->  absurd situations</arg>
+        <arg n="2" f="from">reality</arg>
+</example>
+
+<example name="with agent">
+  <inflection person="ns" tense="ns" aspect="ns" voice="ns" form="full"/>
+  <text>
+    John can detach his nose from his face.  Ewwww.
+  </text>
+  <arg n="0"        >John</arg>
+  <arg n="m" f="MOD">can</arg>
+  <rel              >detach</rel>
+  <arg n="1"        >his nose</arg>
+  <arg n="2" f="from">his face</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

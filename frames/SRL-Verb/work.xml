@@ -1,0 +1,179 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="work">
+<note>
+  Frames file for 'work' based on Chris' existing file and survey of
+  initial sentences of big corpus.  Substantial changes from Chris'
+  system, which made no sense anyway.
+</note>
+
+<roleset id="work.01" name="work" vncls="-">
+<roles>
+  <role descr="worker" n="0"/>
+  <role descr="job, project" n="1"/>
+  <role descr="employer" n="2"/>
+  <role descr="coworker" n="3"/>
+  <role descr="instrumental" n="4"/>
+</roles>
+
+<note>
+Beware of usages like &quot;put the taggers to work&quot;.  Treebank calls work
+a verb in this context, but that is clearly wrong.  It will take no
+argument structure.
+</note>
+
+<example name="unaccusative">
+  <text>
+    US trade law is working.
+  </text>
+  <arg n="0">US trade law</arg>
+  <rel>working</rel>
+</example>
+
+<example name="unaccusative with more details">
+  <text>
+    Ms. Kirkpatrick worked in Tokyo for three years.
+  </text>
+  <arg n="0">Ms. Kirkpatrick</arg>
+  <rel>worked</rel>
+  <arg f="LOC" n="m">in Tokyo</arg>
+  <arg f="TMP" n="m">for three years</arg>
+</example>
+
+<example name="job">
+  <text>
+    Mr. Cray has been working on the project for more than six years.
+  </text>
+  <arg n="0">Mr. Cray</arg>
+  <rel>working</rel>
+  <arg f="on" n="1">the project</arg>
+  <arg f="TMP" n="m">for more than six years</arg>
+</example>
+
+<example name="odd job variant">
+  <text>
+    33 men worked closely with the substance.
+  </text>
+  <arg n="0">33 men</arg>
+  <rel>worked</rel>
+  <arg f="MNR" n="m">closely</arg>
+  <arg f="with" n="1">with the substance</arg>
+</example>
+
+<example name="employer and job">
+  <text>
+    Mr. Cray will work for the Colorado Springs CO company as an
+    independent contractor.
+  </text>
+  <arg n="0">Mr. Cray</arg>
+  <arg f="MOD" n="m">will</arg>
+  <rel>work</rel>
+  <arg f="for" n="2">the Colorado Springs CO company</arg>
+  <arg f="as" n="1">an independent contractor.</arg>
+</example>
+
+<example name="with coworker">
+  <text>
+    He will work with his successor to ensure a smooth transition.
+  </text>
+  <arg n="0">He</arg>
+  <arg f="MOD" n="M">will</arg>
+  <rel>work</rel>
+  <arg f="with" n="3">his successor</arg>
+  <arg f="PRP" n="1">to ensure a smooth transition</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="work_out">
+
+<roleset id="work.02" name="arrange" vncls="-">
+<roles>
+  <role descr="arranger" n="0"/>
+  <role descr="scheme" n="1"/>
+  <role descr="collaborator" n="2"/>
+</roles>
+
+<example name="scheme">
+  <text>
+    The company will work out a plan to pay its debts.
+  </text>
+  <arg n="0">The company</arg>
+  <arg f="MOD" n="m">will</arg>
+  <rel>work out</rel>
+  <arg n="1">a plan to pay its debts</arg>
+</example>
+
+<example name="collaborators">
+  <text>
+    The details haven't been worked out between the Seattle aerospace
+    company and Kawasaki Heavy Industries, Ltd.
+  </text>
+  <arg n="1">The details</arg>
+  <rel voice="passive">worked out</rel>
+  <arg f="between" n="2">the Seattle aerospace company and Kawasaki
+  Heavy Industries, Ltd.</arg>
+</example>
+
+</roleset>
+
+<roleset id="work.03" name="exercise" vncls="-">
+<roles>
+  <role descr="athlete" n="0"/>
+</roles>
+
+<example name="">
+  <text>
+    John works out daily with weights.
+  </text>
+  <arg n="0">John</arg>
+  <rel>works out</rel>
+  <arg f="tmp" n="m">daily</arg>
+  <arg f="mnr" n="m">with weights</arg>
+</example>
+</roleset>
+</predicate>
+
+<predicate lemma="work_up">
+
+<roleset id="work.04" name="create, cause to come about" vncls="-">
+<roles>
+  <role descr="creator" n="0"/>
+  <role descr="thing arising" n="1"/>
+  <role n="2" descr="benefactive"/>
+</roles>
+
+<example name="back to exercise">
+  <text>
+    They have worked up a sweat.
+  </text>
+  <arg n="0">They</arg>
+  <rel>worked up</rel>
+  <arg n="1">a sweat</arg>
+</example>
+
+<example name="with benefactive">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    The decision in Los Angeles federal court stems from a 1985
+    Mercury Sable TV ad that Young &amp; Rubicam worked *trace* up for
+    Ford Motor Co.
+  </text>
+  <arg n="0"        >Young &amp; Rubicam</arg>
+  <rel              >worked up</rel>
+  <arg n="1"        >a 1985 Mercury Sable TV ad</arg>
+  <arg n="2" f="for">Ford Motor Co.</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

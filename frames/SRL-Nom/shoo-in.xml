@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shoo-in">
+<roleset id="shoo-in.01" name="promise" source="verb-guarantee.01" vncls="29.5">
+<roles>
+
+<role descr="entity making guarantee" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="guarantee" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+<role descr="beneficiary, guaranteed-to" n="2">
+<vnrole vncls="29.5" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a shoo-in to get blockbuster ratings
+</text>
+<arg n="2">shoo-in</arg>
+<rel>shoo-in</rel>
+<arg n="1">to get blockbuster ratings</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="station">
+<note>
+  Frames file for 'station' based on sentences in wsj.  No Verbnet
+  entry, Framenet entry Placing.
+</note>
+
+<roleset id="station.01" vncls="-" name="put military people in a place">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="military people"/>
+  <role n="2"  descr="place"/>
+</roles>
+
+<example name="usually passive">
+<inflection person="third" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    The son of a Seagram's executive who [*T*-2] was stationed [*-1]
+    in many countries around the world, Mr. McDonough was born in
+    Tokyo and attended 19 schools in places ranging from Hong Kong to
+    Shaker Heights, Ohio, before entering Dartmouth College. 
+</text>
+        <rel>stationed</rel>
+        <arg n="1">[*-1] ->  [*T*-2] ->  who ->  a Seagram's executive</arg>
+        <arg n="2" f="in">many countries around the world</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

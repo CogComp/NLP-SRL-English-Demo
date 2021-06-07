@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="moan">
+<note>
+  Frames file for 'moan' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="moan.01" name="to utter a moan or complain"
+vncls="37.3 40.2">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="a complaint"/>
+</roles>
+
+<example name="prepositional Arg1">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ The next time [0] you hear a Member of Congress moan about the deficit [*T*-2] , [*] consider what Congress did [*T*-1] Friday .
+</text>
+	<arg n="0">a Member of Congress</arg>
+	<rel>moan</rel>
+	<arg n="1" f="about">the deficit</arg>
+</example>
+
+
+<example name="non-prepositional Arg1">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ `` I 'm too old [0] [*T*-1] to waste a weekend , but that 's what I did [*T*-2] , '' the 48-year-old Mr. Juliano moans [*T*-3] .
+</text>
+	<arg n="0">the 48-year-old Mr. Juliano</arg>
+	<rel>moans</rel>
+	<arg n="1">[*T*-3] ->  I 'm too old [0] [*T*-1] to waste a weekend , but that 's what I did [*T*-2]</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

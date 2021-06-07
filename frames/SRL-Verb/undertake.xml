@@ -1,0 +1,79 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="undertake">
+<note>
+  Frames file for 'undertake' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="undertake.01" name="to decide or agree to do" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing undertaken"/>
+  <role n="2"  descr="other participant"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+ The meeting , which [*T*-62] is expected [*-1] to draw 20,000 to Bangkok , was going [*-2] to be held [*-61] at the Central Plaza Hotel , but the government balked at the hotel 's conditions for [*] undertaking necessary expansion .
+</text>
+	<arg n="0">[*] ->  the government</arg>
+	<rel>undertaking</rel>
+	<arg n="1">necessary expansion</arg>
+</example>
+
+<example name="passive with purpose clause">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Ohbayashi officials said [0] the purchase was undertaken [*-2] [*] to participate in ventures in and around New York City .
+</text>
+	<rel>undertaken</rel>
+	<arg n="1">[*-2] ->  the purchase</arg>
+	<arg n="M" f="PRP">[*] to participate in ventures in and around New York City</arg>
+</example>
+
+
+<example name="all arguments">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Mr. Furuta did n't disclose further details of the arrangement at a news conference , but said [0] the project would be undertaken [*-1] with Ford 's European subsidiary .
+</text>
+	<arg n="M" f="MOD">would</arg>
+	<rel>undertaken</rel>
+	<arg n="1">[*-1] ->  the project</arg>
+	<arg n="2" f="with">Ford 's European subsidiary</arg>
+</example>
+
+<example name="arg1 as PRD">
+  <inflection person="ns" tense="ns" aspect="ns" voice="active" form="full"/>
+  <text>
+    David Boren, the Intelligence Committee chairman, is upset that
+    someone leaked a letter to the committee from the Reagan
+    administration suggesting that the U.S. would undertake [*-2] to
+    warn Panamanian thug Manuel Noriega if it got wind of an impending
+    coup that might result in his assassination. 
+  </text>
+  <arg n="0"        >the U.S.</arg>
+  <arg n="m" f="MOD">would</arg>
+  <rel              >undertake</rel>
+  <arg n="1" f="PRD">[*-2] to
+    warn Panamanian thug Manuel Noriega if it got wind of an impending
+    coup that might result in his assassination. 
+  </arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

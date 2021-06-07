@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="involve">
+<note>
+  Frames file for 'involve' based on survey of initial sentences of
+  big corpus and comparison with 'include'
+</note>
+
+<roleset id="involve.01" name="include">
+<roles>
+  <role n="1"  descr="theme, thing being included into a group"/>
+  <role n="2"  descr="group"/>
+</roles>
+
+<example name="ergative">
+  <text>
+  ...federally funded fetal-tissue research that *trace* doesn't involve
+  transplants.
+  </text>
+  <arg n="2"        >*trace=that=federally funded fetal-tissue research*</arg>
+  <arg n="m" f="NEG">n't</arg>
+  <rel              >involve</rel>
+  <arg n="1"        >transplants</arg>
+</example>
+
+<example name="reversed ergative">
+  <text>
+  Another OTC bank stock involved in a buy-out deal...
+  </text>
+  <arg n="1"        >Another OTC bank stock</arg>
+  <rel              >involved</rel>
+  <arg n="2" f="in">a buy-out deal</arg>
+</example>
+
+<example name="as post-nominal modifier">
+  <text>
+  In a well-known detective story involving church bells...
+  </text>
+  <arg n="2"        >a well-known detective story</arg>
+  <rel              >involving</rel>
+  <arg n="1"        >church bells</arg>
+</example>
+
+<note>
+Avoid adjectives meaning 'complicated': The plot of the novel was very
+involved.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

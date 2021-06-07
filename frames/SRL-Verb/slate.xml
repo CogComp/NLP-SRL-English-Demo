@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="slate">
+<note>
+  Frames file for 'slate' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="slate.01" name="schedule, designate" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity chosen"/>
+  <role n="2"  descr="function or time"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ The giant computer maker is slated [*-1] to offer $ 500 million [*U*] of 30-year non-callable debentures through underwriters led [*] by Salomon Brothers Inc .
+</text>
+	<rel>slated</rel>
+	<arg n="1">[*-1] ->  The giant computer maker</arg>
+	<arg n="2">to offer $ 500 million [*U*] of 30-year non-callable debentures through underwriters led [*] by Salomon Brothers Inc</arg>
+</example>
+
+
+<example name="with Arg0">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Ford Motor Co. slated overtime again this week at its Wixom , Mich. ; Wayne , Mich. ; Kansas City , Mo. , and Norfolk , Va. , assembly plants .
+</text>
+	<arg n="0">Ford Motor Co.</arg>
+	<rel>slated</rel>
+	<arg n="1">overtime</arg>
+	<arg n="M" f="TMP">again</arg>
+	<arg n="M" f="TMP">this week</arg>
+	<arg n="M" f="LOC">at its Wixom , Mich. ; Wayne , Mich. ; Kansas City , Mo. , and Norfolk , Va. , assembly plants</arg>
+</example>
+
+
+
+<example name="with temporal Arg2">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Greece 's second bout of general elections this year is slated [*-1] for Nov. 5 .
+</text>
+	<rel>slated</rel>
+	<arg n="1">[*-1] ->  Greece 's second bout of general elections this year</arg>
+	<arg n="2" f="for">Nov. 5</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

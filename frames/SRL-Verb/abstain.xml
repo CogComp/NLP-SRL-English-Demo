@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="abstain">
+<note>
+  Frames file for 'abstain' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="abstain.01" name="to refrain" vncls="-">
+<roles>
+  <role n="0"  descr="entity abstaining"/>
+  <role n="1"  descr="abstaining from"/>
+</roles>
+
+
+<example name="both arguments">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ The Soviet Union abstained from a U.N. General Assembly vote [0] [*T*-1] to reject Israel 's credentials .
+</text>
+	<arg n="0">The Soviet Union</arg>
+	<rel>abstained</rel>
+	<arg n="1" f="from">a U.N. General Assembly vote [0] [*T*-1] to reject Israel 's credentials</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

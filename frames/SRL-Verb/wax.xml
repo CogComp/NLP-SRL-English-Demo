@@ -1,0 +1,97 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="wax">
+<note>
+  Frames file for 'wax' based on sentences in wsj.  Verbnet entry 9.9.
+</note>
+
+<roleset id="wax.01" vncls="9.9" name="apply wax to">
+<roles>
+  <role n="0"  descr="agent, waxer">
+		<vnrole vncls="9.9" vntheta="Agent"/>
+  </role>
+
+  <role n="1"  descr="thing waxed">
+		<vnrole vncls="9.9" vntheta="Destination"/>
+  </role>
+
+  <role n="2"  descr="explicit mention of wax">
+		<vnrole vncls="9.9" vntheta="Theme"/>
+  </role>
+</roles>
+
+<example name="single arg">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Mr. Broderick, the Massachusetts grower, says the ``big boss'' at
+    a supermarket chain even rejected his Red Delicious recently
+    because they weren't waxed and brushed [*-1] for extra shine. 
+</text>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>waxed</rel>
+        <arg n="1">[*-1] ->  they</arg>
+        <arg n="M" f="PNC">for extra shine</arg>
+</example>
+
+<example name="all args">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John waxed the kitchen floor with candle wax.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >waxed</rel>
+  <arg n="1"        >the kitchen floor</arg>
+  <arg n="2" f="with">candle wax</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="wax.02" vncls="-" name="grow">
+<roles>
+  <role n="1"  descr="thing growing"/>
+</roles>
+
+<example name="stretching to fit John in">
+  <inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+  <text>
+    Like the moon, every month John's waistline waxes and wanes.
+  </text>
+  <arg n="m" f="MNR">Like the moon</arg>
+  <arg n="m" f="TMP">every month</arg>
+  <arg n="1"        >John's waistline</arg>
+  <rel              >waxes</rel>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="wax.03" vncls="-" name="become">
+<roles>
+  <role n="1"  descr="topic"/>
+  <role n="2"  descr="description"/>
+</roles>
+
+<example name="verging on idiomatic">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    The visitor waxed [*] enthusiastic and promised to return. 
+</text>
+        <arg n="1">The visitor</arg>
+        <rel>waxed</rel>
+        <arg n="2">[*] enthusiastic</arg>
+</example>
+
+<note>
+Similarly 'wax eloquent' etc.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

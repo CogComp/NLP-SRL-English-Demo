@@ -1,0 +1,105 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="center">
+<note>
+  Frames file for 'center' based on sentences in wsj.  No Verbnet
+  entry.
+</note>
+
+<roleset id="center.01" vncls="-" name="focus (on)">
+<roles>
+  <role n="0"  descr="agent, focusser"/>
+  <role n="1"  descr="thing focussed"/>
+  <role n="2"  descr="focussed-on"/>
+</roles>
+
+<example name="normal usage">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    Speculation on his successor centers on a number of division heads
+    at the house. 
+</text>
+        <arg n="1">Speculation on his successor</arg>
+        <rel>centers</rel>
+        <arg n="2" f="on">a number of division heads at the house</arg>
+</example>
+
+<example name="around variant">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Japan's objections to the U.S. plan center around its desire to
+    stay self-sufficient in rice, a staple food, even though foreign
+    producers are far more efficient. 
+</text>
+        <arg n="1">Japan's objections to the U.S. plan</arg>
+        <rel>center</rel>
+        <arg n="2" f="around">its desire to stay self-sufficient in
+        rice, a staple food, even though foreign producers are far
+        more efficient</arg> 
+</example>
+
+<example name="in variant">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    The size of the cuts isn't known, but they'll be centered *trace*
+    in the exploration and production division, which is responsible
+    for locating oil reserves, drilling wells and pumping crude oil
+    and natural gas. 
+</text>
+        <rel>centered</rel>
+        <arg n="1">*trace* ->  they</arg>
+        <arg n="2" f="in">the exploration and production division,
+        which is responsible for locating oil reserves, drilling wells
+        and pumping crude oil and natural gas</arg> 
+</example>
+
+<example name="agentive">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    In *trace* centering on the disruption of a few proud local
+    customs such as the historic homes tour and the damage to the
+    antiquities, your reporter served to only perpetuate an outdated
+    and stereotypically provincial view of this otherwise thriving
+    port city. 
+</text>
+        <arg n="0">*trace* -> your reporter</arg>
+        <rel>centering</rel>
+        <arg n="2" f="on">the disruption of a few proud local customs
+        such as the historic homes tour and the damage to the
+        antiquities</arg> 
+</example>
+
+<example name="arg2 as location">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    The larger parallel after the earthquake centered *trace* south of
+    San Francisco is surely with the state of the U.S. economy. 
+</text>
+        <rel>centered</rel>
+        <arg n="1">*trace* ->  the earthquake</arg>
+        <arg n="2" f="LOC">south of San Francisco</arg>
+</example>
+
+<note>
+Note that you can equally easily say 'the earthquake was centered on
+San Francisco'.
+</note>
+
+<example name="all args">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John centered his gaze on Mary's knees.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >centered</rel>
+  <arg n="1"        >his gaze</arg>
+  <arg n="2" f="on">Mary's knees</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

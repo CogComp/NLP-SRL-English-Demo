@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deposit">
+<note>
+  Frames file for 'deposit' based on sentences in wsj.  No Verbnet
+  entry, Framenet entry Placing.
+</note>
+
+<roleset id="deposit.01" vncls="-" name="put">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing deposited"/>
+  <role n="2"  descr="where"/>
+</roles>
+
+<example name="all args">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    But judges usually find the real aim is to escape tax on hidden
+    income; and the IRS said Brown must have had such income --
+    although it uncovered no source -- because he deposited $124,732
+    in a bank account in 1982-84 while reporting income of only
+    $52,012. 
+</text>
+        <arg n="0">he</arg>
+        <rel>deposited</rel>
+        <arg n="1">$ 124,732</arg>
+        <arg n="2" f="in">a bank account</arg>
+        <arg n="M" f="TMP">in 1982-84</arg>
+        <arg n="M" f="TMP">while reporting income of only $52,012</arg>
+</example>
+
+<example name="missing destination">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Employers must deposit withholding taxes exceeding $3,000 within
+    three days after payroll -- or pay stiff penalties -- and that's a
+    big problem for small businesses. 
+</text>
+        <arg n="0">Employers</arg>
+        <arg n="M" f="MOD">must</arg>
+        <rel>deposit</rel>
+        <arg n="1">withholding taxes exceeding $3,000</arg>
+        <arg n="M" f="TMP">within three days</arg>
+        <arg n="M" f="TMP">after payroll</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

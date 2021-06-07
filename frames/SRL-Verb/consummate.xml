@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="consummate">
+<note>
+  Frames file for 'consummate' based on sentences in financial
+  subcorpus.  No Verbnet entry.  No Framenet entry.  Comparison with
+  'complete'.
+</note>
+
+<roleset id="consummate.01" vncls="-" name="bring to completion">
+<roles>
+  <role n="0"  descr="entity/entities completing something"/>
+  <role n="1"  descr="thing consumated"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    A unit of DPC Acquisition Partners launched a $10-a-share tender
+    offer for the shares outstanding of Dataproducts Corp., and said
+    it would seek to liquidate the computer-printer maker ``as soon as
+    possible,'' even if a merger isn't consummated *trace*. 
+</text>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>consummated</rel>
+        <arg n="1">*trace* ->  a merger</arg>
+</example>
+
+<example name="hubba hubba">
+  <inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+  <text>
+    John wants *trace* to consummate his relationship with Mary, but
+    Mary says it Hades will open a ski resort before that happens.
+  </text>
+  <arg n="0"        >*trace* -> John</arg>
+  <rel              >consummate</rel>
+  <arg n="1"        >his relationship with Mary</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

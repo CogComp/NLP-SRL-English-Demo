@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="marginalize">
+<note>
+  Frames file for 'marginalize' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="marginalize.01" vncls="-" name="make unimportant">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="unimportant thing"/>
+</roles>
+
+<example name="the one example">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="gerund"/>
+<text>
+    The most important development in Mr. Gorbachev's policy for
+    *trace* marginalizing the opposition movement is the claim that
+    the U.S.S.R. also suffers from terrorism. 
+</text>
+        <arg n="0">*trace* ->  Mr. Gorbachev's</arg>
+        <rel>marginalizing</rel>
+        <arg n="1">the opposition movement</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

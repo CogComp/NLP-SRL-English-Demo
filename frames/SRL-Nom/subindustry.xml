@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="subindustry">
+<roleset id="subindustry.01" name="environment for proposition">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a booming publishing subindustry
+</text>
+<arg n="1">publishing</arg>
+<rel>subindustry</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

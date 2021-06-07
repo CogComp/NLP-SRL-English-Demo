@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="redo">
+<note>
+Frames file for 'redo' based on sentences in financial subcorpus and
+remapping from 'do'.
+</note>
+
+<roleset id="do.02" vncls="8.5" name="act">
+<roles>
+  <role n="0"  descr="agent, doer"/>
+  <role n="1"  descr="thing done"/>
+  <role n="2"  descr="benefactive, done for or about"/>
+  <role n="3"  descr="instrumental"/>
+  <role n="4"  descr="comitative, companion while doing"/>
+</roles>
+
+<example name="sparsely attested">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Prospective bond buyers noted that TW historically has prospered
+    because it has been willing *trace* to spend aggressively on
+    *trace* remodeling restaurants and redoing menus. 
+</text>
+        <arg n="0">*trace* -> *trace* ->  it</arg>
+        <rel>redoing</rel>
+        <arg n="1">menus</arg>
+</example>
+
+<example name="with benefactive">
+<inflection person="ns" tense="future" aspect="ns" voice="active" form="full"/>
+  <text>
+  Congress will redo stupid things with the Tax Code.
+  </text>
+  <arg n="0"        >Congress</arg>
+  <arg n="m" f="MOD">will</arg>
+  <rel              >redo</rel>
+  <arg n="1"        >stupid things</arg>
+  <arg n="2" f="with">the Tax Code</arg>
+</example>
+
+<example name="with instrument">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="full"/>
+  <text>
+  Anyone buying the stock now must redo so *trace* using some guesswork.
+  </text>
+  <arg n="0"        >Anyone buying the stock now</arg>
+  <arg n="m" f="MOD">must</arg>
+  <rel              >redo</rel>
+  <arg n="1"        >so</arg>
+  <arg n="3" f="PRD">*trace* using some guesswork</arg>
+</example>
+
+</roleset>
+<note>
+These higher-numbered args seem quite unnatural to me.
+</note>
+</predicate>
+</frameset>

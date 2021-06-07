@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="deter">
+<note>
+  Frames file for 'deter' based on sentences in financial subcorpus.
+  No access to verbnet.  Comparison to 'prevent'.
+</note>
+
+<roleset id="deter.01" name="deter, scare away">
+<roles>
+  <role n="0"  descr="agent, deterer"/>
+  <role n="1"  descr="patient, entity deterred"/>
+  <role n="2"  descr="secondary action (deter from X)"/>
+  <role n="3"  descr="instrument, if separate from arg0"/>
+</roles>
+
+<example name="transitive">
+<text>
+    Moreover, such a sale could help Armstrong reassure its investors
+    and deter the Belzbergs, who own a 9.85% stake in the Lancaster,
+    Pa., company. 
+</text>
+        <arg n="0">Armstrong</arg>
+        <rel>deter</rel>
+        <arg n="1">the Belzbergs, who own a 9.85% stake in the
+        Lancaster, Pa., company</arg> 
+</example>
+
+<example name="with instrument">
+  <text>
+    Mary could not deter John's amorous advances, even with a frying
+    pan to the head.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <arg n="m" f="MOD">could</arg>
+  <arg n="m" f="NEG">not</arg>
+  <rel              >deter</rel>
+  <arg n="1"        >John's amorous advances</arg>
+  <arg n="m" f="ADV">even</arg>
+  <arg n="3" f="with">a frying pan to the head.</arg>
+</example>
+
+<note>
+That John, he's a determined one.  I wonder if there's a link between
+'deter' and 'determine'?
+</note>
+
+</roleset>
+</predicate>
+</frameset>

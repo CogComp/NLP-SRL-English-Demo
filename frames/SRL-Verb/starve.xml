@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="starve">
+<note>
+  Frames file for 'starve' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="starve.01" name="to suffer or cause to suffer  from deprivation or hunger"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity starving"/>
+  <role n="2"  descr="entity starving for"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+ He could do more [*-1] to cut public subsidies and transfers , thus [*-1] making funds available for public services starved [*] of money for six years .
+</text>
+	<rel>starved</rel>
+	<arg n="1">[*] ->  public services</arg>
+	<arg n="2" f="of">money</arg>
+	<arg n="M" f="TMP">for six years</arg>
+</example>
+
+
+<example name="intransitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Mr. Kaplan , author of `` [*] Surrender or Starve : The Wars Behind the Famine '' ( Westview Press , 1988 ) , lives in Lisbon .
+</text>
+	<arg n="1">[*]</arg>
+	<rel>Starve</rel>
+</example>
+
+
+<example name="with Arg2">
+<inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+ `` We are starving for all the news , '' says [*T*-1] Mr. Deak , the student .
+</text>
+	<arg n="1">We</arg>
+	<rel>starving</rel>
+	<arg n="2" f="for">all the news</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

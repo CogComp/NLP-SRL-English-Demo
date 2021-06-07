@@ -1,0 +1,138 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="follow">
+<note>
+Frames file for 'follow' based on survey of initial sentences of big corpus
+</note>
+
+<roleset id="follow.01" name="be subsequent, temporally or spatially" vncls="47.8">
+<roles>
+  <role descr="causal agent" n="0"/>
+  <role descr="thing following, coming after" n="1">
+		
+  <vnrole vncls="47.8" vntheta="Theme1"/></role>
+
+  <role descr="thing followed, coming before" n="2">
+		
+  <vnrole vncls="47.8" vntheta="Theme2"/></role>
+
+</roles>
+
+<example name="intransitive">
+  <text>
+    Champagne and dessert followed.
+  </text>
+  <arg n="1">Champagne and desert</arg>
+  <rel>followed</rel>
+</example>
+
+<example name="transitive">
+  <text>
+    The strong growth followed year-to-year increases of 21% in August.
+  </text>
+  <arg n="1">The strong growth</arg>
+  <rel>followed</rel>
+  <arg n="2">year-to-year increases of 21% in August</arg>
+</example>
+
+<example name="passivized">
+  <text>
+    California led the nation, followed by Texas, Iowa, and Florida
+  </text>
+ <arg n="2">California</arg>
+  <rel>followed</rel>
+  <arg f="by" n="1">Texas, Iowa, and Florida</arg>
+</example>
+
+<example name="as temporal">
+  <text>
+    Following the acquisition of RP Scherer, the maker of gelcaps
+    decided to ... 
+  </text>
+  <rel>Following</rel>
+  <arg n="2">the acquisition of RP Scherer</arg>
+</example>
+
+<note>the Arg1 would be the rest of the sentence, but we'll skip it.
+This construction happens a lot--occasionally there's a clear
+Arg1,--but usually not.  Err on the side of caution when looking for
+an Arg1. 
+</note>
+
+<example name="with causal agent">
+  <text>
+    Mr. Simmons has followed friendly offers with a hostile tender offer.
+  </text>
+  <arg n="0">Mr. Simmons</arg>
+  <rel>has followed</rel>
+  <arg n="2">friendly offers</arg>
+  <arg n="1">a hostile tender offer</arg>
+</example>
+
+</roleset>
+
+<roleset id="follow.02" name="adhere to, accept, pursue" vncls="51.6">
+<roles>
+  <role descr="agent" n="0">
+		<vnrole vncls="51.6" vntheta="Agent"/>
+  </role>
+
+  <role descr="thing followed" n="1">
+		<vnrole vncls="51.6" vntheta="Theme"/>
+  </role>
+
+  <role descr="benefactive" n="2"/>
+</roles>
+
+<example name="another transitive">
+  <text>
+    Many investors follow a strategy of buying and holding a mix of stocks.
+  </text>
+  <arg n="0">Many investors</arg>
+  <rel>follow</rel>
+  <arg n="1">a strategy of buying and holding a mix of stocks</arg>
+</example>
+
+<example name="with manner">
+  <text>
+    John avidly follows Major League baseball for his father, who can
+    only receive Italian soccer on his TV.
+  </text>
+  <arg n="0">John</arg>
+  <arg f="MNR" n="M">avidly</arg>
+  <rel>follows</rel>
+  <arg n="1">Major League baseball</arg>
+  <arg f="for" n="2">his father, who can
+    only receive Italian soccer on his TV.</arg>
+</example>
+
+<note>
+</note>
+
+<note>
+Ignore the 'list' function of 'follow': 'The taggers on this project
+are as follows: Darren, Erwin, Kate, and Paul.'
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="follow_up">
+<roleset id="follow.03" name="be subsequent, etc" vncls="51.6">
+  <roles>
+  <note>
+    same as follow.01
+  </note>
+  </roles>
+
+<example name="optional preposition">
+  <text>
+    Scty of State James Baker followed up [on] a proposal made by Bob Hawke.
+  </text>
+  <arg n="0">Scy of State James Baker</arg>
+  <rel>followed up</rel>
+  <arg f="on" n="1">a proposal made by Bob Hawke</arg>
+</example>
+</roleset>
+</predicate>
+</frameset>

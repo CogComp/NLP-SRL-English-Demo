@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="thrill">
+<note>
+  Frames file for 'thrill' based on sentences in wsj.  Verbnet entries
+  31.3 and 31.1.
+</note>
+
+<roleset id="thrill.01" vncls="31.3 31.1" name="excite">
+<roles>
+  <role descr="causer of excitement" n="0"><vnrole vncls="31.1" vntheta="Cause"/></role>
+  <role descr="excited entity" n="1"><vnrole vncls="31.1" vntheta="Experiencer"/></role>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    But Pemex managers are the ones most thrilled [*] by the contract.
+</text>
+        <arg n="M" f="EXT">most</arg>
+        <rel>thrilled</rel>
+        <arg n="1">[*] ->  the ones</arg>
+        <arg n="0" f="by">the contract</arg>
+</example>
+
+
+<example name="active">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+     That doesn't thrill Procter &amp; Gamble Co., maker of Cascade
+     dishwasher detergent.
+</text>
+        <arg n="0">That</arg>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>thrill</rel>
+        <arg n="1">Procter &amp; Gamble Co., maker of Cascade
+        dishwasher detergent</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

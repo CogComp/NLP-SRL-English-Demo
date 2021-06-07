@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="cloud">
+<note>
+  Frames file for 'cloud' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="cloud.01" vncls="-" name="(cause to) be cloudy">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing be(com)ing cloudy"/>
+  <role n="2"  descr="cloud, instrument"/>
+</roles>
+
+<example name="agentive, sorta">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    This can have its purposes at times, but there's no reason *trace*
+    to cloud the importance and allure of Western concepts of freedom
+    and justice. 
+</text>
+        <arg n="0">*trace*</arg>
+        <rel>cloud</rel>
+        <arg n="1">the importance and allure of Western concepts of
+        freedom and justice</arg> 
+</example>
+
+
+<example name="instrumental subject">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    ``The New York Stock Exchange has vested interests'' in its big
+    member securities firms ``that *trace* cloud its objectivity,''
+    Mr. Timbers said. 
+</text>
+        <arg n="2">*trace* ->  that ->  vested interests</arg>
+        <rel>cloud</rel>
+        <arg n="1">its objectivity</arg>
+</example>
+
+<example name="all args">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John clouded his senses with heavy doses of children's cough syrup
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >clouded</rel>
+  <arg n="1"        >senses</arg>
+  <arg n="2" f="with">heavy doses of children's cough syrup</arg>
+</example>
+
+<note>
+Reserve Arg0 only for those cases where there is a clear intentional
+agent causing some medium to be filled with clouds.  This means you'll
+usually have instrumental subjects.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

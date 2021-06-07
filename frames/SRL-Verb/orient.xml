@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="orient">
+<note>
+  Frames file for 'orient' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="orient.01" name="to adjust or focus"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity oriented"/>
+</roles>
+
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ But if his explanation of motivation is true , why is his investigation so oriented [*-2] as [*-2] to identify criminal activity [*T*-1] ?
+</text>
+	<arg n="M" f="ADV">so</arg>
+	<rel>oriented</rel>
+	<arg n="1">[*-2] ->  his investigation</arg>
+	<arg n="M" f="PRP">as [*-2] to identify criminal activity</arg>
+	<arg n="M" f="PNC">[*T*-1] ->  why</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

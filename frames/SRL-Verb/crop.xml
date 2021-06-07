@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="crop">
+<note>
+  Frames file for 'crop' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+
+<roleset id="crop.01" name="to cut"  vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity cropped"/>
+  <role n="2"  descr="extend"/>
+  <role n="3"  descr="start point"/>
+  <role n="4"  descr="end point"/>
+</roles>
+
+<example name="with four arguments">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Yet yesterday 's market cropped Dresdner 's share price by 33 marks to 309 marks a share , [*] leaving little incentive for investors to subscribe to the standing price unless the market recovers quickly .
+</text>
+	<arg n="M" f="DIS">Yet</arg>
+	<arg n="0">yesterday 's market</arg>
+	<rel>cropped</rel>
+	<arg n="1">Dresdner 's share price</arg>
+	<arg n="2" f="EXT">by 33 marks</arg>
+	<arg n="4" f="to">309 marks a share</arg>
+	<arg n="M" f="ADV">[*] leaving little incentive for investors to subscribe to the standing price unless the market recovers quickly</arg>
+</example>
+</roleset>
+</predicate>
+
+
+<predicate lemma="crop_up">
+
+<roleset id="crop.02" name="to appear unexpectedly"  vncls="-">
+<roles>
+  <role n="1"  descr="entity cropped"/>
+</roles>
+
+
+<example name="intransitive">
+<inflection person="ns" tense="future" aspect="ns" voice="active" form="full"/>
+<text>
+ Hugh Johnson , chief investment officer at First Albany Corp. , agreed that a deteriorating economy is worrisome , but he said [0] the real concern among stock investors is that some new problem will crop up in the junk bond market .
+</text>
+	<arg n="0">some new problem</arg>
+	<arg n="M" f="MOD">will</arg>
+	<rel>[ crop] [ up]</rel>
+	<arg n="M" f="LOC">in the junk bond market</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

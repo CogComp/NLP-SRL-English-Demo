@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="mutate">
+<note>
+  Frames file for 'mutate' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+
+<roleset id="mutate.01" name="to undergo or cause to undergo mutation"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity undergoing mutation"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Researchers in Edinburgh , Scotland , have found that in 23 of 38 breast tumors , one copy of chromosome 17 was mutated [*-1] at the spot where gene p53 lies [*T*-2] .
+</text>
+	<rel>mutated</rel>
+	<arg n="1">[*-1] ->  one copy of chromosome 17</arg>
+	<arg n="M" f="LOC">at the spot where gene p53 lies [*T*-2]</arg>
+</example>
+
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

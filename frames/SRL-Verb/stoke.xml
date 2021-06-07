@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="stoke">
+<note>
+  Frames file for 'stoke' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="stoke.01" vncls="-" name="feed a fire">
+<roles>
+  <role n="0"  descr="stoker"/>
+  <role n="1"  descr="fire"/>
+</roles>
+
+<example name="fire, passive">
+<inflection person="ns" tense="past" aspect="perfect" voice="passive" form="participle"/>
+<text>
+    Even before those moves added fuel, the fires of discontent had
+    been well stoked *trace* by the highly publicized experience in
+    Japan of one U.S. investor, T. Boone Pickens Jr. 
+</text>
+        <arg n="M" f="MNR">well</arg>
+        <rel>stoked</rel>
+        <arg n="1">*trace* ->  the fires of discontent</arg>
+        <arg n="0" f="by">the highly publicized experience in Japan of
+        one U.S. investor, T. Boone Pickens Jr</arg> 
+</example>
+
+
+<example name="not fire, active">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Some observers thought that after Friday's sharp drop, the firms
+    would rein in their program traders *trace* to avoid *trace*
+    stoking more controversy. 
+</text>
+        <arg n="0">*trace* -> *trace* ->  the firms</arg>
+        <rel>stoking</rel>
+        <arg n="1">more controversy</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

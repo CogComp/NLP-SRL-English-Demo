@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="harry">
+<note>
+  Frames file for 'harry' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="harry.01" vncls="-" name="bother">
+<roles>
+  <role n="0"  descr="botherer"/>
+  <role n="1"  descr="bothered"/>
+</roles>
+
+<example name="when harry met sally?">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    They say they now get three or four ``legitimate'' calls a week
+    from people harried *trace* by haunts. 
+</text>
+        <rel>harried</rel>
+        <arg n="1">*trace* ->  people</arg>
+        <arg n="0" f="by">haunts</arg>
+</example>
+
+<note>
+Oddly enough, both harry and sally are verbs.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

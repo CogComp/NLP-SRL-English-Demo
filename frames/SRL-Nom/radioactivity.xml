@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="radioactivity">
+<roleset id="radioactivity.01" name="attribute/nomadj-radioactive">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+some radioactivity in the samples
+</text>
+<arg n="2">some</arg>
+<rel>radioactivity</rel>
+<arg n="1">in the samples</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

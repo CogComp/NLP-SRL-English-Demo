@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="toil">
+<note>
+  Frames file for 'toil' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="toil.01" vncls="-" name="work endlessly">
+<roles>
+  <role n="0"  descr="worker"/>
+  <role n="1"  descr="job, project"/>
+</roles>
+
+<example name="usually intransitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    ``Other people are making it overnight, and the rest who [*T*-1]
+    toil daily don't want to miss that opportunity when it seems to
+    come along.'' 
+</text>
+        <arg n="0">[*T*-1] ->  who ->  the rest</arg>
+        <rel>toil</rel>
+        <arg n="M" f="TMP">daily</arg>
+</example>
+
+
+<example name="job as purpose">
+<inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Some activists are toiling [*-1] to raise the profile of the two
+    causes. 
+</text>
+        <arg n="0">Some activists</arg>
+        <rel>toiling</rel>
+        <arg n="M" f="PNC">[*-1] to raise the profile of the two
+        causes</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

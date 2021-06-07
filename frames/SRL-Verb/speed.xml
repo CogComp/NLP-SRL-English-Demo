@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="speed">
+<note>
+  Frames file for 'speed' based on annotation-on-the-fly on the
+  financial subcorpus.  No verbnet entry.
+</note>
+
+<roleset id="speed.01" name="go fast" vncls="51.3.2">
+<roles>
+  <role descr="entity in motion" n="1">
+		<vnrole vncls="51.3.2" vntheta="Theme"/>
+  </role>
+
+</roles>
+
+<example name="lawbreaker">
+  <text>
+  John always speeds in his Chevette.
+  </text>
+  <arg n="1">John</arg>
+  <arg f="TMP" n="m">always</arg>
+  <rel>speeds</rel>
+  <arg f="LOC" n="m">in his Chevette</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="speed_up">
+<roleset id="speed.02" name="accelerate, cause to move fast" vncls="-">
+<roles>
+  <role descr="causer of fast motion" n="0"/>
+  <role descr="entity in motion" n="1"/>
+</roles>
+
+<example name="faster, pussycat!  kill, kill!">
+  <text>
+  The withdrawal of New England Electric might speed up the
+  reorganization process.
+  </text>
+  <arg n="0">The withdrawal of New England Electric</arg>
+  <arg f="MOD" n="m">might</arg>
+  <rel>speed up</rel>
+  <arg n="1">the reorganization process.</arg>
+</example>
+
+<note>
+Who gets the reference?
+</note>
+
+</roleset>
+</predicate>
+</frameset>

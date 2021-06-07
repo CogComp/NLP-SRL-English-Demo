@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="flirtation">
+<roleset id="flirtation.01" name="to deal playfully or superficially" source="verb-flirt.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="entity flirted with" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a 57-year-old writer , whose continuing flirtation with drugs and
+marginal types in Hollywood and New York seems quaintly
+out-of-synch
+</text>
+<arg n="0">whose</arg>
+<arg f="TMP" n="M">continuing</arg>
+<rel>flirtation</rel>
+<arg n="1">with drugs and marginal types in Hollywood and New York</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

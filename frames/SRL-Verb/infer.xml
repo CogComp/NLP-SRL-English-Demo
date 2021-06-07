@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="infer">
+<note>
+  Frames file for 'infer' based on sentences in wsj.  No Verbnet
+  entry, Framenet entry Coming to believe.
+</note>
+
+<roleset id="infer.01" vncls="-" name="deduce, come to believe">
+<roles>
+  <role n="0"  descr="agent, entity now believing something"/>
+  <role n="1"  descr="belief"/>
+  <role n="2"  descr="source of belief"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Agreement, disapproval, boredom and distraction all can be
+    inferred [*-1] from the subjects' twist of a dial. 
+</text>
+        <arg n="M" f="MOD">can</arg>
+        <rel>inferred</rel>
+        <arg n="1">[*-1] ->  Agreement, disapproval, boredom and
+        distraction all</arg> 
+        <arg n="2" f="from">the subjects' twist of a dial</arg>
+</example>
+
+<example name="active">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary inferred John's role in ``The Pasta Incident'' from his
+    guilty expression.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >inferred</rel>
+  <arg n="1"        >John's role in ``The Pasta Incident''</arg>
+  <arg n="2" f="from">his guilty expression</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

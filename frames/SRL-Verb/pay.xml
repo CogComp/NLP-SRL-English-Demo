@@ -1,0 +1,147 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<note>
+Frames file for 'pay' based on survey of initial sentences of big corpus
+and comparison with 'buy' and 'sell'
+</note>
+
+<predicate lemma="pay">
+<roleset id="pay.01" name="cf buy and sell" vncls="13.1-1">
+<roles>
+  <role descr="payer or buyer" n="0">
+		<vnrole vncls="13.1-2" vntheta="Agent"/>
+  </role>
+
+  <role descr="thing bought or paid for" n="1">
+		<vnrole vncls="13.1-2" vntheta="Theme"/>
+  </role>
+
+  <role descr="seller or person being paid" n="2">
+		<vnrole vncls="13.1-2" vntheta="Recipient"/>
+  </role>
+
+  <role descr="price paid" n="3"/>
+</roles>
+
+<example name="price and commodity">
+  <text>
+    Investors pay higher prices for country funds.
+  </text>
+  <arg n="0">Investors</arg>
+  <rel>pay</rel>
+  <arg n="3">higher prices</arg>
+  <arg f="FOR" n="1">for country funds</arg>
+</example>
+
+<example name="seller and purpose">
+  <text>
+    Theatres pay movie producers for showing their films.
+  </text>
+  <arg n="0">Theatres</arg>
+  <rel>pay</rel>
+  <arg n="2">movie producers</arg>
+  <arg f="PRP" n="M">for showing their films</arg>
+</example>
+
+<example name="passive, price and receiver">
+  <text>
+    Mr. Cray was paid $600,000 at Cray Research last year.
+  </text>
+  <arg n="2">Mr. Cray</arg>
+  <rel voice="passive">was paid</rel>
+  <arg n="3">$600,000</arg>
+  <arg f="LOC" n="M">at Cray Research</arg>
+  <arg f="TMP" n="M">last year</arg>
+</example>
+
+<example name="variant: pay on">
+  <text>
+    The Latin American nation has paid very little on its debt.
+  </text>
+  <arg n="0">The Latin American nation</arg>
+  <rel>has paid</rel>
+  <arg n="3">very little</arg>
+  <arg f="ON" n="2">on its debt</arg>
+</example>
+
+<example name="agentive passive">
+  <text>
+    ...the TV commercial paid for *trace=commercial* by Giuliani's campaign...
+  </text>
+  <rel voice="passive">paid</rel>  
+  <arg f="for" n="1">for *trace=commercial*</arg>
+  <arg f="by" n="0">by Giuliani's campaign</arg>
+</example>
+
+<example name="payer, payee, payment">
+  <text>
+    The transaction would pay shareholders $55 a share.
+  </text>
+  <arg n="0">The transaction</arg>
+  <arg f="MOD" n="M">would</arg>
+  <rel>pay</rel>
+  <arg n="2">shareholders</arg>
+  <arg n="3">$55 a share</arg>
+</example>
+
+
+<example name="pay attention">
+  <text>
+    The media pays attention to Japanese investment
+  </text>
+  <arg n="0">The media</arg>
+  <rel>pays</rel>
+  <arg n="1">attention</arg>
+  <arg f="to" n="2">to Japanese investment</arg>
+</example>
+</roleset>
+</predicate>
+
+<predicate lemma="pay_off">
+<roleset id="pay.02" name="pay off" vncls="-">
+<roles>
+  <role descr="payer" n="0"/>
+  <role descr="debt" n="1"/>
+</roles>
+
+<example name="Arg0 rel Arg1">
+  <text>
+    The government paid off $13.8 billion in T-bills.
+  </text>
+  <arg n="0">The government</arg>
+  <rel>paid off</rel>
+  <arg n="1">$13.8 billion in T-bills</arg>
+</example>
+</roleset>
+</predicate>
+
+<predicate lemma="pay_out">
+<roleset id="pay.03" name="pay out" vncls="13.1-1">
+<roles>
+  <role descr="payer" n="0">
+		<vnrole vncls="13.1-2" vntheta="Agent"/>
+  </role>
+
+  <role descr="thing bought or paid for" n="1">
+		<vnrole vncls="13.1-2" vntheta="Theme"/>
+  </role>
+
+  <role descr="seller or person being paid" n="2">
+		<vnrole vncls="13.1-2" vntheta="Recipient"/>
+  </role>
+
+  <role descr="price paid" n="3"/>
+</roles>
+
+<example name="Arg0 rel Arg2 Arg3">
+  <text>
+    Businesses are paying out  a smaller percentage of their profits.
+  </text>
+  <arg n="0">Businesses</arg>
+  <rel>are paying out</rel>
+  <arg n="3">a smaller percentage of their profits</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fiddling">
+<roleset id="fiddling.01" name="nomlike" source="verb-tinker.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+No fiddling with systems and procedures
+</text>
+<arg f="NEG" n="M">No</arg>
+<rel>fiddling</rel>
+<arg n="1">with systems and procedures</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

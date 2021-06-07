@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="dispose">
+<note>
+  Frames file for 'dispose' based on sentences in financial subcorpus.
+  No Verbnet entry.  Comparison with 'unload'.
+</note>
+
+<roleset id="dispose.01" name="get rid of">
+<roles>
+  <role n="0"  descr="agent, entity getting rid of something"/>
+  <role n="1"  descr="thing gotten rid of"/>
+  <role n="2"  descr="instrument or manner, if separate from agent"/>
+</roles>
+
+<example name="just transitive">
+<text>
+    Armstrong said that *trace* disposing of the carpet business would
+    improve ``total financial performance.'' 
+</text>
+        <arg n="0">*trace* ->  Armstrong</arg>
+        <rel>disposing</rel>
+        <arg n="1" f="of">the carpet business</arg>
+</example>
+
+<example name="with instrument">
+  <text>
+    John disposed of the priceless Picasso with a wood chipper.    
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >disposed</rel>
+  <arg n="1" f="of">the priceless Picasso</arg>
+  <arg n="2" f="with">a wood chipper</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

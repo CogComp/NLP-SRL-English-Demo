@@ -1,0 +1,123 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="wash">
+<note>
+  Frames file for 'wash' based on sentences in wsj and adaptation
+  (finally!) of Chris' old file.
+</note>
+
+<roleset id="wash.01" vncls="-" name="(make) become clean">
+<roles>
+  <role n="0"  descr="agent of washing"/>
+  <role n="1"  descr="thing being washed, dirt"/>
+  <role n="2"  descr="washing liquid"/>
+  <role n="3"  descr="source"/>
+  <role n="4"  descr="end state"/>
+</roles>
+
+<example name="simple transitive">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Not unexpectedly, wives did by far the most -- about 80% of the
+    shopping, laundry and cooking, and about two-thirds of
+    housecleaning, *trace* washing dishes, child care and family paper
+    work. 
+</text>
+        <arg n="0">*trace* ->  wives</arg>
+        <rel>washing</rel>
+        <arg n="1">dishes</arg>
+</example>
+
+<example name="PP arg3/source">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Three days later, before the new embryo had become implanted in
+    the uterus, it was washed *trace*  out of the mother mouse. 
+</text>
+        <arg n="M" f="TMP">Three days later</arg>
+        <arg n="M" f="TMP">before the new embryo had become implanted
+        in the uterus</arg> 
+        <rel>washed</rel>
+        <arg n="1">*trace* ->  it</arg>
+        <arg n="3" f="out">of the mother mouse</arg>
+</example>
+
+<example name="NP source, PP arg1">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Investors interpreted the KKR move as a desire by the firm *trace*
+    to wash its hands of SCI TV. 
+</text>
+        <arg n="0">*trace* ->  a desire </arg>
+        <rel>wash</rel>
+        <arg n="3">its hands</arg>
+        <arg n="1" f="of">SCI TV</arg>
+</example>
+
+<example name="resultative">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    We know that very early exposure to schooling improves performance
+    in the first grade, but afterward the difference is quickly washed
+    *trace* away. 
+</text>
+        <arg n="M" f="MNR">quickly</arg>
+        <rel>washed</rel>
+        <arg n="1">*trace* ->  the difference</arg>
+        <arg n="4" f="PRD">away</arg>
+</example>
+
+<example name="with liquid">
+  <inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+  <text>
+    John washes his hair in cheap beer.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >washes</rel>
+  <arg n="1"        >his hair</arg>
+  <arg n="2" f="in">cheap beer</arg>
+</example>
+
+<example name="in as LOC">
+  <inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+  <text>
+    John washes his hair in the toilet.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >washes</rel>
+  <arg n="1"        >his hair</arg>
+  <arg n="m" f="LOC">in the toilet</arg>
+</example>
+
+<note>
+More than any other verb we've encountered, 'wash' has a tendency to
+merge args.  Intransitively, for example, "John washed" is the same as
+"John washed himself", showing that the subject of the first sentence
+includes both arg0 and arg1.  Arg1 by default contains both the thing
+dirty and the dirt, but those can be separated as in the "wash hands
+of" example and "wash out of" example. 
+</note>
+
+</roleset>
+
+<roleset id="wash.02" vncls="-" name="cut it, be adequate">
+<roles>
+  <role n="0"  descr="inadequate thing"/>
+</roles>
+
+<example name="inadequacy personified">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    No, Mr. Lantos's complaints simply won't wash. 
+</text>
+        <arg n="0">Mr. Lantos 's complaints</arg>
+        <arg n="M" f="DIS">simply</arg>
+        <arg n="M" f="MOD">wo</arg>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>wash</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

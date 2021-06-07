@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="spew">
+<note>
+  Frames file for 'spew' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="spew.01" name="to flow or come out" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity coming out"/>
+  <role n="2"  descr="direction"/>
+</roles>
+
+<example name="with Arg2">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="ns"/>
+<text>
+ We see , smell and hear slums filled [*] with `` the echoes of hawkers advertising their wares interspersed [*] with abusive language , rattling coughs and the sound of people gathering spittle in their throats and spewing into the street . ''
+</text>
+	<arg n="0">people</arg>
+	<rel>spewing</rel>
+	<arg n="2" f="into">the street</arg>
+</example>
+
+
+<example name="with Arg1">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+ A volcano [*ICH*-1] will erupt next month on the fabled Strip : a 60-foot mountain spewing smoke and flame every five minutes .
+</text>
+	<arg n="0">a 60-foot mountain</arg>
+	<rel>spewing</rel>
+	<arg n="1">smoke and flame</arg>
+	<arg n="M" f="TMP">every five minutes</arg>
+</example>
+
+
+
+<example name="all arguments">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+ The photos showed active geysers on Io spewing sulfurous material 190 miles into its atmosphere and indicated that Europa may have an ocean hidden [*] under a thick sheet of ice .
+</text>
+	<arg n="0">active geysers on Io</arg>
+	<rel>spewing</rel>
+	<arg n="1">sulfurous material</arg>
+	<arg n="2" f="DIR">190 miles into its atmosphere</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

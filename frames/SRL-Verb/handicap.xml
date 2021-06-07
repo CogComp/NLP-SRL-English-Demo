@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="handicap">
+<note>
+  Frames file for 'handicap' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+
+<roleset id="handicap.01" name="to make difficult"  vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity made difficult"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ That skepticism would leave him with an even greater credibility problem [*ICH*-1] should he return that [*T*-3] would handicap him in any effort [*] to oust the board in a proxy fight .
+</text>
+	<arg n="0">[*T*-3] ->  that ->  That skepticism</arg>
+	<arg n="M" f="MOD">would</arg>
+	<rel>handicap</rel>
+	<arg n="1">him</arg>
+	<arg n="M" f="LOC">in any effort [*] to oust the board in a proxy fight</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

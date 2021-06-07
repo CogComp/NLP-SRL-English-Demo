@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="shy_away">
+<note>
+  Frames file for 'shy away' based on sentences in wsj.  No Verbnet entry. 
+</note>
+
+<roleset id="shy.01" vncls="-" name="avoid in fear">
+<roles>
+  <role n="0"  descr="avoider"/>
+  <role n="1"  descr="thing avoided"/>
+</roles>
+
+<example name="oddly intransitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="full"/>
+<text>
+    ``If someone actually sat down and thought about what they were
+    being sold ,'' says Gerald Perritt, editor of the Mutual Fund
+    Letter in Chicago, they might shy away. 
+</text>
+        <arg n="0">they</arg>
+        <arg n="M" f="MOD">might</arg>
+        <rel>[ shy] [ away]</rel>
+</example>
+
+<example name="shy away from">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    The scare over Alar, a growth regulator that makes apples redder
+    and crunchier but may be carcinogenic, made consumers shy away
+    from the Delicious, though they were less affected than the
+    McIntosh. 
+</text>
+        <arg n="0">consumers</arg>
+        <rel>[ shy] [ away]</rel>
+        <arg n="M" f="from">the Delicious</arg>
+        <arg n="M">though they were less affected  than the
+        McIntosh</arg> 
+</example>
+
+<note>
+Treebank treats the "shy away from X" in at least four different
+parsings.  You'll often have to pick things apart.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

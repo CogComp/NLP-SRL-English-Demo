@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rain">
+<note>
+  Frames file for 'rain' based on sentences in wsj.  Verbnet entry 57.
+</note>
+
+<roleset id="rain.01" vncls="57" name="rain">
+<roles>
+  <role n="0"  descr="metaphorical agent"/>
+  <role n="1"  descr="metaphorical rain"/>
+  <role n="2"  descr="rained upon"/>
+</roles>
+
+<example name="pure weather phenomena = no args">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    It didn't help that on Saturday, after three days of sunshine, it
+    rained. 
+</text>
+        <arg n="M" f="TMP">on Saturday</arg>
+        <arg n="M" f="TMP">after three days of sunshine</arg>
+        <rel>rained</rel>
+</example>
+
+<example name="maximally metaphorical">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    The earthquake shattered windows at San Francisco International's
+    air-traffic control tower and rained pieces of the ceiling down on
+    controllers, three of whom suffered minor injuries. 
+</text>
+        <arg n="0">The earthquake</arg>
+        <rel>rained</rel>
+        <arg n="1">pieces of the ceiling</arg>
+        <arg n="M" f="DIR">down</arg>
+        <arg n="2" f="on">controllers, three of whom suffered minor
+        injuries</arg> 
+</example>
+
+<example name="single arg metaphor">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    After two years of drought, it rained money in the stock-index
+    futures markets yesterday. 
+</text>
+        <arg n="M" f="TMP">After two years of drought</arg>
+        <rel>rained</rel>
+        <arg n="1">money</arg>
+        <arg n="M" f="LOC">in the stock-index futures markets</arg>
+        <arg n="M" f="TMP">yesterday</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

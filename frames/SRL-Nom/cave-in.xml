@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cave-in">
+<roleset id="cave-in.01" name="collapse, phrasal" source="verb-cave.02">
+<roles>
+
+<role descr="thing caving in" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Friday 's cave-in
+</text>
+<arg f="TMP" n="M">Friday 's</arg>
+<rel>cave-in</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

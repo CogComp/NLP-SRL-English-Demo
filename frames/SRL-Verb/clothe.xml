@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="clothe">
+<note>
+  Frames file for 'clothe' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="clothe.01" name="to dress"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="person dressed"/>
+  <role n="2"  descr="clothes"/>
+</roles>
+
+<example name="with Arg2">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+ [*-1] Clad in his trademark black velvet suit , the soft-spoken clarinetist announced that his new album , `` Inner Voices , '' had just been released [*-9] , that his family was in the front row , and that it was his mother 's birthday , so he was going [*-2] to play her favorite tune from the record .
+</text>
+	<arg n="1">the soft-spoken clarinetist ->  [*-1]</arg>
+	<rel>Clad</rel>
+	<arg n="2" f="in">his trademark black velvet suit</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

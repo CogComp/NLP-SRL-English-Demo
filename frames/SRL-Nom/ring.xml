@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ring">
+<roleset id="ring.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the argument may have a common-sense ring to it
+</text>
+<arg n="1">the argument</arg>
+<arg n="Support">have</arg>
+<arg n="2">common-sense</arg>
+<rel>ring</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

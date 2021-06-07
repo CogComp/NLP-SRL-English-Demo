@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deprivation">
+<roleset id="deprivation.01" name="cause to not have" source="verb-deprive.01" vncls="10.6">
+<roles>
+
+<role descr="entity removing" n="0">
+<vnrole vncls="10.6" vntheta="Agent"/></role>
+
+<role descr="thing being removed" n="1">
+<vnrole vncls="10.6" vntheta="Theme"/></role>
+
+<role descr="removed from" n="2">
+<vnrole vncls="10.6" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+your first three weeks of sleep deprivation
+</text>
+<arg n="2">your</arg>
+<arg n="Support">weeks of</arg>
+<arg n="1">sleep</arg>
+<rel>deprivation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

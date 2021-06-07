@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dissatisfy">
+<note>
+  Frames file for 'dissatisfy' based on sentences in wsj.  Verbnet
+  entry 31.1.
+</note>
+
+<roleset id="dissatisfy.01" vncls="31.1" name="make unhappy">
+<roles>
+  <role n="0"  descr="causer of dissatisfaction"/>
+  <role n="1"  descr="dissatisfied party"/>
+</roles>
+
+<example name="dissatisfy with">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    If parents are dissatisfied [*-1] with a school, they should have
+    the option of switching to another. 
+</text>
+        <rel>dissatisfied</rel>
+        <arg n="1">[*-1] ->  parents</arg>
+        <arg n="0" f="with">a school</arg>
+</example>
+
+
+<example name="dissatisfy by">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    His grip on power unraveled this summer as thousands of his
+    countrymen, dissatisfied [*] by the harshness of his rule, fled to
+    the West. 
+</text>
+        <rel>dissatisfied</rel>
+        <arg n="1">[*] ->  thousands of his countrymen</arg>
+        <arg n="0" f="by">the harshness of his rule</arg>
+</example>
+
+<note>
+Could make with-phrase and by-phrase different arg#s, but I don't see
+that they can cooccur.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

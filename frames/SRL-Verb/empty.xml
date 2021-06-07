@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="empty">
+<note>
+  Frames file for 'empty' based on sentences in wsj.  Verbnet entries
+  45.4 and 10.3, Framenet entries Emptying and Removing.
+</note>
+
+<roleset id="empty.01" vncls="10.3 45.4" name="cause to be empty">
+<roles>
+  <role n="0"  descr="causal agent"/>
+  <role n="1"  descr="container"/>
+  <role n="2"  descr="substance"/>
+</roles>
+
+<example name="just transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    ``The guys are going for their skis, their stereos, their personal
+    computers,'' said Frank Fitzgerald, who helped others empty their
+    apartments. 
+</text>
+        <arg n="0">others</arg>
+        <rel>empty</rel>
+        <arg n="1">their apartments</arg>
+</example>
+
+<example name="container and substance">
+<inflection person="ns" tense="future" aspect="ns" voice="passive" form="participle"/>
+<text>
+    The parties are currently negotiating over who would manage the
+    building, which [*T*-3] will be emptied [*-1] of 6,000 employees
+    from Sears' merchandise group, which is moving elsewhere. 
+</text>
+        <arg n="M" f="MOD">will</arg>
+        <rel>emptied</rel>
+        <arg n="1">[*-1] ->  [*T*-3] ->  which ->  the building</arg>
+        <arg n="2" f="of">6,000 employees from Sears' merchandise
+        group, which is moving elsewhere</arg> 
+</example>
+
+</roleset>
+</predicate>
+</frameset>

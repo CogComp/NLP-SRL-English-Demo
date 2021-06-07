@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="belong">
+<note>
+  Frames file for 'belong' based on sentences in financial subcorpus.
+  No verbnet entry.  Comparison with 'own' and 'include'.
+</note>
+
+<roleset id="belong.01" name="be owned by">
+<roles>
+  <role n="0"  descr="possession"/>
+  <role n="1"  descr="owner or group"/>
+</roles>
+
+<example name="belong with">
+<text>
+    Even some members of the Old Guard, despite their current
+    advantage, seem to be conceding that the future belongs with the
+    New Guard. 
+</text>
+        <arg n="0">the future</arg>
+        <rel>belongs</rel>
+        <arg n="1" f="with">the New Guard</arg>
+</example>
+
+
+<example name="belong on, less obvious group">
+<text>
+    You are so damn dumb that you don't belong on Wall Street.
+</text>
+        <arg n="0">you</arg>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>belong</rel>
+        <arg n="1" f="on">Wall Street</arg>
+</example>
+
+<example name="belong to">
+  <text>
+    This beat-up teddy bear belongs to John.
+  </text>
+  <arg n="0"        >This beat-up teddy bear</arg>
+  <rel              >belongs</rel>
+  <arg n="1" f="to">John</arg>
+</example>
+
+<example name="another belong to">
+  <text>
+    John belongs to the local chapter of Deluded Self-Important Idiots
+    Anonymous.  
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >belongs</rel>
+  <arg n="1" f="to">the local chapter of Deluded Self-Important Idiots
+    Anonymous.</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

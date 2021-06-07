@@ -1,0 +1,111 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="sleep">
+<note>
+  Frames file for 'sleep' based on sentences in wsj.  Verbnet entry
+  40.4, Framenet entry Sleep.
+</note>
+
+<roleset id="sleep.01" vncls="40.4" name="sleep">
+<roles>
+  <role n="0"  descr="sleeper"/>
+  <role n="1"  descr="cognate object"/>
+  <role n="2"  descr="expected terminus of sleep"/>
+</roles>
+
+<example name="usually intransitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    I'm not saying advertising revenue isn't important,'' she says,
+    ``but I couldn't sleep at night'' if the magazine bowed to a
+    company because they once took out an ad. 
+</text>
+        <arg n="0">I</arg>
+        <arg n="M" f="MOD">could</arg>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>sleep</rel>
+        <arg n="M" f="TMP">at night</arg>
+        <arg n="M" f="ADV">if the magazine bowed to a company because
+        they once took out an ad</arg> 
+</example>
+
+<example name="been there, done that">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    Some nights he slept under his desk. 
+</text>
+        <arg n="M" f="TMP">Some nights</arg>
+        <arg n="0">he</arg>
+        <rel>slept</rel>
+        <arg n="M" f="LOC">under his desk</arg>
+</example>
+
+<example name="quite an alarm clock, eh?">
+<inflection person="ns" tense="past" aspect="perfect" voice="active" form="participle"/>
+<text>
+    I'd slept through my only previous brush with natural disaster, a
+    tornado 15 or so summers ago near Traverse City, Mich., so I was
+    unprepared for one reaction to such things: the urge to talk about
+    them. 
+</text>
+        <arg n="0">I</arg>
+        <arg n="M" f="MOD">'d</arg>
+        <rel>slept</rel>
+        <arg n="2" f="through">my only previous brush with natural
+        disaster, a tornado 15 or so summers ago near Traverse City,
+        Mich.</arg> 
+</example>
+
+<example name="with cognate object">
+  <inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+  <text>
+    John sleeps the sleep of the damned.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >sleeps</rel>
+  <arg n="1"        >the sleep of the damned</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="sleep.02" vncls="-" name="engage in sexual relations">
+<roles>
+  <role n="0"  descr="agentive partner"/>
+  <role n="1"  descr="prepositional partner"/>
+</roles>
+
+<example name="sleep with">
+<inflection person="third" tense="past" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Mr. Noriega had learned that a local union leader was sleeping
+    with the wife of his deputy. 
+</text>
+        <arg n="0">a local union leader</arg>
+        <rel>sleeping</rel>
+        <arg n="2" f="with">the wife of his deputy</arg>
+</example>
+
+<example name="sleep together">
+  <inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+  <text>
+    John and Mary don't sleep together.
+  </text>
+  <arg n="0"        >John and Mary</arg>
+  <arg n="m" f="NEG">n't</arg>
+  <rel              >sleep</rel>
+  <arg n="m" f="MNR">together</arg>
+</example>
+
+<note>
+Not sure about that last example.  Calling 'together' an adjunct seems
+to miss the point, but I'm uncertain how else to handle it.
+Fortunately, it doesn't occur in the corpus.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

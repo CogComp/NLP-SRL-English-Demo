@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="protect">
+<note>
+  Frames file for 'protect' based on survey of initial sentences of
+  big corpus.
+</note>
+
+<roleset id="protect.01" name="shield from danger">
+<roles>
+  <role n="0"  descr="protector"/>
+  <role n="1"  descr="protected"/>
+  <role n="2"  descr="danger"/>
+  <role n="3"  descr="instrument"/>
+</roles>
+
+<example name="agentive subject and instrument">
+  <text>
+  Republicans want *trace* to protect the measure by combining it with
+  two politically popular issues that Democrats would find hard to
+  vote against.
+  </text>
+  <arg n="0"        >*trace*=Republicans</arg>
+  <rel              >protect</rel>
+  <arg n="1"        >the measure</arg>
+  <arg n="3" f="by">combining it with
+  two politically popular issues that Democrats would find hard to
+  vote against.</arg>
+</example>
+
+<example name="instrumental subject">
+  <text>
+  Mr. Wilder introduced a bill *trace-1* *trace-2* to protect rape
+  victims from unfounded interrogation.
+  </text>
+  <arg n="3"        >*trace-2*=*trace-1*=a bill</arg>
+  <rel              >protect</rel>
+  <arg n="1"        >rape victims</arg>
+  <arg n="2" f="from">unfounded interrogation</arg>
+</example>
+
+<example name="passivized">
+  <text>
+  The information is protected *trace* by attorney-client priviledge.
+  </text>
+  <arg n="1"        >*trace*=The information</arg>
+  <rel voice="passive">protected</rel>
+  <arg n="3" f="by">attorney-client priviledge</arg>
+</example>
+
+<note>
+The protector/instrument distinction largely comes down to
+intentionality.  Instrumental subjects seem to be much more common.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

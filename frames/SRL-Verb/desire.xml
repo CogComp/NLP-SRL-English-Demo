@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="desire">
+<note>
+  Frames file for 'desire' based on sentences in wsj.  Verbnet entry
+  32.1, Framenet entry Experiencer_subj.
+</note>
+
+<roleset id="desire.01" vncls="32.1" name="want, crave">
+<roles>
+  <role n="0"  descr="wanter"/>
+  <role n="1"  descr="wanted"/>
+</roles>
+
+<example name="not like any ringers I know">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="infinitive"/>
+<text>
+    In the torrent of replies that followed, one woman ringer from
+    Solihull observed that ``the average male ringer leaves quite a
+    lot *trace* *trace* to be desired *trace*: badly dressed,
+    decorated with acne and a large beer-belly, frequently unwashed
+    and unbearably flatulent in peals.'' 
+</text>
+        <rel>desired</rel>
+        <arg n="1">*trace* -> *trace* -> *trace* ->  quite a lot</arg>
+</example>
+
+
+<example name="active">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+     Seeking to allay European concerns, U.S. Agriculture Secretary
+     Clayton Yeutter said in Washington that the new U.S. plan
+     wouldn't ``put farmers out of business'' but would encourage them
+     to ``grow what the markets desire *trace* instead of what the
+     government wants.'' 
+</text>
+        <arg n="0">the markets</arg>
+        <rel>desire</rel>
+        <arg n="1">*trace* ->  what</arg>
+</example>
+
+<note>
+In somewhat pretentious language could have Arg1-PRD: John desires to
+eat chocolate cake.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

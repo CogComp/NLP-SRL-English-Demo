@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="apprise">
+<note>
+  Frames file for 'apprise' based on sentences in wsj.  No Verbnet
+  entry, Framenet entry Statement.
+</note>
+
+<roleset id="apprise.01" vncls="-" name="inform, cause to know">
+<roles>
+  <role n="0"  descr="informer"/>
+  <role n="1"  descr="informed"/>
+  <role n="2"  descr="information"/>
+</roles>
+
+<example name="usually passive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    (Donald Trinen, an attorney for the penny-brokerage firm, denies
+    the fraud allegations and says the Lyneses were fully apprised
+    [*-1] that they were pursuing a high-risk investment.) 
+</text>
+        <arg n="M" f="MNR">fully</arg>
+        <rel>apprised</rel>
+        <arg n="1">[*-1] ->  the Lyneses</arg>
+        <arg n="2">they were pursuing a high-risk investment</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

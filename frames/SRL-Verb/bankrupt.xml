@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="bankrupt">
+<note>
+  Frames file for 'bankrupt' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="bankrupt.01" name="to cause to become financially bankrupt"
+vncls="-">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="person bankrupt"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Though [*-1] obscure to most investors , the question of whether [*] to list options on more than one exchange has aroused much interest in Congress , mainly because regional exchanges fear [0] the change could bankrupt them .
+</text>
+	<arg n="0">the change</arg>
+	<arg n="M" f="MOD">could</arg>
+	<rel>bankrupt</rel>
+	<arg n="1">them</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

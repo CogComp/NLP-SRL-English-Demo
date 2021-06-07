@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="mushroom">
+<note>
+  Frames file for 'mushroom' based on sentences in wsj.  Verbnet entry 45.6.
+</note>
+
+<roleset id="mushroom.01" vncls="45.6" name="grow very rapidly, as
+mushrooms after rain">
+<roles>
+  <role n="1"  descr="thing growing"/>
+  <role n="2"  descr="EXT"/>
+  <role n="3"  descr="start point"/>
+  <role n="4"  descr="end point"/>
+</roles>
+
+<example name="missing EXT">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    From 1987 to 1988, the value of Chemical's option contracts
+    outstanding mushroomed to $37 billion from $17 billion. 
+</text>
+        <arg n="M" f="TMP">From 1987 to 1988</arg>
+        <arg n="1">the value of Chemical's option contracts
+        outstanding</arg> 
+        <rel>mushroomed</rel>
+        <arg n="4" f="to">$37 billion </arg>
+        <arg n="3" f="from">$17 billion </arg>
+</example>
+
+<example name="intransitive/ergative">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    The number of computers has mushroomed in recent years, with
+    10,000 in use, as well as 30,000 miniature models. 
+</text>
+        <arg n="1">The number of computers</arg>
+        <rel>mushroomed</rel>
+        <arg n="M" f="TMP">in recent years</arg>
+        <arg n="M">with 10,000 in use, as well as 30,000 miniature
+        models</arg>
+</example> 
+
+<example name="inconvenient temporal">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    Junk bonds, which  mushroomed from less than $ 2 billion at the
+    start of this decade, have been declining for months as issuer
+    after issuer sank beneath the weight of hefty interest payments. 
+</text>
+        <arg n="1">*trace* ->  which ->  Junk bonds</arg>
+        <rel>mushroomed</rel>
+        <arg n="3" f="from">[ less than $ 2 billion ] [ at the start
+        of this decade]</arg> 
+</example>
+
+<note>
+The temporal describes not the process of mushrooming, but the time at
+which the start state existed.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

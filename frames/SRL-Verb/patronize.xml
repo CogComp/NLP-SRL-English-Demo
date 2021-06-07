@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="patronize">
+<note>
+  Frames file for 'patronize' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="patronize.01" name="to act as a patron"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity patronized"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Perhaps , [*-1] considering the value of our time , we will be unable [*-1] to patronize their establishments in the post-Hugo era .
+</text>
+	<arg n="0">[*-1] ->  we</arg>
+	<rel>patronize</rel>
+	<arg n="1">their establishments</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

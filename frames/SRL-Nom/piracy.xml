@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="piracy">
+<roleset id="piracy.01" name="be a pirate, steal" source="verb-pirate.01" vncls="10.5">
+<roles>
+
+<role descr="pirate, thief, agent" n="0">
+<vnrole vncls="10.5" vntheta="Agent"/></role>
+
+<role descr="thing stolen" n="1">
+<vnrole vncls="10.5" vntheta="Theme"/></role>
+
+<role descr="stolen from" n="2">
+<vnrole vncls="10.5" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+videocassette piracy in Malaysia
+</text>
+<arg n="1">videocassette</arg>
+<rel>piracy</rel>
+<arg f="LOC" n="M">in Malaysia</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

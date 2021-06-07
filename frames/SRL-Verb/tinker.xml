@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="tinker">
+<note>
+  Frames file for 'tinker' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="tinker.01" name="to mess around"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity tinkered with"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+ Democrats asked in [*] this week for discussions with President Bush have suggested ways of [*] `` tinkering '' with the Packwood-Roth proposal , [*-3] suggesting an interest in [*] looking for a modified version [0] they can back [*T*-1] , one official said [0] [*T*-2] .
+</text>
+	<arg n="0">[*] ->  Democrats asked in [*] this week for discussions with President Bush</arg>
+	<rel>tinkering</rel>
+	<arg n="1" f="with">the Packwood-Roth proposal</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

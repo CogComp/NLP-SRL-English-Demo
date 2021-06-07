@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ancestry">
+<roleset id="ancestry.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+although of Italian ancestry , Mr. Mariotta still could qualify
+as a minority person since he was born in Puerto Rico
+</text>
+<arg n="2">Italian</arg>
+<rel>ancestry</rel>
+<arg n="1">Mr. Mariotta</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

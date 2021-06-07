@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="transplant">
+<note>
+  Frames file for 'transplant' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="transplant.01" vncls="-" name="move from one place to another">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing moved"/>
+  <role n="2"  descr="destination"/>
+  <role n="3"  descr="source"/>
+</roles>
+
+<example name="just transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    But no one has made a serious effort *trace* to transplant the
+    crop. 
+</text>
+        <arg n="0">*trace* ->  no one</arg>
+        <rel>transplant</rel>
+        <arg n="1">the crop</arg>
+</example>
+
+<example name="with destination">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Twenty years later, two California academics, Stanley Cohen and
+    Herbert Boyer, made ``recombinant'' DNA, *trace* transplanting a
+    toad's gene into bacteria, which then reproduced toad genes. 
+</text>
+        <arg n="0">*trace* ->  two California academics, Stanley Cohen
+        and Herbert Boyer,</arg> 
+        <rel>transplanting</rel>
+        <arg n="1">a toad 's gene</arg>
+        <arg n="2" f="into">bacteria, which then reproduced toad genes</arg>
+</example>
+
+<example name="with source">
+  <inflection person="third" tense="past" aspect="ns" voice="passive" form="participle"/>
+  <text>
+     Mary's sense of fair play was transplanted *trace* from Adolf Hitler.
+  </text>
+  <rel              >transplanted</rel>
+  <arg n="1"        >*trace* -> Mary's sense of fair play</arg>
+  <arg n="3" f="from">Adolf Hitler</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

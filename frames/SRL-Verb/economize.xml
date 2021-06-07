@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="economize">
+<note>
+  Frames file for 'economize' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="economize.01" vncls="-" name="reduce costs">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="domain of expenditures"/>
+</roles>
+
+<example name="the one example">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+     While some 100 million ounces of silver once held by Mr. Hunt and
+     Middle Eastern associates aren't hanging over the market anymore,
+     the price surge of 1979-80 precipitated an expansion of mine
+     production and scrap recovery and encouraged silver consumers to
+     economize on silver use, Mr. Edgar says. 
+</text>
+        <arg n="0">silver consumers</arg>
+        <rel>economize</rel>
+        <arg n="1" f="on">silver use</arg>
+</example>
+
+<note>
+More typically intransitive, I'd bet.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="pester">
+<note>
+  Frames file for 'pester' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="pester.01" name="to bother, harass"
+vncls="-">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="person pestered"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+ [*-2] Pestered [*-1] by bosses , brokers , clients and media people and pushed [*-1] by their own egos , Wall Street economists are forecasting about everything from broad economic trends to the dinkiest monthly indicator .
+</text>
+	<rel>Pestered</rel>
+	<arg n="1">Wall Street economists ->  [*-1] ->  [*-2]</arg>
+	<arg n="0" f="by">bosses , brokers , clients and media people</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+
+

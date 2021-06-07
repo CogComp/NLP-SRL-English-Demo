@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="subsidize">
+<note>
+  Frames file for 'subsidize' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="subsidize.01" name="to assist or support with a subsidy"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity subsidized"/>
+</roles>
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ But the Population Council , a 37-year-old , $ 20 million [*U*] nonprofit organization that [*T*-487] has the backing of the Rockefeller and Mellon foundations and currently subsidizes most U.S. research on contraceptives , has recently been paying for U.S. studies of RU-486 on a license from its French developer , Roussel-Uclaf , a joint subsidiary of the German pharmaceutical company Hoechst and the French government .
+</text>
+	<arg n="0">[*T*-487] ->  that ->  a 37-year-old , $ 20 million [*U*] nonprofit organization</arg>
+	<arg n="M" f="TMP">currently</arg>
+	<rel>subsidizes</rel>
+	<arg n="1">most U.S. research on contraceptives</arg>
+</example>
+
+
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ `` I 've heard from friends that state farms are subsidized [*-1] , '' Mr. Pyszkiewicz says [*T*-2] as his wife , Wieslawa , sets some chairs out in the sun .
+</text>
+	<rel>subsidized</rel>
+	<arg n="1">[*-1] ->  state farms</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

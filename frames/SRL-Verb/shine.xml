@@ -1,0 +1,72 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="shine">
+<note>
+  Frames file for 'shine' based on sentences in wsj.  Verbnet entry
+  43.1, Framenet entry Light emission.
+</note>
+
+<roleset id="shine.01" vncls="43.1" name="produce light">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="source of light"/>
+  <role n="2"  descr="thing illuminated"/>
+</roles>
+
+<example name="agentive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="gerund"/>
+<text>
+    Currently, chips are produced by *trace* shining light through a
+    mask to produce an image on the chip, much as a camera produces an
+    image on film. 
+</text>
+        <arg n="0">*trace*</arg>
+        <rel>shining</rel>
+        <arg n="1">light</arg>
+        <arg n="M" f="DIR">through a mask</arg>
+        <arg n="M" f="PNC">to produce an image on the chip, much as a
+        camera produces an image on film</arg> 
+</example>
+
+<example name="ergative">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="full"/>
+<text>
+     Rising in the firm, he became powerful and bland, though his new
+     wife, Susan, made him shine in the gossip columns with her
+     profligate spending habits and flamboyant frocks. 
+</text>
+        <arg n="1">him</arg>
+        <rel>shine</rel>
+        <arg n="M" f="LOC">in the gossip columns</arg>
+        <arg n="M" f="MNR">with her profligate spending habits and flamboyant frocks</arg>
+</example>
+
+<note>
+The canonical ergative example would be "the sun shines".
+</note>
+</roleset>
+</predicate>
+
+<predicate lemma="shine_through">
+<roleset id="shine.02" vncls="-" name="be very apparent">
+<roles>
+  <role n="1"  descr="apparent thing"/>
+</roles>
+
+<example name="a particular kind of direction">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    But while the merits of diversification shine through when times
+    are tough, there's also a price to pay: A diversified portfolio
+    always underperforms an undiversified portfolio during those times
+    when the investment in the undiversified portfolio is truly hot. 
+</text>
+        <arg n="1">the merits of diversification</arg>
+        <rel>shine through</rel>
+        <arg n="M" f="TMP">when times are tough </arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

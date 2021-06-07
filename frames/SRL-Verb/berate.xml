@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="berate">
+<note>
+  Frames file for 'berate' based on sentences in wsj.  No Verbnet
+  entry, Framenet entry Judgement.
+</note>
+
+<roleset id="berate.01" vncls="-" name="yell at">
+<roles>
+  <role n="0"  descr="yeller"/>
+  <role n="1"  descr="yelled at"/>
+  <role n="2"  descr="cause"/>
+</roles>
+
+<example name="just transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    At his first Chicago press conference, he berated the reporters. 
+</text>
+        <arg n="M" f="LOC">At his first Chicago press conference</arg>
+        <arg n="0">he</arg>
+        <rel>berated</rel>
+        <arg n="1">the reporters</arg>
+</example>
+
+<example name="with cause">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary berated John for being dead.  (He ignored her.)
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >berated</rel>
+  <arg n="1"        >John</arg>
+  <arg n="2" f="for">being dead</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

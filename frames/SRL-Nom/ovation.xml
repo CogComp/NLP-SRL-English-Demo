@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ovation">
+<roleset id="ovation.01" name="clap, sometimes metaphorically" source="verb-applaud.01" vncls="33">
+<roles>
+
+<role descr="clapper" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="thing approved of" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="grounds, reason for approval" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Knowing a tasty -- and free -- meal when they eat one , the
+executives gave the chefs a standing ovation .
+</text>
+<arg n="0">the executives</arg>
+<arg n="Support">gave</arg>
+<arg n="1">the chefs</arg>
+<arg f="MNR" n="M">standing</arg>
+<rel>ovation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="right">
+<note>
+  Frames file for 'right' based on sentences in wsj.  No Verbnet
+  entry.
+</note>
+
+<roleset id="right.01" vncls="-" name="make right, correct">
+<roles>
+  <role n="0"  descr="maker right"/>
+  <role n="1"  descr="thing that was wrong"/>
+</roles>
+
+<example name="domain-specific">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    ``I think the ship is now righted *trace*, the bilges are pumped
+    and we are on course,'' Mr. Hutchinson said of the restructuring
+    program. 
+</text>
+        <arg n="M" f="TMP">now</arg>
+        <rel>righted</rel>
+        <arg n="1">*trace* ->  the ship</arg>
+</example>
+
+<note>
+A ship that is upside down is inherently wrong.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

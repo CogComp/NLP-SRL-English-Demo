@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="misstate">
+<note>
+  Frames file for 'misstate' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="misstate.01" name="to state wrongly"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity misstated"/>
+</roles>
+
+<example name="pasive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ The date was misstated [*-1] in Friday 's edition .
+</text>
+	<rel>misstated</rel>
+	<arg n="1">[*-1] ->  The date</arg>
+	<arg n="M" f="LOC">in Friday 's edition</arg>
+</example>
+
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Neither technique is perfect , but both are better than the current system , which [*T*-1] misstates the costs of new credit programs by amounts that [*T*-2] vary substantially and average about $ 20 billion [*U*] annually , according to the Congressional Budget Office .
+</text>
+	<arg n="0">[*T*-1] ->  which ->  the current system</arg>
+	<rel>misstates</rel>
+	<arg n="1">the costs of new credit programs</arg>
+	<arg n="M" f="MNR">by amounts that [*T*-2] vary substantially and average about $ 20 billion [*U*] annually</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

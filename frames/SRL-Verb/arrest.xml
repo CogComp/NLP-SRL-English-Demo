@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="arrest">
+<note>
+  Frames file for 'arrest' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="arrest.01" vncls="-" name="like a criminal">
+<roles>
+  <role n="0"  descr="police"/>
+  <role n="1"  descr="criminal"/>
+  <role n="2"  descr="crime"/>
+</roles>
+
+<example name="difficult syntax for crime">
+<inflection person="ns" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    Since Mexican President Carlos Salinas de Gortari took office last
+    December, special agents have arrested more than 6,000 federal
+    employees on charges ranging from extortion to tax evasion. 
+</text>
+        <arg n="M" f="TMP">Since Mexican President Carlos Salinas de
+        Gortari took office last December</arg> 
+        <arg n="0">special agents</arg>
+        <rel>arrested</rel>
+        <arg n="1">more than 6,000 federal employees</arg>
+        <arg n="2">on charges ranging from extortion to tax evasion</arg>
+</example>
+
+<note>
+I'd expect to see arg2-for more commonly, but I could be mistaken.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

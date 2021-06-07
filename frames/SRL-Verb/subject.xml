@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="subject">
+<note>
+  Frames file for 'subject' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="subject.01" vncls="-" name="cause to experience some procedure">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="induced experiencer"/>
+  <role n="2"  descr="procedure"/>
+</roles>
+
+<example name="passivized">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    That meant no trading would occur in the final seconds, as a way
+    of making sure that last-second orders aren't subjected *trace* to
+    a sudden price swing that would upset customers. 
+</text>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>subjected</rel>
+        <arg n="1">*trace* ->  last-second orders</arg>
+        <arg n="2" f="to">a sudden price swing that would upset
+        customers</arg>
+</example>
+
+<example name="with causer">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary subjected John to a full-scale interrogation when he came
+    home late one night.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >subjected</rel>
+  <arg n="1"        >John</arg>
+  <arg n="2" f="to">a full-scale interrogation</arg>
+  <arg n="m" f="TMP">when he came home late one night</arg>
+</example>
+
+<note>
+Odd that 'subject' and 'object' (as verbs) have nothing to do with
+each other.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

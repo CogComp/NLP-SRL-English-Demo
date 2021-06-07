@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="privatize">
+<note>
+  Frames file for 'privatize' based on sentences in financial
+  subcorpus.  No Verbnet entry, no Framenet entry.  No comparison.
+</note>
+
+<roleset id="privatize.01" vncls="-" name="sell off government property">
+<roles>
+  <role n="0"  descr="government, usually"/>
+  <role n="1"  descr="property, usually industry"/>
+</roles>
+
+<example name="typical usage">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    ...nor can the government easily back down on promised protection
+    for a privatized company while it proceeds with controversial
+    plans *trace* to privatize most of Britain's water and electricity
+    industries. 
+</text>
+        <arg n="0">*trace* ->  it</arg>
+        <rel>privatize</rel>
+        <arg n="1">most of Britain's water and electricity industries</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

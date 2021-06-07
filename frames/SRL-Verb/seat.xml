@@ -1,0 +1,76 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="seat">
+<note>
+  Frames file for 'seat' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="seat.01" name="to place in a seat, provide seats"
+vncls="54.3">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity seated"/>
+  <role n="2"  descr="location"/>
+</roles>
+
+
+
+<example name="Arg2 as a subject">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ One of its futuristic concepts is the bubblelike Sneaker , which [*T*-1] seats just one person in front and could hold a small child and bag of groceries in the rear .
+</text>
+	<arg n="2">[*T*-1] ->  which ->  the bubblelike Sneaker</arg>
+	<rel>seats</rel>
+	<arg n="1">just one person</arg>
+	<arg n="M" f="LOC">in front</arg>
+</example>
+
+
+<example name="passive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ `` Barber was seated [*-2] by the fireplace [*-2] looking very pale , '' recalls [*T*-3] the violinist , who [*T*-1] performed the work with a piano accompanist at the composer 's apartment .
+</text>
+	<rel>seated</rel>
+	<arg n="1">[*-2] ->  Barber</arg>
+	<arg n="M" f="LOC">by the fireplace</arg>
+	<arg n="M" f="PRD">[*-2] looking very pale</arg>
+</example>
+</roleset>
+
+
+<roleset id="seat.02" name="to place in a position of authority"
+vncls="54.3">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity seated"/>
+</roles>
+
+
+
+<example name="passive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Israel was seated [*-38] by a vote of 95-37 , with 15 abstentions .
+</text>
+	<rel>seated</rel>
+	<arg n="1">[*-38] ->  Israel</arg>
+	<arg n="M" f="MNR">by a vote of 95-37</arg>
+	<arg n="M" f="MNR">with 15 abstentions</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

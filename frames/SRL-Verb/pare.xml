@@ -1,0 +1,70 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="pare">
+<note>
+  Frames file for 'pare' based on sentences in financial subcorpus.
+  No Verbnet entry.  Comparison with cut.
+</note>
+
+<roleset id="pare.01" name="cut off unnecessary bits, reduce size">
+<roles>
+  <role n="0"  descr="cutter"/>
+  <role n="1"  descr="thing cut"/>
+  <role n="2"  descr="medium, source"/>
+  <role n="3"  descr="instrument"/>
+</roles>
+
+<example name="cooking">
+  <text>
+    John pared the rind of fat from the ham with a chainsaw.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >pared</rel>
+  <arg n="1"        >the rind of fat</arg>
+  <arg n="2" f="from">the ham</arg>
+  <arg n="3" f="with">a chainsaw</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="pare.02" name="quantifiable reduction">
+<roles>
+  <role n="0"  descr="cutter"/>
+  <role n="1"  descr="thing being reduced"/>
+  <role n="2"  descr="EXT"/>
+  <role n="3"  descr="start point"/>
+  <role n="4"  descr="end point"/>
+</roles>
+
+<example name="with start and end point">
+<text>
+    Since April, it has pared its high-yield bond holdings to about
+    $890 million from $1.35 billion. 
+</text>
+        <arg n="M" f="TMP">Since April</arg>
+        <arg n="0">it</arg>
+        <rel>pared</rel>
+        <arg n="1">its high-yield bond holdings</arg>
+        <arg n="4" f="to">about $ 890 million </arg>
+        <arg n="3" f="from">$ 1.35 billion </arg>
+</example>
+
+<note>
+etc.
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="pare_down">
+<note>
+   Otherwise identical to either sense of 'pare'
+</note>
+<roleset id="pare.03"><roles></roles></roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wad">
+<note>
+  Frames file for 'wad' based on sentences in wsj.  Verbnet entries
+  26.5 and 9.3.  
+</note>
+
+<roleset id="wad.01" vncls="26.5 9.3" name="form into a wad">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing wadded"/>
+  <role n="2"  descr="explicit mention of wad"/>
+</roles>
+
+<example name="only made-up examples">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary wadded her and John's marriage license into a tiny ball,
+    ground it underfoot, doused it with lighter fluid, burned it, then
+    put out the fire by peeing on it.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >wadded</rel>
+  <arg n="1"        >her and John's marriage license</arg>
+  <arg n="2" f="into">a tiny ball</arg>
+</example>
+
+<note>
+The phrasal "wad up" takes the same PAS, but the arg2 becomes rarer.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

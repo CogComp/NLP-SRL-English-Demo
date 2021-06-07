@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="function">
+<note>
+  Frames file for 'function' based on sentences in financial
+  subcorpus.  No verbnet entry.  Comparison with 'work'
+</note>
+
+<roleset id="function.01" name="act">
+<roles>
+  <role n="0"  descr="worker"/>
+  <role n="1"  descr="job, project"/>
+</roles>
+
+<example name="with job">
+<text>
+    Arbitrage simply transfers his selling pressure from Chicago to
+    New York, while *trace* functioning as a buyer in Chicago.  
+</text>
+	<arg n="0">*trace* ->  Arbitrage</arg>
+	<rel>functioning</rel>
+	<arg n="1" f="as">a buyer in Chicago</arg>
+</example>
+
+<example name="intransitive">
+<text>
+    The Asset Privatization Trust, the agency chiefly responsible for
+    selling government-held properties, has recorded sales of more
+    than $500 million since it began *trace* functioning in December
+    1986. 
+</text>
+	<arg n="0"></arg>
+	<rel>functioning</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>
+

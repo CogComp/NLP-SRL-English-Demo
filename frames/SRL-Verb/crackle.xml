@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="crackle">
+<note>
+  Frames file for 'crackle' based on sentences in wsj.  Verbnet entry
+  43.2, Framenet entry Motion noise.
+</note>
+
+<roleset id="crackle.01" vncls="43.2" name="make crackling noises">
+<roles>
+  <role n="0"  descr="thing crackling"/>
+</roles>
+
+<example name="What about Snap and Pop?">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+     Negative answers crackle back.
+</text>
+        <arg n="0">Negative answers</arg>
+        <rel>crackle</rel>
+        <arg n="M" f="DIR">back</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

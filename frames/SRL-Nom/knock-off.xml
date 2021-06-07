@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="knock-off">
+<roleset id="knock-off.01" name="make a copy" source="verb-copy.01" vncls="25.2">
+<roles>
+
+<role descr="copyist, agent" n="0">
+<vnrole vncls="25.2" vntheta="Agent"/></role>
+
+<role descr="original" n="1">
+<vnrole vncls="25.2" vntheta="Theme"/></role>
+
+<role descr="copy" n="2">
+<vnrole vncls="25.2" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A French knock-off of `` Dallas , '' called `` Chateauvallon ''
+and set in a French vineyard
+</text>
+<arg f="LOC" n="M">French</arg>
+<arg n="2">knock-off</arg>
+<rel>knock-off</rel>
+<arg n="1">of `` Dallas</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trick">
+<note>
+  Frames file for 'trick'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="trick.01" name="to deceive"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>  
+  <role n="1"  descr="entity tricked"/>  
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ When Isabella ( Ellen Lauren ) confronts her brother Claudio ( Matt Loney ) in his cell , [*-1] explaining the price [0] she has been asked [*] [*T*-2] [*] to secure his freedom [*T*-3] ; when Isabella and the disguised Duke ( Philip Kerr ) conspire [*-4] to trick Angelo [*T*-5] ; and when Mariana ( Annalee Jefferies ) , a woman wronged [*] by Angelo , confronts him with his past misdeeds [*T*-6] , the performers bring the dramatic high points to life with intense energy and intelligence .
+</text>
+	<arg n="0">[*-4] ->  Isabella and the disguised Duke ( Philip Kerr )</arg>
+	<rel>trick</rel>
+	<arg n="1">Angelo</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

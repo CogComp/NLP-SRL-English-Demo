@@ -1,0 +1,70 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="induce">
+<note>
+  Frames file for 'induce' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="induce.01" name="to cause" vncls="-">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="event induced"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ The second patent describes bone morphogenetic protein-1 , a substance that [*T*-2] can induce formation of new cartilage .
+</text>
+	<arg n="0">[*T*-2] ->  that ->  a substance</arg>
+	<arg n="M" f="MOD">can</arg>
+	<rel>induce</rel>
+	<arg n="1">formation of new cartilage</arg>
+</example>
+</roleset>
+
+<roleset id="induce.02" name="to persuade" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="impelled person"/>
+  <role n="2"  descr="action or proposition"/>
+</roles>
+
+
+<example name="Arg2 as a PP">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Beijing lawmakers have called for jails to be built [*-3] [*-1] to house prostitutes and for severe punishment , including the death sentence , for anyone who [*T*-2] induces or coerces women into prostitution .
+</text>
+	<arg n="0">[*T*-2] ->  who ->  anyone</arg>
+	<rel>induces</rel>
+	<arg n="1">women</arg>
+	<arg n="2" f="into">prostitution</arg>
+</example>
+
+
+<example name="Arg2 as a VP">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Mr. Neff says [0] the stock market has lost some powerful driving forces , namely earnings growth and the `` LBO sweepstakes '' -- buy-out fever that [*T*-1] induced investors to bid up whole groups of stocks , such as media and airlines .
+</text>
+	<arg n="0">[*T*-1] ->  that ->  buy-out fever</arg>
+	<rel>induced</rel>
+	<arg n="1">investors</arg>
+	<arg n="2">to bid up whole groups of stocks , such as media and airlines</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

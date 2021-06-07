@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="pollinate">
+<note>
+  Frames file for 'pollinate' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="pollinate.01" name="to fertilize by transfering pollen"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="plant  pollinated"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ `` It [*EXP*-2] 's one thing [*] to say [0] you can sterilize , and another [*] to then successfully pollinate the plant , '' he said [*T*-1] .
+</text>
+	<arg n="0">[*]</arg>
+	<arg n="M" f="TMP">then</arg>
+	<arg n="M" f="MNR">successfully</arg>
+	<rel>pollinate</rel>
+	<arg n="1">the plant</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

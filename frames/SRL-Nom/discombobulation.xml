@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="discombobulation">
+<roleset id="discombobulation.01" name="cause to) be confused" source="verb-confuse.01" vncls="31.1">
+<roles>
+
+<role descr="agentive cause of confusion" n="0">
+<vnrole vncls="31.1" vntheta="Agent"/></role>
+
+<role descr="entity experiencing confusion" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="reason" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+For Ms. Cunningham the architectural discombobulation matched the
+discrepancy she felt living in the AnaMor Towers as a little girl
+: `` ... outwardly ordinary , inwardly ornate , owing all
+inspiration to heathen cultures . ''
+</text>
+<arg n="1">For Ms. Cunningham</arg>
+<arg n="2">architectural</arg>
+<rel>discombobulation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

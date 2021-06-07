@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disregard">
+<roleset id="disregard.01" name="never mind" source="verb-disregard.01">
+<roles>
+
+<role descr="entity not paying attention" n="0"></role>
+
+<role descr="non-focus" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+disregard for U.S. pharmaceutical patents in Turkey
+</text>
+<rel>disregard</rel>
+<arg n="1">for U.S. pharmaceutical patents</arg>
+<arg n="0">in Turkey</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

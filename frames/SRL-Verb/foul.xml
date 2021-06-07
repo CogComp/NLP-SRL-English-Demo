@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="foul">
+<note>
+  Frames file for 'foul' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="foul.01" vncls="-" name="make wrong">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing gone wrong"/>
+  <role n="2"  descr="mode-specific description of act of going wrong"/>
+</roles>
+
+<example name="fishing metaphor">
+<inflection person="ns" tense="past" aspect="perfect" voice="active" form="participle"/>
+<text>
+    [*] Unknown to Mr. Tharp, he had fouled his net on a special IRS
+    project to catch catfish farmers and haulers inclined to cheat on
+    their taxes. 
+</text>
+        <arg n="M">[*] Unknown to Mr. Tharp</arg>
+        <arg n="0">he</arg>
+        <rel>fouled</rel>
+        <arg n="1">his net</arg>
+        <arg n="2" f="on">a special IRS project to catch catfish
+        farmers and haulers inclined to cheat on their taxes</arg> 
+</example>
+
+<example name="baseball metaphor">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     John fouled off the right-side bleachers.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >fouled</rel>
+  <arg n="2" f="off">the right-side bleachers</arg>
+</example>
+
+<note>
+So many possible meanings, so few argument structures!
+</note>
+
+</roleset>
+</predicate>
+</frameset>

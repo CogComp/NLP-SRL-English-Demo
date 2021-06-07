@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="phase_out">
+<note>
+  Frames file for 'phase_out' based on sentences in financial subcorpus.
+  No verbnet entry.  Comparison with eliminate.
+</note>
+
+<roleset id="phase.01" name="eliminate">
+<roles>
+  <role n="0"  descr="eliminator"/>
+  <role n="1"  descr="thing eliminated"/>
+</roles>
+
+<example name="automatically generated">
+<text>
+    The company said it is in the process of *trace* phasing out John
+    Deere, its current source of production for midsized motor home
+    chassis. 
+</text>
+        <arg n="0">*trace* ->  it</arg>
+        <rel>[ phasing] [ out]</rel>
+        <arg n="1">John Deere , its current source of production for midsized motor home chassis</arg>
+</example>
+
+<note>
+You'll have to add in the particle "out" to the verb "phase" manually
+using "A" in pbtool.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

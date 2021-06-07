@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="automation">
+<roleset id="automation.01" name="to make automatic" source="verb-automate.01">
+<roles>
+
+<role descr="causer of automation, agent" n="0"></role>
+
+<role descr="entity automated" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+mechanical design automation
+</text>
+<arg n="1">mechanical design</arg>
+<rel>automation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

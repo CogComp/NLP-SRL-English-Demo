@@ -1,0 +1,88 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="switch">
+<note>
+  Frames file for 'switch' based on sentences in financial subcorpus.
+  No Verbnet entry.  Comparison with 'replace' and 'change'
+</note>
+
+<roleset id="switch.01" name="change, exchange">
+<roles>
+  <role n="0"  descr="causer of transformation"/>
+  <role n="1"  descr="thing changing"/>
+  <role n="2"  descr="end state"/>
+  <role n="3"  descr="start state"/>
+</roles>
+
+<example name="all arguments present">
+<text>
+    Both Shearson's Mr. Will and Stephen Reitman, European auto
+    analyst at the London brokerage firm UBS-Phillips &amp; Drew, recently
+    switched their Jaguar recommendations to hold from buy. 
+</text>
+        <arg n="0">Both Shearson's Mr. Will and Stephen Reitman,
+        European auto analyst at the London brokerage firm
+        UBS-Phillips &amp; Drew</arg> 
+        <arg n="M" f="TMP">recently</arg>
+        <rel>switched</rel>
+        <arg n="1">their Jaguar recommendations</arg>
+        <arg n="2" f="to">hold</arg>
+        <arg n="3" f="from">buy</arg>
+</example>
+
+<example name="unstated thing changing">
+<text>
+    Dealers said the multinational oil company was pressured by recent
+    brokerage recommendations urging investors *trace* to switch into
+    Shell Trading &amp; Transport. 
+</text>
+        <arg n="0">*trace* ->  investors</arg>
+        <rel>switch</rel>
+        <arg n="2" f="into">Shell Trading &amp; Transport</arg>
+</example>
+
+<example name="ergative">
+<text>
+    ``Investor interest switches back and forth ceaselessly as they
+    are unable  to shift their weight to one side for sure,''
+    Mr. Mitsuoka of Daiwa Investment Trust said. 
+</text>
+        <arg n="1">Investor interest</arg>
+        <rel>switches</rel>
+        <arg n="M" f="MNR">back and forth</arg>
+        <arg n="M" f="MNR">ceaselessly</arg>
+        <arg n="M" f="TMP">as they are unable  to shift their weight
+        to one side for sure</arg> 
+</example>
+</roleset>
+</predicate>
+
+<predicate lemma="switch over">
+
+<roleset id="switch.02" name="(ex)change">
+<roles>
+</roles>
+
+<note>
+Exactly the same as "switch"
+</note>
+
+<example name="unstated thing changing">
+<text>
+    Burger King, which breaks thousands of fresh eggs each morning, is
+    quietly switching over to an alternative egg product made by
+    Michael Foods. 
+</text>
+        <arg n="0">Burger King , which  breaks thousands of fresh eggs
+        each morning,</arg> 
+        <arg n="M" f="MNR">quietly</arg>
+        <rel>[ switching] [ over]</rel>
+        <arg n="2" f="to">an alternative egg product made  by Michael
+        Foods</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

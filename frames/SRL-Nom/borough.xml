@@ -1,0 +1,22 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="borough">
+<roleset id="borough.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a London borough council
+</text>
+<arg n="1">London</arg>
+<rel>borough</rel>
+<arg n="Support">council</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

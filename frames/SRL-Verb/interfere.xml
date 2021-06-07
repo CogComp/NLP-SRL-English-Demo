@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="interfere">
+<note>
+  Frames file for 'interfere' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="interfere.01" name="to meddle, intervene unasked" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="interfere with/in"/>
+</roles>
+
+
+
+<example name="Arg1-with">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Lawful demonstrations , such as peaceful picketing and other assemblages that [*T*-265] do not disturb the peace or cause a public nuisance or interfere with the rights of others , are rights guaranteed [*] by any truly free system of government .
+</text>
+	<arg n="0">[*T*-265] ->  that ->  other assemblages</arg>
+	<arg n="M" f="NEG">not</arg>
+	<rel>interfere</rel>
+	<arg n="1" f="with">the rights of others</arg>
+</example>
+
+
+<example name="Arg1-in">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Warner has filed a $ 1 billion [*U*] breach of contract suit in Los Angeles Superior Court against Sony and the Guber-Peters duo , who [*T*-1] in turn are countersuing Warner for [*-3] trying [*-2] to interfere in Sony 's acquisition of Columbia Pictures Entertainment Inc. and Guber Peters Entertainment Co. in two transactions valued [*] at over $ 5 billion [*U*] .
+</text>
+	<arg n="0">[*-2] ->  [*-3] ->  Warner</arg>
+	<rel>interfere</rel>
+	<arg n="1" f="in">Sony 's acquisition of Columbia Pictures Entertainment Inc. and Guber Peters Entertainment Co. in two transactions valued [*] at over $ 5 billion [*U*]</arg>
+</example>
+
+
+
+<example name="intransitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ President de Klerk 's government permitted the rally , and security forces did n't interfere .
+</text>
+	<arg n="0">security forces</arg>
+	<arg n="M" f="NEG">n't</arg>
+	<rel>interfere</rel>
+</example>
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

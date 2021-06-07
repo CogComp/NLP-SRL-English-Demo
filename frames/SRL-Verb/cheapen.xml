@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="cheapen">
+<note>
+  Frames file for 'cheapen' based on sentences in wsj.  Verbnet entry
+  45.4, everyone's favorite meaningless class.
+</note>
+
+<roleset id="cheapen.01" vncls="45.4" name="cause to lose value">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing losing value"/>
+  <role n="2"  descr="instrument"/>
+</roles>
+
+<example name="just transitive">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    But ``on a new car, a rebate doesn't work well'' because it
+    cheapens the vehicle's image, contends Thomas D. Mignanelli,
+    executive vice president of Nissan's U.S. sales arm. 
+</text>
+        <arg n="0">it</arg>
+        <rel>cheapens</rel>
+        <arg n="1">the vehicle's image</arg>
+</example>
+
+<example name="with instrument">
+  <inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+  <text>
+    John cheapens his own image by associating with characters like
+    Mary.  (Oh, that's harsh.)
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >cheapens</rel>
+  <arg n="1"        >his own image</arg>
+  <arg n="2" f="by">associating with characters like Mary</arg>
+</example>
+
+<note>
+Oddly, cheapen doesn't seem to mean "reduce in price", which would
+also be a class 45.4 verb but with different PAS (requiring an EXT,
+start and end points).
+</note>
+
+</roleset>
+</predicate>
+</frameset>

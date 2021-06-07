@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="wane">
+<note>
+  Frames file for 'wane' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="wane.01" vncls="-" name="diminish">
+<roles>
+  <role n="1"  descr="thing waning"/>
+</roles>
+
+<example name="only unaccusative">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    But interest waned as the day wore on and investors looked ahead
+    to the release later this week of two important economic reports. 
+</text>
+        <arg n="M" f="DIS">But</arg>
+        <arg n="1">interest</arg>
+        <rel>waned</rel>
+        <arg n="M" f="TMP">as the day wore on and investors looked
+        ahead to the release later this week of two important economic
+        reports</arg> 
+</example>
+
+<note>
+Diminish takes agent, EXT, start and end points.  These probably will
+never occur with wane.
+</note>
+
+<note>
+Historically, "make wan" where "wan" is "pale" or "weak".  Cool.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

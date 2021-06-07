@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="beg">
+<note>
+  Frames file for 'beg' based on sentences in financial subcorpus.  No
+  verbnet entry.  Comparison with 'appeal'.
+</note>
+
+<roleset id="beg.01" name="beg">
+<roles>
+  <role n="0"  descr="begger, appealer"/>
+  <role n="1"  descr="appealed to, begged from"/>
+  <role n="2"  descr="begged/appealed for"/>
+</roles>
+
+<example name="all args">
+<text>
+    ``Just a blind fear of the unknown is causing them to beg the
+    regulators for protection.'' 
+</text>
+        <arg n="0">them</arg>
+        <rel>beg</rel>
+        <arg n="1">the regulators</arg>
+        <arg n="2" f="for">protection</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

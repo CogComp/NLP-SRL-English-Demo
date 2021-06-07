@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="muster">
+<note>
+  Frames file for 'muster' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="muster.01" name="to gather or bring together"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing mustered"/>
+</roles>
+
+
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Mr. Runkel says [0] he doubts [0] Mr. Kennedy can muster enough congressional support [*] to reorganize the Justice Department .
+</text>
+	<arg n="0">Mr. Kennedy</arg>
+	<arg n="M" f="MOD">can</arg>
+	<rel>muster</rel>
+	<arg n="1">enough congressional support [*] to reorganize the Justice Department</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="non-event">
+<roleset id="non-event.01" name="nomadjlike-unimportant">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the market turmoil `` is an absolute non-event for small business
+</text>
+<arg n="1">the market turmoil</arg>
+<rel>non-event</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="denude">
+<note>
+  Frames file for 'denude' based on sentences in wsj.  Verbnet entry
+  10.6, Framenet entry Emptying.
+</note>
+
+<roleset id="denude.01" vncls="10.6" name="remove covering">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing now uncovered"/>
+  <role n="2"  descr="covering"/>
+</roles>
+
+<example name="just transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    He also launched a kingside storm, [*-1] sacrificing a pawn [*-2]
+    to denude D.T.'s king. 
+</text>
+        <arg n="0">[*-2] ->  [*-1] ->  He</arg>
+        <rel>denude</rel>
+        <arg n="1">D.T.'s king</arg>
+</example>
+
+<example name="all args">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary denuded John's gravesite of flowers.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >denuded</rel>
+  <arg n="1"        >John's gravesite</arg>
+  <arg n="2" f="of">flowers</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

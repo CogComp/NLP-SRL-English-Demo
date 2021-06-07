@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="heed">
+<note>
+  Frames file for 'heed' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="heed.01" name="to pay attention to, consider"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity considered"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ The opposition Labor Party leader , Neil Kinnock , in a display of the male chauvinism typical of the British lower class , denounced Mrs. Thatcher for [*-2] having an independent mind and refusing [*-1] to heed the men in her Cabinet .
+</text>
+	<arg n="0">[*-1] ->  [*-2] ->  Mrs. Thatcher</arg>
+	<rel>heed</rel>
+	<arg n="1">the men in her Cabinet</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

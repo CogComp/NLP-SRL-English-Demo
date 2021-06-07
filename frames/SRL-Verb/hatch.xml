@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hatch">
+<note>
+  Frames file for 'hatch' based on sentences in wsj.  Verbnet entries
+  26.2 and 26.1, Framenet entry Invention.
+</note>
+
+<roleset id="hatch.01" vncls="26.1 26.2" name="(cause to) come to
+  fruition, ripeness">
+<roles>
+  <role n="0"  descr="causal agent"/>
+  <role n="1"  descr="thing hatching: plan, egg, etc"/>
+</roles>
+
+<example name="passive agentive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    The President came up with a good bill, but now may end up signing
+    the awful bureaucratic creature hatched [*] on Capitol Hill. 
+</text>
+        <rel>hatched</rel>
+        <arg n="1">[*] ->  the awful bureaucratic creature</arg>
+        <arg n="M" f="LOC">on Capitol Hill</arg>
+</example>
+
+<example name="active agentive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    FAST-FOOD chicken chains, faced with a worsening business slump,
+    are struggling [*-1] to hatch some new marketing strategies. 
+</text>
+        <arg n="0">[*-1] ->  FAST-FOOD chicken chains, faced with a
+        worsening business slump,</arg> 
+        <rel>hatch</rel>
+        <arg n="1">some new marketing strategies</arg>
+</example>
+
+<example name="ergative">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     The egg under John's pillow finally hatched, releasing some kind
+     of slimy alien creature.
+  </text>
+  <arg n="1"        >The egg under John's pillow</arg>
+  <arg n="m" f="TMP">finally</arg>
+  <rel              >hatched</rel>
+  <arg n="m"        >releasing some kind of slimy alien creature</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

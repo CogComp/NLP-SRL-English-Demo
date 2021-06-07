@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="phobia">
+<roleset id="phobia.01" name="nomadj-phobic" source="verb-fear.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their `` normal '' phobias , anxieties , depressions and
+substance abuse
+</text>
+<arg n="0">their</arg>
+<rel>phobias</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,71 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="map">
+<note>
+  Frames file for 'map' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="map.01" vncls="-" name="describe, as on a map">
+<roles>
+  <role n="0"  descr="mapper"/>
+  <role n="1"  descr="thing mapped"/>
+</roles>
+
+<example name="nonphrasal">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    The ``one-yen'' controversy first came to a head last week when
+the city of Hiroshima announced that Fujitsu won a contract to design
+a computer system *trace* *trace* to map its waterworks. 
+</text>
+        <arg n="0">*trace* -> *trace* ->  a computer system</arg>
+        <rel>map</rel>
+        <arg n="1">its waterworks</arg>
+</example>
+
+
+<example name="phrasal">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Instead, they map out a strategy in several phases from now until
+1995. 
+</text>
+        <arg n="M" f="DIS">Instead</arg>
+        <arg n="0">they</arg>
+        <rel>[ map] [ out]</rel>
+        <arg n="1">a strategy in several phases</arg>
+        <arg n="M" f="TMP">from now until 1995</arg>
+</example>
+
+<note>
+Also "map_out"
+</note>
+
+</roleset>
+
+<roleset id="map.02" vncls="-" name="make one-to-one correspondence">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="first thing"/>
+  <role n="2"  descr="thing(s) mapped onto"/>
+</roles>
+
+<example name="all args, from the web">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John mapped reference frames in language onto those of mental models.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >mapped</rel>
+  <arg n="1"        >reference frames in language</arg>
+  <arg n="2" f="onto">those of mental models</arg>
+</example>
+
+<note>
+http://citeseer.nj.nec.com/298207.html
+</note>
+
+</roleset>
+</predicate>
+</frameset>

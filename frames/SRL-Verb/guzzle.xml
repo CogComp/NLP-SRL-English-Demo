@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="guzzle">
+<note>
+  Frames file for 'guzzle' based on sentences in wsj.  Verbnet entry
+  39.3, Framenet entry Ingestion.
+</note>
+
+<roleset id="guzzle.01" vncls="39.3" name="drink heavily">
+<roles>
+  <role n="0"  descr="drinker"/>
+  <role n="1"  descr="liquid"/>
+</roles>
+
+<example name="snooty drinks">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="full"/>
+<text>
+    ``Chivas has an image of something *trace* you would savor, rather
+    than guzzle *trace*.''
+</text>
+        <arg n="0">you</arg>
+        <arg n="m" f="MOD">would</arg>
+        <rel>guzzle</rel>
+        <arg n="1">*trace* -> *trace* ->  something</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="embezzlement">
+<roleset id="embezzlement.01" name="white-collar theft" source="verb-embezzle.01" vncls="10.5">
+<roles>
+
+<role descr="thief, embezzler" n="0">
+<vnrole vncls="10.5" vntheta="Agent"/></role>
+
+<role descr="money" n="1">
+<vnrole vncls="10.5" vntheta="Theme"/></role>
+
+<role descr="source" n="2">
+<vnrole vncls="10.5" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the sleaze , fraud , waste , embezzlement , influence-peddling
+and abuse of the public that took place while Mr. Pierce was
+secretary of HUD
+</text>
+<rel>embezzlement</rel>
+<arg n="1">of the public</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

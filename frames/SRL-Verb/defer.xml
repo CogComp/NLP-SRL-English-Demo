@@ -1,0 +1,55 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="defer">
+<note>
+  Frames file for 'defer' based on sentences in financial subcorpus.
+  No Verbnet entry, Framenet entry Relative Time.  Comparison with
+  'delay'.
+</note>
+
+<roleset id="defer.01" name="put off until a later time">
+<roles>
+  <role n="0"  descr="agent, causer of delay"/>
+  <role n="1"  descr="event delayed"/>
+  <role n="2"  descr="delay itself, EXT, or new time"/>
+</roles>
+
+<example name="just transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    The company is highlighting more special deals in its advertising
+    and stores, and it's offering *trace* to defer finance charges on
+    certain big-ticket items. 
+</text>
+        <arg n="0">*trace* ->  it</arg>
+        <rel>defer</rel>
+        <arg n="1">finance charges on certain big-ticket items</arg>
+</example>
+
+<example name="passive with new time">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Although the company could see fourth-quarter revenue shrink by
+    nearly $5 billion if it isn't able  to deliver any more planes
+    this year, those dollars actually would just be deferred *trace*
+    until 1990. 
+</text>
+        <arg n="M" f="ADV">Although the company could see
+        fourth-quarter revenue shrink by nearly $5 billion if it isn't
+        able to deliver any more planes this year</arg> 
+        <arg n="M" f="DIS">actually</arg>
+        <arg n="M" f="ADV">just</arg>
+        <rel>deferred</rel>
+        <arg n="1">*trace* ->  those dollars</arg>
+        <arg n="2" f="until">1990</arg>
+</example>
+
+<note>
+Ignore adjectival usages like "some deferred payments".
+</note>
+
+</roleset>
+</predicate>
+</frameset>

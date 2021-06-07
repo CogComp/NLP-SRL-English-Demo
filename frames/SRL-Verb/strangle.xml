@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="strangle">
+<note>
+  Frames file for 'strangle'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="strangle.01" name="to suppress, repress"
+vncls="42.2">
+<roles> 
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity strangled"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ While by no means the highest crime community in the country , New York is a prime example of a city where crime strangles small-business development [*T*-1] .
+</text>
+	<arg n="0">crime</arg>
+	<rel>strangles</rel>
+	<arg n="1">small-business development</arg>
+	<arg n="M" f="LOC">[*T*-1] ->  where ->  a city</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

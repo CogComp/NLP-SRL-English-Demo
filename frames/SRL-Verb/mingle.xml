@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mingle">
+<note>
+  Frames file for 'mingle' based on sentences in wsj.  Verbnet entries
+  36.1 and 22.1.
+</note>
+
+<roleset id="mingle.01" vncls="36.1" name="socialize, be in close proximity">
+<roles>
+  <role n="0"  descr="first or all thing(s) mingling"/>
+  <role n="1"  descr="additional things, if syntactically separate"/>
+</roles>
+
+<example name="automatically generated">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+ Law-enforcement authorities say that at any given time , a host of fraudulent telemarketing operations mingle with the many legitimate businesses here .
+</text>
+        <arg n="M" f="TMP">at any given time</arg>
+        <arg n="0">a host of fraudulent telemarketing operations</arg>
+        <rel>mingle</rel>
+        <arg n="1" f="with">the many legitimate businesses here</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="mingle.02" vncls="22.1" name="mix, put in close proximity">
+<roles>
+  <role n="0"  descr="intentional agent"/>
+  <role n="1"  descr="first (or all) ingredient(s)"/>
+  <role n="2"  descr="additional ingredients, when syntactically separate"/>
+</roles>
+
+<example name="mix-em-up">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John mingled his cd's with Mary's.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >mingled</rel>
+  <arg n="1"        >his cd's</arg>
+  <arg n="2" f="with">Mary's</arg>
+</example>
+
+<note>
+This is clearly just the causative of mingle.01.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

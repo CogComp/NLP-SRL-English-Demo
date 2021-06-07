@@ -1,0 +1,109 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="begin">
+
+<roleset id="begin.01" name="start" vncls="55.1">
+<roles>
+  <role descr="Agent" n="0">
+		<vnrole vncls="55.1" vntheta="Agent"/>
+  </role>
+
+  <role descr="Theme(-Creation)" n="1">
+		<vnrole vncls="55.1" vntheta="Theme"/>
+  </role>
+
+  <role descr="Instrument" n="2"/>
+  <role descr="secondary predication" n="3"/>
+</roles>
+
+<example name="basic transitive">
+  <text>John began a book</text>
+  <arg n="0">John</arg>
+  <rel>began</rel>
+  <arg n="1">a book</arg>
+</example>
+
+<note>transitive variations follow</note>
+
+      
+<example name="transitive-with">
+	<inflection aspect="ns" form="full" person="ns" tense="past" voice="active"/>
+  <text>John began the book with a murder</text>
+  <arg n="0">John</arg>
+  <rel>began</rel>
+  <arg n="1">the book</arg>
+  <arg n="2">with a murder</arg>
+</example>
+
+<example name="transitive-by">
+  <text> John began the book by describing a murder </text>
+  <arg n="0">John</arg>
+  <rel>began</rel>
+  <arg n="1">the book</arg>
+  <arg n="2">describing a murder</arg>
+</example>
+
+<example name="objective subject">
+	<text>The book began with a murder</text>
+  <arg n="1">The book</arg>
+  <rel>began</rel>
+  <arg n="2">with a murder</arg>
+</example>
+
+<example name="instrumental subject">
+	<text>A murder began the book</text>
+  <arg n="2">A murder</arg>
+  <rel>began</rel>
+  <arg n="1">the book</arg>
+</example>
+
+<example name="with manner">
+	<text>John began the book with glee</text>
+  <arg n="0">John</arg>
+  <rel>began</rel>
+  <arg n="1">the book</arg>
+  <arg f="MNR" n="M">with glee</arg>
+</example>
+
+<example name="adverbial manner">
+	<text>John began the book gladly</text>
+  <arg n="0">John</arg>
+  <rel>began</rel>
+  <arg n="1">the book</arg>
+  <arg f="MNR" n="M">gladly</arg>
+</example>
+
+<example name="temporal">
+	<text>John began the book last night</text>
+  <arg n="0">John</arg>
+  <rel>began</rel>
+  <arg n="1">the book</arg>
+  <arg f="TMP" n="M">last night</arg>
+</example>
+
+<example name="inchoative">
+  <note>Arg1 began</note>
+  <text>A storm began</text>
+  <arg n="1">A storm</arg>
+  <rel>began</rel>
+  <note>similarly: The movie will begin soon</note>
+</example>
+
+<example name="secondary action, agentive">
+  <text>John began to sweat</text>
+  <arg n="0">John</arg>
+  <rel>began</rel>
+  <arg f="PRD" n="3">to sweat</arg>
+</example>
+
+<example name="secondary action, inchoative">
+  <text>The storm began to cause great destruction</text>
+  <arg f="MNR" n="1">The storm</arg>
+  <rel>began</rel>
+  <arg f="PRD" n="3">to cause great destruction</arg>
+  <note>similarly: Futures began trading in 1983</note>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

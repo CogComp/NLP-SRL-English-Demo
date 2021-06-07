@@ -1,0 +1,72 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+
+<frameset>
+<predicate lemma="swamp">
+<note>
+  Frames file for 'swamp' based on survey of sentences in the 
+  corpus. Comparison with 'cover'
+</note>
+
+<roleset id="swamp.01" name="cover with water, overwhelm" vncls="-">
+<roles>
+  <role descr="agent" n="0"/>
+  <role descr="entity swamped" n="1"/>
+  <role descr="instrument, swamped with" n="2"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ `` The Giants got swamped in the second game , 100 , and trailed 4-1 [*-1] going into the bottom of the ninth of the third and deciding game .
+</text>
+	<arg n="1">The Giants</arg>
+	<rel>swamped</rel>
+	<arg n="M" f="LOC">in the second game</arg>
+</example>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Last year , when the rising Orange River threatened [*-3] to swamp the course [*T*-2] , the same engineers who [*T*-1] are pushing back the Atlantic rushed [*-4] to build a wall [0] [*T*-5] to hold back the flood .
+</text>
+	<arg n="0">[*-3] ->  the rising Orange River</arg>
+	<rel>swamp</rel>
+	<arg n="1">the course</arg>
+</example>
+
+
+<example name="with EXT">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Declining issues swamped advancers , 1,222 to 382 .
+</text>
+	<arg n="0">Declining issues</arg>
+	<rel>swamped</rel>
+	<arg n="1">advancers</arg>
+	<arg n="M" f="EXT">1,222 to 382</arg>
+</example>
+
+
+<example name="with Arg2">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+ Officials expect the Golden Gate Bridge to be swamped [*-1] with an extra load of commuters , including East Bay residents making a long detour .
+</text>
+	<rel>swamped</rel>
+	<arg n="1">[*-1] ->  the Golden Gate Bridge</arg>
+	<arg n="2" f="with">an extra load of commuters</arg>
+</example>
+
+
+
+
+<note>
+  frames created by Olga
+</note>
+
+</roleset>
+</predicate>
+</frameset>

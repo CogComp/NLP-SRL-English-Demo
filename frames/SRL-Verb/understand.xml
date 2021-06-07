@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="understand">
+<note>
+  Frames file for 'understand' based on sentences in financial
+  subcorpus.  No verbnet entry.  No comparison.
+</note>
+
+<roleset id="understand.01" name="understand">
+<roles>
+  <role n="0"  descr="understander"/>
+  <role n="1"  descr="thing understood"/>
+  <role n="2"  descr="attribute"/>
+</roles>
+
+<example name="grok">
+<text>
+    Program trading is here to stay, and computers are here to stay,
+    and we just need *trace* to understand it.'' 
+</text>
+        <arg n="0">*trace* ->  we</arg>
+        <rel>understand</rel>
+        <arg n="1">it</arg>
+</example>
+
+<example name="with attribute">
+  <text>
+    I understand John to be a complete and utter idiot.
+  </text>
+  <arg n="0"        >I</arg>
+  <rel              >understand</rel>
+  <arg n="1"        >John</arg>
+  <arg n="2" f="PRD">to be a complete and utter idiot</arg>
+</example>
+
+<note>
+The syntax will determine the difference between the first and second
+examples; by all rights "John to be an idiot" should be a single
+constituent which could be called Arg1 all by itself, but there might
+be cases with extraction ("John was understood to be an idiot") or
+other cases where the two args are separate.  Try to keep things as a
+single arg, if possible, but don't use the [A] command--just use args 
+--1 and 2.
+</note>
+
+<example name="it support">
+<text>
+    It's understood that MGM/UA recently contacted Rupert Murdoch's
+    News Corp., which made two failed bids for the movie studio, to
+    see if the company was still interested. 
+</text>
+        <rel>understood</rel>
+        <arg n="1">MGM/UA recently contacted Rupert Murdoch's News
+        Corp., which made two failed bids for the movie studio, to see
+        if the company was still interested</arg> 
+</example>
+
+<note>
+Latter examples is particularly interesting, as it's effectively
+passivized, but the utterance is apparently too big to put in subject
+position.  Cool.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

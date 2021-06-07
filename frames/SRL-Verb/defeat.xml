@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="defeat">
+<note>
+  Frames file for 'defeat' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="defeat.01" name="to win over" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity defeated"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Pakistan 's Bhutto defeated the first no-confidence motion in the nation 's 42-year history , [*-2] surviving the vote that [*T*-1] could have brought down her 11-month-old government .
+</text>
+	<arg n="0">Pakistan 's Bhutto</arg>
+	<rel>defeated</rel>
+	<arg n="1">the first no-confidence motion in the nation 's 42-year history</arg>
+	<arg n="M" f="ADV">[*-2] surviving the vote that [*T*-1] could have brought down her 11-month-old government</arg>
+</example>
+
+
+
+<example name="passive">
+<inflection person="third" tense="present" aspect="perfect" voice="passive" form="participle"/>
+<text>
+ The clutter of the 1940s remains , but its color has drained away , and the will [*] to overcome has been defeated [*-1] .
+</text>
+	<rel>defeated</rel>
+	<arg n="1">[*-1] ->  the will [*] to overcome</arg>
+</example>
+
+
+
+<example name="transitive with adverbials">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ He defeated the contentious Mr. Koch in the Democratic primary partly because he seemed [*-1] to offer hope [0] he could heal the city 's racial and ethnic wounds .
+</text>
+	<arg n="0">He</arg>
+	<rel>defeated</rel>
+	<arg n="1">the contentious Mr. Koch</arg>
+	<arg n="M" f="LOC">in the Democratic primary</arg>
+	<arg n="M" f="PRP">partly because he seemed [*-1] to offer hope [0] he could heal the city 's racial and ethnic wounds</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

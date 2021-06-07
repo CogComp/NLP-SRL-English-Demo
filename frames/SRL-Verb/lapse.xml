@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="lapse">
+<note>
+  Frames file for 'lapse' based on sentences in wsj.  Verbnet entry 48.2.
+</note>
+
+<roleset id="lapse.01" vncls="48.2" name="cease">
+<roles>
+  <role n="1"  descr="thing ceasing"/>
+</roles>
+
+<example name="and that's the end of that">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    The limit lapses under current exchange rules if contracts trade
+    above the limit price during the opening 10 minutes of trading. 
+</text>
+        <arg n="1">The limit</arg>
+        <rel>lapses</rel>
+        <arg n="M" f="LOC">under current exchange rules</arg>
+        <arg n="M" f="ADV">if contracts trade above the limit price
+        during the opening 10 minutes of trading</arg> 
+</example>
+
+<note>
+Watch out for adjectival usages.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

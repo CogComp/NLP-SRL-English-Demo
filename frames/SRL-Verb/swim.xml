@@ -1,0 +1,79 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="swim">
+<note>
+  Frames file for 'swim' based on sentences in wsj.  Verbnet entries
+  51.3.2, 40.8.2, and 5.1-1, Framenet entry Self Motion.
+</note>
+
+<roleset id="swim.01" vncls="51.3.2" name="move through water">
+<roles>
+  <role n="0"  descr="swimmer"/>
+  <role n="1"  descr="course"/>
+</roles>
+
+<example name="metaphorical transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Pictures of rusted oil drums swim into focus, and the female voice
+    purrs, ``That hazardous waste on his (Mr. Courter's) property --
+    the neighbors are suing for consumer fraud.'' 
+</text>
+        <arg n="0">Pictures of rusted oil drums</arg>
+        <rel>swim</rel>
+        <arg n="1" f="into">focus</arg>
+</example>
+
+<example name="commonly intransitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    ``People say they swim, and that may mean they've been to the
+    beach this year,'' says Krys Spain, research specialist for the
+    President's Council on Physical Fitness and Sports. 
+</text>
+        <arg n="0">they</arg>
+        <rel>swim</rel>
+</example>
+
+<example name="literal with course">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Not content to merely cross the English Channel, John swam across the
+    Atlantic Ocean this summer.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >swam</rel>
+  <arg n="1" f="across">the Atlantic Ocean</arg>
+  <arg n="m" f="TMP">this summer</arg>
+</example>
+
+<note>
+Similarly "John swims 10 miles every day over his lunch break."
+</note>
+
+</roleset>
+
+<roleset id="swim.02" vncls="40.8.2" name="feel dizzy">
+<roles>
+  <role n="1"  descr="head"/>
+  <role n="2"  descr="cause"/>
+</roles>
+
+<example name="oh, oh, the pain">
+  <inflection person="third" tense="past" aspect="progressive" voice="active" form="participle"/>
+  <text>
+    John's head was swimming from the amount of coffee he'd drunk that
+    morning. 
+  </text>
+  <arg n="1"        >John's head</arg>
+  <rel              >swimming</rel>
+  <arg n="2" f="from">the amount of coffee he'd drunk that morning</arg>
+</example>
+
+<note>
+Neglecting class 47.5.1-1; I don't see the usage.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="brazen_out">
+<note>
+  Frames file for 'brazen'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="brazen.01" name="to face  with bold self-assurance"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="theme"/>      
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="full"/>
+<text>
+ And if you are caught [*-1] or if people complain , [*] simply argue that `` everyone does it '' or `` no one said [0] I should n't [*?*] '' and brazen it out .
+</text>
+	<arg n="0">[*]</arg>
+	<rel>[ brazen] [ out]</rel>
+	<arg n="1">it</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

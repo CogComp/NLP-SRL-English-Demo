@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="audition">
+<note>
+  Frames file for 'audition' based on sentences in financial
+  subcorpus.  No Verbnet entry.
+</note>
+
+<roleset id="audition.01" vncls="-" name="try to get a role">
+<roles>
+  <role n="0"  descr="auditionee"/>
+  <role n="1"  descr="role"/>
+  <role n="2"  descr="casting agency"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Well, they can now go and audition there. 
+</text>
+        <arg n="M" f="DIS">Well</arg>
+        <arg n="0">they</arg>
+        <arg n="M" f="MOD">can</arg>
+        <arg n="M" f="TMP">now</arg>
+        <rel>audition</rel>
+        <arg n="M" f="LOC">there</arg>
+</example>
+
+<example name="all args">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John auditioned with the local community theatre for the role of
+    Bottom. 
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >auditioned</rel>
+  <arg n="2" f="with">the local community theatre</arg>
+  <arg n="1" f="for">the role of Bottom</arg>
+</example>
+
+<note>
+Arg2 seems rarer, to me.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="coast">
+<note>
+  Frames file for 'coast'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="coast.01" name="to move effortlessly"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="path"/>
+</roles>
+
+<example name="with Arg1">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ After his decisive primary victory over Mayor Edward I. Koch in September , Mr. Dinkins coasted , until recently , on a quite-comfortable lead over his Republican opponent , Rudolph Giuliani , the former crime buster who [*T*-1] has proved a something of a bust as a candidate .
+</text>
+	<arg n="M" f="TMP">After his decisive primary victory over Mayor Edward I. Koch in September</arg>
+	<arg n="0">Mr. Dinkins</arg>
+	<rel>coasted</rel>
+	<arg n="M" f="TMP">until recently</arg>
+	<arg n="1" f="on">a quite-comfortable lead over his Republican opponent , Rudolph Giuliani , the former crime buster who [*T*-1] has proved a something of a bust as a candidate</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

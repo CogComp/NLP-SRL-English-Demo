@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="autograph">
+<note>
+  Frames file for 'autograph' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="autograph.01" name="to sign"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity autographed"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="infinitive"/>
+<text>
+ `` I feel like a little kid , '' says [*T*-1] a gleeful Alex de Castro , a car salesman , who [*T*-53] has stopped by a workout of the Suns [*-3] to slip six Campaneris cards [*ICH*-2] to the Great Man Himself [0] [*T*-4] to be autographed [*-30] .
+</text>
+	<rel>autographed</rel>
+	<arg n="1">[*-30] ->  [*T*-4] ->  [0] ->  six Campaneris cards</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

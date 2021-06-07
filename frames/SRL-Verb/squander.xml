@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="squander">
+<note>
+  Frames file for 'squander'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="squander.01" name="to waste"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity squandered"/>
+</roles>
+
+
+<example name="passive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ But his chance [*] to become deputy mayor under Mayor Abraham Beame , a plan boosted [*] by Mr. Sutton , was squandered [*-1] because of Mr. Dinkins 's failure -- still largely unexplained -- [*] to file income tax returns for four years running .
+</text>
+	<rel>squandered</rel>
+	<arg n="1">[*-1] ->  his chance [*] to become deputy mayor under Mayor Abraham Beame , a plan boosted [*] by Mr. Sutton ,</arg>
+	<arg n="M" f="PRP">because of Mr. Dinkins 's failure -- still largely unexplained -- [*] to file income tax returns for four years running</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="range">
+<note>
+  Frames file for 'range' based on sentences in financial subcorpus.
+  No Verbnet entry, Framenet entry Scalar position 1.  Comparison with
+  fluctuate. 
+</note>
+
+<roleset id="range.01" name="move randomly across some scale">
+<roles>
+  <role n="1"  descr="thing moving"/>
+  <role n="2"  descr="EXT or MNR"/>
+  <role n="3"  descr="start or low point"/>
+  <role n="4"  descr="end or high point"/>
+  <role n="5"  descr="medium"/>
+</roles>
+
+<example name="most typical usage">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    Initial cost estimates for the plant, which was to have been built
+    in phases, ranged from $1 billion to $1.2 billion. 
+</text>
+        <arg n="1">Initial cost estimates for the plant , which  was  to have been built  in phases ,</arg>
+        <rel>ranged</rel>
+        <arg n="3" f="from">$ 1 billion </arg>
+        <arg n="4" f="to">$ 1.2 billion </arg>
+</example>
+
+<example name="manner and medium">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John's grades ranged wildly across the scale.
+  </text>
+  <arg n="1"        >John's grades</arg>
+  <rel              >ranged</rel>
+  <arg n="2" f="MNR">wildly</arg>
+  <arg n="5" f="across">the scale</arg>
+</example>
+
+<note>
+Treebank has a fondness for coordinating the from and to phrases into
+a single PP.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

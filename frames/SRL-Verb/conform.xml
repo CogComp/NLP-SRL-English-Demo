@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="conform">
+<note>
+  Frames file for 'conform' based on survey of sentences in the WSJ
+  corpus. Comparison with 'follow'. 
+</note>
+
+
+<roleset id="conform.01" name="to be similar, comply" vncls="-">
+<roles>
+  <role n="1"  descr="entity conforming"/>
+  <role n="2"  descr="entity conforming to"/>
+</roles>
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ `` This conforms to the ` soft landing ' scenario , '' said [*T*-1] Elliott Platt , an economist at Donaldson , Lufkin &amp; Jenrette Securities Corp .
+</text>
+	<arg n="1">This</arg>
+	<rel>conforms</rel>
+	<arg n="2" f="to">the ` soft landing ' scenario</arg>
+</example>
+
+
+
+<example name="with temporal adverbial">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Americans are expected [*-1] to conform to the Japanese culture when [*-3] in Japan [*T*-2] .
+</text>
+	<arg n="1">[*-1] ->  Americans</arg>
+	<rel>conform</rel>
+	<arg n="2" f="to">the Japanese culture</arg>
+	<arg n="M" f="TMP">when [*-3] in Japan [*T*-2]</arg>
+</example>
+
+<example name="conform with">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Responses were weighted [*-1] on the basis of age and gender [*-1] to conform with U.S. Census data .
+</text>
+	<arg n="1">[*-1] ->  Responses</arg>
+	<rel>conform</rel>
+	<arg n="2" f="with">U.S. Census data</arg>
+</example>
+
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

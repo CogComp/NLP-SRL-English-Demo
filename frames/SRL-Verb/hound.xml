@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="hound">
+<note>
+  Frames file for 'hound' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="hound.01" name="to harass or nag"  vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity hounded"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ In testimony recorded [*] in the grand jury report , court employees said [0] the judge , now 59 years old , harassed his secretaries , made imperial demands on his staff and hounded anyone who [*T*-157] crossed him .
+</text>
+	<arg n="0">the judge , now 59 years old ,</arg>
+	<rel>hounded</rel>
+	<arg n="1">anyone who [*T*-157] crossed him</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

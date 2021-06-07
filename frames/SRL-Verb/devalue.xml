@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="devalue">
+<note>
+  Frames file for 'devalue'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="devalue.01" name="to lessen the value of"
+vncls="-">
+<roles> 
+ <role n="0"  descr="agent"/>
+ <role n="1"  descr="thing tripped"/> 
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ China might stave off a crisis if it acts as forcefully as it did [*-1] to arrest the 1985 decline , when Beijing slammed the brakes on foreign-exchange spending and devalued the currency [*T*-2] .
+</text>
+	<arg n="0">Beijing</arg>
+	<rel>devalued</rel>
+	<arg n="1">the currency</arg>
+	<arg n="M" f="TMP">[*T*-2] ->  when ->  the 1985 decline</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

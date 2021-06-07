@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="applicability">
+<roleset id="applicability.01" name="associate with, work at or on" source="verb-apply.02">
+<roles>
+
+<role descr="applier" n="0"></role>
+
+<role descr="thing applied, associated, worked" n="1"></role>
+
+<role descr="applied to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a power of far more limited applicability
+</text>
+<arg n="1">a power</arg>
+<arg f="MNR" n="M">far more limited</arg>
+<rel>applicability</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

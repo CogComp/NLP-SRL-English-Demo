@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="retort">
+<roleset id="retort.01" name="say in response" source="verb-reply.01">
+<roles>
+
+<role descr="replier" n="0"></role>
+
+<role descr="in response to" n="1"></role>
+
+<role descr="answer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his prescient girlfriend , whose sassy retorts mark her as
+anything but a docile butterfly
+</text>
+<arg n="0">whose</arg>
+<arg f="MNR" n="M">sassy</arg>
+<arg f="REF" n="2">retorts</arg>
+<rel>retorts</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

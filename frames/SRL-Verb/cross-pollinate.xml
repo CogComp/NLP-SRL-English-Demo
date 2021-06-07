@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="cross-pollinate">
+<note>
+  Frames file for 'cross-pollinate' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="cross-pollinate.01" name="to pollinate by means of cross-pollination"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="plants"/>
+</roles>
+
+<example name="automatically generated">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+ The application of herbicide would kill off the male-fertile plants , [*-1] leaving a large field of male-sterile plants that [*T*-2] can be cross-pollinated [*-22] [*] to produce hybrid seed .
+</text>
+	<arg n="M" f="MOD">can</arg>
+	<rel>cross-pollinated</rel>
+	<arg n="1">[*-22] ->  [*T*-2] ->  that ->  male-sterile plants</arg>
+	<arg n="M" f="PNC">[*] to produce hybrid seed</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

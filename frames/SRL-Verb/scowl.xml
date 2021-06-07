@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="scowl">
+<note>
+  Frames file for 'scowl' based on sentences in wsj.  Verbnet entry
+  40.2, Framenet entry Body movement.
+</note>
+
+<roleset id="scowl.01" vncls="40.2" name="dirty look">
+<roles>
+  <role n="0"  descr="scowler"/>
+  <role n="1"  descr="cognate object (very rare)"/>
+  <role n="2"  descr="reason"/>
+</roles>
+
+<example name="fun with anaphora">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    He bites it, scowls and throws it down.``
+</text>
+        <arg n="0">He</arg>
+        <rel>scowls</rel>
+</example>
+
+<example name="with reason">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     Mary scowled at John's antics.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >scowled</rel>
+  <arg n="2" f="at">John's antics</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

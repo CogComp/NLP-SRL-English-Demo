@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="major">
+<note>
+  Frames file for 'major' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="major.01" vncls="-" name="have as a primary subject in school">
+<roles>
+  <role n="0"  descr="student"/>
+  <role n="1"  descr="major"/>
+</roles>
+
+<example name="one example suffices">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+    He says he has quit the business and is back in school, [*-1]
+    majoring in psychology with aspirations to go into industrial
+    psychology.) 
+</text>
+        <arg n="0">[*-1] ->  he</arg>
+        <rel>majoring</rel>
+        <arg n="1" f="in">psychology</arg>
+        <arg n="M">with aspirations to go into industrial psychology</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

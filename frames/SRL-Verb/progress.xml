@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="progress">
+<note>
+  Frames file for 'progress' based on sentences in wsj.  No Verbnet entry. 
+</note>
+
+<roleset id="progress.01" vncls="-" name="move forwards">
+<roles>
+  <role n="1"  descr="thing moving"/>
+  <role n="3"  descr="start point"/>
+  <role n="4"  descr="end point"/>
+</roles>
+
+<example name="start and end points">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    It often is preceded  by the development of polyps in the bowel,
+    which *trace* in some cases become increasingly malignant in
+    identifiable stages -- *trace* progressing from less severe to
+    deadly -- as though a cascade of genetic damage might be
+    occurring. 
+</text>
+        <arg n="0">*trace* -> *trace* ->  which ->  polyps</arg>
+        <rel>progressing</rel>
+        <arg n="3" f="from">less severe</arg>
+        <arg n="4" f="to">deadly</arg>
+</example>
+
+<example name="but usually just ergative">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    Our bookings improved as the quarter progressed and September was
+    especially good. 
+</text>
+        <arg n="1">the quarter</arg>
+        <rel>progressed</rel>
+</example>
+
+<note>
+Agent of motion?  I kinda doubt it.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

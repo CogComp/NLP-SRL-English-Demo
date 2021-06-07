@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="inflate">
+<note>
+  Frames file for 'inflate' based on sentences in financial
+  subcorpus.  No access to verbnet.  No comparison.
+</note>
+
+<roleset id ="inflate.01" name="cause to expand">
+<roles>
+  <role n="0"    descr="agent"/>
+  <role n="1"    descr="thing grown"/>
+  <role n="2"    descr="amount increased by, EXT or MNR"/>
+  <role n="3"    descr="start point"/>
+  <role n="4"    descr="end point"/>
+</roles>
+
+<example name="straight transitive">
+<text>
+    MiniScribe has said that its financial results for the past three
+    fiscal years would have to be restated  because of the allegedly
+    fraudulent accounting and marketing practices that *trace*
+    inflated revenues and net income. 
+</text>
+        <arg n="0">*trace* ->  that ->  the allegedly fraudulent
+        accounting and marketing practices</arg> 
+        <rel>inflated</rel>
+        <arg n="1">revenues and net income</arg>
+</example>
+
+<example name="tricky EXT marker">
+<text>
+    That compared with the year-earlier $1.25 billion, or $2.10 a
+    share -- which *trace* was inflated *trace* by an unspecified
+    amount from a payment by Fujitsu Ltd. relating to a software
+    dispute. 
+</text>
+        <rel>inflated</rel>
+        <arg n="1">*trace* -> *trace* ->  which ->  the year-earlier
+        $1.25 billion, or $2.10 a share</arg> 
+        <arg n="2" f="by">an unspecified amount from a payment by
+        Fujitsu Ltd. relating to a software dispute</arg> 
+</example>
+
+<note>
+Start and end points?  Maybe, maybe not.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

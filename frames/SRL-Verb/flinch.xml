@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="flinch">
+<note>
+  Frames file for 'flinch'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="flinch.01" name="to make a sudden small movement"
+vncls="-">
+<roles> 
+  <role n="0"  descr="entity flinching"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ They do n't flinch at [*] writing them .
+</text>
+	<arg n="0">They</arg>
+	<arg n="M" f="NEG">n't</arg>
+	<rel>flinch</rel>
+	<arg n="M" f="TMP">at [*] writing them</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+
+

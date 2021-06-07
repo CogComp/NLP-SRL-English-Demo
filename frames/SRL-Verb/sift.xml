@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="sift">
+<note>
+  Frames file for 'sift' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="sift.01" name="to distinguish and separate out"
+vncls="23.3">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity sifted or sifted through"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Now they plan [*-2] to sell us products that [*T*-1] sift through all the information [*-3] to give us what we really want [*-5] to know [*T*-4] .
+</text>
+	<arg n="0">[*T*-1] ->  that ->  products</arg>
+	<rel>sift</rel>
+	<arg n="1" f="through">all the information</arg>
+	<arg n="M" f="PNC">[*-3] to give us what we really want [*-5] to know [*T*-4]</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+
+

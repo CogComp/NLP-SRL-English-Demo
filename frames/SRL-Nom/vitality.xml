@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="vitality">
+<roleset id="vitality.01" name="attribute/nomadjlike-energetic">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+California 's vitality
+</text>
+<arg n="1">California 's</arg>
+<arg f="REF" n="2">vitality</arg>
+<rel>vitality</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

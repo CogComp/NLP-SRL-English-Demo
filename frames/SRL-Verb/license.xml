@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="license">
+<note>
+  Frames file for 'license' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="license.01" vncls="-" name="give legal rights to property">
+<roles>
+  <role n="0"  descr="granter of license"/>
+  <role n="1"  descr="licensed thing"/>
+  <role n="2"  descr="benefactive, licensed-to"/>
+</roles>
+
+<example name="commericialism rules">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+     Turns out that next year, Charlie Brown, Snoopy and the gang turn
+     40 -- and Scripps Howard's United Media unit, the syndicator and
+     licensing agent for Charles Schulz's comic strip, sees a bonanza
+     in *trace* licensing the cartoon characters to a bevy of
+     advertisers for ads, tie-ins and promotions. 
+</text>
+        <arg n="0">*trace* ->  Scripps Howard's United Media unit, the
+        syndicator and licensing agent for Charles Schulz's comic
+        strip,</arg> 
+        <rel>licensing</rel>
+        <arg n="1">the cartoon characters</arg>
+        <arg n="2" f="to">a bevy of advertisers</arg>
+        <arg n="M" f="PNC">for ads, tie-ins and promotions</arg>
+</example>
+
+<note>
+I have the feeling there's also an 'allow' sense, which will take
+different framing, but we'll wait for an example from the corpus.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

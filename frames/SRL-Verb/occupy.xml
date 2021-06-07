@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="occupy">
+<note>
+  Frames file for 'occupy' based on sentences in financial subcorpus.
+  No Verbnet entry, no comparison.
+</note>
+
+<roleset id="occupy.01" vncls="-" name="be in a certain place">
+<roles>
+  <role n="0"  descr="occupier"/>
+  <role n="1"  descr="occupied"/>
+  <role n="2"  descr="secondary predication"/>
+</roles>
+
+<example name="straightforward">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    In addition to the new mainframe hardware and software, IBM
+    announced a magnetic-tape system for data storage that it said
+    *trace* occupies half as much floor space as older systems but can
+    store five times as much data on a single cartridge. 
+</text>
+        <arg n="0">*trace* ->  that ->  a magnetic-tape system</arg>
+        <rel>occupies</rel>
+        <arg n="1">half as much floor space as older systems</arg>
+</example>
+
+
+<example name="botched syntax">
+<inflection person="ns" tense="future" aspect="ns" voice="ns" form="full"/>
+<text>
+    Mattel has purchased a new headquarters building in El Segundo,
+    Calif., which it will occupy by the end of next year. 
+</text>
+        <arg n="1">which ->  a new headquarters building</arg>
+        <arg n="0">it</arg>
+        <arg n="M" f="MOD">will</arg>
+        <rel>occupy</rel>
+        <arg n="M" f="TMP">by the end of next year</arg>
+</example>
+
+<example name="with secondary predication">
+  <inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+  <text>
+    John occupies himself every day by creating sentient life forms
+    from Play-Doh. 
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >occupies</rel>
+  <arg n="1" f="REC">himself</arg>
+  <arg n="m" f="TMP">every day</arg>
+  <arg n="2" f="by">creating sentient life forms from Play-Doh</arg> 
+</example>
+
+<note>
+Arg2 might take -PRD if it doesn't have any nice preposition leading
+up to the action.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

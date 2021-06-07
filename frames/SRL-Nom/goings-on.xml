@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="goings-on">
+<roleset id="goings-on.01" name="occur, take place" source="verb-happen.01" vncls="48.3">
+<roles>
+
+<role descr="event" n="1">
+<vnrole vncls="48.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the uncanny goings-on in `` the Oregon Vortex , '' a former
+Indian burial ground in southern Oregon
+</text>
+<arg f="MNR" n="M">uncanny</arg>
+<arg n="1">goings-on</arg>
+<rel>goings-on</rel>
+<arg f="LOC" n="M">
+in `` the Oregon Vortex , '' a former Indian burial ground in
+southern Oregon</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

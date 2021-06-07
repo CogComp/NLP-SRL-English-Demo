@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="screw_up">
+<note>
+  Frames file for 'screw' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="screw.01" name="to make a mess of"  vncls="-">
+<roles>
+  <role n="0"  descr="causer/agent"/>
+  <role n="1"  descr="thing screwed up"/>
+</roles>
+
+
+<example name="intransitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Mr. Dahl , a registered representative in the insurance business , said [0] he `` screwed up '' because he did n't realize [0] he was breaking securities laws .
+</text>
+	<arg n="0">he</arg>
+	<rel>[ screwed] [ up]</rel>
+	<arg n="M" f="PRP">because he did n't realize [0] he was breaking securities laws</arg>
+</example>
+
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ `` The highway system is screwed [*-1] up '' by the earthquake , Mr. Engelken said [0] [*T*-2] .
+</text>
+	<arg n="1">The highway system</arg>
+	<rel>[ screwed] [ up]</rel>
+	<arg n="0" f="by">the earthquake</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

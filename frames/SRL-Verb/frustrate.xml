@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="frustrate">
+<note>
+  Frames file for 'frustrate' based on sentences in wsj.  Verbnet
+  entry 31.1 (verbs of emotion) but there seems to be a difference
+  between this verb and others of that class (see note at end).
+</note>
+
+<roleset id="frustrate.01" vncls="-" name="cause angst">
+<roles>
+  <role n="0"  descr="causer, frustrater"/>
+  <role n="1"  descr="entity frustrated"/>
+  <role n="2"  descr="target of frustration"/>
+</roles>
+
+<example name="would this actually work?">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Sometimes, if the hacker seemed to be into a sensitive file, he
+    would drag his keychain across the terminal *trace* to create
+    static or slow the system down *trace* to frustrate his quarry. 
+</text>
+        <arg n="0">*trace* -> *trace* ->  he</arg>
+        <rel>frustrate</rel>
+        <arg n="1">his quarry</arg>
+</example>
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Corporate leaders, frustrated *trace* by double-digit increases in
+    health-care costs, are beginning to sound like liberal Democrats. 
+</text>
+        <rel>frustrated</rel>
+        <arg n="1">*trace* ->  Corporate leaders</arg>
+        <arg n="0" f="by">double-digit increases in health-care costs</arg>
+</example>
+
+<example name="exceptional use of arg2">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    But the Fed isn't enthusiastic about Treasury efforts to bring
+    down the value of the dollar through intervention in
+    foreign-exchange markets, and the Treasury is frustrated *trace*
+    at the Fed's reluctance to cut interest rates to pull down the
+    dollar's value. 
+</text>
+        <rel>frustrated</rel>
+        <arg n="1">*trace* ->  the Treasury</arg>
+        <arg n="2" f="at">the Fed's reluctance to cut interest rates
+        to pull down the dollar's value</arg> 
+</example>
+
+
+<note>
+Usually for class 31.1 arg2 is the instrument, and only present when
+the subject is also present.  This is exceptional.  It would seem
+weird to introduce arg0 by 'at', and there's a real semantic
+difference between the causer of frustration, and the target.
+of the frustration.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

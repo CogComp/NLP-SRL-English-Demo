@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trip">
+<note>
+  Frames file for 'trip'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="trip.01" name="to release"
+vncls="-">
+<roles> 
+ <role n="0"  descr="agent"/>
+ <role n="1"  descr="thing tripped"/> 
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ A circuit breaker that [*T*-1] would have closed down the New York Stock Exchange was n't tripped [*-2] .
+</text>
+	<arg n="M" f="NEG">n't</arg>
+	<rel>tripped</rel>
+	<arg n="1">[*-2] ->  A circuit breaker that [*T*-1] would have closed down the New York Stock Exchange</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

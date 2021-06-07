@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ping">
+<note>
+  Frames file for 'ping' based on sentences in wsj.  Verbnet entry
+  43.2, Framenet entry Motion noise.
+</note>
+
+<roleset id="ping.01" vncls="43.2" name="make pinging noises">
+<roles>
+  <role n="0"  descr="pinger"/>
+</roles>
+
+<example name="pachinko">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+     Devotees pass hours, watching the lights blink and listening to
+     the metal balls ping, as much to gamble as to get a little time
+     to be anonymous, alone with their thoughts. 
+</text>
+        <arg n="0">the metal balls</arg>
+        <rel>ping</rel>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

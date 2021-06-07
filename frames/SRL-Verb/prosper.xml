@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="prosper">
+<note>
+  Frames file for 'prosper' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="prosper.01" vncls="-" name="be prosperous">
+<roles>
+  <role n="0"  descr="thing prospering"/>
+</roles>
+
+<example name="live long and...">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    Prospective bond buyers noted that TW historically has prospered
+    because it has been willing to spend aggressively on remodeling
+    restaurants and redoing menus. 
+</text>
+        <arg n="0">TW</arg>
+        <arg n="M" f="ADV">historically</arg>
+        <rel>prospered</rel>
+        <arg n="M" f="CAU">because it has been willing to spend
+        aggressively on remodeling restaurants and redoing menus</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

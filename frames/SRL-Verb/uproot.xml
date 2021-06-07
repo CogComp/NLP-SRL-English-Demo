@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="uproot">
+<note>
+  Frames file for 'uproot' based on sentences in wsj.  Verbnet entry 10.1.
+</note>
+
+<roleset id="uproot.01" vncls="10.1" name="remove from foundation">
+<roles>
+  <role n="0"  descr="remover"/>
+  <role n="1"  descr="thing removed"/>
+</roles>
+
+<example name="typical hurricanes">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    WHEN HURRICANE Hugo careened through the Caribbean and the
+    Atlantic coast states, it downed electric and telephone lines,
+    shot coconuts through cottage rooftops, shattered windows and
+    uprooted thousands of lives. 
+</text>
+        <arg n="0">it</arg>
+        <rel>uprooted</rel>
+        <arg n="1">thousands of lives</arg>
+</example>
+
+<note>
+Class membership predicts a 'source' (uprooted from) arg, but I don't
+think it will occur.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="sip">
+<note>
+  Frames file for 'sip' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="sip.01" name="to drink in small quantities "
+vncls="39.2">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="drink"/>
+  <role n="2"  descr="entity sipped from"/>
+</roles>
+
+
+<example name="all arguments">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ He sipped tea sweetened with honey from his high-backed leather chair at his bench , while [*-1] scribbling notes ordering spectators to stop whispering or to take off their hats in his courtroom .
+</text>
+	<arg n="0">He</arg>
+	<rel>sipped</rel>
+	<arg n="1">tea sweetened with honey</arg>
+	<arg n="2" f="from">his high-backed leather chair at his bench</arg>
+	<arg n="M" f="TMP">while [*-1] scribbling notes ordering spectators to stop whispering or to take off their hats in his courtroom</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="invalidate">
+<note>
+  Frames file for 'invalidate' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="invalidate.01" vncls="-" name="cause to be/show to be invalid">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="invalid thing"/>
+</roles>
+
+<example name="boring">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    The Thurmond bill would establish a federally administered death
+    sentence for 23 crimes, most of which were formerly punishable by
+    death under federal statutes that the Supreme Court invalidated
+    *trace*. 
+</text>
+        <arg n="0">the Supreme Court</arg>
+        <rel>invalidated</rel>
+        <arg n="1">*trace* ->  that ->  federal statutes</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

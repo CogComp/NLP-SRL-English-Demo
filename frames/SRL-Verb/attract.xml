@@ -1,0 +1,69 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="attract">
+<note>
+  Frames file for 'attract' based on annotation-on-the-fly of the
+  financial subcorpus.  No verbnet entry.  Updated thanks to examples
+  found by Kate.
+</note>
+
+<roleset id="attract.01" name="attract, draw near">
+<roles>
+  <role n="0"  descr="attractor"/>
+  <role n="1"  descr="thing attracted"/>
+  <role n="2"  descr="thing attracted to, if separate from attractor"/>
+  <role n="3"  descr="instrument, if separate from attractor"/>
+</roles>
+
+<example name="basic transitive">
+  <text>
+  That attracts attention.
+  </text>
+  <arg n="0"        >That</arg>
+  <rel              >attracts</rel>
+  <arg n="1"        >attention</arg>
+</example>
+
+<example name="with secondary attractor">
+<text>
+    A free market with a profit motive will attract each investor to
+    the liquidity and risks he can tolerate.
+</text>
+        <arg n="0">A free market with a profit motive</arg>
+        <arg n="M" f="MOD">will</arg>
+        <rel>attract</rel>
+        <arg n="1">each investor</arg>
+        <arg n="2" f="to">the liquidity and risks  he can tolerate </arg>
+</example>
+
+<example name="with instrument">
+  <text>
+  John attracts flies with his goaty boy smell.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >attracts</rel>
+  <arg n="1"        >flies</arg>
+  <arg n="3" f="with">his goaty boy smell</arg>
+</example>
+
+<example name="attractor in obj position">
+<text>
+    British Air was originally attracted *trace* to the chance of
+    obtaining a 15% stake in the company, but wasn't particularly
+    happy with paying $750 million. 
+</text>
+        <arg n="M" f="TMP">originally</arg>
+        <rel>attracted</rel>
+        <arg n="1">*trace* ->  British Air</arg>
+        <arg n="0" f="to">the chance of obtaining a 15% stake in the
+        company</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

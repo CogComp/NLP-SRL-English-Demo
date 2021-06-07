@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="unlock">
+<note>
+  Frames file for 'unlock' based on sentences in financial subcorpus.
+  Verbnet entry 23.3, no other framed members.  No Framenet entry.
+  Comparison with lock.
+</note>
+
+<roleset id="unlock.01" vncls="-" name="detach, open">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="things that were attached"/>
+  <role n="2"  descr="lock"/>
+</roles>
+
+<example name="lock and key">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    In the end, Sir John -- rather than the government or Jaguar
+    shareholders -- may hold the key that *trace* unlocks the golden
+    share. 
+</text>
+        <arg n="0">*trace* ->  that ->  the key</arg>
+        <rel>unlocks</rel>
+        <arg n="2">the golden share</arg>
+</example>
+
+<example name="with attached things">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John unlocked his bike from the bike rack.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >unlocked</rel>
+  <arg n="1"        >his bike</arg>
+  <arg n="1" f="from">the bike rack</arg>
+</example>
+
+<note>
+To my ear, arg1 and arg2 can never occur in the same sentence.  Should
+these be regarded as different senses?
+</note>
+
+</roleset>
+</predicate>
+</frameset>

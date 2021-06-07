@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="seethe">
+<note>
+  Frames file for 'seethe' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="seethe.01" name="to be in a state of turmoil"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity seethed with"/>
+  <role n="2"  descr="entity seethed over"/>
+</roles>
+
+<example name="with Arg1">
+<inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+ Josh makes clumsy passes at Kate when she 's seething with anger and fear [*T*-1] , but we know from the outset that he 's not a member of the evil patriarchy .
+</text>
+	<arg n="0">she</arg>
+	<rel>seething</rel>
+	<arg n="1" f="with">anger and fear</arg>
+	<arg n="M" f="TMP">[*T*-1] ->  when</arg>
+</example>
+
+
+<example name="with Arg2">
+<inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+ Wall Street is seething over the rules , which [*T*-1] would curtail the tax deductibility of debt used [*] in most LBOs .
+</text>
+	<arg n="0">Wall Street</arg>
+	<rel>seething</rel>
+	<arg n="2" f="over">the rules , which [*T*-1] would curtail the tax deductibility of debt used [*] in most LBOs</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

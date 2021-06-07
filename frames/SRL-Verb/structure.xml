@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="structure">
+<note>
+  Frames file for 'structure' based on sentences in financial
+  subcorpus.  No Verbnet entry, no Framenet entry.  Comparison with
+  arrange.
+</note>
+
+<roleset id="structure.01" vncls="-" name="arrange in a particular fashion">
+<roles>
+  <role n="0"  descr="agent, structurer"/>
+  <role n="1"  descr="thing structured, arranged"/>
+  <role n="2"  descr="how or as"/>
+</roles>
+
+<example name="as manner">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Jaguar and GM hope to win Jaguar shareholders' approval for the
+    accord partly by *trace* structuring it in a way that wouldn't
+    preclude a full Ford bid once the golden share expires. 
+</text>
+        <arg n="0">*trace* -> *trace* ->  Jaguar and GM</arg>
+        <rel>structuring</rel>
+        <arg n="1">it</arg>
+        <arg n="2" f="MNR">in a way that wouldn't preclude a full Ford
+        bid once the golden share expires</arg> 
+</example>
+
+<example name="as purpose">
+  <inflection person="third" tense="present" aspect="ns" voice="passive" form="participle"/>
+  <text>
+    John's class schedule is structured *trace* to let him sleep until
+    noon every day.
+  </text>
+  <rel              >structured</rel>
+  <arg n="1"        >*trace* -> John's class schedule</arg>
+  <arg n="2" f="PNC">to let him sleep until noon every day</arg>
+</example>
+
+<example name="as as">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John structured his dissertation as an exercise in obfuscation.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >structured</rel>
+  <arg n="1"        >his dissertation</arg>
+  <arg n="2" f="as">an exercise in obfuscation</arg>
+</example>
+
+<note>
+The arg2 is always some descriptor of the way the arg1 is arranged or
+set up.  That descriptor can take several different manifestations,
+hence the use of the functional tags on a numbered argument.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

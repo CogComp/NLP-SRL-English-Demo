@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rim">
+<note>
+  Frames file for 'rim' based on sentences in wsj.  Verbnet entry 47.8.
+</note>
+
+<roleset id="rim.01" vncls="47.8" name="(cause to) be along the periphery of">
+<roles>
+  <role n="0"  descr="causal agent"/>
+  <role n="1"  descr="thing on the rim"/>
+  <role n="2"  descr="the rim, thing enclosed"/>
+</roles>
+
+<example name="no agent">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Right now he takes people out to fish in the bays behind the
+    barrier islands that curve for hundreds of miles along the eastern
+    coast of Texas, enclosing milky green lagoons behind ridges of
+    sand and grassy scrub that [*T*-1] rim the deep blue of the Gulf
+    beyond.  
+</text>
+        <arg n="1">[*T*-1] ->  that ->  grassy scrub</arg>
+        <rel>rim</rel>
+        <arg n="2">the deep blue of the Gulf beyond</arg>
+</example>
+
+<example name="with agent">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     Mary rimmed the fence around John's grave with motion detectors
+     and spotlights--all aimed in.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >rimmed</rel>
+  <arg n="2"        >the fence around John's grave</arg>
+  <arg n="1" f="with">motion detectors and spotlights--all aimed in</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

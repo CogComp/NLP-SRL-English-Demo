@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="refrain">
+<note>
+  Frames file for 'refrain' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="refrain.01" vncls="-" name="not do some action">
+<roles>
+  <role n="0"  descr="non-agent"/>
+  <role n="1"  descr="non-action"/>
+</roles>
+
+<example name="usual usage">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    The government also urged whites to refrain from panic over
+    growing black protests, such as the massive anti-apartheid rally
+    Sunday on the outskirts of Soweto. 
+</text>
+        <arg n="0">whites</arg>
+        <rel>refrain</rel>
+        <arg n="1" f="from">panic over growing black protests, such as
+        the massive anti-apartheid rally Sunday on the outskirts of
+        Soweto</arg> 
+</example>
+
+<example name="oddly intransitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    ``Those who have no money and aren't buying think it's right
+    *trace* to refrain, but those with money who want to buy for
+    themselves pay no attention,'' says an official of the
+    Japan-U.S. Business Council. 
+</text>
+        <arg n="0">*trace* ->  Those who have no money and aren't
+        buying</arg> 
+        <rel>refrain</rel>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

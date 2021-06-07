@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="stunt">
+<note>
+  Frames file for 'stunt' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="stunt.01" name="to check the growth or development of"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="growth"/>
+</roles>
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+ Industry watchers agree that Brooks Brothers is long overdue in [*-2] updating its buttoned-down image , which [*T*-1] has stunted its growth .
+</text>
+	<arg n="0">[*T*-1] ->  which ->  its buttoned-down image</arg>
+	<rel>stunted</rel>
+	<arg n="1">its growth</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

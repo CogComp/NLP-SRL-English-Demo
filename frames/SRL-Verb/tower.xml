@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tower">
+<note>
+  Frames file for 'tower'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="tower.01" name="to rise, be preeminent"
+vncls="47.6 47.1">
+<roles> 
+ <role n="0"  descr="entity rising"/>
+ <role n="1"  descr="entity towered over"/>  
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="future" aspect="ns" voice="active" form="full"/>
+<text>
+ The man-made inferno will tower over a man-made lagoon with more than four acres of pools , grottoes and waterfalls .
+</text>
+	<arg n="0">The man-made inferno</arg>
+	<arg n="M" f="MOD">will</arg>
+	<rel>tower</rel>
+	<arg n="1" f="over">a man-made lagoon with more than four acres of pools , grottoes and waterfalls</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

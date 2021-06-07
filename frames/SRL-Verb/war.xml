@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="war">
+<note>
+  Frames file for 'war' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="war.01" name="to carry on warfare"  vncls="36.1">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="war against/over"/>
+</roles>
+
+<example name="both arguments">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Companies will continue [*-1] to war over standards .
+</text>
+	<arg n="0">[*-1] ->  Companies</arg>
+	<rel>war</rel>
+	<arg n="1" f="over">standards</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

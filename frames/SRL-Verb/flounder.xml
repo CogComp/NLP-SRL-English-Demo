@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="flounder">
+<note>
+  Frames file for 'flounder' based on sentences in wsj.  No Verbnet
+  entry, Framenet entry Bungling.  Bungle bungle bungle.  I just like
+  the word.
+</note>
+
+<roleset id="flounder.01" vncls="-" name="like a fish on dry land">
+<roles>
+  <role n="0"  descr="thing like a fish"/>
+</roles>
+
+<example name="not doing well at all">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    But five weeks after the premiere, the series has floundered.
+</text>
+        <arg n="M" f="DIS">But</arg>
+        <arg n="M" f="TMP">five weeks after the premiere</arg>
+        <arg n="1">the series</arg>
+        <rel>floundered</rel>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

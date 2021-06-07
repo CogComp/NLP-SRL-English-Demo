@@ -1,0 +1,81 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="list">
+<note>
+  Frames file for 'list' based on sentences in financial subcorpus.
+  No verbnet entry.  
+</note>
+
+<roleset id="list.01" name="enumerate">
+<roles>
+  <role n="0"  descr="lister"/>
+  <role n="1"  descr="item"/>
+  <role n="2"  descr="list"/>
+</roles>
+
+<example name="listed-in">
+<text>
+    The Tokyo Stock Price Index (Topix) of all issues listed *trace*
+    in the First Section, which gained 16.05 points Tuesday, was down
+    1.46 points, or 0.05%, at 2691.19. 
+</text>
+        <rel>listed</rel>
+        <arg n="1">*trace* -> all issues</arg>
+        <arg n="2" f="in">the First Section</arg>
+</example>
+
+<example name="listed-on">
+<text>
+    Armstrong's shares, also listed *trace* on the Big Board, closed
+    at $39.125, up 12.5 cents.
+</text>
+        <arg n="M" f="DIS">also</arg>
+        <rel>listed</rel>
+        <arg n="1">*trace* -> Armstrong's shares</arg>
+        <arg n="2" f="on">the Big Board</arg>
+</example>
+
+<example name="listed-as">
+<text>
+    Actually, about two years ago, the Journal listed the creation of
+    the money fund as one of the 10 most significant events in the
+    world of finance in the 20th century. 
+</text>
+        <arg n="M" f="DIS">Actually</arg>
+        <arg n="M" f="TMP">about two years ago</arg>
+        <arg n="0">the Journal</arg>
+        <rel>listed</rel>
+        <arg n="1">the creation of the money fund</arg>
+        <arg n="2" f="as">one of the 10 most significant events in the
+        world of finance in the 20th century</arg> 
+</example>
+
+</roleset>
+
+<roleset id="list.02" name="give a price">
+<roles>
+  <role n="0"  descr="pricer"/>
+  <role n="1"  descr="item"/>
+  <role n="2"  descr="price"/>
+</roles>
+
+<example name="listed-at">
+<text>
+    To confuse matters further, when UAL Corp. stock finally opened on
+    the New York Stock Exchange at 11:08 a.m., the price was listed
+    *trace* at $324.75 a share, up about $45 from Friday; in fact, its
+    true price was $224.75, down $55. 
+</text>
+        <rel>listed</rel>
+        <arg n="1">*trace* -> the price</arg>
+        <arg n="2" f="at">$ 324.75  a share</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

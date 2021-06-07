@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="glamorize">
+<note>
+  Frames file for 'glamorize' based on sentences in wsj.  No Verbnet
+  entry. 
+</note>
+
+<roleset id="glamorize.01" vncls="-" name="make glamorous">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="glamorous thing"/>
+  <role n="2"  descr="adornment, instrument"/>
+</roles>
+
+<example name="just transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Mr. Lane's final purpose isn't *trace* to glamorize the Artist's
+    vagabond existence. 
+</text>
+        <arg n="0">*trace* ->  Mr. Lane's</arg>
+        <rel>glamorize</rel>
+        <arg n="1">the Artist's vagabond existence</arg>
+</example>
+
+<example name="with adornment">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    In the Babylonian Bronx, Jewish working-class people lived in
+    drab, Soviet-style buildings ``glamorized'' *trace* with names
+    like AnaMor Towers (after owners Anna and Morris Snezak), whose
+    lobbies and hallways were decorated with murals of ancient Syrians
+    and Greeks, friezes of Pompeii.
+</text>
+        <rel>glamorized</rel>
+        <arg n="1">*trace* ->  drab, Soviet-style buildings</arg>
+        <arg n="2" f="with">names like AnaMor Towers (after owners
+        Anna and Morris Snezak)</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

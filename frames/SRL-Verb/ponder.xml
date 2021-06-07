@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="ponder">
+<note>
+  Frames file for 'ponder' based on sentences in financial subcorpus.
+  No Verbnet entry.  Comparison with 'think'.  OK, maybe not.
+</note>
+
+<roleset id="ponder.01" vncls="-" name="think about">
+<roles>
+  <role n="0"  descr="thinker"/>
+  <role n="1"  descr="thought"/>
+</roles>
+
+<example name="basic">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    As the Met discovered years ago following a belated December
+    opening, it is nearly impossible to recapture subscribers once
+    they have had time *trace* to ponder their entertainment choices. 
+</text>
+        <arg n="0">*trace* ->  they</arg>
+        <rel>ponder</rel>
+        <arg n="1">their entertainment choices</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

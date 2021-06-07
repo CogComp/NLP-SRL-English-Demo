@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="spender">
+<roleset id="spender.01" name="use money" source="verb-spend.01">
+<roles>
+
+<role descr="spender, buyer" n="0"></role>
+
+<role descr="thing bought, commodity" n="1"></role>
+
+<role descr="seller" n="2"></role>
+
+<role descr="price paid, money" n="3"></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Madison Avenue 's big spenders
+</text>
+<arg f="LOC" n="M">Madison Avenue 's</arg>
+<arg n="0">spenders</arg>
+<rel>spenders</rel>
+</example>
+
+<example name="autogen2">
+<text>
+big-time ad spenders
+</text>
+<arg n="1">ad</arg>
+<arg n="0">spenders</arg>
+<rel>spenders</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

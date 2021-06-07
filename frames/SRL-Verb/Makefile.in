@@ -1,0 +1,46 @@
+#
+# makefile for predicate argument lexicon API
+#
+INSTALL=../../install-sh
+MKCLASSMAP=perl ../../bin/vnclsmap.pl
+MKRSETMAP=perl ../../bin/rsetmap.pl
+MKPREDMAP=perl ../../bin/predmap.pl
+MKEXAMPLES=perl ../../bin/exmap.pl
+
+default: install
+
+classmap:
+	$(MKCLASSMAP) *.xml > classmap
+rsetmap:
+	$(MKRSETMAP) *.xml > rsetmap
+predmap:
+	$(MKPREDMAP) *.xml > predmap
+
+examples:
+	$(MKEXAMPLES) *.xml > examples
+
+install: classmap rsetmap predmap examples
+	$(INSTALL) -c -m 0444 classmap $(FRAMDIR)/; \
+	$(INSTALL) -c -m 0444 rsetmap $(FRAMDIR)/; \
+	$(INSTALL) -c -m 0444 predmap $(FRAMDIR)/; \
+	$(INSTALL) -c -m 0444 examples $(FRAMDIR)/; \
+	if test ! -d $(FRAMDIR); then \
+		mkdir -p $(FRAMDIR); \
+	fi; \
+	for f in *.xml; do \
+		echo "installing '$$f' ... "; \
+		sed -e 's|\"frameset.dtd\"|\"$(FRAMDIR)/frameset.dtd\"|' $$f > $$f.tmp; \
+		$(INSTALL) -m 0444 $$f.tmp $(FRAMDIR)/$$f; \
+	done; \
+	for f in *.dtd; do \
+		echo "installing '$$f' ... "; \
+		$(INSTALL) -c -m 0444 $$f $(FRAMDIR); \
+	done;
+
+
+clean:
+	rm -f *.cmo *.cmi *.cmx *.cma *.cmxa *.a *.o *~ a.out core \#* \
+	classmap rsetmap predmap examples
+
+tidy: clean
+	cp Makefile.init Makefile

@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="adapt">
+<note>
+  Frames file for 'adapt' based on sentences in wsj.  No Verbnet entry
+  at the moment.
+</note>
+
+<roleset id="adapt.01" vncls="-" name="make (more) suitable">
+<roles>
+  <role n="0"  descr="agent, adaptor"/>
+  <role n="1"  descr="thing adapted"/>
+  <role n="2"  descr="adapted to"/>
+  <role n="3"  descr="adapted from"/>
+</roles>
+
+<example name="unstated goal or source">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+     William Gates and Paul Allen in 1975 developed an early
+     language-housekeeper system for PCs, and Gates became an industry
+     billionaire six years after IBM adapted one of these versions in
+     1981. 
+</text>
+        <arg n="0">IBM</arg>
+        <rel>adapted</rel>
+        <arg n="1">one of these versions</arg>
+        <arg n="M" f="TMP">in 1981</arg>
+</example>
+
+<example name="arg1 defaults to reflexive on arg0">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    And surprising numbers of small investors seem *trace* to be
+    adapting to greater stock market volatility and say they can live
+    with program trading. 
+</text>
+        <arg n="0">*trace* ->  surprising numbers of small investors</arg>
+        <rel>adapting</rel>
+        <arg n="2" f="to">greater stock market volatility</arg>
+</example>
+
+<example name="with source">
+<inflection person="third" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    This article is adapted *trace* from one in the October American
+    Spectator. 
+</text>
+        <rel>adapted</rel>
+        <arg n="1">*trace* ->  This article</arg>
+        <arg n="3" f="from">one in the October American Spectator</arg>
+</example>
+
+<note>
+Args 2 and 3 don't seem to be able to cooccur; perhaps they could be
+merged?  That seems semantically weird, though.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

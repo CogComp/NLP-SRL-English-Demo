@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="dwindle">
+<note>
+  Frames file for 'dwindle' based on sentences in financial subcorpus.
+  No Verbnet entry, Framenet entry Scalar Position 2.  Comparison with
+  other verbs of quantifiable motion (rise, fall, etc.).
+</note>
+
+<roleset id="dwindle.01" name="become less">
+<roles>
+  <role n="1"  descr="thing becoming less"/>
+  <role n="2"  descr="EXT or MNR"/>
+  <role n="3"  descr="start point"/>
+  <role n="4"  descr="end point"/>
+</roles>
+
+<example name="just unaccusative intransitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    That's largely because of defensive measures they adopted after
+        the 1987 crash, when individual investors fled the market and
+        trading activity dwindled *trace*.</text> 
+        <arg n="1">trading activity</arg>
+        <rel>dwindled</rel>
+        <arg n="M" f="TMP">*trace* ->  when ->  the 1987 crash</arg>
+</example>
+
+<note>
+I'm predicting the numeric arguments, but they might not actually occur.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

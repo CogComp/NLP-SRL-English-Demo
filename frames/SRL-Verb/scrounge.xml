@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="scrounge">
+<note>
+  Frames file for 'scrounge' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="scrounge.01" name="to obtain by begging or borrowing with no
+intention of reparation"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity scrounged for"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ And some grain analysts are predicting that corn prices might gyrate this month as exporters scrounge [*-1] to find enough of the crop [0] [*T*-2] to meet their obligations to the Soviets .
+</text>
+	<arg n="0">exporters</arg>
+	<rel>scrounge</rel>
+	<arg n="1">[*-1] to find enough of the crop [0] [*T*-2] to meet their obligations to the Soviets</arg>
+</example>
+
+
+<example name="prepositional Arg1">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ The man who [*T*-1] wore out his shoes [*-3] wandering around Guadalajara in 1958 [*PPA*-4] , [*-3] describing in his travel book `` Viaje a la Alcarria '' how he scrounged for food and stayed in squalid inns [*T*-2] , now tours Spain in a Rolls-Royce .
+</text>
+	<arg n="0">he</arg>
+	<rel>scrounged</rel>
+	<arg n="1" f="for">food</arg>
+	<arg n="M" f="MNR">[*T*-2] ->  how</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

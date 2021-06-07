@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="atrocity">
+<roleset id="atrocity.01" name="to make an attack, criticize strongly" source="verb-attack.01">
+<roles>
+
+<role descr="attacker" n="0"></role>
+
+<role descr="entity attacked" n="1"></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the vast shadow government of 15,000 congressional staffers that
+helps create such legislative atrocities as the 1,376 page ,
+13-pound reconciliation bill that claimed to be the budget of the
+United States
+</text>
+<arg n="0">the vast shadow government ---> *T*-2 ---> *-3</arg>
+<arg n="Support">create</arg>
+<arg n="1">legislative</arg>
+<rel>atrocities</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

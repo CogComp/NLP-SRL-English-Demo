@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="abet">
+<note>
+  Frames file for 'abet' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="abet.01" vncls="-" name="aid">
+<roles>
+  <role n="0"  descr="agent of abetting"/>
+  <role n="1"  descr="thing helped, action"/>
+</roles>
+
+<example name="active, normal">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="gerund"/>
+<text>
+    In addition to *trace* abetting in the alleged criminal breach of
+    trust, Kwek Hong Png was also charged with dishonestly receiving
+    S$500,000 that had been stolen. 
+</text>
+        <arg n="0">*trace* -> Kwek Hong Png</arg>
+        <rel>abetting</rel>
+        <arg n="1" f="in">the alleged criminal breach of trust</arg>
+</example>
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Civilized discourse and an environment where compromise can begin
+    are lost in a hostile posture abetted *trace* by superficial media
+    interviews. 
+</text>
+        <rel>abetted</rel>
+        <arg n="1">*trace* ->  a hostile posture</arg>
+        <arg n="0" f="by">superficial media interviews</arg>
+</example>
+
+<example name="very awkward active">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="gerund"/>
+<text>
+    Eight admissions representatives at two of Wilfred's former
+    Massachusetts schools previously pleaded guilty to charges of
+    *trace* aiding, abetting and counseling students to submit false
+    financial-aid applications. 
+</text>
+        <arg n="0">*trace* ->  Eight admissions representatives at two
+        of Wilfred's former Massachusetts schools</arg> 
+        <rel>abetting</rel>
+        <arg n="1">students to submit false financial-aid applications</arg>
+
+<note>
+The action (submitting applications) is really connected with the PAS
+of 'counsel' more than aid or abet.
+</note>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

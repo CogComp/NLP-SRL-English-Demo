@@ -1,0 +1,93 @@
+##PRELIMINARY PAS LEXICAL FILE FOR "train"
+##CONSTRUCTED VIA LEVIN ENTRIES
+##EDITED THROUGH COMPARISON WITH INITIAL 31% OF "train.sents"
+
+## Sense One: make-to-learn
+
+##INTRANSITIVE
+
+##"John is training."
+
+ARG1 REL
+
+
+##TRANSITIVE
+
+##"John trained Mary."
+
+ARG0 REL ARG1
+
+
+
+##OVERT ROLE VARIANTS 
+
+
+	##'to'-INFINITIVE VARIANT
+
+	##"John trained Mary to tag the corpus."
+
+	ARG0 REL ARG1 ARG2-PRD
+
+
+	##'as' VARIANT
+
+	##"The department trained Mary as a linguist."
+
+	ARG0 REL ARG1 ARG2-as
+
+	## 'for' VARIANT
+
+	## ... workers need to be trained for their jobs.
+
+	ARG1 rel.passive ARG2-for
+
+	## 'in' VARIANT
+
+	## * train managers in the company's due-process approach.
+	
+	Arg0 (=*) rel Arg1 Arg2-in
+
+
+##OVERT INSTRUMENT
+
+##"The firm trained its new recruits with a video-program series.
+
+ARG0 REL ARG1 ARG3-with
+
+
+##"The firm trained its new recruits to do their jobs with a video-program series.
+
+ARG0 REL ARG1 ARG2 ARG3-with
+
+
+
+	##INSTRUMENT SUBJECT VARIANT
+
+	##"A video-program series trained the new recruits.
+
+	ARG3 REL ARG1 
+
+
+	##"A video-program series trained the new recruits to do their jobs.
+
+	ARG3 REL ARG1 ARG2
+
+
+
+##PASSIVE
+
+##"John was trained."
+##"John was trained by Mary."
+##"John was trained by Mary to correct the treebank."
+##"John was trained to correct the treebank by Mary."
+
+ARG1 REL.passive 
+ARG1 REL.passive ARG0-by
+ARG1 REL.passive ARG0-by ARG2
+ARG1 REL.passive ARG2 ARG0-by 
+
+## Sense Two: focus
+
+## John trained the water cannon on the protestors
+
+Arg0 rel Arg1 Arg2-on

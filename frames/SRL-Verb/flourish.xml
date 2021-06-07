@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="flourish">
+<note>
+  Frames file for 'flourish' based on sentences in wsj.  Verbnet entry 47.1.
+</note>
+
+<roleset id="flourish.01" vncls="47.1-1" name="prosper, do well">
+<roles>
+  <role n="1"  descr="thing flourishing"/>
+  <role n="2"  descr="secondary attribute"/>
+</roles>
+
+<example name="usual usage">
+<inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Back when the Burgess fauna were flourishing, it seems, human
+    evolutionary hopes hung on the survival of a little worm with a
+    backbone called Pikaia. 
+</text>
+        <arg n="1">the Burgess fauna</arg>
+        <rel>flourishing</rel>
+</example>
+
+<example name="with secondary attribute">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John flourished as a grad student--no, really!
+  </text>
+  <arg n="1"        >John</arg>
+  <rel              >flourished</rel>
+  <arg n="2" f="as">a grad student</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

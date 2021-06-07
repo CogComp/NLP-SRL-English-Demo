@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="leapfrog">
+<note>
+  Frames file for 'leapfrog' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="leapfrog.01" vncls="-" name="jump ahead of">
+<roles>
+  <role n="0"  descr="agent, thing now ahead"/>
+  <role n="1"  descr="obstacle, thing now behind"/>
+</roles>
+
+<example name="sometimes direct">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    Jumping in on big deals is a high profile way [0] [*T*-1] to
+    leapfrog the problem of not having a strong retail-banking
+    network. 
+</text>
+        <arg n="0">[*T*-1] ->  [0] ->  a high profile way</arg>
+        <rel>leapfrog</rel>
+        <arg n="1">the problem of not having a strong retail-banking
+        network</arg> 
+</example>
+
+
+<example name="usually prepositional">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    To make it to top-10 status, it would have [*-1] to leapfrog over
+    such formidable forces as Grey Advertising, D'Arcy Masius Benton
+    &amp; Bowles and Omnicom's DDB Needham. 
+</text>
+        <arg n="0">[*-1] ->  it</arg>
+        <rel>leapfrog</rel>
+        <arg n="1" f="over">such formidable forces as Grey
+        Advertising, D'Arcy Masius Benton &amp; Bowles and Omnicom's
+        DDB Needham</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

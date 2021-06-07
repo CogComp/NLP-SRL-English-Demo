@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="crusher">
+<roleset id="crusher.01" name="press, break" source="verb-crush.01" vncls="45.1">
+<roles>
+
+<role descr="agent, causer" n="0">
+<vnrole vncls="45.1" vntheta="Agent"/></role>
+
+<role descr="thing crushed" n="1">
+<vnrole vncls="45.1" vntheta="Patient"/></role>
+
+<role descr="instrument" n="2">
+<vnrole vncls="45.1" vntheta="Instrument"/></role>
+
+<role descr="crushed from or upon" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the final confidence-crusher
+</text>
+<arg n="0">confidence-crusher</arg>
+<arg n="1">confidence-crusher</arg>
+<rel>confidence-crusher</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,135 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="call">
+<note>
+  Frames file for 'call' based on Chris' old frames file; this is
+  still a mess and inconsistent with most of the other verbs.  It will
+  have to be revised and the tagging redone before the next iteration.
+</note>
+
+<roleset id="call.01" name="label" vncls="29.3">
+<roles>
+  <role descr="caller" n="0"><vnrole vncls="29.3" vntheta="Agent"/></role>
+  <role descr="item being labelled" n="1"><vnrole vncls="29.3" vntheta="Theme"/></role>
+  <role descr="attribute" n="3"><vnrole vncls="29.3" vntheta="Predicate"/></role>
+</roles>
+
+<example name="with attribute">
+  <text>
+    Mary called John an idiot
+  </text>
+  <arg n="0">Mary</arg>
+  <rel>called</rel>
+  <arg n="1">John</arg>
+  <arg n="3">an idiot</arg>
+</example>
+
+<example name="passivized">
+  <text>
+    The worksheets were called 'Learning Materials'
+  </text>
+  <arg n="1">The worksheets</arg>
+  <rel voice="passive">called</rel>
+  <arg n="3">'Learning Materials'</arg>
+</example>
+</roleset>
+
+<roleset id="call.02" name="summon" vncls="13.5.1">
+<roles>
+  <role descr="caller" n="0">
+		<vnrole vncls="13.5.1" vntheta="Agent"/>
+  </role>
+
+  <role descr="thing being summoned" n="1">
+		<vnrole vncls="13.5.1" vntheta="Theme"/>
+  </role>
+
+  <role descr="benefactive" n="2">
+		<vnrole vncls="13.5.1" vntheta="Beneficiary"/>
+  </role>
+
+</roles>
+
+<example name="without benefactive">
+  <text>
+    The bells called the faithful to evensong
+  </text>
+  <arg n="0">The bells</arg>
+  <rel>called</rel>
+  <arg n="1">the faithful</arg>
+  <arg f="dir" n="m">to evensong</arg>
+</example>
+
+<example name="with benefactive">
+  <text>
+    John called a doctor for Mary
+  </text>
+  <arg n="0">John</arg>
+  <rel>called</rel>
+  <arg n="1">a doctor</arg>
+  <arg f="for" n="2">Mary</arg>
+</example>
+
+<example name="benefactive with double NP">
+  <text>
+    John called Mary a doctor.
+  </text>
+  <arg n="0">John</arg>
+  <rel>called</rel>
+  <arg n="2">Mary</arg>
+  <arg n="1">a doctor</arg>
+</example>
+</roleset>
+</predicate>
+
+<predicate lemma="call_for">
+<note>
+Not actually a phrasal verb
+</note>
+
+<roleset id="call.03" name="demand" vncls="-">
+<roles>
+  <role descr="demander" n="0"/>
+  <role descr="thing being demanded" n="4"/>
+</roles>
+
+<example name="reelection woes">
+  <text>
+    Gore called for a recount.
+  </text>
+  <arg n="0">Gore</arg>
+  <rel>called</rel>
+  <arg f="for" n="4">a recount</arg>
+</example>
+
+<example name="without 'for'">
+  <text>
+    Ford called a Jaguar stockholders' meeting.
+  </text>
+  <arg n="0">Ford</arg>
+  <rel>called</rel>
+  <arg n="4">a Jaguar stockholders' meeting</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<predicate lemma="call_up">
+<note>
+  This really is phrasal.  Otherwise identical to the 'summon' roleset
+</note>
+</predicate>
+
+<predicate lemma="call_in">
+<note>
+  This is phrasal, otherwise identical to 'summon' roleset.
+</note>
+</predicate>
+
+<predicate lemma="call_on">
+<note>
+  This is phrasal, otherwise identical to 'summon' roleset.
+</note>
+</predicate>
+
+</frameset>

@@ -1,0 +1,128 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="add">
+
+<note>
+Frames file for &quot;add&quot; based on survey of initial sentences of big corpus
+and comparison with &quot;say&quot; and &quot;gain&quot;
+</note>
+
+<roleset id="add.01" name="say" vncls="-">
+<note>Sense one: &quot;say&quot;</note>
+
+<roles>
+  <role descr="speaker" n="0"/>
+  <role descr="utterance" n="1"/>
+</roles>
+
+<example name="transitive">
+  <text>
+    But he adds, &quot;I feel pressured, disappointed, uncomfortable, and angry.&quot;
+  </text>
+  <arg f="DIS" n="m">But</arg>
+  <arg n="0">he</arg>
+  <rel>adds</rel>
+  <arg n="1">&quot;I feel pressured, disappointed, uncomfortable, and angry.&quot;</arg>
+</example>
+
+<example name="fronted">
+  <text>
+    That got hard to take, he added *trace*
+  </text>
+  <arg n="0">he</arg>
+  <rel>added</rel>
+  <arg n="1">*trace*</arg>
+  <note>(*Trace* --&gt; &quot;That got hard to take&quot;)</note>
+</example>
+
+<example name="inverted">
+  <text>
+    The IRS is investigating lawyers, added (*trace*) Mr. Sonnett
+  </text>
+  <arg n="1">The IRS is investigating lawyers</arg>
+  <rel>added</rel>
+  <arg n="0">Mr. Sonnett</arg>
+  <note> (Arg1)				   rel  (Arg1   ) Arg0 </note>
+  <note>
+    unlike 'say', Treebank does not consistently assume a *trace* after 'add'
+   linked to the utterance.  Thus the Arg1 will show up on the trace, if it
+   is present, otherwise on the utterance itself.
+  </note>
+</example>
+
+<example name="split">
+  <text>
+    The bids, he added *trace*, were contrary to common sense.
+  </text>
+  <arg n="0">he</arg>
+  <arg n="1">*trace*</arg>
+  <note>*trace*  the bids were contrary to common sense</note>
+</example>
+</roleset>
+
+<roleset id="add.02" name="mathematics" vncls="22.1-3">
+<roles>
+  <role descr="adder" n="0">
+		<vnrole vncls="22.1-3" vntheta="Agent"/>
+  </role>
+
+  <role descr="thing being added" n="1">
+		<vnrole vncls="22.1-3" vntheta="Patient1"/>
+  </role>
+
+  <role descr="thing being added to" f="to" n="2">
+		<vnrole vncls="22.1-3" vntheta="Patient2"/>
+  </role>
+
+</roles>
+
+<example name="one and one makes...">
+  <text>
+    Judge Curry added an additional $55 million to the commission's calculations.
+  </text>
+  <arg n="0">Judge Curry</arg>
+  <rel>added</rel> 
+  <arg n="1">an additional $55 million</arg>
+  <arg f="to" n="2">to the commission&quot;s calculations.</arg>
+</example>
+
+<example name="merged">
+  <note> Args 1 and 2 might be merged: </note>
+  <text>
+    It also asks them *trace=them* to add [two-sevenths and three-sevenths].
+  </text>
+  <arg n="0">*trace=them*</arg>
+  <rel>to add</rel>
+  <arg n="1">two-sevenths and three-sevenths</arg>
+  <note>Arg0		  rel [Arg1			      ]</note>
+</example>
+
+</roleset>
+
+<roleset id="add.03" name="achieve or gain" vncls="-">
+  <note>
+  The crucial difference between this usage and the mathematics usage
+   is that the 'to' phrase is the end product, not the other operand. 
+  </note>
+  <roles>
+  <role descr="Logical subject, patient, thing rising/gaining/being added to" n="1"/>
+  <role descr="EXT, amount risen" n="2"/>
+  <role descr="end point" n="4"/>
+  <role descr="medium" f="LOC" n="M"/>
+  <note>arg M is often dropped</note>
+</roles>
+
+<example name="rise">
+  <text>
+    The Nasdaq composite index added 1.01 to 456.6 on paltry volume.
+  </text>
+  <arg n="1">The Nasdaq composite index</arg>
+  <rel>added</rel>
+  <arg f="EXT" n="2">1.01</arg>
+  <arg f="to" n="4">to 456.6</arg>
+  <arg f="ADV" n="M">on paltry volume</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

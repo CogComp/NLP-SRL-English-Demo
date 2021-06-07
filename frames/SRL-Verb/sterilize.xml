@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="sterilize">
+<note>
+  Frames file for 'sterilize' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="sterilize.01" name="to make free from live bacteria, to make inoffensive "
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity sterilized"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="infinitive"/>
+<text>
+ The Fed has been intervening in foreign currency markets , all right , but through August , at least , it appeared [*-1] to be `` sterilizing '' the intervention .
+</text>
+	<arg n="0">[*-1] ->  it</arg>
+	<rel>sterilizing</rel>
+	<arg n="1">the intervention</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

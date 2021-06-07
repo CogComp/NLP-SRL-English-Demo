@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="loathe">
+<note>
+  Frames file for 'loathe' based on sentences in wsj.  Verbnet entry
+  31.2, Framenet entry Experiencer subj.
+</note>
+
+<roleset id="loathe.01" vncls="31.2" name="hate a lot">
+<roles>
+  <role descr="experiencer" n="0"><vnrole vncls="31.2" vntheta="Experiencer"/></role>
+  <role descr="target of hatred" n="1"><vnrole vncls="31.2" vntheta="Cause"/></role>
+</roles>
+
+<example name="active">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    Keepers of the books, dubbed ``figure filberts,'' loathed the
+    threat. 
+</text>
+        <arg n="0">Keepers of the books, dubbed ``figure
+        filberts,''</arg> 
+        <rel>loathed</rel>
+        <arg n="1">the threat</arg>
+</example>
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    But the U.S. has one great advantage: The Soviets are universally
+    loathed [*-1] throughout Ethiopia for what they did to the country
+    this past decade -- famine and all. 
+</text>
+        <arg n="M" f="MNR">universally</arg>
+        <rel>loathed</rel>
+        <arg n="1">[*-1] ->  The Soviets</arg>
+        <arg n="M" f="LOC">throughout Ethiopia</arg>
+        <arg n="M" f="PNC">for what they did to the country this past
+        decade -- famine and all</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

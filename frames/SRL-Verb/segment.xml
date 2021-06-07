@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="segment">
+<note>
+  Frames file for 'segment' based on sentences in wsj.  No Verbnet
+  entry, Framenet entry Separation.
+</note>
+
+<roleset id="segment.01" vncls="-" name="divide object into pieces">
+<roles>
+  <role n="0"  descr="agent, divider"/>
+  <role n="1"  descr="whole object"/>
+  <role n="2"  descr="pieces"/>
+</roles>
+
+<example name="just transitive">
+<inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+    ``You're dead in the water if you aren't segmenting the market,''
+    says Anne Moore, president of Synergistics Research Corp., a bank
+    consulting firm in Atlanta. 
+</text>
+        <arg n="0">you</arg>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>segmenting</rel>
+        <arg n="1">the market</arg>
+</example>
+
+<example name="with pieces">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John segmented the orange into a zillion pulpy fragments.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >segmented</rel>
+  <arg n="1"        >the orange</arg>
+  <arg n="2" f="into">a zillion pulpy fragments</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

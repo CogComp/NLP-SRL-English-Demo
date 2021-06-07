@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="flee">
+<note>
+  Frames file for 'flee' based on sentences in financial subcorpus.
+  Verbnet entry 51.1, other framed members include enter and tumble.
+  Framenet entries Escaping, Cotheme.  No comparison.
+</note>
+
+<roleset id="flee.01" name="run away (from)">
+<roles>
+  <role n="0"  descr="fleer, runner"/>
+  <role n="1"  descr="fled--person or place"/>
+</roles>
+
+<example name="flee an NP">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    That's largely because of defensive measures they adopted after
+        the 1987 crash, when individual investors fled the market
+        *trace* and trading activity dwindled .</text> 
+        <arg n="0">individual investors</arg>
+        <rel>fled</rel>
+        <arg n="1">the market</arg>
+        <arg n="M" f="TMP">*trace* ->  when ->  the 1987 crash</arg>
+</example>
+
+<example name="flee with destination PP">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    The dispute started when China, angry that Hong Kong had allowed
+    dissident swimmer Yang Yang to flee to the U.S., halted the usual
+    daily transfer of illegal immigrants caught in this British
+    colony, which reverts to Beijing's control in 1997. 
+</text>
+        <arg n="0">dissident swimmer Yang Yang</arg>
+        <rel>flee</rel>
+        <arg n="1" f="to">the U.S.</arg>
+</example>
+
+<example name="flee with source PP">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    Many takeover stocks plunged Friday, as speculators retained their
+    confidence in corporate buyers but fled from the socalled whisper
+    stocks, the targets of rumored deals. 
+</text>
+        <arg n="0">speculators</arg>
+        <rel>fled</rel>
+        <arg n="1" f="from">the socalled whisper stocks, the targets
+        of rumored deals</arg> 
+</example>
+
+<note>
+I don't believe you can get both a source and destination, so they can
+be merged into a single arg1.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

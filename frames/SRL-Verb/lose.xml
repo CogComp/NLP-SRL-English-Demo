@@ -1,0 +1,149 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="lose">
+<note>
+  Frames file for 'lose' based on survey of initial sentences of big
+  corpus and comparison with 'fall' and 'gain'
+</note>
+
+<roleset id="lose.01" name="decrease, fall">
+<roles>
+  <role n="1"  descr="logical subject, patient, thing falling"/>
+  <role n="2"  descr="EXT, amount fallen"/>
+  <role n="3"  descr="start point"/>
+  <role n="4"  descr="end point"/>
+  <role n="M" f="LOC" descr="medium"/>
+</roles>
+
+<example name="stocks">
+  <text>
+    Rally's lost 1 3/4 to 21 3/4.
+  </text>
+  <arg n="1"        >Rally's</arg>
+  <rel              >lost</rel>
+  <arg n="2" f="EXT">1 3/4</arg>
+  <arg n="4" f="to">21 3/4</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="lose.02" name="lose, no longer have">
+<roles>
+  <role n="0"  descr="entity losing something"/>
+  <role n="1"  descr="thing lost"/>
+  <role n="2"  descr="benefactive, entity gaining thing lost"/>
+</roles>
+
+<example name="one gains, one loses">
+  <text>
+    NEC lost the contract to Fujitsu.
+  </text>
+  <arg n="0"        >NEC</arg>
+  <rel              >lost</rel>
+  <arg n="1"        >the contract</arg>
+  <arg n="2" f="to">Fujitsu</arg>
+</example>
+
+<example name="more commonly without gainer">
+  <text>
+    Western Union lost its chance to be in the telephone business.
+  </text>
+  <arg n="0"        >Western Union</arg>
+  <rel              >lost</rel>
+  <arg n="1"        >its chance to be in the telephone business</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="lose.03" name="battle">
+<roles>
+  <role n="0"  descr="loser"/>
+  <role n="1"  descr="battle"/>
+  <role n="2"  descr="winner"/>
+</roles>
+
+<example name="battle">
+  <text>
+    Appropriators from both houses lost a battle Tuesday night with
+    the Senate Foreign Relations Committee.
+  </text>
+  <arg n="0"        >Appropriators from both houses</arg>
+  <rel              >lost</rel>
+  <arg n="1"        >a battle</arg>
+  <arg n="m" f="TMP">Tuesday night</arg>
+  <arg n="2" f="with">with the Senate Foreign Relations Committee</arg>
+</example>
+
+<example name="contest">
+  <text>
+    I lost the case in federal district court in Des Moines.
+  </text>
+  <arg n="0"        >I</arg>
+  <rel              >lost</rel>
+  <arg n="1"        >the case</arg>
+  <arg n="m" f="LOC">in federal district court in Des Moines</arg>
+</example>
+
+</roleset>
+
+<roleset id="lose.04" name="lose touch">
+<roles>
+  <role n="0"  descr="loser"/>
+  <role n="1"  descr="touch"/>
+  <role n="2"  descr="with ..."/>
+</roles>
+
+<example name="not phrasal!">
+  <text>
+    They didn't lose touch with the US issuers.
+  </text>
+  <arg n="0"        >They</arg>
+  <arg n="m" f="NEG">n't</arg>
+  <rel              >lose</rel>
+  <arg n="1"        >touch</arg>
+  <arg n="2" f="with">the US issuers</arg>
+</example>
+
+<note>
+This is almost idiomatic.
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="lose_out">
+<note>
+  Similar to 'lose, come to not have' roleset id="lose.05" above, except arg1 is
+  usually prepositional now
+</note>
+
+<roleset id="lose.06" name="lose, come to not have">
+<roles>
+  <role n="0"  descr="entity losing something"/>
+  <role n="1"  descr="thing lost"/>
+  <role n="2"  descr="benefactive, entity gaining thing lost"/>
+</roles>
+
+<example name="lose out on">
+  <text>
+    The traditionalists have been losing out on bundles of it to the
+    New Guard in recent years.
+  </text>
+  <arg n="0"        >The traditionalists</arg>
+  <rel              >losing out</rel>
+  <arg n="1" f="on">bundles of it</arg>
+  <arg n="2" f="to">the New Guard</arg>
+  <arg n="m" f="TMP">in recent years</arg>
+</example>
+</roleset>
+</predicate>
+
+</frameset>

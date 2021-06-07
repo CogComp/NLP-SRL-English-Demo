@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="socialize">
+<note>
+  Frames file for 'socialize' based on sentences in No wsj.  Verbnet entry.
+</note>
+
+<roleset id="socialize.01" vncls="-" name="be social">
+<roles>
+  <role n="0"  descr="socialite"/>
+</roles>
+
+<example name="schmooze">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+    The gruff financier recently started *trace* socializing in
+    upper-class circles. 
+</text>
+        <arg n="0">*trace* ->  The gruff financier</arg>
+        <rel>socializing</rel>
+        <arg n="M" f="LOC">in upper-class circles</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="socialize.02" vncls="-" name="put into socialist system">
+<roles>
+  <role n="0"  descr="government"/>
+  <role n="1"  descr="industry, etc"/>
+</roles>
+
+<example name="viva la revolucion!">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Carl Schramm, president of the Health Insurance Association of
+    America, scoffs at ``capitalists who *trace* want *trace* to
+    socialize the entire financing system'' for health. 
+</text>
+        <arg n="0">*trace* -> *trace* ->  who ->  capitalists</arg>
+        <rel>socialize</rel>
+        <arg n="1">the entire financing system'' for health</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="idling">
+<roleset id="idling.01" name="to cause to be inactive or idle" source="verb-idle.01">
+<roles>
+
+<role descr="cause" n="0"></role>
+
+<role descr="experiencer" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the idling of an important plant
+</text>
+<rel>idling</rel>
+<arg n="1">of an important plant</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

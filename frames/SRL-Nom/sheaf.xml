@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sheaf">
+<roleset id="sheaf.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a sheaf of documents both sides can trust
+</text>
+<rel>sheaf</rel>
+<arg n="1">of documents both sides can trust</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

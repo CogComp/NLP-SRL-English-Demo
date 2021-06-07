@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="appall">
+<note>
+  Frames file for 'appall' based on sentences in wsj.  Verbnet entry 31.1.
+</note>
+
+<roleset id="appall.01" vncls="31.1" name="strike with disgust">
+<roles>
+  <role n="0"  descr="causer of appallment"/>
+  <role n="1"  descr="appalled entity"/>
+</roles>
+
+<example name="infinitival cause">
+<inflection person="third" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    I was appalled [*-1] [*-2] to read the misstatements of facts in
+    your Oct. 13 editorial ``Colombia's Brave Publisher.'' 
+</text>
+        <rel>appalled</rel>
+        <arg n="1">[*-1] ->  I</arg>
+        <arg n="0">[*-2] to read the misstatements of facts in your
+        Oct. 13 editorial ``Colombia's Brave Publisher</arg> 
+</example>
+
+
+<example name="nominal cause">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Readers were electrified by the paper's audacity and appalled
+    [*-1] by the dark side of life it uncovered. 
+</text>
+        <rel>appalled</rel>
+        <arg n="1">[*-1] ->  Readers</arg>
+        <arg n="0" f="by">the dark side of life it uncovered</arg> 
+</example>
+
+
+<example name="sbar cause">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    They were appalled, for instance, that he wanted to target more of
+    the $3 billion Community Development Block Grant (CDBG) program to
+    low-income projects and zero out the notorious ``discretionary''
+    funds that have allowed HUD officials to steer contracts to
+    political cronies. 
+</text>
+        <arg n="1">They</arg>
+        <rel>appalled</rel>
+        <arg n="0">that he wanted to target more of the $3 billion
+        Community Development Block Grant (CDBG) program to low-income
+        projects and zero out the notorious ``discretionary'' funds
+        that have allowed HUD officials to steer contracts to
+        political cronies</arg> 
+</example>
+
+<note>
+Please include the complementizer in the arg0, when appropriate.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

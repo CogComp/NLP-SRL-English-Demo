@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="peal">
+<note>
+  Frames file for 'peal' based on sentences in wsj.  Verbnet entry
+  43.2, Framenet entry Perception_noise.
+</note>
+
+<roleset id="peal.01" vncls="43.2" name="(cause to) emit sound like a bell">
+<roles>
+  <role n="0"  descr="bellringer"/>
+  <role n="1"  descr="bell"/>
+</roles>
+
+<example name="bells are ap-pealing">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Mr. Hammond worries that old age and the flightiness of youth will
+    diminish the ranks of the East Anglian group that keeps the
+    Aslacton bells pealing. 
+</text>
+        <arg n="1">the Aslacton bells</arg>
+        <rel>pealing</rel>
+</example>
+
+<example name="with agent">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John slowly pealed the bell.
+  </text>
+  <arg n="0"        >John</arg>
+  <arg n="m" f="MNR">slowly</arg>
+  <rel              >pealed</rel>
+  <arg n="1"        >the bell</arg>
+</example>
+
+<note>
+As opposed to peeling an orange.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

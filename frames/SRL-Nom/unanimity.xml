@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="unanimity">
+<roleset id="unanimity.01" name="nomadj-unanimous">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But the process of convening the intergovernmental conference
+does n't require unanimity .
+</text>
+<arg n="1">the process of convening the intergovernmental conference</arg>
+<arg n="Support">require</arg>
+<rel>unanimity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

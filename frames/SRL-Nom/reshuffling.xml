@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reshuffling">
+<roleset id="reshuffling.01" name="to arrange or organize anew" source="verb-reshuffle.01">
+<roles>
+
+<role descr="shuffler, agent" n="0"></role>
+
+<role descr="entity reshuffled" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Grand Metropolitan PLC , the United Kingdom food and beverage
+group that owns Pillsbury Inc. of the U.S. , announced a
+reshuffling of board-level executive duties intended to fit the
+company 's recent expansion .
+</text>
+<arg n="0">
+Grand Metropolitan PLC , the United Kingdom food and beverage
+group that owns Pillsbury Inc. of the U.S. ,</arg>
+<arg n="Support">announced</arg>
+<rel>reshuffling</rel>
+<arg n="1">of board-level executive duties</arg>
+<arg f="PNC" n="M">intended to fit the company 's recent expansion</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

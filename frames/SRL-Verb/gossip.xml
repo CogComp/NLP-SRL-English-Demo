@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="gossip">
+<note>
+  Frames file for 'gossip' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="gossip.01" name="to engage in or spread gossip"
+vncls="37.6">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="gossip about"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+ Farmers in loose turbans and fancy earrings spend their afternoons [*-1] laughing and gossiping at the markets .
+</text>
+	<arg n="0">[*-1] ->  Farmers in loose turbans and fancy earrings</arg>
+	<rel>gossiping</rel>
+	<arg n="M" f="LOC">at the markets</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

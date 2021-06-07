@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="supersede">
+<note>
+  Frames file for 'supersede'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="supersede.01" name="to replace"
+vncls="-">
+<roles> 
+  <role n="0"  descr="entity replacing"/>
+ <role n="1"  descr="entity replaced"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ The Merksamer bankruptcy-law filing appears [*-1] to supersede that agreement .
+</text>
+	<arg n="0">[*-1] ->  The Merksamer bankruptcy-law filing</arg>
+	<rel>supersede</rel>
+	<arg n="1">that agreement</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

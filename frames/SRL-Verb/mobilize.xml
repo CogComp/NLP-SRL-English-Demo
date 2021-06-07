@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="mobilize">
+<note>
+  Frames file for 'mobilize' based on sentence in financial
+  subcorpus.  No verbnet entry.  No comparison.
+</note>
+
+<roleset id="mobilize.01" name="cause to be in motion, summon to arms">
+<roles>
+  <role n="0"  descr="mobilizer"/>
+  <role n="1"  descr="thing mobilized"/>
+</roles>
+
+<example name="only example so far">
+<text>
+    So far, Wall Street's Old Guard seems to be winning the
+    program-trading battle, *trace* successfully mobilizing public and
+    congressional opinion to bludgeon their tormentors. 
+</text>
+        <arg n="0">*trace* -> Wall Street 's Old Guard</arg>
+        <arg n="M" f="MNR">successfully</arg>
+        <rel>mobilizing</rel>
+        <arg n="1">public and congressional opinion</arg>
+        <arg n="M" f="PRP">to bludgeon their tormentors</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

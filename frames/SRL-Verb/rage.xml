@@ -1,0 +1,69 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="rage">
+<note>
+  Frames file for 'rage' based on sentences in wsj.  Verbnet entries
+  37.3, 47.2.
+</note>
+
+<roleset id="rage.01" vncls="37.3" name="speak angrily">
+<roles>
+  <role n="0"  descr="speaker"/>
+  <role n="1"  descr="utterance"/>
+  <role n="2"  descr="hearer"/>
+</roles>
+
+<example name="Mary's getting violent again">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    ``%*($*$)PO^%$!!!!'' raged Mary to John.
+  </text>
+  <arg n="1"        >``%*($*$)PO^%$!!!!''</arg>
+  <rel              >raged</rel>
+  <arg n="0"        >Mary</arg>
+  <arg n="2" f="to">John</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="rage.02" vncls="47.2" name="be very angry, violent">
+<roles>
+  <role n="0"  descr="angry entity"/>
+  <role n="1"  descr="target of anger"/>
+</roles>
+
+<example name="tempest in a teapot">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    Therefore, the debate about poison pills will continue *trace* to
+    rage in the boardrooms of corporations and the halls of academia. 
+</text>
+        <arg n="0">*trace* ->  the debate about poison pills</arg>
+        <rel>rage</rel>
+        <arg n="M" f="LOC">in the boardrooms of corporations and the
+        halls of academia</arg> 
+</example>
+
+<example name="with target">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     Mary, fed up with John's passivity, raged at him for over an
+     hour.  He didn't notice.
+  </text>
+  <arg n="0"        >Mary, fed up with John's passivity,</arg>
+  <rel              >raged</rel>
+  <arg n="1" f="at">him</arg>
+  <arg n="m" f="TMP">for over an hour</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

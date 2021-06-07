@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wheeze">
+<note>
+  Frames file for 'wheeze' based on sentences in wsj.  Verbnet entries
+  37.3, 43.2, 40.1.1, Framenet entry Motion noise, Communication noise.
+</note>
+
+<roleset id="wheeze.01" vncls="37.3" name="speak while short of breath">
+<roles>
+  <role n="0"  descr="speaker"/>
+  <role n="1"  descr="utterance"/>
+  <role n="2"  descr="hearer"/>
+</roles>
+
+<example name="more overacting">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    ``I can't make it.  You go on without me.'' John wheezed *T* to Mary
+    as they walked from the driveway to the front door.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >wheezed</rel>
+  <arg n="1"        >*T* -> I can't make it.  You go on without me.</arg>
+  <arg n="2" f="to">Mary</arg>
+  <arg n="m" f="TMP">as they walked from the driveway to the front door</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="wheeze.02" vncls="43.2 40.1.1" name="breathe with difficulty">
+<roles>
+  <role n="0"  descr="breather, wheezer"/>
+</roles>
+
+<example name="the one example">
+<inflection person="third" tense="past" aspect="progressive" voice="active" form="participle"/>
+<text>
+    One brown two-year-old filly was wheezing from a cold, while
+    another had splints on its legs, [*] keeping both animals from the
+    racetrack. 
+</text>
+        <arg n="0">One brown two-year-old filly</arg>
+        <rel>wheezing</rel>
+        <arg n="M" f="CAU">from a cold</arg>
+        <arg n="M" f="ADV">while another had splints on its legs</arg>
+        <arg n="M" f="ADV">[*] keeping both animals from the racetrack</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

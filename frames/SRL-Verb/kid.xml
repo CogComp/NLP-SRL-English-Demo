@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="kid">
+<note>
+  Frames file for 'kid' based on survey of sentences in the WSJ
+  corpus. Comparison with 'joke'.
+</note>
+
+<roleset id="kid.01" name="to joke or deceive"  vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="hearer"/>
+  <role n="2"  descr="topic"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+ Are you kidding ?
+</text>
+	<arg n="0">you</arg>
+	<rel>kidding</rel>
+</example>
+
+
+<example name="not in the corpus">
+<text>
+  John is just kidding you.
+</text>
+	<arg n="0">John</arg>
+	<rel>kidding</rel>
+        <arg n="1">you</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="subvert">
+<note>
+  Frames file for 'subvert' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="subvert.01" name="to corrupt,  destroy, or weaken something"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity subverted"/>
+  <role n="2"  descr="entity subverted from"/>
+</roles>
+
+<example name="with Arg2">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ The agency was so totally subverted [*-1] from the high principles of its founding that even the Soviets now wonder about an agency that [*T*-29] seemed so congenial to them .
+</text>
+	<arg n="M" f="MNR">so totally</arg>
+	<rel>subverted</rel>
+	<arg n="1">[*-1] ->  The agency</arg>
+	<arg n="2" f="from">the high principles of its founding</arg>
+</example>
+
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Future witnesses include a former federal S&amp;L regulator who [*T*-1] has accused the five senators of [*-2] attempting [*-3] to `` subvert '' the regulatory process by [*-4] intervening on behalf of Mr. Keating .
+</text>
+	<arg n="0">[*-3] ->  [*-2] ->  the five senators</arg>
+	<rel>subvert</rel>
+	<arg n="1">the regulatory process</arg>
+	<arg n="M" f="MNR">by [*-4] intervening on behalf of Mr. Keating</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+
+
+
+
+
+
+
+
+
+
+

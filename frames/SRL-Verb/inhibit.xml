@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="inhibit">
+<note>
+  Frames file for 'inhibit' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+
+<roleset id="inhibit.01" name="to restrain, suppress"  vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity inhibited"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Corporate lawyers said [0] the new fees would n't inhibit many mergers or other transactions .
+</text>
+	<arg n="0">the new fees</arg>
+	<arg n="M" f="MOD">would</arg>
+	<arg n="M" f="NEG">n't</arg>
+	<rel>inhibit</rel>
+	<arg n="1">many mergers or other transactions</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

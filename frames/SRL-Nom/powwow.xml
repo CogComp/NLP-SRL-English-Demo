@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="powwow">
+<roleset id="powwow.01" name="have a party" source="verb-celebrate.02">
+<roles>
+
+<role descr="celebrator(s" n="0"></role>
+
+<role descr="party, occasion" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their biannual powwow
+</text>
+<arg n="0">their</arg>
+<arg f="TMP" n="M">biannual</arg>
+<arg f="REF" n="1">powwow</arg>
+<rel>powwow</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

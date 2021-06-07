@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="implant">
+<note>
+  Frames file for 'implant' based on sentences in wsj.  No Verbnet
+  entry, Framenet entry Placing.
+</note>
+
+<roleset id="implant.01" vncls="-" name="put in">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing implanted"/>
+  <role n="2"  descr="implanted into"/>
+</roles>
+
+<example name="all args">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    The controversy began in 1987 when the National Institutes of
+    Health, aware of the policy implications of its research, asked
+    for an HHS review of its plan *trace* to implant fetal tissue into
+    the brain of a patient suffering from Parkinson's disease. 
+</text>
+        <arg n="0">*trace* ->  the National Institutes of Health,
+        aware of the policy implications of its research,</arg> 
+        <rel>implant</rel>
+        <arg n="1">fetal tissue</arg>
+        <arg n="2" f="into">the brain of a patient suffering from
+        Parkinson's disease</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

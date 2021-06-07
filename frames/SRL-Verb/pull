@@ -1,0 +1,210 @@
+##PRELIMINARY LIST OF PAS FRAMES FOR "pull"
+##CONSTRUCTED VIA LEVIN
+##EDITED THROUGH COMPARISON WITH INITIAL 26% OF "pull.sents"
+
+
+##TRANSITIVE
+
+##"John pulled the sled."
+
+ARG0 REL ARG1
+
+
+	##" ... each pulling a rope."
+
+	ARG0 REL ARG1
+
+
+
+	##WITH MODIFIER
+
+	##"Mary pulls a golf cart for exercise."
+
+	ARG0 REL ARG1 ARGM-PRP
+
+
+	##WITH 'RESULTATIVE'-STYLE LOCATIVE
+	##Best to regard the particles as predicates -- Paul
+	##NOTE: TRANSITIVITY IS ASSUMED --- NON-TRANSITIVE VARIANTS ARE TAKEN
+	##TO BE IMPLIED AS 'REFLEXIVE'
+
+
+	##TOGETHER
+	##"John pulled the team together."
+
+	ARG0 REL ARG1 ARGM-PRD
+
+		##WITH MODIFIER
+
+		##"The treaty pulled Asia together as an integrated production zone."
+
+		ARG0 REL ARG1 ARGM-PRD ARG1-PRD
+### "As an integrated..." is a descriptor of Asia		Paul	###
+
+
+		##"Aetna pulled together a team of claims adjusters from around the country."
+
+		ARG0 REL ARGM-PRD ARG1 ARGM-DIR (from....)
+
+
+	##BACK
+	##"The investors pulled their money back."	
+
+	ARG0 REL ARG1 ARGM-PRD
+
+	##"The investors pulled back."
+
+	ARG0 REL ARGM-PRD
+		
+		##WITH MODIFIER
+
+		##"The firm pulled back from program trading."
+
+		ARG0 REL ARGM-PRD ARGM-DIR
+
+		##"Most Wall Street firms pulled back in September."
+
+		ARG0 REL ARGM-PRD ARGM-TMP
+
+		##"Investors pulled back from bond funds in September."
+
+		ARG0 REL ARGM-PRD ARGM-DIR ARGM-TMP
+
+	##UP
+	##"Geraldo pulled up another camera."
+
+	##DOWN
+	## * to pull down the dollar 's value . 
+
+	ARG0 REL ARGM-PRD ARG1
+
+	## Also a phrasal pull_down:
+	## Rep. Bill Hefner pulled down $ 40 million in military bases for North Carolina...
+	ARG0 REL(pull_down) ARG1 ARGM-PRP(?)
+
+	## IN
+	## the Memphis project was `` pulled * in for a reconsideration of costs,''
+	ARG1 REL-passive ARGM-PRD ARGM-PRP
+
+	## Yet some funds have pulled in their horns . 
+	ARG0 REL ARGM-PRD ARG1
+
+	##INTO
+
+	##"John pulled Mary into the study." 
+
+	ARG0 REL ARG1 ARGM-DIR
+
+		##"Mr. Reagan was pulled into * discussing the possible elimination of nuclear weapons."
+
+		ARG1 REL.passive ARGM-into
+
+
+	##THROUGH
+	##"John pulled through."
+
+	ARG0 REL ARGM-PRD
+
+	##"John pulled Mary through."
+
+	ARG0 REL ARG1 ARGM-PRD
+
+	## "through the crisis" should be a single constituent in the tree
+	##"John pulled through the crisis."
+	##"Mrs. Thatcher has pulled through other crises."
+
+	ARG0 REL ARGM-PRD
+
+	##"John pulled Mary through the crisis."
+
+	ARG0 REL ARG1 ARGM-PRD
+
+##'on' VARIANT
+
+##"John pulled on the handle."
+
+ARG0 REL ARG1-on
+	
+
+	##WITH MODIFIER
+
+	##"Five men pull rhythmically on ropes."
+
+	ARGO REL ARGM-MNR ARG1-on
+
+
+
+##PULL_OUT
+## There are two "pull out"s.  One is a phrasal verb requiring an argument
+## starting with "of", as in:
+
+##"China pulled out of the program."
+##"Merrill Lynch pulled out of index arbitrage."
+
+ARG0 REL ARG2-of
+
+## The other is a resultative PP just like "pull together" or "pull back"
+## above.  Eg:
+
+##"Workers pulled out the male organs of rice plants."
+
+ARG0 REL ARGM-PRD ARG1
+
+
+	##WITH MODIFIER
+
+	##"The investors pulled out $340 million for a month."
+
+
+##"John pulled us out of the ditch."
+
+ARGO REL ARG1 ARG2-of
+
+
+	##WITH MODIFIER
+
+	##"Merrill Lynch pulled out of the practice altogether."
+
+
+
+##PULL_OVER
+
+##"The family pulled over."
+
+ARG0 REL 
+
+
+
+##PULL_OFF
+
+##"John pulled off the trick."
+##"Municipal futures pulled off a morning low."
+
+ARG0 REL ARG1
+
+## Also a non-metaphorical off:
+## it pulls the scabs off your knees
+
+ARG0 REL(pull) ARG1 ARGM-dir(off your knees)
+
+
+
+	##"The robberies are pulled off by two men."
+
+	ARG1 REL.passive ARG0-by
+
+
+	##WITH MODIFIER
+
+	##"The researchers also pulled off a second genetic engineering trick in order to get male-sterile plants."
+
+	ARGO REL ARG1 ARGM-PRP
+
+## PULL THE PLUG
+## Can't be regarded as purely phrasal, because "the plug" can be modified
+
+## Just when American liberalism had pulled the arms plug on the Contras...
+## ...the company had pulled the plug on its century-old power generation business . 
+
+ARG0 REL ARG1 ARG2-on
+

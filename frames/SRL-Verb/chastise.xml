@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="chastise">
+<note>
+  Frames file for 'chastise' based on sentences in wsj.  Verbnet entry
+  33, Framenet entry Judgement.
+</note>
+
+<roleset id="chastise.01" vncls="33" name="give mild verbal punishment">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity being chastised"/>
+  <role n="2"  descr="cause"/>
+</roles>
+
+<example name="all args">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    At the same time, though, he chastised the media for paying such
+    close attention to Japanese investment when other foreign
+    countries, notably Britain, are acquiring more American assets. 
+</text>
+        <arg n="M" f="TMP">At the same time</arg>
+        <arg n="M" f="DIS">though</arg>
+        <arg n="0">he</arg>
+        <rel>chastised</rel>
+        <arg n="1">the media</arg>
+        <arg n="2" f="for">paying such close attention to Japanese
+        investment when other foreign countries, notably Britain, are
+        acquiring more American assets </arg> 
+</example>
+
+<example name="passive, no cause">
+<inflection person="third" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Campbell Soup, for one, is furious: its Souper Combo microwave
+    product was chastised *trace* in the premiere ``In the Dumpster''
+    column. 
+</text>
+        <rel>chastised</rel>
+        <arg n="1">*trace* ->  its Souper Combo microwave product</arg>
+        <arg n="M" f="LOC">in the premiere ``In the Dumpster'' column</arg>
+</example>
+
+<note>
+Does apparently mean "make chaste" although the etymology is troublesome.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="refuel">
+<note>
+  Frames file for 'refuel' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="refuel.01" name="to provide with additional fuel"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity refueled"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="participle"/>
+<text>
+ Mr. Carpenter this month sold off Kidder 's eight brokerage offices in Florida and Puerto Rico to Merrill Lynch &amp; Co. , [*-1] refueling speculation that Kidder is getting out of the brokerage business entirely .
+</text>
+	<arg n="0">[*-1] ->  Mr. Carpenter</arg>
+	<rel>refueling</rel>
+	<arg n="1">speculation that Kidder is getting out of the brokerage business entirely</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

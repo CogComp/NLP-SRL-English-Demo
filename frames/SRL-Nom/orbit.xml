@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="orbit">
+<roleset id="orbit.01" name="environment for proposition">
+<roles>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the orbit of speculation
+</text>
+<rel>orbit</rel>
+<arg n="1">of speculation</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

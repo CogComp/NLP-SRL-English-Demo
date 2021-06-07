@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="boost">
+<note>
+  Frames file for 'boost' based on survey of initial sentences of big
+  corpus and comparison with 'raise'
+</note>
+
+<roleset id="boost.01" name="push upwards">
+<roles>
+  <role n="0"  descr="Agent"/>
+  <role n="1"  descr="Logical subject, thing moving upward"/>
+  <role n="2"  descr="EXT, amount risen"/>
+  <role n="3"  descr="start point"/>
+  <role n="4"  descr="end point"/>
+  <role n="m"  descr="Medium"/>
+</roles>
+
+<example name="simple transitive">
+  <text>
+  It is currently waiving management fees, which *trace* boosts its yield.
+  </text>
+  <arg n="0"        >*trace*=which=waiving management fees</arg>
+  <rel              >boosts</rel>
+  <arg n="1"        >its yield</arg>
+</example>
+
+<example name="with end point">
+  <text>
+  Such devices have boosted Japanese investment in mortgage-backed
+  securities to more than 1% of the $900 billion in such instruments
+  outstanding.
+  </text>
+  <arg n="0"        >Such devices</arg>
+  <rel              >boosted</rel>
+  <arg n="1"        >Japanese investment in mortgage-backed securities</arg>
+  <arg n="4" f="to">more than 1% of the $900 billion in such instruments
+  outstanding.</arg>
+</example>
+
+<note>
+For usage of the other numbered arguments refer to 'raise'
+</note>
+
+</roleset>
+</predicate>
+</frameset>

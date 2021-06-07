@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="writhe">
+<note>
+  Frames file for 'writhe' based on sentences in wsj.  Verbnet entries
+  47.3, 40.6, Framenet entry Body movement.
+</note>
+
+<roleset id="writhe.01" vncls="47.3 40.6" name="move like a snake">
+<roles>
+  <role n="1"  descr="thing writhing"/>
+</roles>
+
+<example name="unaccusative">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Suddenly the woman begins swaying and then writhing .
+</text>
+        <arg n="1">the woman</arg>
+        <rel>writhing</rel>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

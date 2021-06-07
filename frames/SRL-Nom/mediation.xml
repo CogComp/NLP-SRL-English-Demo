@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mediation">
+<roleset id="mediation.01" name="to resolve or settle differences" source="verb-mediate.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The unions and the company last week agreed to mediation .
+</text>
+<arg n="2">The unions and the company</arg>
+<arg n="Support">agreed to</arg>
+<rel>mediation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

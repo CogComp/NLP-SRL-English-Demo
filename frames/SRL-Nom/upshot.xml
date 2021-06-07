@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="upshot">
+<roleset id="upshot.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The upshot of the downshoot
+</text>
+<arg n="0">upshot</arg>
+<rel>upshot</rel>
+<arg n="1">of the downshoot</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

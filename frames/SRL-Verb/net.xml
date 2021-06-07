@@ -1,0 +1,71 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="net">
+<note>
+  Frames file for 'net' based on sentences in financial subcorpus.  No
+  Verbnet entry.  Comparison to 'total'.
+</note>
+
+<roleset id="net.02" name="give">
+<roles>
+  <role n="0"  descr="source, giver"/>
+  <role n="1"  descr="gift"/>
+  <role n="2"  descr="destination, benefactive"/>
+</roles>
+
+<example name="ditransitive">
+<text>
+    He took the company public in an offering that *trace* netted
+    Applied about $12.6 million, which helped launch the company's
+    acquisition program. 
+</text>
+        <arg n="0">*trace* ->  that ->  an offering</arg>
+        <rel>netted</rel>
+        <arg n="2">Applied</arg>
+        <arg n="1">about $12.6 million</arg>
+</example>
+
+<example name="just transitive">
+  <text>
+    John netted the fish.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >netted</rel>
+  <arg n="1"        >the fish</arg>
+</example>
+
+<note>
+Maybe that should be a different roleset.  We'll see.
+</note>
+
+</roleset>
+</predicate>
+<predicate lemma="net_out">
+
+<roleset id="net.01" name="total">
+<roles>
+  <role n="1"  descr="thing being counted"/>
+  <role n="2"  descr="count"/>
+  <role n="3"  descr="benefactive"/>
+</roles>
+
+<example name="add it up">
+<text>
+    That nets out to about $17 a share for the company on a private
+    market basis. 
+</text>
+        <arg n="1">That</arg>
+        <rel>[ nets] [ out]</rel>
+        <arg n="2" f="to">about $17 a share</arg>
+        <arg n="3" f="for">the company</arg>
+        <arg n="M" f="MNR">on a private market basis</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

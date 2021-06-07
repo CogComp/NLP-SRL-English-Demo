@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="burble">
+<note>
+  Frames file for 'burble' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="burble.01" name="to speak quickly and excitedly"
+vncls="37.3">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="utterance"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ `` For a woman whose period [*T*-487] is late , [*] using RU-486 means no waiting , no walking past picket lines at abortion clinics , and no feet up in stirrups for surgery , '' burbles [*T*-1] health writer Laura Fraser .
+</text>
+	<rel>burbles</rel>
+	<arg n="1">[*T*-1] ->  For a woman whose period [*T*-487] is late , [*] using RU-486 means no waiting , no walking past picket lines at abortion clinics , and no feet up in stirrups for surgery</arg>
+	<arg n="0">health writer Laura Fraser</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

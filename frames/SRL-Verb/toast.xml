@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="toast">
+<note>
+  Frames file for 'toast' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="toast.01" name="to propose a toast to"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity honored"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Afterward , as the A 's toasted their victory with beer ( they dispensed with traditional champagne showers in deference to the quake victims ) , Stewart said [0] he thought [0] his championship-team ring would outshine his individual trophy .
+</text>
+	<arg n="0">the A 's</arg>
+	<rel>toasted</rel>
+	<arg n="1">their victory</arg>
+	<arg n="M" f="MNR">with beer</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

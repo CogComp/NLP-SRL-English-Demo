@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="amplify">
+<note>
+  Frames file for 'amplify' based on sentences in financial subcorpus.
+  No Verbnet entry, no Framenet entry.  
+</note>
+
+<roleset id="amplify.01" name="make louder or greater">
+<roles>
+  <role n="0"  descr="causer of becoming louder"/>
+  <role n="1"  descr="thing becoming louder"/>
+  <role n="2"  descr="instrument, if separate from arg0"/>
+</roles>
+
+<example name="transitive, passivized">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Moreover, the price volatility that *trace* is amplified *trace*
+    by program trading is undercutting efforts to woo individual
+    investors back to an OTC market that sorely misses them. 
+</text>
+        <rel>amplified</rel>
+        <arg n="1">*trace* -> *trace* ->  that ->  the price volatility</arg>
+        <arg n="0" f="by">program trading</arg>
+</example>
+
+<example name="with instrument">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John amplified his voice with a rolled-up piece of newspaper.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >amplified</rel>
+  <arg n="1"        >his voice</arg>
+  <arg n="2" f="with">a rolled-up piece of newspaper</arg>
+</example>
+
+<note>
+I'm hoping amplify does not appear in the "quantifiable motion" frame
+(ie rise).
+</note>
+
+</roleset>
+</predicate>
+</frameset>

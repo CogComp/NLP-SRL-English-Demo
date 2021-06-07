@@ -1,0 +1,105 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="burst">
+<note>
+  Frames file for 'burst' based on sentences in wsj.  Verbnet entries
+  48.1.1 and 45.4.
+</note>
+
+<roleset id="burst.01" vncls="48.1.1" name="appear suddenly, become">
+<roles>
+  <role n="1"  descr="thing appearing, topic"/>
+  <role n="2"  descr="further description"/>
+</roles>
+
+<example name="good enough example">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    She bursts into tears and walks away.
+</text>
+        <arg n="1">She</arg>
+        <rel>bursts</rel>
+        <arg n="2" f="into">tears</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="burst.02" vncls="45.4" name="minor explosion">
+<roles>
+	<role descr="causer of explosion" n="0">
+		<vnrole vncls="45.4" vntheta="Agent"/>
+  </role>
+
+	<role descr="thing exploding" n="1">
+		<vnrole vncls="45.4" vntheta="Patient"/>
+  </role>
+</roles>
+
+<example name="agentive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+    If Washington's elites ever succeed in [*-2] bursting the tax dam,
+    Americans will be engulfed in a red sea of new spending programs,
+    such as federalized child care. 
+</text>
+        <arg n="0">[*-2] ->  Washington 's elites</arg>
+        <rel>bursting</rel>
+        <arg n="1">the tax dam</arg>
+</example>
+
+<example name="ergative/inchoative">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    The primitive operations also burst out the back door into a small
+    courtyard, where an ancient press squeezes rubber solution into a
+    flat strip and newly made tires are cooled in a bathtub filled
+    with water. 
+</text>
+        <arg n="1">The primitive operations</arg>
+        <arg n="M" f="DIS">also</arg>
+        <rel>burst</rel>
+        <arg n="M" f="DIR">out the back door</arg>
+        <arg n="M" f="DIR">into a small courtyard, where an ancient
+        press squeezes rubber solution into a flat strip and newly
+        made tires are cooled in a bathtub filled with water</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="burst.03" vncls="-" name="rapid movement">
+<roles>
+  <role n="1"  descr="thing in motion"/>
+  <role n="2"  descr="EXT"/>
+  <role n="3"  descr="start point"/>
+  <role n="4"  descr="end point"/>
+  <role n="5"  descr="direction"/>
+</roles>
+
+<example name="stupid stock reports">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+     But then it suddenly burst upward 7.5 as Goldman, Sachs &amp;
+     Co. stepped in and bought almost every share offer, traders
+     said. 
+</text>
+        <arg n="M" f="DIS">But</arg>
+        <arg n="M" f="TMP">then</arg>
+        <arg n="1">it</arg>
+        <rel>burst</rel>
+        <arg n="5" f="DIR">upward</arg>
+        <arg n="2" f="EXT">7.5</arg>
+        <arg n="M" f="TMP">as Goldman, Sachs &amp; Co. stepped in and
+        bought almost every share offer</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="remake">
+<note>
+  Frames file for 'remake' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="remake.01" vncls="26.1-1" name="make again">
+<roles>
+  <role n="0" descr="creator">
+		<vnrole vncls="26.1-1" vntheta="Agent"/>
+  </role>
+
+  <role n="1" descr="creation">
+		<vnrole vncls="26.1-1" vntheta="Product"/>
+  </role>
+
+  <role n="2" descr="created-from, thing changed">
+		<vnrole vncls="26.1-1" vntheta="Material"/>
+  </role>
+
+  <role n="3" descr="benefactive">
+		<vnrole vncls="26.1-1" vntheta="Beneficiary"/>
+  </role>
+
+</roles>
+
+<example name="agentless active">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    The process of post-crash reforms began with calls [*T*-1] to
+    remake the markets and wound up a year later with a series of
+    rather technical adjustments. 
+</text>
+        <arg n="0">[*T*-1]</arg>
+        <rel>remake</rel>
+        <arg n="1">the markets</arg>
+</example>
+
+<example name="passive">
+<inflection person="third" tense="present" aspect="progressive" voice="passive" form="participle"/>
+<text>
+    Like Lebanon, Israel is being remade [*-1] by demography.
+</text>
+        <arg n="M" f="DIS">Like Lebanon</arg>
+        <rel>remade</rel>
+        <arg n="1">[*-1] ->  Israel</arg>
+        <arg n="0" f="by">demography</arg>
+</example>
+
+<note>
+see 'make' for additional examples.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

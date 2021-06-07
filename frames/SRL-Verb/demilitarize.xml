@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="demilitarize">
+<note>
+  Frames file for 'demilitarize' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="demilitarize.01" vncls="-" name="remove armed forces">
+<roles>
+  <role n="0"  descr="remover"/>
+  <role n="2"  descr="removed from"/>
+</roles>
+
+<example name="the one example">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="full"/>
+<text>
+    We don't expect much good from nuclear-arms control, but
+    conventional-arms talks might demilitarize Eastern Europe. 
+</text>
+        <arg n="0">conventional-arms talks</arg>
+        <arg n="M" f="MOD">might</arg>
+        <rel>demilitarize</rel>
+        <arg n="2">Eastern Europe</arg>
+</example>
+
+<note>
+Arg numbering based on remove.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="mishandle">
+<note>
+  Frames file for 'mishandle'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="mishandle.01" name="to deal with inefficiently"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity mishandled"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ A story about how he mishandled the sale to his son of his stock in a media company controlled [*] by his political patron Percy Sutton [*T*-2] was allowed [*-3] to fester a full week before Mr. Dinkins faced the media .
+</text>
+	<arg n="0">he</arg>
+	<rel>mishandled</rel>
+	<arg n="1">the sale to his son of his stock in a media company controlled [*] by his political patron Percy Sutton</arg>
+	<arg n="M" f="MNR">[*T*-2] ->  how</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="urge">
+<note>
+  Frames file for 'urge' based on sentences in financial subcorpus.
+  No Verbnet entry, Framenet entries Request and Suasion1.  Comparison
+  to verbs of compelled action (ie, force).
+</note>
+
+<roleset id="urge.01" name="impelled action">
+<roles>
+  <role n="0"  descr="urger"/>
+  <role n="1"  descr="impelled agent"/>
+  <role n="2"  descr="impelled action"/>
+</roles>
+
+<example name="typical usage">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+    Dealers said the multinational oil company was pressured by recent
+    brokerage recommendations urging investors to switch into Shell
+    Trading &amp; Transport. 
+</text>
+        <arg n="0">recent brokerage recommendations</arg>
+        <rel>urging</rel>
+        <arg n="1">investors</arg>
+        <arg n="2">to switch into Shell Trading &amp; Transport</arg>
+</example>
+
+<example name="odd variant syntax">
+<inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Analysts continued to speculate late last week that Ford may try
+    to force the issue by calling for a special shareholder's meeting
+    and urging that the government and Jaguar holders remove the
+    barriers to a full bidding contest before December 1990. 
+</text>
+        <arg n="0">*trace* -> *trace* ->  Ford</arg>
+        <rel>urging</rel>
+        <arg n="1">the government and Jaguar holders</arg>
+        <arg n="2">remove the barriers to a full bidding contest
+        before December 1990</arg> 
+</example>
+
+<note>
+Note that this is exactly equivalent to "Ford urged the gov't and Jag
+holders to remove the barriers..."
+</note>
+
+<note>
+This verb highlights the similarity between "force" and "request",
+which are currently framed oppositely.  One or the other will have to
+be changed, eventually.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

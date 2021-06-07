@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prize">
+<note>
+  Frames file for 'prize'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="prize.01" name="to value highly, appreciate"
+vncls="31.2">
+<roles> 
+ <role n="0"  descr="agent"/>
+ <role n="1"  descr="entity prized"/>
+ <role n="2" descr="prized for what"/> 
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Finally , [*-1] flouting the BPCA 's wishes [*] to continue the popular two-mile riverside Esplanade , prized [*] for its expansive views of New York Harbor , the Statue of Liberty and Ellis Island , Ms. Bartlett threw up yet another wall , this time concrete , this time 10 1\/2 feet tall .
+</text>
+	<rel>prized</rel>
+	<arg n="1">[*] ->  the popular two-mile riverside Esplanade</arg>
+	<arg n="2" f="for">its expansive views of New York Harbor , the Statue of Liberty and Ellis Island</arg>
+</example>
+
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

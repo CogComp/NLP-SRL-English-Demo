@@ -1,0 +1,78 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="root">
+<note>
+Frames file for 'root' based on sentences in financial subcorpus and
+automatic expansion via verbnet.
+</note>
+
+<roleset id="root.02" vncls="-" name="base, justify">
+<roles>
+  <role n="0"   descr="agent (rarely seen)"/>
+  <role n="1"   descr="decision"/>
+  <role n="2"   descr="justification"/>
+</roles>
+
+<example name="usually passive">
+  <inflection person="third" tense="present" aspect="ns" voice="passive" form="participle"/>
+  <text>
+    That's not to say that the nutty plot of ``A Wild Sheep Chase'' is
+    rooted *trace* in reality.
+  </text>
+  <rel              >rooted</rel>
+  <arg n="1"        >*trace* -> the nutty plot of ``A Wild Sheep Chase''</arg>
+  <arg n="2" f="in">reality</arg>
+</example>
+
+</roleset>
+
+<roleset id="root.03" vncls="-" name="be an active fan">
+<roles>
+  <role n="0"  descr="fan"/>
+  <role n="1"  descr="rooted for"/>
+</roles>
+
+<example name="how 'bout them Huskers?">
+  <inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+  <text>
+    The only thing I'm rooting for *trace* is for the Series to go seven
+    games,'' said David Williams, a Sacramento septuagenarian, at the
+    Coliseum before Sunday's go.
+  </text>
+  <arg n="0"        >I</arg>
+  <rel              >rooting</rel>
+  <arg n="1" f="for">*trace* -> the only thing</arg>
+</example>
+
+</roleset>
+<note>
+I have an intuition for a 'search but not remove' or 'dig' sense (root
+around), but no data.
+</note>
+
+</predicate>
+
+<predicate lemma="root_out">
+<roleset id="root.01" vncls="-" name="search for and remove">
+<roles>
+  <role n="0"  descr="searcher"/>
+  <role n="1"  descr="thing removed"/>
+</roles>
+
+<example name="the one example">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Hector Castaneda Jimenez, chief prosecutor at the Attorney
+    General's Office, said that an estimated $82.8 million in
+    government property and unpaid taxes have been recovered in the
+    campaign *trace* to root out official corruption.
+</text>
+        <arg n="0"></arg>
+        <rel>[ root] [ out]</rel>
+        <arg n="1">official corruption</arg>
+</example>
+</roleset>
+</predicate>
+</frameset>

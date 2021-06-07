@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="rival">
+<note>
+  Frames file for 'rival' based on survey of sentences in the WSJ
+  corpus.  
+</note>
+
+
+<roleset id="rival.01" name="to attempt to equal or surpass"  vncls="-">
+<roles>
+  <role n="0"  descr="competitor"/>
+  <role n="1"  descr="competing with"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ If further research proves the seed 's benefits , this dusty farm district could become the epicenter of a health-food fad [0] [*T*-1] to rival all fads since cod-liver oil .
+</text>
+	<arg n="0">[*T*-1] ->  [0] ->  a health-food fad</arg>
+	<rel>rival</rel>
+	<arg n="1">all fads since cod-liver oil</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+
+

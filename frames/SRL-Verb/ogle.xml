@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="ogle">
+<note>
+  Frames file for 'ogle' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="ogle.01" name="to stare at"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity ogled"/>
+</roles>
+
+
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+ He is ogling the curtains rippling above the ventilation ducts .
+</text>
+	<arg n="0">He</arg>
+	<rel>ogling</rel>
+	<arg n="1">the curtains rippling above the ventilation ducts</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

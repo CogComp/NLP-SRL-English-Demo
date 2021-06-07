@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trade-in">
+<roleset id="trade-in.01" name="exchange" source="verb-trade.01" vncls="13.1">
+<roles>
+
+<role descr="agent, entity trading" n="0">
+<vnrole vncls="13.1" vntheta="Agent"/></role>
+
+<role descr="thing being traded (away" n="1">
+<vnrole vncls="13.1" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+It refinanced the judge 's loan , lowered its interest rate and
+accepted a trade-in that had n't originally been part of the deal
+-- a beat up 1981 Chevy Citation the dealer had to repair before
+it could be resold .
+</text>
+<arg n="2">It</arg>
+<arg n="Support">accepted</arg>
+<arg n="1">trade-in</arg>
+<rel>trade-in</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

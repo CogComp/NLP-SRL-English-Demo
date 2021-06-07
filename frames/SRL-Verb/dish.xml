@@ -1,0 +1,88 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+
+<predicate lemma="dish">
+<note>
+  Frames file for 'dish' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="dish.01" vncls="-" name="put onto a dish">
+<roles>
+  <role n="0"  descr="disher"/>
+  <role n="1"  descr="food"/>
+</roles>
+
+<example name="restaurant usage only?">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     John dished the potatoes.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >dished</rel>
+  <arg n="1"        >the potatoes</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="dish_out">
+
+<roleset id="dish.02" vncls="-" name="distribute">
+<roles>
+  <role descr="distributor" n="0"/>
+  <role descr="thing distributed" n="1"/>
+  <role descr="distributed to" n="2"/>
+</roles>
+
+<example name="automatically generated">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+ About the only way  that USX now can get out of steel  is  to dish it out , piece by piece , in separate joint ventures , he adds   .
+</text>
+        <arg n="0"></arg>
+        <rel>[ dish] [ out]</rel>
+        <arg n="1">it</arg>
+        <arg n="M" f="MNR">piece by piece</arg>
+        <arg n="M" f="LOC">in separate joint ventures</arg>
+</example>
+
+<note>
+To my ear 'dish out' cannot take arg2.  It might appear, though.
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="dish_up">
+
+<roleset id="dish.03" vncls="-" name="serve">
+<roles>
+  <role descr="server" n="0"/>
+  <role descr="thing served" n="1"/>
+  <role descr="served to" n="2"/>
+</roles>
+
+<example name="dinner time">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John dished up a delicious dinner for Mary.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >dished up</rel>
+  <arg n="1"        >a delicious dinner</arg>
+  <arg n="2" f="for">Mary</arg>
+</example>
+
+<note>
+Usually will not take arg2.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

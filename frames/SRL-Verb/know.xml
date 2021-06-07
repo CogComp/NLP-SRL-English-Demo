@@ -1,0 +1,122 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<note>
+Frames file for 'know' based on survey of initial sentences of big corpus
+and comparison with 'say' and 'think'
+</note>
+
+<predicate lemma="know">
+<roleset id="know.01" name="understand" vncls="29.5">
+<roles>
+  <role descr="knower" n="0">
+		<vnrole vncls="29.5" vntheta="Agent"/>
+  </role>
+
+  <role descr="thing known or thought" n="1">
+		<vnrole vncls="29.5" vntheta="Theme"/>
+  </role>
+
+  <role descr="attributive" n="2">
+		<vnrole vncls="29.5" vntheta="Predicate"/>
+  </role>
+
+</roles>
+
+<example name="Arg0 rel Arg1">
+  <text>
+    I need to know the aircraft and flight number.
+  </text>
+  <arg n="0">I</arg>
+  <rel>need to know</rel>
+  <arg n="1">the aircraft and flight number</arg>
+</example>
+
+<example name="Arg0 rel Arg1-PRD">
+  <text>
+    The other side knows that Giuliani has always been prochoice.
+  </text>
+  <arg n="0">The other side</arg>
+  <rel>knows</rel>
+  <arg f="PRD" n="1">Guiliani has always been prochoice</arg>
+</example>
+
+<example name="Arg0 rel Arg1-PRD">
+  <text>
+    Mr. Jones knew when he arrived.
+  </text>
+  <arg n="0">Mr. Jones</arg>
+  <rel>knew</rel>
+  <arg f="PRD" n="1">when he arrived</arg>
+</example>
+  
+<example name="Arg0 rel Arg1">
+  <text>
+    The Japanese should know better.
+  </text>
+  <arg n="0">The Japanese</arg>
+  <rel>should know</rel>
+  <arg n="1">better</arg>
+</example>
+
+<example name="Arg0 rel Arg1 Arg2-about Argm-TMP">
+  <text>
+    He didn't know (anything) about most of the cases until Wednesday.
+  </text>
+  <arg n="0">He</arg>
+  <rel>didn't know</rel>
+  <arg n="1">anything</arg>
+  <arg f="about" n="2">about most of the cases</arg>
+  <arg f="TMP" n="M">until Wednesday</arg>
+</example>
+
+<example name="Arg1 rel-pass Arg2-as" type="attributive">
+  <text>
+    These nations are known as &quot;little tigers&quot;
+  </text>
+  <arg n="1">These nations</arg>
+  <rel voice="pass">are known</rel>
+  <arg f="as" n="2">as &quot;little tigers&quot;</arg>
+</example>
+  
+<example name="Arg0 rel Arg1">
+  <text>
+    I have never known [a lady to faint in the belfry.]
+  </text>
+  <arg n="0">I</arg>
+  <rel>have never known</rel>
+  <arg n="1">a lady to faint in the belfry.</arg>
+</example>
+
+<note>
+or, depending on the Treebank syntax
+</note>
+
+<example name="Arg0 rel Arg1 Arg2-PRD">
+  <text>
+    I have never known [a lady] [to faint in the belfry.]
+  </text>
+  <arg n="0">I</arg>
+  <rel>have never known</rel>
+  <arg n="1">a lady</arg>
+  <arg f="PRD" n="2">to faint in the belfry</arg>
+</example>
+
+<example name="Arg0 rel Arg1 Arg2-FOR">
+  <text>
+    John knows Mary for an idiot.
+  </text>
+  <arg n="0">John</arg>
+  <rel>knows</rel>
+  <arg n="1">Mary</arg>
+  <arg f="FOR" n="2">for an idiot</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<note>
+We'll assume the biblical sense of 'know' just won't come up in the WSJ
+but it'll take an Arg1, just in case.
+</note>
+
+</frameset>

@@ -1,0 +1,78 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="write">
+<note>
+  Frames file for 'write' based on survey of initial sentences of big
+  corpus.
+</note>
+
+<roleset id="write.01" name="set pen to paper" vncls="25.2 26.7-2 37.1-1">
+<roles>
+  <role descr="writer" n="0">
+		<vnrole vncls="25.2" vntheta="Agent"/>
+		<vnrole vncls="26.7-2-1" vntheta="Agent"/>
+		<vnrole vncls="37.1-1-1" vntheta="Agent"/>
+  <vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+  <role descr="thing written" n="1">
+		<vnrole vncls="25.2" vntheta="Theme"/>
+		<vnrole vncls="26.7-2-1" vntheta="Theme"/>
+		<vnrole vncls="37.1-1-1" vntheta="Topic"/>
+  <vnrole vncls="26.7-2" vntheta="Theme"/></role>
+
+  <role descr="benefactive" n="2">
+		<vnrole vncls="26.7-2-1" vntheta="Beneficiary"/>
+		<vnrole vncls="37.1-1-1" vntheta="Recipient"/>
+  <vnrole vncls="26.7-2" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="write a letter">
+  <text>
+  Yasser Arafat has written to the chairman of the International
+  Olympic Committee, *trace* asking him to back a Palestinian bid to
+  join the committee.
+  </text>
+  <arg n="0">Yasser Arafat</arg>
+  <rel>written</rel>
+  <arg f="to" n="2">the chairman of the International
+  Olympic Committee</arg>
+  <arg f="PRP" n="m">*trace* asking him to back a Palestinian bid to
+  join the committee.</arg>
+</example>
+
+<example name="fronted">
+  <text>
+  &quot;It's precisely the kind of product that's created the municipal
+  landfill monster,&quot; the editors wrote *trace*.
+  </text>
+  <arg n="0">the editors</arg>
+  <rel>wrote</rel>
+  <arg n="1">*trace*=&quot;It's precisely the kind of product
+  that's created the municipal landfill monster,&quot;</arg>
+</example>
+
+<note>
+Other variations on this construction should be handled as in the
+other verbs-of-communication like &quot;say&quot;.
+</note>
+
+<example name="thing written as PP">
+  <text>
+  In June 1988 I wrote in this space about this issue.
+  </text>
+  <arg f="TMP" n="m">In June 1988</arg>
+  <arg n="0">I</arg>
+  <rel>wrote</rel>
+  <arg f="LOC" n="m">in this space</arg>
+  <arg f="about" n="1">this issue</arg>
+</example>
+
+<note>
+The logic for this treatment is that &quot;about this issue&quot; is essentially
+standing for a fuller NP &quot;an article about this issue&quot; or some such.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

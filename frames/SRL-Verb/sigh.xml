@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sigh">
+<note>
+  Frames file for 'sigh' based on sentences in wsj.  Verbnet entry
+  40.2, Framenet entry Breathing.
+</note>
+
+<roleset id="sigh.01" vncls="-" name="manner of speaking">
+<roles>
+  <role n="0"  descr="speaker"/>
+  <role n="1"  descr="utterance"/>
+  <role n="2"  descr="hearer"/>
+</roles>
+
+<example name="all args">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    Sen. Cranston, as he returned to the capital last week from a
+    one-day trip to inspect earthquake damage in San Francisco, sighed
+    to an aide: ``Well, back to Keatingland. 
+</text>
+        <arg n="0">Sen. Cranston</arg>
+        <arg n="M" f="TMP">as he returned to the capital last week
+        from a one-day trip to inspect earthquake damage in San
+        Francisco</arg> 
+        <rel>sighed</rel>
+        <arg n="2" f="to">an aide</arg>
+        <arg n="1">Well, back to Keatingland</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="sigh.02" vncls="-" name="breathe heavily, once">
+<roles>
+  <role n="0"  descr="sigh-er"/>
+</roles>
+
+<example name="with manner">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Among those sighing with relief was John H. Gutfreund, chairman of
+    Salomon Brothers, who took to the firm's trading floor to monitor
+    yesterday's events. 
+</text>
+        <arg n="0">those</arg>
+        <rel>sighing</rel>
+        <arg n="M" f="MNR">with relief</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="overstate">
+<note>
+  Frames file for 'overstate' based on sentences in financial
+  subcorpus.  No Verbnet entry, no Framenet entry.  No comparison.
+</note>
+
+<roleset id="overstate.01" vncls="-" name="exaggerate">
+<roles>
+  <role n="0"  descr="speaker"/>
+  <role n="1"  descr="utterance"/>
+  <role n="2"  descr="hearer"/>
+</roles>
+
+<example name="just transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    In that suit, the SEC accused Mr. Antar of *trace* engaging in a
+    ``massive financial fraud'' *trace* to overstate the earnings of
+    Crazy Eddie, Edison, N.J., over a three-year period. 
+</text>
+        <arg n="0">*trace* -> *trace* ->  Mr. Antar</arg>
+        <rel>overstate</rel>
+        <arg n="1">the earnings of Crazy Eddie , Edison , N.J. ,</arg>
+        <arg n="M" f="TMP">over a three-year period</arg>
+</example>
+
+<example name="with hearer">
+  <inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+  <text>
+    John consistently overstates to Mary the progress he's made on his
+    dissertation. 
+  </text>
+  <arg n="0"        >John</arg>
+  <arg n="m" f="MNR">consistently</arg>
+  <rel              >overstates</rel>
+  <arg n="2" f="to">Mary</arg>
+  <arg n="1"        >the progress he's made on his dissertation. </arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

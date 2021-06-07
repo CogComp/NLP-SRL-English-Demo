@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="exhale">
+<note>
+  Frames file for 'exhale' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="exhale.01" name="to emit air or vapor"
+vncls="40.1.3-1">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="air or vapor exhaled"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ But Clark flied out to short right field and Mitchell 's drive to left was caught [*-1] on the warning track by Rickey Henderson as 62,000 sets of lungs exhaled as one .
+</text>
+	<arg n="0">62,000 sets of lungs</arg>
+	<rel>exhaled</rel>
+	<arg n="M" f="MNR">as one</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

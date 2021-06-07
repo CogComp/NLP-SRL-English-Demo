@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="twiddle">
+<note>
+  Frames file for 'twiddle'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="twiddle.01" name="to turn over or around, fiddle with"
+vncls="40.3.2">
+<roles> 
+  <role n="0"  descr="agent"/>  
+  <role n="1"  descr="entity twiddled"/>  
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="participle"/>
+<text>
+ `` The percentage of your day spent [*] twiddling your thumbs got greater , and the work day kept [*-1] getting longer .
+</text>
+	<arg n="0">[*]</arg>
+	<rel>twiddling</rel>
+	<arg n="1">your thumbs</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

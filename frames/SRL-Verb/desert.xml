@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="desert">
+<note>
+  Frames file for 'desert'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="desert.01" name="to abandon"
+vncls="51.2">
+<roles> 
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity deserted"/>
+</roles>
+
+
+<example name="passive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Mr. Bauman , a conservative , says [0] he was deserted [*-1] by the right wing .
+</text>
+	<rel>deserted</rel>
+	<arg n="1">[*-1] ->  he</arg>
+	<arg n="0" f="by">the right wing</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

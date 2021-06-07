@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="diversify">
+<note>
+  Frames file for 'diversify' based on sentences in financial
+  subcorpus.  No Verbnet entry, no framenet entry.
+</note>
+
+<roleset id="diversify.01" name="become diverse">
+<roles>
+  <role n="A"  descr="causal agent"/>
+  <role n="0"  descr="thing becoming diverse"/>
+  <role n="1"  descr="destination"/>
+  <role n="2"  descr="source, start point"/>
+</roles>
+
+<example name="with destination">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Some of Sansui's fellow audio-specialty companies, such as Aiwa
+    Co. and Pioneer Electric Corp. ... or by *trace* diversifying into
+    other consumer-electronics fields, including laser disks or
+    portable cassette players. 
+</text>
+        <arg n="0">*trace* ->  Some of Sansui's fellow audio-specialty
+        companies, such as Aiwa Co. and Pioneer Electric Corp.,</arg> 
+        <rel>diversifying</rel>
+        <arg n="1" f="into">other consumer-electronics fields,
+        including laser disks or portable cassette players</arg> 
+</example>
+
+<example name="with start point">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    It hasn't diversified beyond steel, nor has it linked up with a
+    joint venture partner to share costs and risks. 
+</text>
+        <arg n="0">It</arg>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>diversified</rel>
+        <arg n="2" f="beyond">steel</arg>
+</example>
+
+<example name="with causal agent">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    GM's interest in Jaguar reflects a desire *trace* to help
+    diversify the U.S. company's products in the growing luxury-car
+    segment of the market. 
+</text>
+        <arg n="A">*trace* -> GM</arg>
+        <rel>diversify</rel>
+        <arg n="0">the U.S. company's products in the growing
+        luxury-car segment of the market</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

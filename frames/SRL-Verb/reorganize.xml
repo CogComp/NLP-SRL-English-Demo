@@ -1,0 +1,77 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="reorganize">
+<note>
+  Frames file for 'reorganize' based on sentences in financial
+  subcorpus.  Verbnet entry create-26.4, other framed members include
+  create and mint and probably some others.  No Framenet entry.
+  Comparison with 'create'.
+</note>
+
+<roleset id="reorganize.01" name="make organized again">
+<roles>
+  <role n="0"  descr="organizer"/>
+  <role n="1"  descr="thing organized"/>
+  <role n="2"  descr="previous state"/>
+  <role n="3"  descr="benefactive"/>
+  <role n="4"  descr="end state"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+ Several Big Board firms are organizing to complain about program
+ trading and the exchange's role in it. 
+</text>
+        <arg n="0">Several Big Board firms</arg>
+        <rel>organizing</rel>
+        <arg n="M" f="PRP">to complain about program trading and the
+        exchange's role in it</arg> 
+</example>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="gerund"/>
+<text>
+    Mr. Fournier said that as Navigation Mixte chairman, he is
+    prohibited by takeover regulations from *trace* reorganizing his own
+    defense or doing anything besides managing current company
+    business. 
+</text>
+        <arg n="0">*trace* -> *trace* ->  he</arg>
+        <rel>reorganizing</rel>
+        <arg n="1">his own defense</arg>
+</example>
+
+<example name="one kind of end state">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    The figures exclude businesses now reorganized *trace* as American
+    Express Information Services Co. 
+</text>
+        <arg n="M" f="TMP">now</arg>
+        <rel>reorganized</rel>
+        <arg n="1">*trace* ->  businesses</arg>
+        <arg n="4" f="as">American Express Information Services Co</arg>
+</example>
+
+<example name="clearer start and end states">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John reorganized his desk from a full-blown disaster area into a tidy
+    collection of piles.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >reorganized</rel>
+  <arg n="1"        >his desk</arg>
+  <arg n="3" f="from">a full-blown disaster area</arg>
+  <arg n="4" f="into">a tidy collection of piles</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

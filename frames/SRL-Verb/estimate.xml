@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="estimate">
+<note>
+  Frames file for 'estimate' based on survey of initial 
+  sentences from big corpus
+</note>
+
+<roleset id="estimate.01" name="guess" vncls="54.4">
+<roles>
+  <role descr="estimator" n="0">
+		<vnrole vncls="54.4" vntheta="Agent"/>
+  </role>
+
+  <role descr="thing estimated (often -PRD)" n="1">
+		<vnrole vncls="54.4" vntheta="Theme"/>
+  </role>
+
+  <role descr="estimated-to-be; only in passive?" n="2">
+		<vnrole vncls="54.4" vntheta="Attribute"/>
+  </role>
+
+</roles>
+
+<example name="transitive, arg1 as sentence">
+  <text>
+    The department previously estimated that durable-goods orders fell 0.1%
+  </text>
+  <arg n="0">The department</arg>
+  <arg f="TMP" n="M">previously</arg>
+  <rel>estimated</rel>
+  <arg f="PRD" n="1">durable-goods orgers fell 0.1%</arg>
+</example>
+
+<example name="passivized with arg2">
+  <text>
+    Johnson &amp; Johnson's profits from Retin-A are estimated *trace*
+    at $50 million.  
+  </text>
+  <arg n="1">*trace* --&gt; Johnson &amp; Johnson's profits from
+  Retin-A</arg> 
+  <rel voice="passive">are estimated</rel>
+  <arg f="at" n="2">at $50 million</arg>
+</example>
+
+
+<note>
+extraction from passive:
+the Marunouchi holdings are estimated [*trace=Marunouchi holdings* to have a
+ market value of 10 trillion Yen] rel [Arg1-PRD ]
+Note: &quot;the Marunouchi holdings&quot; will actually have no direct tagging
+
+this in turn suggests that all the passive-extraction cases should be
+treated this way.
+</note>
+</roleset>
+</predicate>
+</frameset>

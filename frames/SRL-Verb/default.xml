@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="default">
+<note>
+  Frames file for 'default' based on sentences in the WSJ corpus. Comparison with 'fail'.
+</note>
+
+<roleset id="default.01" name="fail">
+<roles>
+  <role n="1"  descr="entity failing"/>
+  <role n="2"  descr="task"/>
+</roles>
+
+
+
+<example name="with Arg2">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ General Electric Pension took control of the 85-title library last month after Color Systems defaulted on the loan .
+</text>
+	<arg n="1">Color Systems</arg>
+	<rel>defaulted</rel>
+	<arg n="2" f="on">the loan</arg>
+</example>
+
+
+<example name="intransitive">
+<inflection person="ns" tense="past" aspect="perfect" voice="active" form="participle"/>
+<text>
+ Mr. Lloyd said if Qintex had defaulted it could have been required [*-1] to repay $ 92 million [*U*] in debt under its loan agreements .
+</text>
+	<arg n="1">Qintex</arg>
+	<rel>defaulted</rel>
+</example>
+
+
+<note>
+  frames created by Olga
+</note>
+
+</roleset>
+</predicate>
+</frameset>

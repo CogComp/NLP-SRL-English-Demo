@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="retaliate">
+<note>
+  Frames file for 'retaliate' based on sentences in wsj.  No Verbnet
+  entry. 
+</note>
+
+<roleset id="retaliate.01" vncls="-" name="violence in return">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="instigating act"/>
+</roles>
+
+<example name="weird usage">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+    In addition to the damages, the suit seeks a court order
+    preventing the guild from *trace* punishing or retaliating against
+    *trace* Mr. Trudeau. 
+</text>
+        <arg n="0">*trace* ->  the guild</arg>
+        <rel>retaliating</rel>
+        <arg n="1" f="against">*trace* -> Mr. Trudeau</arg>
+</example>
+
+<example name="this is what I had in mind">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John was forced *trace* to retaliate (for/against) Mary's constant
+    violence. 
+  </text>
+  <arg n="0"        >*trace* -> John</arg>
+  <rel              >retaliate</rel>
+  <arg n="1"        >Mary's constant violence</arg>
+</example>
+
+<note>
+prepositions in parentheses are to show additional possibilities for
+syntactic realization.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="treble">
+<note>
+  Frames file for 'treble' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="treble.01" name="to make or become triple"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity tripled"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+ But the jury awarded the USFL only $ 1 [*U*] in damages , trebled because of the antitrust claims .
+</text>
+	<arg n="1">only $ 1 [*U*]</arg>
+	<rel>trebled</rel>
+	<arg n="M" f="PNC">because of the antitrust claims</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

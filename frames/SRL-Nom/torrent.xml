@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="torrent">
+<roleset id="torrent.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the torrent of replies that followed
+</text>
+<rel>torrent</rel>
+<arg n="1">of replies</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

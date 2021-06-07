@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="eschew">
+<note>
+  Frames file for 'eschew' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="eschew.01" vncls="-" name="avoid, shun">
+<roles>
+  <role n="0"  descr="avoider"/>
+  <role n="1"  descr="thing avoided"/>
+</roles>
+
+<example name="pretty easy, really">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    Since its founding in 1818, Brooks Brothers, the standard-bearer
+    of the Ivy League look, has eschewed flashy sales promotions and
+    fashion trends -- the rules that most retailers live by. 
+</text>
+        <arg n="M" f="TMP">Since its founding in 1818</arg>
+        <arg n="0">Brooks Brothers, the standard-bearer of the Ivy
+        League look,</arg> 
+        <rel>eschewed</rel>
+        <arg n="1">flashy sales promotions and fashion trends -- the
+        rules that most retailers live by </arg> 
+</example>
+
+<note>
+Although the etymology of eschew is unclear, it has nothing to do with
+chewing.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

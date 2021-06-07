@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="countdown">
+<roleset id="countdown.01" name="nomlike" source="verb-anticipate.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+NASA resumed the countdown for today 's launch of the space
+shuttle Atlantis
+</text>
+<arg n="0">NASA</arg>
+<arg n="Support">resumed</arg>
+<rel>countdown</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

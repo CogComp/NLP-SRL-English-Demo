@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="embroil">
+<note>
+  Frames file for 'embroil' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="embroil.01" vncls="-" name="involve in contention">
+<roles>
+  <role n="0"  descr="agent (rare)"/>
+  <role n="1"  descr="thing involved in contention"/>
+  <role n="2"  descr="contention"/>
+</roles>
+
+<example name="normal usage">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    A majority of an NIH-appointed panel recommended late last year
+    that the research continue under carefully controlled conditions,
+    but the issue became embroiled *trace* in politics as
+    anti-abortion groups continued to oppose federal funding. 
+</text>
+        <rel>embroiled</rel>
+        <arg n="1">*trace* ->  the issue</arg>
+        <arg n="2" f="in">politics</arg>
+        <arg n="M" f="TMP">as anti-abortion groups continued to oppose
+        federal funding</arg> 
+</example>
+
+<example name="agent, sorta">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    The subsequent drive to reform Hong Kong's markets also has
+    embroiled the interest-rate futures contract. 
+</text>
+        <arg n="0">The subsequent drive to reform Hong Kong's
+        markets</arg> 
+        <arg n="M" f="DIS">also</arg>
+        <rel>embroiled</rel>
+        <arg n="1">the interest-rate futures contract</arg>
+</example>
+
+<note>
+I feel there's some sort of unstated "in controversy" in the second
+example.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

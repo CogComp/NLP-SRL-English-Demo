@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="air">
+<note>
+  Frames file for 'air' based on sentences in wsj.  Verbnet entry 45.4
+  "other causative", a class so wide-ranging as to be meaningless.
+</note>
+
+<roleset id="air.01" vncls="45.4" name="cause to be widely visible">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing aired"/>
+  <role n="2"  descr="audience"/>
+</roles>
+
+<example name="transitive active">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    The attacks began when Democratic Rep. James Florio aired an ad
+    featuring a drawing of Pinocchio and a photograph of Mr. Florio 's
+    rival, Republican Rep. Jim Courter. 
+</text>
+        <arg n="0">Democratic Rep. James Florio</arg>
+        <rel>aired</rel>
+        <arg n="1">an ad featuring a drawing of Pinocchio and a
+        photograph of Mr. Florio's rival, Republican Rep. Jim
+        Courter</arg> 
+</example>
+
+<example name="ergative/pseudopassive">
+<inflection person="ns" tense="past" aspect="perfect" voice="passive" form="participle"/>
+<text>
+    NBC's comedy had aired Wednesdays at 9:30 p.m. and in five outings
+    had drawn an average of only 13.2% of homes,  lagging behind the
+    Jamie Lee Curtis comedy ``Anything But Love'' on ABC and CBS's
+    one-hour drama ``Jake and the Fatman.'' 
+</text>
+        <arg n="1">NBC's comedy</arg>
+        <rel>aired</rel>
+        <arg n="M" f="TMP">Wednesdays</arg>
+        <arg n="M" f="TMP">at 9:30 p.m.</arg>
+</example>
+
+<note>
+Arg2 audience predicted by comparison with 'show', but doesn't seem to
+occur in real usage.  Go figger.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

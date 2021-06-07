@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="burnish">
+<note>
+  Frames file for 'burnish'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="burnish.01" name="to make smooth, polish"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>  
+  <role n="1"  descr="entity burnished"/>   
+</roles>
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+ Yet his co-defendant in the case -- also a former military officer by the name of Oliver North -- has been busily and profitably burnishing his involvement in the affair .
+</text>
+	<arg n="M" f="DIS">Yet</arg>
+	<arg n="0">his co-defendant in the case -- also a former military officer by the name of Oliver North --</arg>
+	<arg n="M" f="MNR">busily and profitably</arg>
+	<rel>burnishing</rel>
+	<arg n="1">his involvement in the affair</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

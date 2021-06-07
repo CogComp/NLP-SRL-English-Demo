@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="turn-on">
+<roleset id="turn-on.01" name="make excited" source="verb-excite.01" vncls="31.1">
+<roles>
+
+<role descr="causer of excitement" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="excited entity" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument, if separate from arg0" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their lingerie turn-ons
+</text>
+<arg n="0">lingerie</arg>
+<rel>turn-ons</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

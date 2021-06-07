@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="liberalize">
+<note>
+  Frames file for 'liberalize' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="liberalize.01" vncls="-" name="become more liberal">
+<roles>
+  <role n="0"  descr="agent of liberalization"/>
+  <role n="1"  descr="thing becoming more liberal (if separate from arg0)"/>
+</roles>
+
+<example name="usually transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    At a June EC summit, Mrs. Thatcher appeared to ease her opposition
+    to full EMS membership, saying Britain would join once its
+    inflation rate fell and the EC liberalized capital movements. 
+</text>
+        <arg n="0">the EC</arg>
+        <rel>liberalized</rel>
+        <arg n="1">capital movements</arg>
+</example>
+
+<example name="oddly intransitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+     Asked if the Soviets, like Chinese officials, won't one day face
+     a similar conflict between the desire *trace* to liberalize
+     economically and yet retain political control, Mr. Lee said, ``I
+     would think that the Soviets face a deeper dilemma because they
+     have been more in blinkers than the Chinese -- I mean keeping
+     their people cut off from the outside world.'' 
+</text>
+        <arg n="0">*trace*</arg>
+        <rel>liberalize</rel>
+        <arg n="M" f="MNR">economically</arg>
+<note>
+Arg1 defaults to 'itself' or some such.
+</note>
+
+</example>
+
+<example name="passive">
+<inflection person="third" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    The market for export financing was liberalized *trace* in the
+    mid-1980s, however, forcing the bank to face competition. 
+</text>
+        <rel>liberalized</rel>
+        <arg n="1">*trace* ->  The market for export financing</arg>
+        <arg n="M" f="TMP">in the mid-1980s</arg>
+        <arg n="M" f="DIS">however</arg>
+        <arg n="M" f="ADV">forcing the bank to face competition</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

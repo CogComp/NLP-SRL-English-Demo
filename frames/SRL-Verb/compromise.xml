@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="compromise">
+<note>
+  Frames file for 'compromise' based on sentence in financial
+  subcorpus.  No verbnet entry.  Comparison with 'agree'
+</note>
+
+<roleset id="compromise.01" name="reach an agreement">
+<roles>
+  <role n="0"  descr="agreer"/>
+  <role n="1"  descr="proposition, usually PRD"/>
+  <role n="2"  descr="other entity agreeing"/>
+</roles>
+
+<example name="generally unhelpful example">
+<text>
+    ``They said universally, without a single exception:  Don't even
+    compromise. 
+</text>
+        <arg n="0"></arg>
+        <arg n="M" f="NEG">n't</arg>
+        <arg n="M" f="DIS">even</arg>
+        <rel>compromise</rel>
+</example>
+
+<example name="more illustrative">
+  <text>
+    John compromised with Mary on the menu for their dinner together.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >compromised</rel>
+  <arg n="2" f="with">Mary</arg>
+  <arg n="1" f="on">the menu for their dinner together</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="compromise.02" name="lose security">
+<roles>
+  <role n="0"  descr="causer of loss"/>
+  <role n="1"  descr="thing losing security"/>
+</roles>
+
+<example name="made-up">
+  <text>
+    The hygiene of John's home was compromised *trace* by his habit of
+    leaving his dirty socks lying around.
+  </text>
+  <arg n="1"        >*trace* -> The hygiene of John's home</arg>
+  <rel              >compromised</rel>
+  <arg n="0" f="by">his habit of leaving his dirty socks lying
+  around.</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

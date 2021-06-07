@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reexamine">
+<note>
+  Frames file for 'reexamine'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="reexamine.01" name="to review"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>    
+  <role n="1"  descr="entity reexamined"/>  
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="gerund"/>
+<text>
+ After 75 years there may be a few things that [*T*-1] are worth [*] reexamining .
+</text>
+	<arg n="1">[*] ->  [*T*-1] ->  that ->  a few things</arg>
+	<rel>reexamining</rel>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

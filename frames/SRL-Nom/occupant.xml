@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="occupant">
+<roleset id="occupant.01" name="be in a certain place" source="verb-occupy.01">
+<roles>
+
+<role descr="occupier" n="0"></role>
+
+<role descr="occupied" n="1"></role>
+
+<role descr="secondary predication on arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+vehicle occupant safety
+</text>
+<arg n="1">vehicle</arg>
+<arg n="0">occupant</arg>
+<rel>occupant</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="await">
+<note>
+  Frames file for 'await' based on sentences in financial subcorpus.
+  No access to verbnet.  Comparison to 'wait'.
+</note>
+
+<roleset id="await.01" name="wait for">
+<roles>
+  <role n="1"  descr="wait-er (not waiter, that's a different sense)"/>
+  <role n="2"  descr="thing waited for"/>
+  <role n="m" f="TMP"  descr="period of time waited through"/>
+</roles>
+
+<example name="typical usage">
+<text>
+    Trading is expected to remain subdued as the market awaits
+    tomorrow's release of the jobs data with the hope that it will
+    point toward a decline in interest rates. 
+</text>
+        <arg n="1">the market</arg>
+        <rel>awaits</rel>
+        <arg n="2">tomorrow's release of the jobs data</arg>
+        <arg n="M" f="MNR">with the hope that it will point toward a
+        decline in interest rates</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="hitch">
+<note>
+  Frames file for 'hitch' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="hitch.01" name="to fasten, attach"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing hitched"/>
+  <role n="2"  descr="entity hitched to"/>
+</roles>
+
+<example name="all arguments">
+<inflection person="ns" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+ Nissan Motor is just one of a slew of advertisers that [*T*-1] have hitched their ads to the devastating San Francisco quake and Hurricane Hugo .
+</text>
+	<arg n="0">[*T*-1] ->  that ->  advertisers</arg>
+	<rel>hitched</rel>
+	<arg n="1">their ads</arg>
+	<arg n="2" f="to">the devastating San Francisco quake and Hurricane Hugo</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

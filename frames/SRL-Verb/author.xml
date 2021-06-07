@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="author">
+<note>
+  Frames file for 'author'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="author.01" name="to write or construct"
+vncls="-">
+<roles> 
+ <role n="0"  descr="agent"/>
+ <role n="1"  descr="text authored"/>  
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Although the proposal , authored [*] by Mr. Packwood and Sen. William Roth ( R. , Del. ) , appears [*-1] to have general backing by Republicans , their votes are n't sufficient [*] to pass it .
+</text>
+	<rel>authored</rel>
+	<arg n="1">[*] ->  the proposal</arg>
+	<arg n="0" f="by">Mr. Packwood and Sen. William Roth ( R. , Del. )</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

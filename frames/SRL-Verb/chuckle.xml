@@ -1,0 +1,55 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="chuckle">
+<note>
+  Frames file for 'chuckle' based on sentences in wsj.  No Verbnet
+  entry. 
+</note>
+
+<roleset id="chuckle.01" vncls="-" name="laugh quietly">
+<roles>
+  <role n="0"  descr="chuckler"/>
+</roles>
+
+<example name="hyuck hyuck">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    ``Pickin' one or two,'' says the guide, *trace* chuckling.
+</text>
+        <arg n="0">*trace* ->  the guide</arg>
+        <rel>chuckling</rel>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="chuckle.02" vncls="-" name="mode of speaking">
+<roles>
+  <role n="0"  descr="speaker"/>
+  <role n="1"  descr="utterance"/>
+  <role n="2"  descr="hearer"/>
+</roles>
+
+<example name="missing hearer">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    ``Long-term investing -- that's not Steinhardt's style,'' chuckles
+    *trace* an investor who once worked at Steinhardt Partners. 
+</text>
+        <rel>chuckles</rel>
+        <arg n="1">*trace* ->  Long-term investing -- that's not
+        Steinhardt's style</arg> 
+        <arg n="0">an investor who  once worked at Steinhardt
+        Partners</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="disenchant">
+<note>
+  Frames file for 'disenchant' based on sentences in wsj.  No Verbnet
+  entry. 
+</note>
+
+<roleset id="disenchant.01" vncls="-" name="no longer interested in">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity no longer interested"/>
+  <role n="2"  descr="interested in what"/>
+</roles>
+
+<example name="should have been parsed as an ADJ">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Some money managers are disenchanted *trace* with H&amp;R Block
+    because they suspect the company's glory days are past, or at
+    least passing. 
+</text>
+        <rel>disenchanted</rel>
+        <arg n="1">*trace* ->  Some money managers</arg>
+        <arg n="2" f="with">H&amp;R Block</arg>
+        <arg n="M" f="CAU">because they suspect the company's glory
+        days are past, or at least passing</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

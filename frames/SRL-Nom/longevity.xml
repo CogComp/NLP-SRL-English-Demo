@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="longevity">
+<roleset id="longevity.01" name="extend for some period of time" source="verb-last.01" vncls="54.2">
+<roles>
+
+<role descr="thing that lasts" n="1">
+<vnrole vncls="54.2" vntheta="Theme"/></role>
+
+<role descr="period of time" n="2">
+<vnrole vncls="54.2" vntheta="Attribute"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the creativity -- and longevity -- of its chairman and chief
+designer , Seymour Cray
+</text>
+<rel>longevity</rel>
+<arg n="1">of its chairman and chief designer , Seymour Cray</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

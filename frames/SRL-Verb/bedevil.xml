@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="bedevil">
+<note>
+  Frames file for 'bedevil' based on sentences in financial subcorpus.
+  No Verbnet entry, comparison with 'plague'.
+</note>
+
+<roleset id="bedevil.01" vncls="-" name="bother, plague">
+<roles>
+  <role n="0" descr="agent"/>
+  <role descr="bothered" n="1"/>
+  <role descr="bothered by, plagued with" n="2"/>
+</roles>
+
+<example name="no instrument">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    As many economists and businessmen see it, those incongruities
+    underscore a paradox that *trace* seems likely *trace* to bedevil
+    the economy throughout the 1990s. 
+</text>
+        <arg n="0">*trace* -> *trace* ->  that ->  a paradox</arg>
+        <rel>bedevil</rel>
+        <arg n="1">the economy</arg>
+        <arg n="M" f="TMP">throughout the 1990s</arg>
+</example>
+
+<example name="all args">
+  <inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+  <text>
+    John plagues Mary constantly with his whining for attention.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >plagues</rel>
+  <arg n="1"        >Mary</arg>
+  <arg n="m" f="TMP">constantly</arg>
+  <arg n="2" f="with">his whining for attention</arg>
+</example>
+
+<note>
+Arg0 should be intentional, Arg2 more instrumental (ie non-sentient).
+Arg2 will almost always be prepositional.
+</note>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

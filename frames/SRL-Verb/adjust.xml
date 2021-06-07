@@ -1,0 +1,55 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="adjust">
+<note>
+  Frames file for 'adjust' based on initial sentences of big corpus
+  and comparison with 'set' and 'change'
+</note>
+
+<roleset id="adjust.01" name="change (slightly)">
+<roles>
+  <role n="0"  descr="causer of transformation"/>
+  <role n="1"  descr="thing changing"/>
+  <role n="2"  descr="end state"/>
+  <role n="3"  descr="start state"/>
+  <role n="4"  descr="PRP, reason for adjustment"/>
+</roles>
+
+<example name="simple transitive">
+  <text>
+  Banks adjusted payouts on CD's in the most recent week.
+  </text>
+  <arg n="0"        >Banks</arg>
+  <rel              >adjusted</rel>
+  <arg n="1"        >payouts on CD's</arg>
+  <arg n="m" f="TMP">in the most recent week</arg>
+</example>
+
+<example name="with PRP">
+  <text>
+  All the figures are adjusted *trace* to remove usual seasonal patterns.
+  </text>
+  <arg n="1"        >*trace*=All the figures</arg>
+  <rel voice="passive">adjusted</rel>
+  <arg n="4" f="PRP">to remove usual seasonal patterns</arg>
+</example>
+
+<example name="PRP transformed">
+  <text>
+  All the figures are adjusted for inflation.
+  </text>
+  <arg n="1"        >All the figures</arg>
+  <rel voice="passive">adjusted</rel>
+  <arg n="4" f="for">inflation</arg>
+</example>
+
+<note>
+Of course, not adjectival usages like "seasonally adjusted
+unemployment figures"
+</note>
+
+</roleset>
+</predicate>
+</frameset>

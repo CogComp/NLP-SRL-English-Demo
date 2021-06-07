@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="rename">
+<note>
+  Frames file for 'rename' based on survey of sentences in the WSJ
+  corpus. Comparison with 'name'.
+</note>
+
+<roleset id="rename.01" name="to give a new name to" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity named"/>
+  <role n="2"  descr="new name"/>
+</roles>
+
+
+<example name="passive">
+<inflection person="ns" tense="future" aspect="ns" voice="passive" form="participle"/>
+<text>
+ The unit will be renamed [*-2] Comair Aviation Academy and will continue [*-2] to be headed [*-1] by Scott Williams , a son of its founder , Comair said [0] [*T*-3] .
+</text>
+	<arg n="M" f="MOD">will</arg>
+	<rel>renamed</rel>
+	<arg n="1">[*-2] ->  The unit</arg>
+	<arg n="2">Comair Aviation Academy</arg>
+</example>
+
+
+<example name="all arguments">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Before they let him go he added a thousand bureaucrats to the RDF in Tampa and renamed it Central Command .
+</text>
+	<arg n="0">he</arg>
+	<rel>renamed</rel>
+	<arg n="1">it</arg>
+	<arg n="2">Central Command</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sock">
+<note>
+  Frames file for 'sock' based on sentences in wsj.  Verbnet entry 18.3.
+</note>
+
+<roleset id="sock.01" vncls="18.3" name="manner of hitting">
+<roles>
+  <role n="0"  descr="hitter"/>
+  <role n="1"  descr="hit"/>
+  <role n="2"  descr="hit with"/>
+</roles>
+
+<example name="mild violence">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary socked John with a sock.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >socked</rel>
+  <arg n="1"        >John</arg>
+  <arg n="2" f="with">a sock</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="sock_away">
+
+<roleset id="sock.02" vncls="-" name="put, save">
+<roles>
+  <role n="0"  descr="putter"/>
+  <role n="1"  descr="thing put"/>
+  <role n="2"  descr="put where"/>
+</roles>
+
+<example name="automatically generated">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="ns"/>
+<text>
+ [*] Sock it away in long-term instruments ?
+</text>
+        <arg n="0">[*]</arg>
+        <rel>[ Sock] [ away]</rel>
+        <arg n="1">it</arg>
+        <arg n="2" f="in">long-term instruments</arg>
+</example>
+
+<note>
+I'm uncomfortable calling this a phrasal verb, but I don't see any
+alternative. 
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="occasion">
+<note>
+  Frames file for 'occasion' based on sentences in wsj.  No Verbnet
+  entry. 
+</note>
+
+<roleset id="occasion.01" vncls="-" name="bring about an event">
+<roles>
+  <role n="0"  descr="bringer about"/>
+  <role n="1"  descr="event"/>
+</roles>
+
+<example name="ghostbusters?">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    For the spooks it's just another day of ectoplasmic business as
+    usual, ghostbusters say; the holiday seems *trace* to occasion no
+    unusual number of ghost reports. 
+</text>
+        <arg n="0">*trace* ->  the holiday</arg>
+        <rel>occasion</rel>
+        <arg n="1">no unusual number of ghost reports</arg>
+</example>
+
+<note>
+I'd have predicted this only to occur in the passive, but the opposite
+is true.  Gofigger.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,85 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="decide">
+<note>
+  Frames file for 'decide' based on survey of initial sentences of big
+  corpus. 
+</note>
+
+<roleset id="decide.01" name="decide">
+<roles>
+  <role n="0"  descr="decider"/>
+  <role n="1"  descr="decision"/>
+  <role n="2"  descr="benefactive"/>
+  <role n="3"  descr="instrument"/>
+</roles>
+
+<example name="decide a predicate">
+  <text>
+  The city decided *trace* to treat its guests more like royalty or
+  rock stars than factory owners.
+  </text>
+  <arg n="0"        >The city</arg>
+  <rel              >decided</rel>
+  <arg n="1"        >*trace* to treat its guests more like royalty or
+  rock stars than factory owners</arg>
+</example>
+
+<example name="decide a preposition: benefactive">
+  <text>
+  The court decided for John.
+  </text>
+  <arg n="0"        >The court</arg>
+  <rel              >decided</rel>
+  <arg n="2" f="for">for John</arg>
+</example>
+
+<example name="decide a preposition: decision">
+  <text>
+  After perusing the extensive wine list for an hour, John decided on
+  the Mad Dog.
+  </text>
+  <arg n="m" f="TMP">After perusing the extensive wine list for an hour</arg>
+  <arg n="0"        >John</arg>
+  <rel              >decided</rel>
+  <arg n="1" f="on">the Mad Dog</arg>
+</example>
+
+<example name="decide a sentence">
+  <text>
+  A good number decide (that) it's not worth it.
+  </text>
+  <arg n="0"        >A good number</arg>
+  <rel              >decide</rel>
+  <arg n="1"        >it's not worth it</arg>
+</example>
+
+<example name="instrumental subject">
+  <text>
+  John's home run decided the game.
+  </text>
+  <arg n="3"        >John's home run</arg>
+  <rel              >decided</rel>
+  <arg n="1"        >the game</arg>
+</example>
+
+<example name="instrumental object?">
+  <text>
+  The game was decided with/by John's home run.
+  </text>
+  <arg n="1"        >The game</arg>
+  <rel voice="passive">decided</rel>
+  <arg n="3" f="with/by">John's home run</arg>
+</example>
+
+<note>
+Maybe these last two should be regarded as a separate sense/roleset;
+they essentially mean "cause an unstated entity to make a decision".
+They're also different in that they take a straight nominal "decision".
+</note>
+
+</roleset>
+</predicate>
+</frameset>

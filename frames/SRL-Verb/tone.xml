@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="tone_down">
+<note>
+  Frames file for 'tone' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="tone.01" vncls="-" name="diminish intensity">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing becoming less intense"/>
+</roles>
+
+<example name="the one example">
+<inflection person="ns" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    Shaken by tumbling stock prices and pessimistic projections of
+U.S. economic growth, currency analysts around the world have toned
+down their assessments of the dollar's near-term performance. 
+</text>
+        <arg n="M">Shaken by tumbling stock prices and pessimistic
+projections of U.S. economic growth</arg> 
+        <arg n="0">currency analysts around the world</arg>
+        <rel>[ toned] [ down]</rel>
+        <arg n="1">their assessments of the dollar's near-term
+performance</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

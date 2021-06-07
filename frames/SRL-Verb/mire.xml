@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="mire">
+<note>
+  Frames file for 'mire' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="mire.01" vncls="-" name="be stuck">
+<roles>
+  <role n="1"  descr="entity stuck"/>
+  <role n="2"  descr="stuck in what?"/>
+</roles>
+
+<example name="with passive trace">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Temple added that Sea Containers is still mired *trace* in legal
+    problems in Bermuda, where the Supreme Court has temporarily
+    barred Sea Containers from buying back its own stock in a case
+    brought by Stena and Tiphook. 
+</text>
+        <arg n="M" f="TMP">still</arg>
+        <rel>mired</rel>
+        <arg n="1">*trace* ->  Sea Containers</arg>
+        <arg n="2" f="in">legal problems</arg>
+        <arg n="M" f="LOC">in Bermuda, where the Supreme Court has
+        temporarily barred Sea Containers from buying back its own
+        stock in a case brought by Stena and Tiphook </arg> 
+</example>
+
+<example name="without passive trace">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    But it's just as plausible to argue that if even David Boren can
+    get mired in this sort of mess, the problem goes beyond legal
+    interpretation. 
+</text>
+        <arg n="1">even David Boren</arg>
+        <arg n="M" f="MOD">can</arg>
+        <rel>mired</rel>
+        <arg n="2" f="in">this sort of mess</arg>
+</example>
+
+<note>
+This should not even be considered a verb, really, since the active
+cannot occur: *"John mired Mary in a real mess."
+</note>
+
+</roleset>
+</predicate>
+</frameset>

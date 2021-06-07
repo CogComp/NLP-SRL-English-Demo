@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="regroup">
+<note>
+  Frames file for 'regroup' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="regroup.01" vncls="-" name="collect onesself">
+<roles>
+  <role n="0"  descr="regrouper"/>
+</roles>
+
+<example name="basic usage">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    After the 1987 crash, and as a result of the recommendations of
+    many studies, ``circuit breakers'' were devised to allow market
+    participants to regroup and restore orderly market conditions. 
+</text>
+        <arg n="0">market participants</arg>
+        <rel>regroup</rel>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

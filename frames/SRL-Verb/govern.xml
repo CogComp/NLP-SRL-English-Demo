@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="govern">
+<note>
+  Frames file for 'govern' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="govern.01" name="to control or influence" vncls="-">
+<roles>
+  <role n="0"  descr="entity having a control or influence"/>
+  <role n="1"  descr="thing governed"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ For years , a strict regimen governed the staff meetings at Nissan Motor Co. 's technical center in Tokyo 's western suburbs .
+</text>
+	<arg n="M" f="TMP">For years</arg>
+	<arg n="0">a strict regimen</arg>
+	<rel>governed</rel>
+	<arg n="1">the staff meetings at Nissan Motor Co. 's technical center in Tokyo 's western suburbs</arg>
+</example>
+
+
+
+<example name="intransitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Such a policy implies that only a black politician can speak for a black person , and that only a white politician can govern on behalf of a white one .
+</text>
+	<arg n="0">only a white politician</arg>
+	<arg n="M" f="MOD">can</arg>
+	<rel>govern</rel>
+	<arg n="M" f="MNR">on behalf of a white one</arg>
+</example>
+
+
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Study after study -- the most recent from the Brookings Institution -- tells us that the best schools are those that [*T*-1] are free of outside interference and are governed [*-2] by a powerful head .
+</text>
+	<rel>governed</rel>
+	<arg n="1">[*-2] ->  [*T*-1] ->  that ->  those</arg>
+	<arg n="0" f="by">a powerful head</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

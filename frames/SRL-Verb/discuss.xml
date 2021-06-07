@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="discuss">
+<note>
+  Frames file for 'discuss' based on sentences in financial
+  subcorpus.  No verbnet entry.  Comparison with other
+  verbs-of-talking. 
+</note>
+
+<roleset id="discuss.01" name="talk about">
+<roles>
+  <role n="0"  descr="discussant"/>
+  <role n="1"  descr="topic"/>
+  <role n="2"  descr="conversation partner, if explicit"/>
+</roles>
+
+<example name="plain ol' transitive">
+<text>
+    He declined *trace* to discuss other terms of the issue.
+</text>
+        <arg n="0">*trace* ->  He</arg>
+        <rel>discuss</rel>
+        <arg n="1">other terms of the issue</arg>
+</example>
+
+<example name="with arg2">
+  <text>
+    John discussed the details of his parole with Mary.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >discussed</rel>
+  <arg n="1"        >the details of his parole</arg>
+  <arg n="2" f="with">Mary</arg>
+</example>
+
+<note>
+But:
+</note>
+
+<example name="merged args 0 and 2">
+  <text>
+    John and Mary discussed the price of beans in China.
+  </text>
+  <arg n="0"        >John and Mary</arg>
+  <rel              >discussed</rel>
+  <arg n="1"        >the price of beans in China</arg>
+</example>
+
+<note>
+The conversation partner role can also be subsumed within the topic of
+conversation: "discussed an alliance with GM".  Follow Treebank's
+parsing in these ambiguous cases.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

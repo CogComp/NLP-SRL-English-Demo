@@ -1,0 +1,79 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="cripple">
+<note>
+  Frames file for 'cripple' based on sentences in wsj.  No Verbnet
+  entry at the moment.
+</note>
+
+<roleset id="cripple.01" vncls="-" name="injure very badly, disable">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="victim"/>
+  <role n="2"  descr="instrument"/>
+</roles>
+
+<example name="passive, no agent">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    But a Soviet bank here would be crippled *trace* unless Moscow
+    found a way  to settle the $188 million debt, which  was lent to
+    the country's short-lived democratic Kerensky government before
+    the Communists seized power in 1917. 
+</text>
+        <arg n="M" f="MOD">would</arg>
+        <rel>crippled</rel>
+        <arg n="1">*trace* ->  a Soviet bank here</arg>
+        <arg n="M" f="ADV">unless Moscow found a way to settle the
+        $188 million debt, which  was lent to the country's
+        short-lived democratic Kerensky government before the
+        Communists seized power in 1917 </arg> 
+</example>
+
+<example name="passive with agent">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+     Founded as the Examiner in 1903 by Mr. Hearst, the Herald was
+     crippled *trace* by a bitter, decade-long strike that began in
+     1967 and cut circulation in half. 
+</text>
+        <arg n="M">Founded as the Examiner in 1903 by Mr. Hearst</arg>
+        <rel>crippled</rel>
+        <arg n="1">*trace* ->  the Herald</arg>
+        <arg n="0" f="by">[ a bitter , decade-long strike] [ that
+        began in 1967 and cut circulation in half]</arg> 
+</example>
+
+<example name="active">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    An 11-week dispute involving Australia's 1,640 domestic pilots has
+    slashed airline earnings and crippled much of the continent's
+    tourist industry. 
+</text>
+        <arg n="0">An 11-week dispute involving Australia's 1,640
+        domestic pilots</arg> 
+        <rel>crippled</rel>
+        <arg n="1">much of the continent 's tourist industry</arg>
+</example>
+
+<example name="with instrument">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary crippled John's fragile self-esteem with her relentless
+    scornful insults.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >crippled</rel>
+  <arg n="1"        >John's fragile self-esteem</arg>
+  <arg n="2" f="with">her relentless scornful insults</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

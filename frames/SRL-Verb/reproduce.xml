@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="reproduce">
+<note>
+  Frames file for 'reproduce' based on sentences in wsj.  Verbnet
+  entry 45.4, Framenet entry Duplication.
+</note>
+
+<roleset id="reproduce.01" vncls="45.4" name="copy">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="original"/>
+</roles>
+
+<example name="active">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    Twenty years later, two California academics, Stanley Cohen and
+    Herbert Boyer, made ``recombinant'' DNA, transplanting a toad's
+    gene into bacteria, which then *trace* reproduced toad genes. 
+</text>
+        <arg n="M" f="TMP">then</arg>
+        <arg n="0">*trace* ->  which ->  bacteria</arg>
+        <rel>reproduced</rel>
+        <arg n="1">toad genes</arg>
+</example>
+
+<example name="passive, poetry">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    The effete Tyrannosaurus Rex / Had strict Cretaceous views on sex,
+    / And that is why you only see him / Reproduced  in the museum.
+</text>
+        <rel>Reproduced</rel>
+        <arg n="1">*trace* ->  him</arg>
+        <arg n="M" f="LOC">in the museum</arg>
+</example>
+
+<note>
+That just doesn't scan at all.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

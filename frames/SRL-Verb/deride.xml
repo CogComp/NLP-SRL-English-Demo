@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="deride">
+<note>
+  Frames file for 'deride' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="deride.01" name="to treat or speak of with contempt"
+vncls="33">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity derided"/>
+  <role n="2"  descr="attribute"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ By the end of this year , 63-year-old Chairman Silas Cathcart -- the former chairman of Illinois Tool Works who [*T*-2] was derided [*-1] as a `` tool-and-die man '' when GE brought him in [*-4] to clean up Kidder in 1987 [*T*-3] -- retires to his Lake Forest , Ill. , home , possibly [*-6] to build a shopping mall on some land [0] he owns [*T*-5] .
+</text>
+	<rel>derided</rel>
+	<arg n="1">[*-1] ->  [*T*-2] ->  who ->  the former chairman of Illinois Tool Works</arg>
+	<arg n="2" f="as">a `` tool-and-die man ''</arg>
+	<arg n="M" f="TMP">when GE brought him in [*-4] to clean up Kidder in 1987 [*T*-3]</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

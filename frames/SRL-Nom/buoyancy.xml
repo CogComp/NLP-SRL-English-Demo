@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="buoyancy">
+<roleset id="buoyancy.01" name="attribute/nomadj-buoyant">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+such buoyancy in the oil markets
+</text>
+<arg f="REF" n="2">buoyancy</arg>
+<rel>buoyancy</rel>
+<arg n="1">in the oil markets</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="accrual">
+<roleset id="accrual.01" name="accumulate, gather" source="verb-accrue.01">
+<roles>
+
+<role descr="agent, gatherer" n="0"></role>
+
+<role descr="thing gathered, accrued" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a one-time accrual for a toll settlement with long-distance
+telephone companies
+</text>
+<arg f="TMP" n="M">one-time</arg>
+<arg f="REF" n="1">accrual</arg>
+<rel>accrual</rel>
+<arg f="PNC" n="M">for a toll settlement with long-distance telephone companies</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an accrual for stock-appreciation rights that reflected a 19 %
+increase in the stock price , and higher interest expenses
+</text>
+<arg f="REF" n="1">accrual</arg>
+<rel>accrual</rel>
+<arg f="PNC" n="M">for stock-appreciation rights</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

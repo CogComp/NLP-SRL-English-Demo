@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="foreclosure">
+<roleset id="foreclosure.01" name="when good mortgages go bad" source="verb-foreclose.01">
+<roles>
+
+<role descr="bank" n="0"></role>
+
+<role descr="property" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Sunbelt 's foreclosure on Valley Ranch
+</text>
+<arg n="0">Sunbelt 's</arg>
+<rel>foreclosure</rel>
+<arg n="1">on Valley Ranch</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

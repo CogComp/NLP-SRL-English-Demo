@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="hypothesize">
+<note>
+  Frames file for 'hypothesize' based on sentences in wsj.  No Verbnet
+  entry. 
+</note>
+
+<roleset id="hypothesize.01" vncls="-" name="make an educated guess">
+<roles>
+  <role n="0"  descr="guesser"/>
+  <role n="1"  descr="hypothesis"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    It might be alleged that TV has done more than its share to
+    popularize and promote non-violent civil disobedience, so the
+    second situation hypothesized *trace* above would be simply a case
+    of ``chickens coming home to roost.'' 
+</text>
+        <rel>hypothesized</rel>
+        <arg n="1">*trace* ->  the second situation</arg>
+        <arg n="M" f="LOC">above</arg>
+</example>
+
+<example name="active">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John hypothesized that Mary was secretly lusting after him.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >hypothesized</rel>
+  <arg n="1"        >Mary was secretly lusting after him</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

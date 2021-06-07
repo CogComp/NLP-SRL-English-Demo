@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="encounter">
+<note>
+  Frames file for 'encounter' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="encounter.01" name="to meet unexpectedly" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity encountered "/>
+</roles>
+
+
+<example name="transitive with adverbials">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ In a meeting with Premier Li Peng on Monday , Mr. Nixon said that he hoped [0] he would n't encounter guards with machine guns during his visit to the U.S. Embassy .
+</text>
+	<arg n="0">he</arg>
+	<arg n="M" f="MOD">would</arg>
+	<arg n="M" f="NEG">n't</arg>
+	<rel>encounter</rel>
+	<arg n="1">guards with machine guns</arg>
+	<arg n="M" f="TMP">during his visit to the U.S. Embassy</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

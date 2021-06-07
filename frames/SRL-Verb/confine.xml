@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="confine">
+<note>
+  Frames file for 'confine' based on sentences in financial
+  subcorpus.  No access to verbnet.  No comparison.
+</note>
+
+<roleset id="confine.01" name="confine, restrict">
+<roles>
+  <role n="0"  descr="agent, confiner"/>
+  <role n="1"  descr="entity confined, restricted"/>
+  <role n="2"  descr="confined-to"/>
+</roles>
+
+<example name="passive">
+<text>
+    Arbitrage-related trading during the session was confined *trace*
+    largely to a round of buy programs near the close, which helped
+    offset the impact of profit-taking among blue chips. 
+</text>
+        <rel>confined</rel>
+        <arg n="1">*trace* ->  Arbitrage-related trading during the
+        session</arg> 
+        <arg n="M" f="ADV">largely</arg>
+        <arg n="2" f="to">a round of buy programs near the close,
+        which helped offset the impact of profit-taking among blue
+        chips</arg> 
+</example>
+
+<example name="active">
+  <text>
+    Mary confined John to his room.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >confined</rel>
+  <arg n="1"        >John</arg>
+  <arg n="2" f="to">his room</arg>
+</example>
+
+<note>
+Passive seems to always include the modifier 'largely'.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

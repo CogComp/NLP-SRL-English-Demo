@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="install">
+<note>
+Frames file for 'install' and 'instal' (since the Wordnet lemmatizer
+blew it) based on sentences in financial subcorpus and automatic
+expansion via verbnet.
+</note>
+
+<roleset id="instal.01" vncls="9.1" name="put in place">
+<roles>
+	<role n="0" descr="putter" /> 
+	<role n="1" descr="thing put" /> 
+	<role n="2" f="LOC" descr="where put" /> 
+</roles>
+
+<example name="literal place">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Digital, however, doesn't expect to displace IBM mainframes that
+    *trace* are already installed at big companies. 
+</text>
+        <arg n="1">*trace* ->  that ->  IBM mainframes</arg>
+        <arg n="M" f="TMP">already</arg>
+        <rel>installed</rel>
+        <arg n="2" f="at">big companies</arg>
+</example>
+
+<example name="no place at all">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    The disagreement centers on testing deadlines and other issues
+    involving a FileNet system installed *trace* earlier this year. 
+</text>
+        <rel>installed</rel>
+        <arg n="1">*trace* ->  a FileNet system</arg>
+        <arg n="M" f="TMP">earlier this year</arg>
+</example>
+
+<example name="with agent, different kind of 'place'">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    In July, 11 NFL owners, almost all of them new, blocked an effort
+    *trace* to install Jim Finks as a replacement for retiring league
+    commissioner Pete Rozelle. 
+</text>
+        <arg n="0">*trace* ->  11 NFL owners</arg>
+        <rel>install</rel>
+        <arg n="1">Jim Finks</arg>
+        <arg n="2" f="as">a replacement for retiring league
+        commissioner Pete Rozelle</arg> 
+</example>
+
+<note>
+Treebank waffles on the verbal/adjectival nature of 'installed';
+treat all of them as verbal even if the trace from object position is
+missing.
+</note>
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="exert">
+<note>
+  Frames file for 'exert' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="exert.01" name="to put forth, exercise"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity exerted"/>
+  <role n="2"  descr="exerted over"/>
+</roles>
+
+<example name="all arguments">
+<inflection person="ns" tense="present" aspect="perfect" voice="active" form="full"/>
+<text>
+ So we must look elsewhere for an explanation of the unusual power [0] this case has exerted [*T*-1] over the minds of many , not just in Washington but elsewhere in the country and even the world .
+</text>
+	<arg n="0">this case</arg>
+	<rel>exerted</rel>
+	<arg n="1">[*T*-1] ->  [0] ->  the unusual power</arg>
+	<arg n="2" f="over">the minds of many , not just in Washington but elsewhere in the country and even the world</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

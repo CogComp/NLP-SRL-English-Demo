@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="bulge">
+<note>
+  Frames file for 'bulge' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="bulge.01" name="to to be filled"
+vncls="47.5.3 47.2">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity bulged"/>
+  <role n="2"  descr="entity bulged with"/>
+</roles>
+
+<example name="with Arg2">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="participle"/>
+<text>
+ The tattered black binder , bulging with 18 years ' worth of recipes held [*] together by rubber bands , was in chef Lindsey Shere 's purse when it was stolen [*-113] from her house recently [*T*-2] .
+</text>
+	<arg n="1">The tattered black binder</arg>
+	<rel>bulging</rel>
+	<arg n="2" f="with">18 years ' worth of recipes held [*] together by rubber bands</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

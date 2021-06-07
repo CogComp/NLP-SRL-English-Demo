@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shimmer">
+<note>
+  Frames file for 'shimmer' based on sentences in wsj.  Verbnet entry
+  43.1, Framenet entry Light emission.
+</note>
+
+<roleset id="shimmer.01" vncls="43.1" name="emit light, sparkle">
+<roles>
+  <role descr="source of light" n="1">
+		<vnrole vncls="43.1" vntheta="Theme"/>
+  <vnrole vncls="43.1" vntheta="Theme"/></role>
+</roles>
+
+<example name="true romance">
+  <inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+  <text>
+    ``Your eyes shimmer like a swamp on a cloudy night,'' whispered
+    John to Mary.
+  </text>
+  <arg n="1"        >Your eyes</arg>
+  <rel              >shimmer</rel>
+  <arg n="m" f="MNR">like a swamp on a cloudy night</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="shimmer.02" vncls="-" name="verb of motion?">
+<roles>
+  <role n="0"  descr="entity in motion"/>
+  <role n="1"  descr="path"/>
+</roles>
+
+<example name="weird example">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    If mutation and natural selection slowly but surely give rise to
+    more and more advanced forms of life, then it was only a matter of
+    eons before splendid beings endowed with reason, self-awareness
+    and taste shimmered onto the scene. 
+</text>
+        <arg n="0">splendid beings endowed with reason, self-awareness
+        and taste</arg> 
+        <rel>shimmered</rel>
+        <arg n="1" f="onto">the scene</arg>
+</example>
+
+<note>
+I think the writer invented this usage.  Maybe s/he meant 'shimmy'?
+</note>
+
+</roleset>
+</predicate>
+</frameset>

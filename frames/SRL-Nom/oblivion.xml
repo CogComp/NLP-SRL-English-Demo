@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="oblivion">
+<roleset id="oblivion.01" name="no longer be there" source="verb-disappear.01" vncls="48.2">
+<roles>
+
+<role descr="causal agent" n="0"></role>
+
+<role descr="the disappeared" n="1">
+<vnrole vncls="48.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+They fell into oblivion after the 1929 crash .
+</text>
+<arg n="1">They</arg>
+<arg n="Support">fell into</arg>
+<rel>oblivion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

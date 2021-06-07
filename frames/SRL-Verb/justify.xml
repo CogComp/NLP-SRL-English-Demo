@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="justify">
+<note>
+  Frames file for 'justify' based on examples from full corpus.
+</note>
+
+<roleset id="justify.01" name="show to be right">
+<roles>
+  <role n="0"  descr="justifier"/>
+  <role n="1"  descr="decision or attitude being shown to be right"/>
+  <role n="2"  descr="explicit instrument"/>
+  <role n="3"  descr="secondary predication"/>
+  <role n="4"  descr="benefactive, justified to"/>
+</roles>
+
+<example name="simple transitive">
+  <text>
+  As a country superimposes its cultural and political attitudes on
+  others, it searches its heritage in hopes of *trace* justifying its
+  aggressiveness.
+  </text>
+  <arg n="0"        >*trace* ->  it</arg>
+  <rel              >justifying</rel>
+  <arg n="1"        >its aggressiveness</arg>
+</example>
+
+<example name="instrument and attribute">
+  <text>
+Since the hazards of poor communication are so great , p can be
+justified *trace* as a habitable site only on the basis of unusual
+productivity such as  is made  available by a waterfall for milling
+purposes, a mine, or a sugar maple camp.
+  </text>
+  <arg n="m" f="PRP">Since the hazards of poor communication are so
+  great</arg>
+  <arg n="1"        >*trace* = p</arg>
+  <arg n="m" f="MOD">can</arg>
+  <rel              >justified</rel>
+  <arg n="3" f="as" >a habitable site</arg>
+  <arg n="2"        >only on the basis of unusual productivity such as
+  is made  available by a waterfall for milling purposes , a mine , or
+  a sugar maple camp</arg>
+</example>
+
+<example name="with benefactive">
+  <text>
+  I'd have a hard time *trace* justifying to my students that it
+  wasn't cheating.
+  </text>
+  <arg n="0"        >*trace*=I</arg>
+  <rel              >justifying</rel>
+  <arg n="4" f="to">my students</arg>
+  <arg n="1"        >it wasn't cheating.</arg>
+</example>
+
+<note>
+Watch out for adjectival "justified"--test by substituting "unjustified".
+</note>
+
+</roleset>
+</predicate>
+</frameset>

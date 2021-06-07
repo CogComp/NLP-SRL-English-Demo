@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="bound">
+<note>
+  Frames file for 'bound' based on sentences in wsj.  Verbnet entry
+  51.3.2 and 47.8, Framenet entry Self motion.
+</note>
+
+<roleset id="bound.01" vncls="51.3.2" name="mode of motion">
+<roles>
+  <role n="0"  descr="thing in motion"/>
+</roles>
+
+<example name="for some reason I like this sentence">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    The cost of raising a pig kept *trace* bounding ahead of the
+    return for selling one. 
+</text>
+        <arg n="0">*trace* ->  The cost of  raising a pig</arg>
+        <rel>bounding</rel>
+        <arg n="M" f="DIR">ahead of the return for  selling one</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="bound.02" vncls="47.8" name="act as a boundary">
+<roles>
+  <role n="0"  descr="boundary"/>
+  <role n="1"  descr="thing bounded"/>
+</roles>
+
+<example name="always passive?">
+  <inflection person="third" tense="present" aspect="ns" voice="passive" form="participle"/>
+  <text>
+     John's property is bounded *trace* by the freeway, a shopping
+     mall, and the city dump.
+  </text>
+  <rel              >bounded</rel>
+  <arg n="1"        >*trace* -> John's property</arg>
+  <arg n="0" f="by">the freeway, a shopping mall, and the city dump</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

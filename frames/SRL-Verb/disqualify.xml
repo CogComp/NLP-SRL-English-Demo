@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disqualify">
+<note>
+  Frames file for 'disqualify'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="disqualify.01" name="to declare unqualified"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity disqualified"/>
+  <role n="2"  descr="entity disqualified from"/>
+</roles>
+
+
+
+<example name="all arguments">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ But because the University of California , like many other universities , shares its royalties with researchers , it may disqualify itself from federal funds under the proposed guidelines , Mr. Daly says [0] [*T*-1] .
+</text>
+	<arg n="M" f="PRP">because the University of California , like many other universities , shares its royalties with researchers</arg>
+	<arg n="0">it</arg>
+	<arg n="M" f="MOD">may</arg>
+	<rel>disqualify</rel>
+	<arg n="1">itself</arg>
+	<arg n="2" f="from">federal funds</arg>
+	<arg n="M" f="LOC">under the proposed guidelines</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

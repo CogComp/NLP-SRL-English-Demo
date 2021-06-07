@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="condition">
+<note>
+  Frames file for 'condition' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+
+<roleset id="condition.01" name="to make dependent on a condition"  vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity made dependent"/>
+  <role n="2"  descr="dependent on"/>
+</roles>
+
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ `` If there is any support for [*] reducing the bill , it is conditioned [*-1] on their desire [*] to see them passed [*-2] in another form . ''
+</text>
+	<arg n="M" f="ADV">If there is any support for [*] reducing the bill</arg>
+	<rel>conditioned</rel>
+	<arg n="1">[*-1] ->  it</arg>
+	<arg n="2" f="on">their desire [*] to see them passed [*-2] in another form</arg>
+</example>
+
+</roleset>
+
+<roleset id="condition.02" name="to accustom, to adapt"  vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity adapted"/>
+  <role n="2"  descr="adapted to"/>
+</roles>
+
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ So two weeks ago , thousands of Brooks Brothers charge customers -- customers conditioned [*] [*-1] to wait for twice-yearly clearance sales -- got a surprise : an invitation [*] to come in and buy any one item for 25 % off .
+</text>
+	<rel>conditioned</rel>
+	<arg n="1">[*] ->  customers</arg>
+	<arg n="2">[*-1] to wait for twice-yearly clearance sales</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

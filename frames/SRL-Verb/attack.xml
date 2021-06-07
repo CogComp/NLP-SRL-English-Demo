@@ -1,0 +1,78 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="attack">
+<note>
+  Frames file for 'attack' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="attack.01" name="to make an attack, criticize strongly" vncls="-">
+<roles>
+  <role n="0"  descr="attacker"/>
+  <role n="1"  descr="entity attacked"/>
+  <role n="2"  descr="attribute"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ `` Now , '' says [*T*-1] Joseph Napolitan , a pioneer in political television , `` the idea is [*] to attack first , last and always . ''
+</text>
+	<arg n="0">[*]</arg>
+	<rel>attack</rel>
+	<arg n="M" f="TMP">first , last and always</arg>
+</example>
+
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+ Mr. Baldwin is also attacking the greater problem : lack of ringers .
+</text>
+	<arg n="0">Mr. Baldwin</arg>
+	<arg n="M" f="DIS">also</arg>
+	<rel>attacking</rel>
+	<arg n="1">the greater problem : lack of ringers</arg>
+</example>
+
+
+
+<example name="with purpose">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+ And they continue [*-1] anonymously attacking CIA Director William Webster for [*-2] being too accommodating to the committee .
+</text>
+	<arg n="0">[*-1] ->  they</arg>
+	<arg n="M" f="MNR">anonymously</arg>
+	<rel>attacking</rel>
+	<arg n="1">CIA Director William Webster</arg>
+	<arg n="M" f="PRP">for [*-2] being too accommodating to the committee</arg>
+</example>
+
+
+<example name="with Arg2">
+<inflection person="ns" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+ Over the past nine months , several firms , including discount broker Charles Schwab &amp; Co. and Sears , Roebuck &amp; Co. 's Dean Witter Reynolds Inc. unit , have attacked program trading as a major market evil .
+</text>
+	<arg n="M" f="TMP">Over the past nine months</arg>
+	<arg n="0">several firms , including discount broker Charles Schwab &amp; Co. and Sears , Roebuck &amp; Co. 's Dean Witter Reynolds Inc. unit ,</arg>
+	<rel>attacked</rel>
+	<arg n="1">program trading</arg>
+	<arg n="2" f="as">a major market evil</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

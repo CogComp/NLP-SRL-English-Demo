@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="access">
+<note>
+  Frames file for 'access' based on sentences in wsj.  No Verbnet
+  entry.
+</note>
+
+<roleset id="access.01" vncls="-" name="access">
+<roles>
+  <role n="0"  descr="accessor"/>
+  <role n="1"  descr="thing accessed"/>
+</roles>
+
+<example name="do they really need to explain this?">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Disk drives, which allow a computer to access its memory,
+    generated 38% more revenue in the most recent period compared with
+    the fiscal first quarter a year earlier. 
+</text>
+        <arg n="0">a computer</arg>
+        <rel>access</rel>
+        <arg n="1">its memory</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

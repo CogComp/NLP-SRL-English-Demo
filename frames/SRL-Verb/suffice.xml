@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="suffice">
+<note>
+  Frames file for 'suffice' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="suffice.01" vncls="-" name="be sufficient">
+<roles>
+  <role n=""  descr=""/>
+</roles>
+
+<example name="clearest syntax">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+     But that won't suffice. 
+</text>
+        <arg n="M" f="DIS">But</arg>
+        <arg n="0">that</arg>
+        <arg n="M" f="MOD">wo</arg>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>suffice</rel>
+</example>
+
+<example name="raised subordinate subject">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    But there was little selling pressure, and even small orders at
+    the lower levels sufficed [*-1] to bring the market back to
+    Friday's opening levels. 
+</text>
+        <arg n="0">[ even small orders at the lower levels] [ [*-1] to
+        bring the market back to Friday's opening levels]</arg> 
+        <rel>sufficed</rel>
+</example>
+
+<example name="it-cleft and something else">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    [*] Suffice it [*] to say that if this were a New York
+    Yankees-Mets series, or one between the Chicago Cubs and White Sox
+    (hey, it's possible), you'd need uniformed police in every other
+    seat to separate opposing fans, and only the suicidal would
+    bifurcate their bonnets. 
+</text>
+        <rel>Suffice</rel>
+        <arg n="0">[*] to say that if this were a New York
+        Yankees-Mets series, or one between the Chicago Cubs and White
+        Sox (hey, it's possible), you'd need uniformed police in every
+        other seat to separate opposing fans, and only the suicidal
+        would bifurcate their bonnets</arg> 
+</example>
+
+<note>
+The last sentence is actually "To say....bonnets suffices."  There's
+an it-cleft to move the heavy phrase rightwards, then a stylistic
+right dislocation of the it itself!  Coolness.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

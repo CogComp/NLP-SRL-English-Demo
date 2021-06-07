@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="contradict">
+<note>
+  Frames file for 'contradict' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="contradict.01" name="to deny, negate, or oppose"
+vncls="-">
+<roles>
+  <role n="0"  descr="entity contradicting"/>
+  <role n="1"  descr="entity denied or opposed to"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ It would contradict that objective if the appropriations clause ( technically a limitation on legislative power ) could be read [*-52] as [*-52] placing the president on Congress 's short leash , [*-52] making the executive consist of the president and every member of Congress .
+</text>
+	<arg n="0">It</arg>
+	<arg n="M" f="MOD">would</arg>
+	<rel>contradict</rel>
+	<arg n="1">that objective</arg>
+	<arg n="M" f="ADV">if the appropriations clause ( technically a limitation on legislative power ) could be read [*-52] as [*-52] placing the president on Congress 's short leash , [*-52] making the executive consist of the president and every member of Congress</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

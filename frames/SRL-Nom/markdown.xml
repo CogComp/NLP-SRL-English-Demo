@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="markdown">
+<roleset id="markdown.01" name="nomlike" source="verb-decrease.01" vncls="45.4">
+<roles>
+
+<role descr="causer of decline, agent" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing decreasing" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="amount decreased by, ext or mnr" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Columbia 's huge third-quarter markdown of its junk portfolio to
+$ 4.4 billion
+</text>
+<arg n="0">Columbia 's</arg>
+<arg n="2">huge</arg>
+<arg f="TMP" n="M">third-quarter</arg>
+<rel>markdown</rel>
+<arg n="1">of its junk portfolio</arg>
+</example>
+
+<example name="autogen2">
+<text>
+more junk markdowns
+</text>
+<arg n="1">junk</arg>
+<rel>markdowns</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

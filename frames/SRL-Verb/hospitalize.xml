@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="hospitalize">
+<note>
+  Frames file for 'hospitalize' based on sentences in financial
+  subcorpus.  No Verbnet entry.  No comparison.
+</note>
+
+<roleset id="hospitalize.01" name="be in or send to (the) hospital">
+<roles>
+  <role n="0"  descr="sender"/>
+  <role n="1"  descr="injured/ill entity"/>
+</roles>
+
+<example name="passivized">
+<text>
+    Mr. Mingo was hospitalized *trace* Sept. 23 and died Monday,
+    according to Samuel J. Chisholm, the agency's president and chief
+    operating officer. 
+</text>
+        <rel>hospitalized</rel>
+        <arg n="1">*trace* ->  Mr. Mingo</arg>
+        <arg n="M" f="TMP">Sept. 23</arg>
+</example>
+
+<note>
+This is clearly an agentive verb because of the way it appears in the
+passive in sentences such as this.  But I'll bet money that an agent
+never appears.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

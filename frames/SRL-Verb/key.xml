@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="key">
+<note>
+  Frames file for 'key' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="key.01" name="to adjust, adapt" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity adjusted"/>
+  <role n="2"  descr="entity adjusted to"/>
+</roles>
+
+<example name="all arguments">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Details of the plan , which [*T*-2] would go into effect in 1993 , are sketchy , but each player would apparently be paid [*-1] a base salary keyed [*] to his position and ability .
+</text>
+	<rel>keyed</rel>
+	<arg n="1">[*] ->  a base salary</arg>
+	<arg n="2" f="to">his position and ability</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

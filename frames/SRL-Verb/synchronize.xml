@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="synchronize">
+<note>
+  Frames file for 'synchronize' based on sentences in wsj.  No Verbnet
+  entry. 
+</note>
+
+<roleset id="synchronize.01" vncls="-" name="make coincide in time">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="first thing synchronized"/>
+  <role n="2"  descr="second thing, if separate"/>
+</roles>
+
+<example name="passive, separate args ">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    In the Bell Labs experiments, an MRI-type of machine, synchronized
+    *trace* with the heartbeat via an electrocardiogram, rapidly
+    flashes a magnetic field on and off as blood passes a certain
+    point in a vessel. 
+</text>
+        <rel>synchronized</rel>
+        <arg n="1">*trace* ->  an MRI-type of machine</arg>
+        <arg n="2" f="with">the heartbeat</arg>
+        <arg n="M" f="MNR">via an electrocardiogram</arg>
+</example>
+
+
+<example name="active, merged args">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    The need for hurried last-minute telephone negotiations among
+    market officials will disappear once rules are in place that
+    *trace* synchronize circuit breakers in all markets. 
+</text>
+        <arg n="0">*trace* ->  that ->  rules </arg>
+        <rel>synchronize</rel>
+        <arg n="1">circuit breakers</arg>
+        <arg n="M" f="LOC">in all markets</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

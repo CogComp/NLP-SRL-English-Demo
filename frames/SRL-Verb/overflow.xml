@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="overflow">
+<note>
+  Frames file for 'overflow' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="overflow.01" vncls="-" name="be too full">
+<roles>
+  <role n="1"  descr="container"/>
+  <role n="2"  descr="substance"/>
+</roles>
+
+<example name="container as subject">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+    With newspapers being the largest single component of solid waste
+    in our landfills, and with our country overflowing with trash, all
+    sectors of our society and all types of businesses must become
+    more responsible in our use and disposal of precious natural
+    resources. 
+</text>
+        <arg n="1">our country</arg>
+        <rel>overflowing</rel>
+        <arg n="2" f="with">trash</arg>
+</example>
+
+<example name="substance as subject">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Coffee overflowed John's mug.
+  </text>
+  <arg n="2"        >Coffee</arg>
+  <rel              >overflowed</rel>
+  <arg n="1"        >John's mug</arg>
+</example>
+
+<note>
+Sounds better on a larger scale: "The floodwaters overflowed the
+river."  Even then doesn't sound great, but I know I've encountered
+this construction before.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

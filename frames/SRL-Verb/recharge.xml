@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="recharge">
+<note>
+  Frames file for 'recharge'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="recharge.01" name="to charge again"
+vncls="-">
+<roles> 
+ <role n="0"  descr="agent"/>
+ <role n="1"  descr="entity recharged"/>
+ <role n="2"  descr="battery"/>    
+</roles>
+
+<example name="non-agentive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="gerund"/>
+<text>
+ The vehicle has a top speed of 65 miles an hour and requires [*-1] recharging from a standard wall socket every 100 miles .
+</text>
+	<arg n="1">[*-1] ->  The vehicle</arg>
+	<rel>recharging</rel>
+	<arg n="2" f="from">a standard wall socket</arg>
+	<arg n="M" f="TMP">every 100 miles</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

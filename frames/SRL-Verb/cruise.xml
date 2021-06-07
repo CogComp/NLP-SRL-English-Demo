@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="cruise">
+<note>
+  Frames file for 'cruise' based on sentences in wsj.  Verbnet entry
+  51.4.2, Framenet entry Transportation.
+</note>
+
+<roleset id="cruise.01" vncls="51.4.2" name="travel at leisure">
+<roles>
+  <role n="0"  descr="traveller"/>
+</roles>
+
+<example name="cruisin' for a bruisin'">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+     We cruise toward another set of pilings .
+</text>
+        <arg n="0">We</arg>
+        <rel>cruise</rel>
+        <arg n="M" f="DIR">toward another set of pilings</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="cruise.02" vncls="-" name="look for a sexual partner in a
+  public place">
+<roles>
+  <role n="0"  descr="seeker"/>
+  <role n="1"  descr="public place"/>
+</roles>
+
+<example name="didn't expect this usage in wsj">
+<inflection person="ns" tense="past" aspect="both" voice="ns" form="participle"/>
+<text>
+    The judge was quoted as referring to the victims as ``queers'' and
+    saying they wouldn't have been killed  ``if they hadn't been
+    cruising the streets picking up teenage boys.'' 
+</text>
+        <arg n="0">they</arg>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>cruising</rel>
+        <arg n="1">the streets</arg>
+        <arg n="M" f="ADV">picking up teenage boys</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

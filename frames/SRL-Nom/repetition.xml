@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="repetition">
+<roleset id="repetition.01" name="nomlike" source="verb-recur.01">
+<roles>
+
+<role descr="event" n="1" source="0"></role>
+
+<role descr="value" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a repetition of 1929
+</text>
+<rel>repetition</rel>
+<arg n="1">of 1929</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

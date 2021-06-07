@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="meander">
+<note>
+  Frames file for 'meander' based on sentences in wsj.  Verbnet entries
+  51.3.2 and 47.7, Framenet entry Path shape and Self motion.
+</note>
+
+<roleset id="meander.01" vncls="51.3.2 47.7" name="move randomly">
+<roles>
+  <role n="0"  descr="entity in motion"/>
+  <role n="1"  descr="path"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    Mr. Schuman's ``Violin Concerto,'' which sounds more like a mildly
+    atonal rhapsody for solo violin with orchestral accompaniment,
+    meanders until the propulsive ``Agitato, fervente.'' 
+</text>
+        <arg n="0">Mr. Schuman's ``Violin Concerto,'' which sounds
+        more like a mildly atonal rhapsody for solo violin with
+        orchestral accompaniment,</arg> 
+        <rel>meanders</rel>
+        <arg n="M" f="TMP">until the propulsive ``Agitato, fervente</arg>
+</example>
+
+<example name="with path, sorta">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    After death, John meandered through Hell for several weeks,
+    figuring anything was better than living with Mary.
+  </text>
+  <arg n="m" f="TMP">After death</arg>
+  <arg n="0"        >John</arg>
+  <rel              >meandered</rel>
+  <arg n="1" f="through">Hell</arg>
+  <arg n="m" f="TMP">for several weeks</arg>
+  <arg n="m"        >figuring anything was better than living with Mary</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

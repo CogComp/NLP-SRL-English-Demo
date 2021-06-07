@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="ration">
+<note>
+  Frames file for 'ration' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="ration.01" vncls="-" name="measure carefully">
+<roles>
+  <role n="0"  descr="rationer"/>
+  <role n="1"  descr="thing rationed"/>
+  <role n="2"  descr="measurement"/>
+</roles>
+
+<example name="tricky reading">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    ``You Gotta Have Wa'' is the often amusing chronicle of how
+    American ballplayers, rationed *trace* to two per team, fare in
+    Japan. 
+</text>
+        <rel>rationed</rel>
+        <arg n="1">*trace* ->  American ballplayers</arg>
+        <arg n="2" f="to">two per team</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="ration_out">
+
+<roleset id="ration.02" vncls="-" name="measure out carefully, with particle">
+<roles>
+  <role n="0"  descr="rationer"/>
+  <role n="1"  descr="thing rationed"/>
+  <role n="2"  descr="recipient"/>
+</roles>
+
+<example name="I can say this, at least">
+  <inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary rations out her affections to John like a mother doling out
+    cookies. 
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >rations out</rel>
+  <arg n="1"        >her affections</arg>
+  <arg n="2" f="to">John</arg>
+  <arg n="m" f="MNR">like a mother doling out cookies</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

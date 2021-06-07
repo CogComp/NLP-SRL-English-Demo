@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reassignment">
+<roleset id="reassignment.01" name="give, associate with again" source="verb-reassign.01" vncls="13.3">
+<roles>
+
+<role descr="agent, assigner" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="thing assigned" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="assigned to" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the latest shutdowns and product reassignments
+</text>
+<arg n="1">product</arg>
+<rel>reassignments</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,100 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="spell">
+<note>
+  Frames file for 'spell' based on sentences in financial subcorpus.
+  No Verbnet entry, no Framenet entry.  Comparison to 'mean'.
+</note>
+
+<roleset id="spell.01" vncls="-" name="sequence of letters">
+<roles>
+  <role n="0"  descr="speller"/>
+  <role n="1"  descr="word"/>
+  <role n="2"  descr="spelling"/>
+</roles>
+
+<example name="spelling bee">
+  <inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+  <text>
+    John spells his name "S-D-F-L-K-G-H-L-K-H-J"
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >spells</rel>
+  <arg n="1"        >his name</arg>
+  <arg n="2"        >"S-D-F-L-K-G-H-L-K-H-J"</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="spell.02" vncls="-" name="mean">
+<roles>
+  <role n="0"  descr="theme"/>
+  <role n="1"  descr="explanation"/>
+</roles>
+
+<example name="intact arg1">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    The withdrawals could spell trouble for the $200 billion junk
+    market. 
+</text>
+        <arg n="0">The withdrawals</arg>
+        <arg n="M" f="MOD">could</arg>
+        <rel>spell</rel>
+        <arg n="1">trouble for the $200 billion  junk market</arg>
+</example>
+
+<example name="split arg1">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    Compaq's announcement also spells trouble for Zenith, which last
+    year had 28% of the U.S. laptop market... 
+</text>
+        <arg n="0">Compaq's announcement</arg>
+        <arg n="M" f="DIS">also</arg>
+        <rel>spells</rel>
+        <arg n="1">trouble</arg>
+        <arg n="M">for Zenith, which last year had 28% of the
+        U.S. laptop market</arg>
+</example>
+
+<note>
+Treebank is inconsistent about the placement of the "for" clause.
+Please always include it in the arg1.
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="spell_out">
+
+<roleset id="spell.03" vncls="-" name="explain in detail">
+<roles>
+  <role n="0"  descr="thing explaining"/>
+  <role n="1"  descr="thing explained"/>
+</roles>
+
+<example name="in tedious detail">
+  <inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+  <text>
+    The 1988 tax act created a federal bill of rights spelling out IRS
+    duties to protect taxpayers' rights in the assessment and
+    collection of taxes.
+  </text>
+  <arg n="0"        >a federal bill of rights</arg>
+  <rel              >spelling out</rel>
+  <arg n="1"        >IRS
+    duties to protect taxpayers' rights in the assessment and
+    collection of taxes</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

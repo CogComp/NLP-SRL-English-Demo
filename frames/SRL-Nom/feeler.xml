@@ -1,0 +1,22 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="feeler">
+<roleset id="feeler.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Smith 's traders started putting out feelers
+</text>
+<arg n="1">Mr. Smith 's traders ---> *-1</arg>
+<arg n="Support">putting</arg>
+<rel>feelers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

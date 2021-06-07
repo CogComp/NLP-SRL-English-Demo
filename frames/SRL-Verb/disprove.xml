@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="disprove">
+<note>
+  Frames file for 'disprove' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="disprove.01" vncls="-" name="show to be false">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="false thing"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+     And it would shift the burden to prosecutors *trace* to disprove
+     that discrimination caused any statistical racial disparities. 
+</text>
+        <arg n="0">*trace* ->  prosecutors</arg>
+        <rel>disprove</rel>
+        <arg n="1">discrimination caused any statistical racial
+        disparities</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

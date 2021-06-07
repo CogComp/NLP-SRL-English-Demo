@@ -1,0 +1,430 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<note>
+  Frames file for 'get' based on initial sentences of big corpus
+  and comparison with 'buy', 'gain' and 'take'
+</note>
+
+<predicate lemma="get">
+<roleset id="get.01"  name="transfer of goods, acquire">
+<roles>
+  <role n="0"   descr="receiver"/>
+  <role n="1"   descr="thing gotten"/>
+  <role n="2"   descr="giver"/>
+  <role n="3"   descr="price paid, in-exchange-for"/>
+  <role n="4"   descr="benefactive"/>
+</roles>
+
+<example name="simple transitive">
+  <text>
+    Could I get a one-way ticket from Milwaukee to Orlando?
+  </text>
+  <arg n="0">I</arg>
+  <rel      >get</rel>
+  <arg n="1">a one-way ticket from Milwaukee to Orlando</arg>
+</example>
+
+<example name="with price">
+  <text>
+    They get something equally good for less.
+  </text>
+  <arg n="0"        >They</arg>
+  <rel              >get </rel>
+  <arg n="1"        >something equally good</arg>
+  <arg n="3" f="for">less</arg>
+</example>
+
+<example name="with source">
+  <text>
+    The march got its support from self-serving groups.
+  </text>
+  <arg n="0"         >the march</arg>
+  <rel               >got</rel>
+  <arg n="1"         >its support</arg>
+  <arg n="2" f="from">self-serving groups</arg>
+</example>
+
+<example name="with benefactive">
+  <text>
+    John got some flowers for his mother.
+  </text>
+  <arg n="0"         >John</arg>
+  <rel               >got</rel>
+  <arg n="1"         >some flowers</arg>
+  <arg n="4" f="for" >his mother</arg>
+</example>
+
+<example name="price as subject">
+  <text>
+    $15  gets you a lot of daisies.
+  </text>
+  <arg n="3" >$15</arg>
+  <rel       >gets</rel>
+  <arg n="0" >you</arg>
+  <arg n="1" >a lot of daisies</arg>
+</example>
+
+<note>
+Sometimes necessary to delve into the syntax to separate args.
+</note>
+</roleset>
+
+<roleset id="get.02" name="have, possess">
+<roles>
+  <role n="0"  descr="haver, possessor"/>
+  <role n="1"  descr="thing had, possessed"/>
+</roles>
+
+<example name="always with have auxiliary?">
+  <text>
+  You've got two champions sitting right before you.
+  </text>
+  <arg n="0"        >You</arg>
+  <rel              >got</rel>
+  <arg n="1"        >two champions sitting right before you</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="get.03" name="become">
+<roles>
+  <role n="1"         descr="thing"/>
+  <role n="2" f="PRD" descr="attribute"/>
+</roles>
+
+<example name="basic becoming">
+  <text>
+    That got hard to take.
+  </text>
+  <arg n="1"        >That</arg>
+  <rel              >got</rel>
+  <arg n="2" f="PRD">hard to take</arg>
+</example>
+
+<example name="with adverbial">
+  <text>
+    The television commerical really gets down to business.
+  </text>
+  <arg n="1"        >The television commercial</arg>
+  <arg n="M" f="ADV">really</arg>
+  <rel              >gets</rel>
+  <arg n="2" f="PRD">down to business</arg>
+</example>
+
+<example name="it support">
+  <text>
+  It's getting harder *trace* to sell.
+  </text>
+  <rel              >getting</rel>
+  <arg n="2" f="PRD">harder</arg>
+  <arg n="1"        >*trace* to sell</arg>
+</example>
+
+<note>
+We're not trying to sell "it"; the deep syntax is "*trace to sell is
+becoming/getting harder (than it used to be)".
+</note>
+
+</roleset>
+<roleset id="get.04" name="become variant">
+<roles>
+  <role n="0"   descr="conveyor of meaning, instigator"/>
+  <role n="1"   descr="thing"/>
+  <role n="2"   descr="attribute"/>
+</roles>
+
+<example name="get across">
+  <text>
+    Wilder has gotten across the idea that Coleman will say anything.
+  </text>
+  <arg n="0"        >Wilder</arg>
+  <rel              >has gotten</rel>
+  <arg n="2" f="PRD">across</arg>
+  <arg n="1"        >the idea that Coleman will say anything</arg>
+</example>
+
+<example name="become with agent">
+  <text>
+    They got us thinking, "maybe we could be doing PAS tagging!"
+  </text>
+  <arg n="0"        >They</arg>
+  <rel              >got</rel>
+  <arg n="1"        >us</arg>
+  <arg n="2" f="PRD">thinking, "maybe we could be doing PAS tagging!"</arg>
+</example>
+
+<note>
+More widely, any sense of "cause" as in the following:
+</note>
+
+<example name="cause">
+  <text>
+  They get big studios to bankroll and distribute the films.
+  </text>
+  <arg n="0"        >They</arg>
+  <rel              >get</rel>
+  <arg n="1"        >big studios</arg>
+  <arg n="2" f="PRD">to bankroll and distribute the films</arg>
+</example>
+
+</roleset>
+
+<roleset id="get.05" name="move">
+<roles>
+  <role n="0"  descr="causer of motion"/>
+  <role n="1"  descr="thing in motion"/>
+  <role n="2"  descr="destination"/>
+</roles>
+
+<example name="metaphorical motion">
+  <text>
+  Financing problems caused a nine-month delay in *trace* getting the
+  product to market.
+  </text>
+  <arg n="0"        >*trace*</arg>
+  <rel              >getting</rel>
+  <arg n="1"        >the product</arg>
+  <arg n="2" f="to">market</arg>
+</example>
+<note>
+"Get to the point", etc, will be an even-more metaphorical motion.
+</note>
+
+</roleset>
+
+<roleset id="get.06" name="must">
+<roles>
+  <role n="0"   descr="Subject"/>
+  <role n="1"   descr="Complement"/>
+</roles>
+
+<example name="get as must">
+  <text>
+    We've got to take a serious look at how we're doing our jobs.
+  </text>
+  <arg n="0">We</arg>
+  <rel      >got</rel>
+  <arg n="1">to take a serious look at how we're doing our jobs</arg>
+</example>
+</roleset>
+</predicate>
+
+<predicate lemma="get_out">
+
+<roleset id="get.07" name="produce">
+<roles>
+  <role n="0" descr="creator"/>
+  <role n="1" descr="creation"/>
+  <role n="2" descr="created-from, thing changed"/>
+  <role n="3"  descr="benefactive"/>
+</roles>
+
+<example name="become?">
+  <text>
+  The company is certain *trace* to get out some aircraft with just
+  supervisors and other non-striking employees on hand.
+  </text>
+  <arg n="0"        >*trace*=The company</arg>
+  <rel              >get out</rel>
+  <arg n="1"        >some aircraft</arg>
+  <arg n="m" f="MNR">with just
+  supervisors and other non-striking employees on hand.</arg>
+</example>
+
+<note>
+Could be regarded as non-phrasal "become" sense, but putting the
+attribute as "out" is a little weird.  But some sentences do have
+"out" as a clear predicate: "I'm getting out (of the market)".
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="get_away">
+
+<roleset id="get.08" name="manage to">
+<roles>
+  <role n="0"  descr="entity attempting some deed"/>
+  <role n="1"  descr="the deed"/>
+</roles>
+
+<example name="manage">
+  <text>
+  Buyers may not get away with some of the things they've done in the
+  past.
+  </text>
+  <arg n="0"        >Buyers</arg>
+  <arg n="m" f="MOD">may</arg>
+  <arg n="m" f="NEG">not</arg>
+  <rel              >get away</rel>
+  <arg n="1" f="with">some of the things they've done in the
+  past.</arg>
+</example>
+
+<note>
+Always "get away with"?
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="get_back">
+
+<roleset id="get.09" name="recover">
+<roles>
+  <role n="0"  descr="recoverer"/>
+  <role n="1"  descr="thing regained"/>
+  <role n="2"  descr="who had it before"/>
+</roles>
+
+<example name="no 'source'">
+  <text>
+  John wants *trace* to get his money back.
+  </text>
+  <arg n="0"        >*trace*=John</arg>
+  <rel              >get back</rel>
+  <arg n="1"        >his money</arg>
+</example>
+
+<note>
+PReditor apparently doesn't recognize this as phrasal
+</note>
+
+</roleset>
+
+<roleset id="get.10" name="return">
+<roles>
+  <role n="1"  descr="thing"/>
+  <role n="2"  descr="attribute"/>
+</roles>
+
+<example name="back to normal">
+  <text>
+  UAL trading would get back to normal.
+  </text>
+  <arg n="1"        >UAL trading</arg>
+  <arg n="m" f="MOD">would</arg>
+  <rel              >get back</rel>
+  <arg n="2" f="to">normal</arg>
+</example>
+
+<note>
+Equivalent to "to" variant of "become variant" above, possibly also
+other usages of "become variant" or even "become" rolesets.
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="get_off">
+
+<roleset id="get.11" name="begin">
+<roles>
+  <role n="1"  descr="thing beginning"/>
+  <role n="2"  descr="manner?"/>
+</roles>
+
+<example name="almost idiomatic">
+  <text>
+  A new $46 million steel rod minimill got off to a rocky start in
+  early 1988.
+  </text>
+  <arg n="1"        >A new $46 million steel rod minimill</arg>
+  <rel              >got off</rel>
+  <arg n="2" f="to">a rocky start</arg>
+  <arg n="m" f="TMP">in early 1988.</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="get_through">
+
+<roleset id="get.12" name="reach, connect with">
+<roles>
+  <role n="0"  descr="entity trying to get through"/>
+  <role n="1"  descr="entity trying to be contacted"/>
+  <role n="m" f="MNR" descr="medium"/>
+</roles>
+
+<example name="London calling">
+  <text>
+  Two years ago there was trouble with people getting through on the
+  phone.
+  </text>
+  <arg n="0"        >people</arg>
+  <rel              >getting through</rel>
+  <arg n="m" f="MNR">on the phone.</arg>
+</example>
+
+<example name="with Arg1">
+  <text>
+  John couldn't get through to Mary.
+  </text>
+  <arg n="0"        >John</arg>
+  <arg n="m" f="MOD">could</arg>
+  <arg n="m" f="NEG">n't</arg>
+  <rel              >get through</rel>
+  <arg n="1" f="to">Mary</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="get.13" name="persevere">
+<roles>
+  <role n="0"  descr="perseverer"/>
+  <role n="1"  descr="troubles"/>
+</roles>
+
+<example name="nobody knows...">
+  <text>
+  With nothing but a good attitude, John got through the worst the
+  University had to offer.
+  </text>
+  <arg n="m" f="MNR">With nothing but a good attitude</arg>
+  <arg n="0"        >John</arg>
+  <rel              >got through</rel>
+  <arg n="1"        >the worst the
+  University had to offer.</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="get_together">
+
+<roleset id="get.14" name="meet">
+<roles>
+  <role n="0"  descr="one party"/>
+  <role n="1"  descr="the other"/>
+</roles>
+
+<example name="meet">
+  <text>
+  Mr. Guber got together with Mr. Peters.
+  </text>
+  <arg n="0"        >Mr. Guber</arg>
+  <rel              >got together</rel>
+  <arg n="1" f="with">Mr. Peters</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

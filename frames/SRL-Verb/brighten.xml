@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="brighten">
+<note>
+  Frames file for 'brighten' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="brighten.01" name="to make or become brighter"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity brightened"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ In 1979 , Hearst hired editor James Bellows , who [*T*-48] brightened the editorial product considerably .
+</text>
+	<arg n="0">[*T*-48] ->  who ->  editor James Bellows</arg>
+	<rel>brightened</rel>
+	<arg n="1">the editorial product</arg>
+	<arg n="M" f="MNR">considerably</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

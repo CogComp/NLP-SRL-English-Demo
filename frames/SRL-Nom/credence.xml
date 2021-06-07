@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="credence">
+<roleset id="credence.01" name="attribute/nomadj-credible">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The rally gave credence , at least for now , to the pre-trading
+declaration of Big Board Chairman John J. Phelan Jr. that Friday
+'s market debacle was `` an abnormal condition , and not a
+disaster . ''
+</text>
+<arg n="Support">gave</arg>
+<arg f="REF" n="2">credence</arg>
+<rel>credence</rel>
+<arg n="1">
+to the pre-trading declaration of Big Board Chairman John J.
+Phelan Jr. that Friday 's market debacle was `` an abnormal
+condition , and not a disaster</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

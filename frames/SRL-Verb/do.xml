@@ -1,0 +1,82 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="do">
+<note>
+based on survey of initial sentences of big corpus
+</note>
+
+<roleset id="do.01" name="auxiliary">
+  <roles></roles>
+<note>DO NOT TAG</note>
+  <example>
+  <text>
+    What flights do you have from Milwaukee to Tampa?
+  </text>
+</example>
+
+<example>
+  <text>
+    The US is one of the few industrialized nations that doesn't have a high
+    standard of regulation for asbestos.
+  </text>
+</example>
+</roleset>
+
+<roleset id="do.02" vncls="-" name="act">
+<roles>
+  <role n="0"  descr="agent, doer"/>
+  <role n="1"  descr="thing done"/>
+  <role n="2"  descr="benefactive, done for or about"/>
+  <role n="3"  descr="instrumental"/>
+  <role n="4"  descr="comitative, companion while doing"/>
+</roles>
+
+<example>
+  <text>
+    In this department we are doing fine this fall.
+  </text>
+  <arg n="m" f="loc">In this department</arg>
+  <arg n="0">we </arg>
+  <rel>doing</rel>
+  <arg n="m" f="mnr">fine</arg>
+  <arg n="m" f="tmp">this fall</arg>
+</example>
+
+<example>
+  <text>
+    Seymour Cray can do it again.
+  </text>
+  <arg n="0">Seymour Cray</arg>
+  <arg n="m" f="mod">can</arg>
+  <rel>do</rel>
+  <arg n="1">it</arg>
+  <arg n="m" f="tmp">again</arg>
+</example>
+
+<example name="with benefactive">
+  <text>
+  Congress will do stupid things with the Tax Code.
+  </text>
+  <arg n="0"        >Congress</arg>
+  <arg n="m" f="MOD">will</arg>
+  <rel              >do</rel>
+  <arg n="1"        >stupid things</arg>
+  <arg n="2" f="with">the Tax Code</arg>
+</example>
+
+<example name="with instrument">
+  <text>
+  Anyone buying the stock now must do so *trace* using some guesswork.
+  </text>
+  <arg n="0"        >Anyone buying the stock now</arg>
+  <arg n="m" f="MOD">must</arg>
+  <rel              >do</rel>
+  <arg n="1"        >so</arg>
+  <arg n="3" f="PRD">*trace* using some guesswork</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

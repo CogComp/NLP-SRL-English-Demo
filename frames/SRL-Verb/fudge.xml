@@ -1,0 +1,70 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="fudge">
+<note>
+  Frames file for 'fudge' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="fudge.01" vncls="-" name="falsify slightly">
+<roles>
+  <role n="0"  descr="fudger"/>
+  <role n="1"  descr="thing fudged (on)"/>
+</roles>
+
+<example name="prepositional arg1">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    So many people fudge on answers about exercise, the president's
+    council now uses specific criteria to determine what is considered
+    vigorous: It must produce contractions of large muscle groups,
+    must achieve 60% of maximum aerobic capacity and must be done
+    three or more times a week for a minimum of 20 minutes. 
+</text>
+        <arg n="0">So many people </arg>
+        <rel>fudge</rel>
+        <arg n="1" f="on">answers about exercise</arg>
+</example>
+
+<example name="arg1 as DO">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     John only fudged a little of the data in his dissertation.
+  </text>
+  <arg n="0"        >John</arg>
+  <arg n="m" f="ADV">only</arg>
+  <rel              >fudged</rel>
+  <arg n="1"        >a little of the data in his dissertation</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="fudge_over">
+
+<roleset id="fudge.02" vncls="-" name="conceal by fudging">
+<roles>
+  <role n="0"  descr="concealer, agent"/>
+  <role n="1"  descr="thing concealed"/>
+</roles>
+
+<example name="wierd usage">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    That would give agencies ``less ability ... *trace* to fudge over
+    things,'' he told reporters. 
+</text>
+        <arg n="0">*trace* ->  agencies</arg>
+        <rel>[ fudge] [ over]</rel>
+        <arg n="1">things</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

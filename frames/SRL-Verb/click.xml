@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="click">
+<note>
+  Frames file for 'click' based on sentences in wsj.  Verbnet entry
+  40.3.2, Framenet entries Motion noise and Perception noise.
+</note>
+
+<roleset id="click.01" vncls="40.3.2" name="(cause to) emit clicking sound">
+<roles>
+  <role n="0"  descr="causer of clicking noise"/>
+  <role n="1"  descr="thing emitting clicks"/>
+</roles>
+
+<example name="both args">
+<inflection person="ns" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    Several times, Chinese guards have pointed their automatic rifles
+    at young children of U.S. diplomats and clicked the trigger. 
+</text>
+        <arg n="M" f="TMP">Several times</arg>
+        <arg n="0">Chinese guards</arg>
+        <rel>clicked</rel>
+        <arg n="1">the trigger</arg>
+</example>
+
+<example name="ergative">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John's alarm clock clicked loudly on his bedside stand.
+  </text>
+  <arg n="1"        >John's alarm clock</arg>
+  <rel              >clicked</rel>
+  <arg n="m" f="MNR">loudly</arg>
+  <arg n="m" f="LOC">on his bedside stand</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

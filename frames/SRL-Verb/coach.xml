@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="coach">
+<note>
+  Frames file for 'coach' based on sentences in wsj.  Verbnet entry 29.8.
+</note>
+
+<roleset id="coach.01" vncls="29.8" name="lead an athletic team">
+<roles>
+  <role n="0"  descr="leader, coach"/>
+  <role n="1"  descr="team"/>
+  <role n="2"  descr="sport, endeavor, purpose"/>
+</roles>
+
+<example name="all args">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    [*] Coach them in [*] handling complaints so that they can resolve
+    problems immediately. 
+</text>
+        <arg n="0">[*]</arg>
+        <rel>Coach</rel>
+        <arg n="1">them</arg>
+        <arg n="2" f="in">[*] handling complaints</arg>
+        <arg n="M" f="PNC">so that they can resolve problems immediately</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="debunk">
+<note>
+  Frames file for 'debunk' based on sentences in financial subcorpus.
+  No Verbnet entry, no Framenet entry.  No comparison.
+</note>
+
+<roleset id="debunk.01" name="eliminate falsehoods">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="subject of falsehoods"/>
+</roles>
+
+<example name="the only example?">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Perhaps *trace* to debunk the analysts' talk of over-capacity,
+    Michael today will take some of the skeptics on a tour of its new
+    Gaylord, Minn., plant. 
+</text>
+        <arg n="M" f="DIS">Perhaps</arg>
+        <rel>debunk</rel>
+        <arg n="1">the analysts ' talk of over-capacity</arg>
+        <arg n="0">*trace* -> Michael</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

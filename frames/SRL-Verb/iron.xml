@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="iron_out">
+<note>
+  Frames file for 'iron' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="iron.01" name="to work out, resolve"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing ironed out"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Instead , Mr. Bush and his aides made it clear [0] they respected Congress 's role and felt [0] they could work with the conservative Mr. Boren and the moderate Mr. Cohen [*-1] to iron out their differences .
+</text>
+	<arg n="0">[*-1] ->  they</arg>
+	<rel>[ iron] [ out]</rel>
+	<arg n="1">their differences</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

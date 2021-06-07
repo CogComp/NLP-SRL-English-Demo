@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="interrogation">
+<roleset id="interrogation.01" name="question closely" source="verb-interrogate.01">
+<roles>
+
+<role descr="asker" n="0"></role>
+
+<role descr="question or thing in doubt" n="1"></role>
+
+<role descr="entity asked, hearer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to protect rape victims from unfounded interrogation
+</text>
+<arg n="Support">protect from</arg>
+<arg n="2">rape victims</arg>
+<rel>interrogation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,82 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="conceive">
+<note>
+  Frames file for 'conceive' based on sentences in wsj.  No Verbnet
+  entry, Framenet entries Awareness and Invention.
+</note>
+
+<roleset id="conceive.01" vncls="-" name="think of">
+<roles>
+  <role n="0"  descr="conceiver, thinker"/>
+  <role n="1"  descr="thought"/>
+  <role n="2"  descr="attribute"/>
+</roles>
+
+<example name="oddly transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    Market segmentation in cars isn't new, but it's far more extensive
+    than when Alfred P. Sloan Jr. conceived the idea 50 years ago. 
+</text>
+        <arg n="0">Alfred P. Sloan Jr.</arg>
+        <rel>conceived</rel>
+        <arg n="1">the idea</arg>
+        <arg n="M" f="TMP">50 years ago</arg>
+</example>
+
+<example name="more typically prepositional">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+     Try as they might, they just can't conceive of life without black
+     workers.
+</text>
+        <arg n="0">they</arg>
+        <arg n="M" f="DIS">just</arg>
+        <arg n="M" f="MOD">ca</arg>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>conceive</rel>
+        <arg n="1" f="of">life without black workers</arg>
+</example>
+
+<example name="with attribute">
+<inflection person="third" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    The restaurant was conceived *trace* as a sparkling, crystalline
+    ``geode.'' 
+</text>
+        <rel>conceived</rel>
+        <arg n="1">*trace* ->  The restaurant</arg>
+        <arg n="2" f="as">a sparkling, crystalline ``geode</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="conceive.02" vncls="-" name="make babies">
+<roles>
+  <role n="0"  descr="parent(s)"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="gerund"/>
+<text>
+    Some women clearly have no trouble *trace* eventually conceiving
+    again: The studies have reported repeaters in their programs. 
+</text>
+        <arg n="0">*trace* ->  Some women</arg>
+        <arg n="M" f="TMP">eventually</arg>
+        <rel>conceiving</rel>
+        <arg n="M" f="TMP">again</arg>
+</example>
+
+<note>
+This sense could take an object, probably, which would be the baby.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

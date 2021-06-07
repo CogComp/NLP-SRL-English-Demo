@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="affordability">
+<roleset id="affordability.01" name="nom/attribute" source="verb-afford.01">
+<roles>
+
+<role descr="haver of financial means, agent" n="0"></role>
+
+<role descr="costly thing, theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+reduced affordability of homes for first-time buyers
+</text>
+<arg n="2">reduced</arg>
+<rel>affordability</rel>
+<arg n="1">of homes</arg>
+<arg n="0">for first-time buyers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+housing affordability
+</text>
+<arg n="1">housing</arg>
+<rel>affordability</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

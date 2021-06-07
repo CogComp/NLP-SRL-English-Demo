@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="mandate">
+<note>
+  Frames file for 'mandate' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="mandate.01" vncls="-" name="cause by force of law">
+<roles>
+  <role n="0"  descr="causer, law(giving body)"/>
+  <role n="1"  descr="forced action"/>
+</roles>
+
+<example name="wsj likes it only in passive?">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Columbia Savings &amp; Loan Association, reeling from
+    thrift-accounting changes mandated *trace* by Congress and the
+    recent collapse of the junk-bond market, announced a loss for the
+    third quarter of $226.3 million, or $11.57 a share. 
+</text>
+        <rel>mandated</rel>
+        <arg n="1">*trace* ->  thrift-accounting changes</arg>
+        <arg n="0" f="by">Congress</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

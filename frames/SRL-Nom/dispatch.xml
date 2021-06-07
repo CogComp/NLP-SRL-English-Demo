@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dispatch">
+<roleset id="dispatch.01" name="to send" source="verb-dispatch.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient/goal" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+dispatches by several investment firms advising clients to boost
+their stock holdings and reduce the size of their cash or bond
+portfolios
+</text>
+<rel>dispatches</rel>
+<arg n="0">by several investment firms</arg>
+<arg n="Support">advising</arg>
+<arg n="2">clients</arg>
+<arg n="1">
+to boost their stock holdings and reduce the size of their cash
+or bond portfolios</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

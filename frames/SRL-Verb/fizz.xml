@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fizz">
+<note>
+  Frames file for 'fizz' based on sentences in wsj.  Verbnet entries
+  43.2 and 47.2, Framenet entry Motion noise.
+</note>
+
+<roleset id="fizz.01" vncls="43.2 47.2" name="emit bubbles rapidly,
+  make noise while doing so">
+<roles>
+  <role n="0"  descr="fizzy thing"/>
+</roles>
+
+<example name="fizzy pop">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    The little radio fizzes as other boats want to see if we have
+    found any fish -- spotting location is everything in this sport. 
+</text>
+        <arg n="0">The little radio</arg>
+        <rel>fizzes</rel>
+        <arg n="M" f="CAU">as other boats want to see if we have found
+        any fish</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

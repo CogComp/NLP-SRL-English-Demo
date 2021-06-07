@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="finagle">
+<note>
+  Frames file for 'finagle' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="finagle.01" vncls="-" name="work out, arrange, get">
+<roles>
+  <role n="0"  descr="getter"/>
+  <role n="1"  descr="thing got"/>
+  <role n="2"  descr="got from"/>
+</roles>
+
+<example name="all args">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    He already has finagled a $2 billion loan from the Japanese
+    government. 
+</text>
+        <arg n="0">He</arg>
+        <arg n="M" f="TMP">already</arg>
+        <rel>finagled</rel>
+        <arg n="1">a $2 billion loan</arg>
+        <arg n="2" f="from">the Japanese government</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

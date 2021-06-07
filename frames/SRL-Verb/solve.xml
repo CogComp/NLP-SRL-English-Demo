@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="solve">
+<note>
+  Frames file for 'solve' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="solve.01" name="to find a solution to" vncls="-">
+<roles>
+  <role n="0"  descr="solver"/>
+  <role n="1"  descr="the problem"/>
+  <role n="2"  descr="manner/instrument"/>
+</roles>
+
+
+<example name="inanimate agent">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Mr. van Dover added that researchers are trying [*-2] to determine precisely what crystal changes [*T*-1] solved the problem .
+</text>
+	<arg n="0">[*T*-1] ->  what crystal changes</arg>
+	<rel>solved</rel>
+	<arg n="1">the problem</arg>
+</example>
+
+
+<example name="all arguments">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Much the same thing happened with busted S&amp;Ls , a problem [0] Congress just `` solved '' [*T*-1] with a $ 166 billion [*U*] bailout .
+</text>
+	<arg n="0">Congress</arg>
+	<arg n="M" f="TMP">just</arg>
+	<rel>solved</rel>
+	<arg n="1">[*T*-1] ->  [0] ->  a problem</arg>
+	<arg n="2" f="with">a $ 166 billion [*U*] bailout</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

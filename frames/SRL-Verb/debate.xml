@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="debate">
+<note>
+  Frames file for 'debate' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="debate.01" name="to discuss or argue about"
+vncls="36.3">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing discussed"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ The Diet does n't normally even debate bills because the opposition parties are so often [*ICH*-3] opposed to whatever LDP does [*T*-2] that it would be a waste of time .
+</text>
+	<arg n="0">The Diet</arg>
+	<arg n="M" f="NEG">n't</arg>
+	<arg n="M" f="TMP">normally</arg>
+	<rel>debate</rel>
+	<arg n="1">bills</arg>
+	<arg n="M" f="PRP">because the opposition parties are so often [*ICH*-3] opposed to whatever LDP does [*T*-2] that it would be a waste of time</arg>
+</example>
+
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

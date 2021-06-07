@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="penalize">
+<note>
+  Frames file for 'penalize'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="penalize.01" name="to subject to a penalty"
+vncls="33">
+<roles> 
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity penalized"/>
+  <role n="2"  descr="thing penalized for"/> 
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="future" aspect="ns" voice="active" form="full"/>
+<text>
+ The government will penalize offenders , but wo n't confiscate property .
+</text>
+	<arg n="0">The government</arg>
+	<arg n="M" f="MOD">will</arg>
+	<rel>penalize</rel>
+	<arg n="1">offenders</arg>
+</example>
+
+
+
+<example name="passive">
+<inflection person="ns" tense="future" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Returns for 1988 from people with six-month filing extensions were due Monday , but the IRS says [0] people in the disaster areas wo n't be penalized [*-1] or late filing if their returns are marked [*-2] `` Hugo '' and postmarked by Jan. 16 .
+</text>
+	<arg n="M" f="MOD">wo</arg>
+	<arg n="M" f="NEG">n't</arg>
+	<rel>penalized</rel>
+	<arg n="1">[*-1] ->  people in the disaster areas</arg>
+	<arg n="2" f="for">late filing</arg>
+	<arg n="M" f="ADV">if their returns are marked [*-2] `` Hugo '' and postmarked by Jan. 16</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

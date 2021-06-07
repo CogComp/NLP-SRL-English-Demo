@@ -1,0 +1,112 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<note>
+Frames file for 'fall' based on first 50 or so sentences from large corpus
+and comparison with 'rise'
+</note>
+
+<predicate lemma="fall">
+<roleset id="fall.01" name="move downward" vncls="45.6 51.1-2">
+<roles>
+  <role descr="Logical subject, patient, thing falling" n="1">
+		<vnrole vncls="45.6" vntheta="Patient"/>
+		<vnrole vncls="51.1-2" vntheta="Theme"/>
+  </role>
+
+  <role descr="EXT, amount fallen" n="2">
+		<vnrole vncls="45.6" vntheta="Attribute"/>
+  </role>
+
+  <role descr="start point" n="3"/>
+  <role descr="end point, end state, often PRD" n="4"/>
+  <role descr="medium" f="LOC" n="M"/>
+</roles>
+
+<example name="start and endpoints">
+  <text>
+    Sales fell to $251.2 million from $278.7 million.
+  </text>
+  <arg n="1">Sales</arg>
+  <rel>fell</rel>
+  <arg f="to" n="4">to $251.2 million</arg>
+  <arg f="from" n="3">from $278.7 million</arg>
+</example>
+
+<example name="all args">
+  <text>
+    Profits fell 10% to $118 million from $130.6 million
+  </text>
+  <arg n="1">Profits</arg>
+  <rel>fell</rel>
+  <arg f="EXT" n="2">10%</arg>
+  <arg f="to" n="4">to $118 million</arg>
+  <arg f="from" n="3">from $130.6 million</arg>
+</example>
+
+<note>
+  Let's use EXT for numericals only, otherwise Arg2-MNR:
+</note>
+
+<example name="arg2 as manner">
+  <text>
+    British government bonds fell sharply  initially.
+  </text>
+  <arg n="1">British government bonds</arg>
+  <rel>fell</rel>
+  <arg f="MNR" n="2">sharply</arg>
+  <arg f="TMP" n="M">initialy</arg>
+</example>
+
+
+<example name="temporal, with EXT">
+  <text>
+    The average junk bond fell by 4.2%  in October
+  </text>
+  <arg n="1">The average junk bond</arg>
+  <rel>fell</rel>
+  <arg f="EXT" n="2">by 4.2%</arg>
+  <arg f="TMP" n="M">in October</arg>
+</example>
+
+
+<example name="non financial, fall into">
+  <text>
+    They fell into oblivion after the 1929 crash.
+  </text>
+  <arg n="0">They</arg>
+  <rel>fell</rel>
+  <arg f="into" n="4">into oblivion</arg>
+  <arg f="TMP" n="M">after the 1929 crash</arg>
+</example>
+
+<example name="non financial, fall under">
+  <text>
+    Asian countries are falling under Japanese economic hegemony now.
+  </text>
+  <arg n="1">Asian countries</arg>
+  <rel>are falling</rel>
+  <arg f="under" n="4">under Japanese economoc hegemony</arg>
+  <arg f="TMP" n="M">now</arg>
+</example>
+
+<example name="non financial, with PRD">
+  <text>
+    The bells have fallen silent following a dust-up over church attendance.
+  </text>
+  <arg n="1">The bells</arg>
+  <rel>have fallen</rel>
+  <arg f="PRD" n="4">silent</arg>
+  <arg f="TMP" n="M">following a dust-up over church attendance</arg>
+</example>
+
+</roleset>
+</predicate>
+<predicate lemma="fall_off">
+<roleset id="fall.02" name="stop, almost" vncls="45.6 51.1-2">
+<roles/>
+<note>
+Same as above, except don't expect to see start or end points
+</note>
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="fine-tune">
+<note>
+  Frames file for 'fine-tune'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="fine-tune.01" name="to make small adjustments"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>  
+  <role n="1"  descr="entity fine-tuned"/>  
+</roles>
+
+
+<example name="gerund">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="gerund"/>
+<text>
+ After the study , the SEC would be willing [*-1] to consider [*-2] adding new circuit breakers or fine-tuning the current ones , he added [0] [*T*-3] .
+</text>
+	<arg n="0">[*-2] ->  [*-1] ->  the SEC</arg>
+	<rel>fine-tuning</rel>
+	<arg n="1">the current ones</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

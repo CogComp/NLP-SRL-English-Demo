@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="foldability">
+<roleset id="foldability.01" name="nomadj-foldable/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The len 's foldability
+</text>
+<arg n="1">The len 's</arg>
+<arg f="REF" n="2">foldability</arg>
+<rel>foldability</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

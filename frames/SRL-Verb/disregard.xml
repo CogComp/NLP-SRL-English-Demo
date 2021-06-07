@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="disregard">
+<note>
+  Frames file for 'disregard' based on sentences in financial
+  subcorpus.  No Verbnet entry.
+</note>
+
+<roleset id="disregard.01" vncls="-" name="never mind">
+<roles>
+  <role n="0"  descr="entity not paying attention"/>
+  <role n="1"  descr="non-focus"/>
+</roles>
+
+<example name="whatEVER">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    However, traders disregarded a potential production disruption in
+    Chile and a continued drop in inventories. 
+</text>
+        <arg n="M" f="DIS">However</arg>
+        <arg n="0">traders</arg>
+        <rel>disregarded</rel>
+        <arg n="1">a potential production disruption in Chile and a
+        continued drop in inventories</arg> 
+</example>
+
+<note>
+Another verb with no relation to its morphological antonym.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="spar">
+<note>
+  Frames file for 'spar' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="spar.01" name="to fight"
+vncls="36.1">
+<roles>
+  <role n="0"  descr="agent fighting"/>
+  <role n="1"  descr="other person fighting"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ The two lawmakers sparred in a highly personal fashion , [*-1] violating usual Senate decorum .
+</text>
+	<arg n="0">The two lawmakers</arg>
+	<rel>sparred</rel>
+	<arg n="M" f="MNR">in a highly personal fashion</arg>
+	<arg n="M" f="ADV">[*-1] violating usual Senate decorum</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

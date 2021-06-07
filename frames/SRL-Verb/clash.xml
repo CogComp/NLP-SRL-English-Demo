@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="clash">
+<note>
+  Frames file for 'clash' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="clash.01" name="to come into conflict, be in opposition"
+vncls="36.1">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity clashed with"/>
+  <role n="2"  descr="entity clashed over"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+ A successor was n't named [*-1] , which [*T*-35] fueled speculation that Mr. Bernstein may have clashed with S.I. Newhouse Jr. , whose family company , Advance Publications Inc. , [*T*-2] owns Random House .
+</text>
+	<arg n="0">Mr. Bernstein</arg>
+	<arg n="M" f="MOD">may</arg>
+	<rel>clashed</rel>
+	<arg n="1" f="with">S.I. Newhouse Jr. , whose family company , Advance Publications Inc. , [*T*-2] owns Random House</arg>
+</example>
+
+
+<example name="all arguments">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Mr. Azoff reportedly was bored and frequently clashed with top MCA management over a number of issues such as compensation and business plans .
+</text>
+	<arg n="0">Mr. Azoff</arg>
+	<arg n="M" f="TMP">frequently</arg>
+	<rel>clashed</rel>
+	<arg n="1" f="with">top MCA management</arg>
+	<arg n="2" f="over">a number of issues such as compensation and business plans</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

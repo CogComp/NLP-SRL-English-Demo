@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="dare">
+<note>
+  Frames file for 'dare' based on sentences in financial subcorpus.
+  No Verbnet entry, no Framenet entry.  Comparison to urge.
+</note>
+
+<roleset id="dare.01" vncls="-" name="impelled action">
+<roles>
+  <role n="0"  descr="urger"/>
+  <role n="1"  descr="impelled agent"/>
+  <role n="2"  descr="impelled action"/>
+</roles>
+
+<example name="linked impelled agent">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    The Conservatives don't dare *trace* jeopardize marginal Tory
+    seats in Coventry, where Jaguar has headquarters... 
+</text>
+        <arg n="0">The Conservatives</arg>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>dare</rel>
+        <arg n="1">*trace* ->  The Conservatives</arg>
+        <arg n="2">jeopardize marginal Tory seats in Coventry, where
+        Jaguar has headquarters</arg> 
+<note>
+The trace and the "jeopardize..." clause are correctly joined under a
+single S node.
+</note>
+</example>
+
+<example name="with unlinked impelled agent">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John dared Mary to kiss him.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >dared</rel>
+  <arg n="1"        >Mary</arg>
+  <arg n="2"        >to kiss him</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

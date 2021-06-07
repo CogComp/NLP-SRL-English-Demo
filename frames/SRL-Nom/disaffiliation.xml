@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disaffiliation">
+<roleset id="disaffiliation.01" name="un-associate" source="verb-disassociate.01" vncls="23.1">
+<roles>
+
+<role descr="causer of non-association, agent" n="0">
+<vnrole vncls="23.1" vntheta="Agent"/></role>
+
+<role descr="thing not associated" n="1">
+<vnrole vncls="23.1" vntheta="Patient1"/></role>
+
+<role descr="separated from" n="2">
+<vnrole vncls="23.1" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+social disaffiliation
+</text>
+<arg n="2">social</arg>
+<rel>disaffiliation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

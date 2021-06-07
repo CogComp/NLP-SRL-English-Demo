@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="clamber">
+<note>
+  Frames file for 'clamber' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="clamber.01" name="to climb awkwardly"
+vncls="51.3.2">
+<roles>
+  <role n="0"  descr="agent"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ As for the ride back to camp , our pilot and all the other French-speaking passengers clambered into the chase car .
+</text>
+	<arg n="0">our pilot and all the other French-speaking passengers</arg>
+	<rel>clambered</rel>
+	<arg n="M" f="DIR">into the chase car</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

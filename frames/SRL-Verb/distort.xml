@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="distort">
+<note>
+  Frames file for 'distort' based on sentences in financial subcorpus.
+  No Verbnet entry.  No comparison.
+</note>
+
+<roleset id="distort.01" vncls="-" name="alter badly">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing distorted"/>
+</roles>
+
+<example name="passive">
+<inflection person="third" tense="present" aspect="progressive" voice="passive" form="participle"/>
+<text>
+    Instead, a spokesman blames the dismal third-quarter showing on
+    ``an environment that *trace* is being distorted *trace* by a very
+    harsh climate for sales of durable goods,'' which account for
+    roughly two-thirds of Sears's annual merchandise volume. 
+</text>
+        <rel>distorted</rel>
+        <arg n="1">*trace* -> *trace* ->  that ->  an environment</arg>
+        <arg n="0" f="by">a very harsh climate for sales of durable
+        goods, ''which account for roughly two-thirds of Sears's
+        annual merchandise volume</arg>
+</example>
+
+<example name="active">
+<inflection person="ns" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    The media, she says, have distorted his personal life. 
+</text>
+        <arg n="0">The media</arg>
+        <rel>distorted</rel>
+        <arg n="1">his personal life</arg>
+</example>
+
+<note>
+Maybe an instrumental arg?
+</note>
+
+</roleset>
+</predicate>
+</frameset>

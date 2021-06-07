@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="skid">
+<note>
+  Frames file for 'skid' based on sentences in financial subcorpus.
+  No Verbnet entry, no Framenet entry.  Comparison to slide.
+</note>
+
+<roleset id="skid.01" name="(cause to) skid">
+<roles>
+  <role n="0"  descr="causal agent"/>
+  <role n="1"  descr="thing skidding"/>
+</roles>
+
+<example name="unaccusative or ergative?">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John's car skidded off the road.
+  </text>
+  <arg n="1"        >John's car</arg>
+  <rel              >skidded</rel>
+  <arg n="m" f="DIR">off the road</arg>
+</example>
+
+</roleset>
+
+<roleset id="skid.02" name="quantifiable motion">
+<roles>
+  <role n="1"  descr="thing in motion"/>
+  <role n="2"  descr="EXT"/>
+  <role n="3"  descr="start point"/>
+  <role n="4"  descr="end point"/>
+</roles>
+
+<example name="pretty typical">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    Besides British Gas, British Steel skidded 1.74 to 123.5 on
+    turnover of 11 million shares. 
+</text>
+        <arg n="m"        >Besides British Gas</arg>
+        <arg n="1">British Steel</arg>
+        <rel>skidded</rel>
+        <arg n="2" f="EXT">1.74</arg>
+        <arg n="4" f="to">123.5</arg>
+        <arg n="M" f="CAU">on turnover of 11 million shares</arg>
+</example>
+
+<note>
+These two rolesets could maybe be merged.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

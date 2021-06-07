@@ -1,0 +1,109 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="commit">
+<note>
+  Frames file for 'commit' based on sentences in financial subcorpus.
+  No Verbnet entry, no comparison.
+</note>
+
+<roleset id="commit.01" vncls="-" name="be strongly attached to">
+<roles>
+  <role n="0"  descr="causal agent"/>
+  <role n="1"  descr="entity committed"/>
+  <role n="2"  descr="committed to"/>
+</roles>
+
+<example name="just transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    The banks jointly committed $1.2 billion of financing, subject to
+    certain conditions, McCaw said. 
+</text>
+        <arg n="0">The banks</arg>
+        <arg n="M" f="MNR">jointly</arg>
+        <rel>committed</rel>
+        <arg n="1">$1.2 billion of financing, subject to certain
+        conditions</arg> 
+</example>
+
+<example name="passive with committed-to">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    ``This tells you AT&amp;T is serious about continuing to manage
+    their cost structure and is committed *trace* to 20%-a-year
+    earnings growth,'' said Jack Grubman, an analyst with PaineWebber
+    Inc. 
+</text>
+        <rel>committed</rel>
+        <arg n="1">*trace* ->  AT&amp;T</arg>
+        <arg n="2" f="to">20%-a-year earnings growth</arg>
+</example>
+
+<example name="passive often interpreted as ADJP">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    In an interview Wednesday with Dow Jones Professional Investor
+    Report, Mr. Stevens said, ``We're in no way committed to a deal
+    going through at all. 
+</text>
+        <arg n="1">We</arg>
+        <arg n="M" f="MNR">in no way</arg>
+        <rel>committed</rel>
+        <arg n="2" f="to">a deal going through at all</arg>
+</example>
+
+<example name="but not always">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    He added the airline isn't committed *trace* to going forward with
+    any new bid, and hasn't participated in bankers' efforts to revive
+    the transaction that collapsed. 
+</text>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>committed</rel>
+        <arg n="1">*trace* ->  the airline</arg>
+        <arg n="2" f="to">going forward with any new bid</arg>
+</example>
+
+<example name="different sense, same syntax">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary committed John to a mental asylum.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >committed</rel>
+  <arg n="1"        >John</arg>
+  <arg n="2" f="to">a mental asylum</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="commit.02" vncls="-" name="commit a crime">
+<roles>
+  <role n="0"  descr="criminal"/>
+  <role n="1"  descr="crime"/>
+</roles>
+
+<example name="I am not a criminal!">
+<inflection person="ns" tense="present" aspect="both" voice="active" form="participle"/>
+<text>
+    Yesterday, U.S. Judge Alcee Hastings faced his jury -- the full
+    U.S. Senate -- and said, ``I am not guilty of having committed any
+    crime.'' 
+</text>
+        <arg n="0">*trace* ->  I</arg>
+        <rel>committed</rel>
+        <arg n="1">any crime</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

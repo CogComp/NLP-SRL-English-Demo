@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="brace">
+<note>
+  Frames file for 'brace' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="brace.01" name="to prepare" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="patient"/>
+  <role n="2"  descr="prepare for"/>
+</roles>
+
+
+
+<example name="with Arg2">
+<inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+ And in suburban Boston , developers are bracing for cutbacks in the computer industry , a major user of office space .
+</text>
+	<arg n="M" f="DIS">And</arg>
+	<arg n="M" f="LOC">in suburban Boston</arg>
+	<arg n="0">developers</arg>
+	<rel>bracing</rel>
+	<arg n="2" f="for">cutbacks in the computer industry , a major user of office space</arg>
+</example>
+
+
+
+<example name="with Arg1">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ So the senators must brace themselves .
+</text>
+	<arg n="M" f="DIS">So</arg>
+	<arg n="0">the senators</arg>
+	<arg n="M" f="MOD">must</arg>
+	<rel>brace</rel>
+	<arg n="1">themselves</arg>
+</example>
+
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+
+
+
+

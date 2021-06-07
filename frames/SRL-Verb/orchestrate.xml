@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="orchestrate">
+<note>
+  Frames file for 'orchestrate' based on sentences in financial
+  subcorpus.  No verbnet entry.  Comparison with 'manage'.
+</note>
+
+<roleset id="orchestrate.01" name="coordinate, manage">
+<roles>
+  <role n="0"  descr="conductor, manager"/>
+  <role n="1"  descr="things being coordinated or managed"/>
+</roles>
+
+<example name="passivized">
+<text>
+    But then came Oct. 13 and the negative publicity orchestrated
+    *trace* by the Old Guard, particularly against index arbitrage.  
+</text>
+	<rel>orchestrated</rel>
+	<arg n="1">*trace* ->  the negative publicity</arg>
+	<arg n="0" f="by">the Old Guard</arg>
+	<arg n="M">particularly against index arbitrage</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>
+

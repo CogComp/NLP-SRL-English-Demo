@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="suicide">
+<roleset id="suicide.01" name="destroy" source="verb-destroy.01" vncls="44">
+<roles>
+
+<role descr="destroyer" n="0">
+<vnrole vncls="44" vntheta="Agent"/></role>
+
+<role descr="thing destroyed" n="1">
+<vnrole vncls="44" vntheta="Patient"/></role>
+
+<role descr="instrument of destruction" n="2">
+<vnrole vncls="44" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its previous mayor committed suicide last year
+</text>
+<arg n="0">its previous mayor</arg>
+<arg n="Support">committed</arg>
+<rel>suicide</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

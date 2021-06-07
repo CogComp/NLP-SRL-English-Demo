@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deed">
+<roleset id="deed.01" name="act" source="verb-do.02">
+<roles>
+
+<role descr="agent, doer" n="0"></role>
+
+<role descr="thing done" n="1"></role>
+
+<role descr="beneficiary, done for or about" n="2"></role>
+
+<role descr="instrumental" n="3"></role>
+
+<role descr="comitative, companion while doing" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the evil deeds of program-trading goblins
+</text>
+<arg f="MNR" n="M">evil</arg>
+<rel>deeds</rel>
+<arg n="0">of program-trading goblins</arg>
+</example>
+
+</roleset>
+<roleset id="deed.02" name="work-of-art/nomlike" source="verb-mortgage.01">
+<roles>
+
+<role descr="mortgager" n="0"></role>
+
+<role descr="possession(s" n="1"></role>
+
+<role descr="provider of money" n="2"></role>
+
+<role descr="money" n="3"></role>
+
+</roles>
+
+<example name="web example">
+<text>
+The deed to your home
+</text>
+<rel>deed</rel>
+<arg n="1">to your home</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

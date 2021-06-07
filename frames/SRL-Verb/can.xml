@@ -1,0 +1,78 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="can">
+<note>
+  Frames file for 'can' based on sentences in wsj.  Verbnet entry
+  9.10, Framenet entry Placing.
+</note>
+
+<roleset id="can.01" vncls="9.10" name="put into tins">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="substance"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    The agency won't allow mushrooms that [*T*-2] were canned [*-3] or
+    packed in brine at any Chinese plant to enter the U.S. until
+    ``satisfactory sanitation-control measures are implemented in
+    China to prevent'' bacterial contamination. 
+</text>
+        <rel>canned</rel>
+        <arg n="1">[*-3] ->  [*T*-2] ->  that ->  mushrooms</arg>
+        <arg n="M" f="LOC">at any Chinese plant</arg>
+</example>
+
+
+<example name="almost agentive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+    The outbreaks were traced to staphylococcus aureus, a type of
+    bacteria that produces a toxin capable of surviving the high
+    temperatures used in [*] canning vegetables. 
+</text>
+        <arg n="0">[*]</arg>
+        <rel>canning</rel>
+        <arg n="1">vegetables</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="can.02" vncls="-" name="fire">
+<roles>
+  <role descr="employer" n="0"/>
+  <role descr="ex-employee" n="1"/>
+  <role descr="job" n="2"/>
+</roles>
+
+<example name="you get the picture">
+  <inflection person="third" tense="past" aspect="ns" voice="passive" form="full"/>
+  <text>
+     John was canned *trace* from his job at the weenie factory after
+     making one too many sexual innuendoes.
+  </text>
+  <rel              >canned</rel>
+  <arg n="1"        >*trace* -> John</arg>
+  <arg n="2" f="from">his job at the weenie factory</arg>
+  <arg n="m" f="TMP">after making one too many sexual innuendoes</arg>
+</example>
+
+<note>
+So one time this British gentleman took a tour of the US and visited a
+farm in Iowa.  Astounded at the amount of produce being grown, he
+asked the farmer what was done with the vegetables.  The farmer
+replied, "We eat what we can, and what we can't we can."  The British
+gent thought that was terribly clever and resolved to tell his friends
+when he returned home.  When the time came, though, he couldn't quite
+remember the punchline correctly and said instead, "We eat what we
+can, and what we can't we do up into tins."
+</note>
+
+</roleset>
+</predicate>
+</frameset>

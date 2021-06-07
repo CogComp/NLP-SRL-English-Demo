@@ -1,0 +1,85 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="curry">
+<note>
+  Frames file for 'curry' based on sentences in wsj.  Verbnet entry 41.1.2.
+</note>
+
+<roleset id="curry.01" vncls="41.1.2" name="brush a horse">
+<roles>
+  <role n="0"  descr="agent, brusher, currier"/>
+  <role n="1"  descr="horse"/>
+  <role n="2"  descr="brush, instrument"/>
+</roles>
+
+<example name="I don't think she'll appreciate that">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John curried his horse with Mary's hairbrush.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >curried</rel>
+  <arg n="1"        >his horse</arg>
+  <arg n="2" f="with">Mary's hairbrush</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="curry.02" vncls="-" name="curry favor">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="fixed: favor"/>
+  <role n="2"  descr="with whom"/>
+</roles>
+
+<example name="to curry favor, favor curry">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+     Overall, the government contends that GE's disclosure efforts
+     largely were intended [*-1] to ``curry favor'' with Pentagon
+     officials without [*-2] detailing the extent of the management
+     lapses and allegedly pervasive billing irregularities uncovered
+     [*] by company investigations. 
+</text>
+        <arg n="0">[*-1] ->  GE</arg>
+        <rel>curry</rel>
+        <arg n="1">favor</arg>
+        <arg n="2" f="with">Pentagon officials</arg>
+        <arg n="M" f="MNR">without [*-2] detailing the extent of the
+        management lapses and allegedly pervasive billing
+        irregularities uncovered [*] by company investigations</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="curry.03" vncls="-" name="spicy Indian food">
+<roles>
+  <role n="0"  descr="cook"/>
+  <role n="1"  descr="food"/>
+</roles>
+
+<example name="yummy">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John curried some weenies for dinner.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >curried</rel>
+  <arg n="1"        >some weenies</arg>
+  <arg n="m" f="PRP">for dinner</arg>
+</example>
+
+<note>
+This will occur more often in adjectival usages: (some) curried
+weenies.  But we might as well put it in place now.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

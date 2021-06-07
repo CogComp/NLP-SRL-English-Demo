@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="decorator">
+<roleset id="decorator.01" name="put on decorations" source="verb-decorate.01" vncls="9.8">
+<roles>
+
+<role descr="decorator" n="0">
+<vnrole vncls="9.8" vntheta="Agent"/></role>
+
+<role descr="thing decorated" n="1">
+<vnrole vncls="9.8" vntheta="Destination"/></role>
+
+<role descr="decorations" n="2">
+<vnrole vncls="9.8" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an interior decorator
+</text>
+<arg n="1">interior</arg>
+<arg n="0">decorator</arg>
+<rel>decorator</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

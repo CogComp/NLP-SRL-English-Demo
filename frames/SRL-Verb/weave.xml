@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="weave">
+<note>
+  Frames file for 'weave' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="weave.01" name="to interlace as if by weaving"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity woven"/>
+  <role n="2"  descr="entity woven into"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ So glasnost is not a value woven [*] with steel threads into the fabric of Russian society .
+</text>
+	<rel>woven</rel>
+	<arg n="1">[*] ->  a value</arg>
+	<arg n="M" f="MNR">with steel threads</arg>
+	<arg n="2" f="into">the fabric of Russian society</arg>
+</example>
+</roleset>
+
+<roleset id="weave.02" name="to move in a circular course"
+vncls="47.7">
+<roles>
+  <role n="0"  descr="entity moving"/>
+  <role n="1"  descr="path"/>
+</roles>
+
+<example name="participle">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="participle"/>
+<text>
+ A couple in fashionable spandex warm-up suits jogs by , headphones jauntily in place , [*-2] weaving their way along a street of fractured and fallen houses .
+</text>
+	<arg n="0">[*-2] ->  A couple in fashionable spandex warm-up suits</arg>
+	<rel>weaving</rel>
+	<arg n="1">their way</arg>
+	<arg n="M" f="LOC">along a street of fractured and fallen houses</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="redistributionism">
+<roleset id="redistributionism.01" name="to distribute again in a different way" source="verb-redistribute.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+<role descr="source" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+redistributionism from the West to pay for everyone else 's
+statism
+</text>
+<rel>redistributionism</rel>
+<arg n="3">from the West</arg>
+<arg f="PNC" n="M">to pay for everyone else 's statism</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

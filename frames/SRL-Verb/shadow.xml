@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="shadow">
+<note>
+  Frames file for 'shadow' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="shadow.01" name="to shade"
+vncls="-">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="entity shadowed"/>
+</roles>
+
+
+<example name="gerund">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="gerund"/>
+<text>
+ In particular , [*] `` shadowing '' a currency is anything but fixing ; it is an open announcement that the exchange rate target has no credibility .
+</text>
+	<arg n="0">[*]</arg>
+	<rel>shadowing</rel>
+	<arg n="1">a currency</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

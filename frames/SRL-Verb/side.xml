@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="side">
+<note>
+  Frames file for 'side' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="side.01" vncls="-" name="take the side of, support">
+<roles>
+  <role n="0"  descr="supporter"/>
+  <role n="1"  descr="thing supported, sided with"/>
+</roles>
+
+<example name="pretty simple">
+<inflection person="ns" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    Eastern has disputed the claim, but a federal district court, an
+    appeals court and now the arbitrator have all sided with the
+    pilots. 
+</text>
+        <arg n="0">a federal district court, an appeals court and now
+        the arbitrator</arg> 
+        <arg n="M" f="ADV">all</arg>
+        <rel>sided</rel>
+        <arg n="1" f="with">the pilots</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="side.02" vncls="-" name="put siding on a house">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="house"/>
+  <role n="2"  descr="siding"/>
+</roles>
+
+<example name="somewhat artificial">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John sided his house with old newspapers.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >sided</rel>
+  <arg n="1"        >his house</arg>
+  <arg n="2" f="with">old newspapers</arg>
+</example>
+
+<note>
+This is here mostly to set up the nominalization "vinyl siding".
+</note>
+
+</roleset>
+</predicate>
+</frameset>

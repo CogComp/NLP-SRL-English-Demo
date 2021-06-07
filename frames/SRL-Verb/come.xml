@@ -1,0 +1,314 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="come">
+
+<note>
+Frames file for 'come' based on survey of initial sentences from big corpus
+and comparison with 'go'
+</note>
+
+<roleset id="come.01" name="motion" vncls="51.1-2">
+<roles>
+  <role descr="entity in motion / 'comer'" n="1">
+		<vnrole vncls="51.1-2" vntheta="Theme"/>
+  </role>
+
+  <role descr="extent -- rare)" n="2"/>
+  <role descr="start point -- also rare)" n="3"/>
+  <role descr="end point" n="4"/>
+  <role descr="medium" f="LOC" n="M"/>
+  <role descr="direction (usually 'up' or 'down')" f="DIR" n="M"/>
+</roles>
+
+<example name="destination">
+  <text>
+    Mrs. Yeargin came to work on weekends.
+  </text>
+  <arg n="1">Mrs Yeargin</arg>
+  <rel>came</rel>
+  <arg f="to" n="4">to work</arg>
+  <arg f="TMP" n="M">on weekends</arg>
+</example>
+
+<example name="with purpose">
+  <text>
+    Students, teachers, and parents came to testify on her behalf.
+  </text>
+  <arg n="1">Students, teachers, and parents</arg>
+  <rel>came</rel>
+  <arg f="PRP" n="M">to testify on her behalf</arg>
+</example>
+
+<example name="destination as by-phrase">
+  <text>
+    You may come by the agency to read but not copy the books.
+  </text>
+  <arg n="1">You</arg>
+  <arg f="MOD" n="M">may</arg>
+  <rel>come</rel>
+  <arg f="by" n="4">the agency</arg>
+  <arg f="PRP" n="m">to read but not copy the books</arg>
+</example>
+
+<example name="come back (not phrasal)">
+  <text>
+    They aren't going to come back to the US.
+  </text>
+  <arg n="1">They</arg>
+  <rel>to come</rel>
+  <arg f="DIR" n="M">back</arg>
+  <arg f="to" n="4">to the US</arg>
+</example>
+</roleset>
+
+<roleset id="come.02" name="pursue (often with after)" vncls="-">
+<roles>
+  <role descr="pursuer" n="0"/>
+  <role descr="goal" n="1"/>
+</roles>
+
+<example name="come after">
+  <text>
+    Portfolio managers come after the highest rates.
+  </text>
+  <arg n="0">Portfolio managers</arg>
+  <rel>come</rel>
+  <arg f="after" n="1">after the highest rates</arg>
+</example>
+</roleset>
+
+<roleset id="come.03" name="arise (from)" vncls="48.1.1">
+<roles>
+  <role descr="thing (state) arising" n="1"><vnrole vncls="48.1.1" vntheta="Theme"/></role>
+  <role descr="source (from or in or of)" n="2"><vnrole vncls="48.1.1" vntheta="Location"/></role>
+</roles>
+
+<example name="arise in">
+  <text>
+    Part of the charm comes in recognizing one's self in the novel.
+  </text>
+  <arg n="1">Part of the charm</arg>
+  <rel>comes</rel>
+  <arg f="in" n="2">in recognizing one's self in the novel</arg>
+
+</example>
+
+<example name="arise from">
+  <text>
+    It comes from a single acre of grapes.
+  </text>
+  <arg n="1">It</arg>
+  <rel>comes</rel>
+  <arg f="from" n="2">from a signle acre of grapes</arg>
+</example>
+
+<example name="arise of">
+  <text>
+    Ringers are filled with the solemn intoxication that *trace* comes of 
+    intricate ritual faultlessly performed.			    
+  </text>
+  <arg n="1">*trace*</arg>
+  <rel>comes</rel>
+  <arg f="of" n="2">of intricate ritual faultlessly performed</arg>
+</example>
+
+<example name="come_back (arise again)">
+  <text>
+    They aren't going to come back on the US market.
+  </text>
+  <arg n="1">They</arg>
+  <arg f="NEG" n="M">n't</arg>
+  <arg f="MOD" n="M">going to</arg>
+  <rel>come back</rel>
+  <arg f="LOC" n="M">on the US market.</arg>
+</example>
+</roleset>
+
+<roleset id="come.04" name="become" vncls="48.1.1">
+
+<note>
+see also 'come to terms', come_about below
+</note>
+
+<roles>
+  <role descr="object" n="1"><vnrole vncls="48.1.1" vntheta="Theme"/></role>
+  <role descr="attribute" f="PRD" n="2"/>
+</roles>
+
+<example name="come true">
+  <text>
+    Its forecasts didn't come true.
+  </text>
+  <arg n="1">Its forecasts</arg>
+  <arg f="NEG" n="M">didn't</arg>
+  <rel>come</rel>
+  <arg f="PRD" n="2">true</arg>
+</example>
+
+<example name="come of age">
+  <text>
+    The attack commercial has come of age in an off-election year.
+  </text>
+  <arg n="1">The attack commercial</arg>
+  <rel>has come</rel>
+  <arg f="PRD" n="2">of age</arg>
+  <arg f="TMP" n="M">in an off-election year</arg>
+</example>
+</roleset>
+
+<roleset id="come.05" name="buy" vncls="-">
+<roles>
+  <role descr="commodity" n="1"/>
+  <role descr="buyer" n="2"/> <note>often dropped</note>
+  <role descr="price" n="3"/>
+</roles>
+
+<example name="non-specific price">
+  <text>
+    Chateau Yquem now comes dear.
+  </text>
+    <arg n="1">Chateau Yquem</arg>
+    <arg f="TMP" n="M">now</arg>
+    <rel>comes</rel>
+    <arg n="3">dear</arg>
+</example>
+
+
+<example name="come to terms (not phrasal)">
+  <text>
+    Tokyo comes to terms with its new status
+  </text>
+  <arg n="1">Tokyo</arg>
+  <rel>comes</rel>
+  <arg f="PRD" n="2">to terms</arg>
+  <arg f="with" n="3">with its new status</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<predicate lemma="come_about">
+<note>'become', same as Sense Six above
+</note>
+<roleset id="come.06" name="become" vncls="48.1.1">
+<roles>
+  <role descr="object" n="1"><vnrole vncls="48.1.1" vntheta="Theme"/></role>
+  <role descr="attribute" f="PRD" n="2"/>
+</roles>
+
+<example name="just object">
+  <text>
+    Steeper prices have come about because supplies are low.
+  </text>
+  <arg n="1">Steeper prices</arg>
+  <rel>come about</rel>
+  <arg f="PRP" n="m">because supplies are low</arg>
+</example>
+</roleset>
+</predicate>
+
+<predicate lemma="come_in">
+<roleset id="come.07" name="placed" vncls="-">
+<roles>
+  <role descr="thing being described" n="1"/>
+  <role descr="place" n="2"/>
+</roles>
+
+<example name="I cannot imagine why">
+  <text>
+    Buick came in fourth among US cars.
+  </text>
+  <arg n="1">Buick</arg>
+  <rel>came in</rel>
+  <arg f="PRD" n="2">fourth among US cars</arg>
+</example>
+</roleset>
+</predicate>
+
+<predicate lemma="come_on">
+<roleset id="come.08" name="turn on" vncls="-">
+<roles>
+  <role descr="agent" n="0"/>
+  <role descr="thing being turned on" n="1"/>
+</roles>
+
+<example name="unaccusative">
+  <text>
+    The lights came on this morning.
+  </text>
+  <arg n="1">The lights</arg>
+  <rel>came on</rel>
+  <arg f="TMP" n="m">this morning</arg>
+</example>
+<note>
+Let's just hope the other sense of &quot;come on&quot; doesn't appear in WSJ
+</note>
+</roleset>
+</predicate>
+
+<predicate lemma="come_out">
+<roleset id="come.09" name="appear" vncls="48.1.1">
+<roles>
+  <role descr="thing appearing" n="1"><vnrole vncls="48.1.1" vntheta="Theme"/></role>
+</roles>
+
+<example name="unaccusative">
+  <text>
+    Scoring High first    came out in 1979.
+  </text>
+  <arg n="1">Scoring High</arg>
+  <arg f="TMP" n="m">first</arg>
+  <rel>came out</rel>
+  <arg f="TMP" n="m">in 1979</arg>
+</example>
+</roleset>
+
+<roleset id="come.10" name="become publically gay" vncls="-">
+<roles>
+  <role descr="person coming out" n="0"/>
+  <role descr="coming out to, out of" n="1"/>
+</roles>
+
+<example name="generic idiomatic">
+  <text>
+    John came out of the closet last week.
+  </text>
+  <arg n="0">John</arg>
+  <rel>came out</rel>
+  <arg f="of" n="1">the closet</arg>
+  <arg f="TMP" n="m">last week</arg>
+</example>
+
+<example name="with audience">
+  <text>
+    John came out to his family last week.
+  </text>
+  <arg n="0">John</arg>
+  <rel>came out</rel>
+  <arg f="to" n="1">his family</arg>
+  <arg f="TMP" n="m">last week</arg>
+</example>
+<note>To my ear, at least, these two usages cannot overlap: *John came
+out of the closet to his family (last week).
+</note>
+</roleset>
+</predicate>
+
+<predicate lemma="come_up">
+<roleset id="come.11" name="devise, bring forth" vncls="-">
+<roles>
+  <role descr="deviser" n="0"/>
+  <role descr="thing devised, brought forth, come up with" n="1"/>
+</roles>
+
+<example name="Transitive">
+  <text>
+    Sellers are in a race *trace* to come up with the priciest bottle.
+  </text>
+  <arg n="0">*trace*=Sellers</arg>
+  <rel>come up</rel>
+  <arg f="with" n="1">the priciest bottle</arg>
+</example>
+</roleset>
+</predicate>
+</frameset>

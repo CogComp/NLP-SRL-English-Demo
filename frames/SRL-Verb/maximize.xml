@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="maximize">
+<note>
+  Frames file for 'maximize' based on sentences in financial
+  subcorpus.  No access to verbnet.  No comparison.
+</note>
+
+<roleset id="maximize.01" name="make the most">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing which is being the most"/>
+</roles>
+
+<example name="typical usage">
+<text>
+    The action followed by one day an Intelogic announcement that it
+    will retain an investment banker *trace* to explore alternatives
+    ``*trace* to maximize shareholder value,'' including the possible
+    sale of the company. 
+</text>
+        <arg n="0">*trace* -> *trace* ->  alternatives</arg>
+        <rel>maximize</rel>
+        <arg n="1">shareholder value</arg>
+</example>
+
+<note>
+Agency has nothing to do with animacy, but tracing can get funky
+sometimes.  When the target of a trace is unclear, go with an animate
+agent.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

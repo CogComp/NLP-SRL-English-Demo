@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="depict">
+<note>
+  Frames file for 'depict' based on sentences in wsj.  No Verbnet
+  entry, Framenet entry Categorization.
+</note>
+
+<roleset id="depict.01" vncls="-" name="show to be">
+<roles>
+  <role n="0"  descr="agent, depictor"/>
+  <role n="1"  descr="thing described"/>
+  <role n="2"  descr="attribute"/>
+</roles>
+
+<example name="all args">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    You depict the bill as something Democratic leaders ``hoodwinked''
+    the administration into endorsing. 
+</text>
+        <arg n="0">You</arg>
+        <rel>depict</rel>
+        <arg n="1">the bill</arg>
+        <arg n="2" f="as">something Democratic leaders ``hoodwinked''
+        the administration into endorsing</arg> 
+</example>
+
+<example name="unstated attribute">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Besides, a computer processing the Japanese language needs a huge
+    memory and much processing capability, while the screen and
+    printer need far better definition *trace* to depict accurately
+    the intricate symbols. 
+</text>
+        <arg n="0">*trace* ->  the screen and printer</arg>
+        <rel>depict</rel>
+        <arg n="M" f="MNR">accurately</arg>
+        <arg n="1">the intricate symbols</arg>
+</example>
+
+<note>
+Examples without attribute seem to be a sense more like 'demonstrate'
+or 'show'.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

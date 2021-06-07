@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="pasteurize">
+<note>
+  Frames file for 'pasteurize' based on sentences in financial
+  subcorpus.  No Verbnet entry, no Framenet entry.  No comparison.
+</note>
+
+<roleset id="pasteurize.01" name="eliminate bacteria in liquid by heating">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="liquid"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+   Easy Eggs are pasteurized *trace* in a heat-using process.
+</text>
+        <rel>pasteurized</rel>
+        <arg n="1">*trace* ->  Easy Eggs</arg>
+        <arg n="M" f="MNR">in a heat-using process</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

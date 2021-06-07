@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="harvest">
+<note>
+  Frames file for 'harvest' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="harvest.01" name="to reap or gather"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity harvestes"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Because only a fraction of them are ever prosecuted [*-1] , nobody really knows how much money bogus telemarketing operators really harvest [*T*-2] .
+</text>
+	<arg n="0">bogus telemarketing operators</arg>
+	<arg n="M">really</arg>
+	<rel>harvest</rel>
+	<arg n="1">[*T*-2] ->  how much money</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

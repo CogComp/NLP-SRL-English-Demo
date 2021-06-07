@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="unavailability">
+<roleset id="unavailability.01" name="nomadj-unavailable">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The unavailability of federal funds
+</text>
+<rel>unavailability</rel>
+<arg n="1">of federal funds</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

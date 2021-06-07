@@ -1,0 +1,72 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="spring">
+<note>
+  Frames file for 'spring' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="spring.01" name="to develop, appear suddenly" vncls="-">
+<roles>
+  <role n="1"  descr="entity springing"/>
+  <role n="2"  descr="springing from/to"/>
+</roles>
+
+<example name="springing from">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+ The laws of heredity dictate that half of the plants springing from these greenhouse-produced seeds will be male sterile and herbicide resistant and half will be male fertile and herbicide susceptible .
+</text>
+	<arg n="1">the plants</arg>
+	<rel>springing</rel>
+	<arg n="2" f="from">these greenhouse-produced seeds</arg>
+</example>
+
+
+<example name="springing to">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ The new understanding did n't just spring to life in a spontaneous eruption of sweetness and light .
+</text>
+	<arg n="1">The new understanding</arg>
+	<arg n="M" f="NEG">n't</arg>
+	<arg n="M" f="TMP">just</arg>
+	<rel>spring</rel>
+	<arg n="2" f="to">life</arg>
+	<arg n="M" f="ADV">in a spontaneous eruption of sweetness and light</arg>
+</example>
+</roleset>
+</predicate>
+
+<predicate lemma="spring_up">
+
+<roleset id="spring.02" name="to develop, appear suddenly" vncls="-">
+<roles>
+  <role n="1"  descr="entity springing up"/>
+</roles>
+
+
+<example name="with adverbials">
+<inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+ Recession fears are springing up again among investors .
+</text>
+	<arg n="1">Recession fears</arg>
+	<rel>[ springing] [ up]</rel>
+	<arg n="M" f="TMP">again</arg>
+	<arg n="M" f="LOC">among investors</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

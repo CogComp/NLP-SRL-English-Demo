@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="actress">
+<roleset id="actress.01" name="play a role" source="verb-act.01" vncls="29.6">
+<roles>
+
+<role descr="player" n="0">
+<vnrole vncls="29.6" vntheta="Agent"/></role>
+
+<role descr="role" n="1">
+<vnrole vncls="29.6" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a prostitute played by actress Jane Fonda
+</text>
+<arg n="1">a prostitute</arg>
+<arg n="Support">played</arg>
+<arg n="0">actress</arg>
+<rel>actress</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

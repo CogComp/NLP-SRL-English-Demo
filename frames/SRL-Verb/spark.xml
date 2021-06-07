@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="spark">
+<note>
+  Frames file for 'spark' based on sentences in financial subcorpus.
+  No access to verbnet.  Comparison to verbs of starting: start,
+  begin, etc.
+</note>
+
+<roleset id="spark.01" name="begin, start, initiate">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing beginning"/>
+  <role n="2"  descr="instrument"/>
+</roles>
+
+<example name="active">
+<text>
+    Dealers said that interpretation sparked expectations of an
+    imminent bid by Ford. 
+</text>
+        <arg n="0">that interpretation</arg>
+        <rel>sparked</rel>
+        <arg n="1">expectations of an imminent bid by Ford</arg>
+</example>
+
+<example name="passive">
+<text>
+    The investment boom is mainly sparked *trace*, they say, by strong
+    domestic demand and isn't likely to increase exports sharply. 
+</text>
+        <rel>sparked</rel>
+        <arg n="1">*trace* ->  The investment boom</arg>
+        <arg n="M" f="DIS">, they say,</arg>
+        <arg n="0" f="by">strong domestic demand</arg>
+</example>
+
+<note>
+No signs of an independent instrument yet; maybe it won't occur.  Like
+many other instrumental verbs, only use Arg2 when it's separate from
+the Arg0.  No Instrumental subjects, in other words.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

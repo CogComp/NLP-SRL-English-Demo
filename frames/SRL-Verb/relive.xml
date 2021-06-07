@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="relive">
+<note>
+  Frames file for 'relive' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="relive.01" name="to undergo or experience again"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="experience"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ But as they hurl fireballs that [*T*-2] smolder rather than burn , and relive old duels in the sun , it [*EXP*-1] 's clear that most are there [*-3] to make their fans cheer again or recapture the camaraderie of seasons past or prove to themselves and their colleagues that they still have it -- or something close to it .
+</text>
+	<arg n="0">they</arg>
+	<rel>relive</rel>
+	<arg n="1">old duels</arg>
+	<arg n="M" f="LOC">in the sun</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

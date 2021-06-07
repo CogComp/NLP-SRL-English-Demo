@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="chart">
+<note>
+  Frames file for 'chart' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="chart.01" vncls="-" name="describe, as with a chart">
+<roles>
+  <role n="0"  descr="describer"/>
+  <role n="1"  descr="thing described"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Yet, the unassuming Mr. Corry helped *trace* chart USX's
+    transition from Big Steel to Big Oil. 
+</text>
+        <arg n="0">*trace* ->  the unassuming Mr. Corry</arg>
+        <rel>chart</rel>
+        <arg n="1">USX's transition from Big Steel to Big Oil</arg>
+</example>
+
+<note>
+Unlike describe, chart does not seem to take the 'description' or
+secondary predication arg.
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="chart_out">
+
+<roleset id="chart.02" vncls="-" name="describe, as with a chart">
+<roles>
+  <role n="0"  descr="describer"/>
+  <role n="1"  descr="thing described"/>
+</roles>
+
+<example name="exactly the same as previous ex">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Yet, the unassuming Mr. Corry helped *trace* chart USX's
+    transition from Big Steel to Big Oil. 
+</text>
+        <arg n="0">*trace* ->  the unassuming Mr. Corry</arg>
+        <rel>chart</rel>
+        <arg n="1">USX's transition from Big Steel to Big Oil</arg>
+</example>
+
+<note>
+Unlike describe, chart does not seem to take the 'description' or
+secondary predication arg.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

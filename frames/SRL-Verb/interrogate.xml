@@ -1,0 +1,55 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="interrogate">
+<note>
+  Frames file for 'interrogate' based on sentences in wsj.  No Verbnet
+  entry, Framenet class Questioning.
+</note>
+
+<roleset id="interrogate.01" vncls="-" name="question closely">
+<roles>
+  <role n="0"  descr="asker"/>
+  <role n="1"  descr="question or thing in doubt"/>
+  <role n="2"  descr="entity asked, hearer"/>
+</roles>
+
+<example name="all args, passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="infinitive"/>
+<text>
+    Then an announcer interjects: ``It was Douglas Wilder who
+    introduced a bill  to force rape victims age 13 and younger to be
+    interrogated *trace* about their private lives by lawyers for
+    accused rapists. 
+</text>
+        <rel>interrogated</rel>
+        <arg n="2">*trace* ->  rape victims age 13 and younger</arg>
+        <arg n="1" f="about">their private lives</arg>
+        <arg n="0" f="by">lawyers for accused rapists</arg>
+</example>
+
+<example name="omitted topic">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="infinitive"/>
+<text>
+    Brazilian financier Naji Nahas, who was arrested on Monday after
+    102 days in hiding, is likely *trace* to be interrogated *trace*
+    next week by the Brazilian judiciary. 
+</text>
+        <rel>interrogated</rel>
+        <arg n="2">*trace* -> *trace* ->  Brazilian financier Naji
+        Nahas, who was arrested on Monday after 102 days in
+        hiding,</arg> 
+        <arg n="M" f="TMP">next week</arg>
+        <arg n="0" f="by">the Brazilian judiciary</arg>
+</example>
+
+<note>
+Note the argument order; this is motivated by comparison with
+'question' and other verbs of speaking.  The question itself will
+usually be omitted.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

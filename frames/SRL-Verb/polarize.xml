@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="polarize">
+<note>
+  Frames file for 'polarize' based on sentences in wsj.  Verbnet entry
+  45.4. 
+</note>
+
+<roleset id="polarize.01" vncls="45.4" name="separate into (two)
+  discrete units">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing(s) separated"/>
+</roles>
+
+<example name="the one example">
+<inflection person="third" tense="present" aspect="perfect" voice="passive" form="participle"/>
+<text>
+    ``The disturbing thing about this abortion issue is that the
+    debate has become polarized *trace*, so that no mechanism exists
+    ''for finding a middle ground. 
+</text>
+        <rel>polarized</rel>
+        <arg n="1">*trace* ->  the debate</arg>
+        <arg n="M" f="ADV">so that no mechanism exists ''for finding a
+        middle ground</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

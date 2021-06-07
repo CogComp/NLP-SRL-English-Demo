@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="refit">
+<note>
+  Frames file for 'refit' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="refit.01" vncls="-" name="adapt">
+<roles>
+  <role n="0"  descr="agent, adaptor"/>
+  <role n="1"  descr="thing adapted"/>
+  <role n="2"  descr="adapted to"/>
+  <role n="3"  descr="adapted from"/>
+</roles>
+
+<example name="the one example">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="gerund"/>
+<text>
+    But it is Mr. Lane, as movie director, producer and writer, who
+    *trace* has been obsessed with *trace* refitting Chaplin's Little
+    Tramp in a contemporary way. 
+</text>
+        <arg n="0">*trace* -> *trace* ->  who ->  Mr. Lane, as movie
+        director, producer and writer,</arg> 
+        <rel>refitting</rel>
+        <arg n="1">Chaplin's Little Tramp</arg>
+        <arg n="M" f="MNR">in a contemporary way</arg>
+</example>
+
+<note>
+Other args may or may not appear in wider usage; treebank is not
+forthcoming with more data.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

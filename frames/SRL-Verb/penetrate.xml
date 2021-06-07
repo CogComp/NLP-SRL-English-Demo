@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="penetrate">
+<note>
+  Frames file for 'penetrate' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="penetrate.01" vncls="-" name="go into, enter">
+<roles>
+  <role descr="entity entering" n="0"/>
+  <role descr="place or thing entered" n="1"/>
+</roles>
+
+<example name="cloak and dagger">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    He probably didn't penetrate any top-secret files, but the KGB in
+    East Berlin was willing to pay two of his associates, Peter Carl
+    and Dirk Brezinski, $15,000 for some of the material Hess
+    collected. 
+</text>
+        <arg n="0">He</arg>
+        <arg n="M" f="DIS">probably</arg>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>penetrate</rel>
+        <arg n="1">any top-secret files</arg>
+</example>
+
+<example name="passive, unclear meaning to me">
+<inflection person="third" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    ``The collar was penetrated *trace* on a number of occasions,
+    ''meaning securities firms figured out ways to conduct program
+    trades to circumvent the collar and use the Big Board's electronic
+    trading system, Mr. Phelan said. 
+</text>
+        <rel>penetrated</rel>
+        <arg n="1">*trace* ->  The collar</arg>
+        <arg n="M" f="TMP">on a number of occasions</arg>
+        <arg n="M">meaning  securities firms figured out ways to
+        conduct program trades to circumvent the collar and use the
+        Big Board's electronic trading system </arg> 
+</example>
+
+<note>
+Yeah, but what's a collar?
+</note>
+
+</roleset>
+</predicate>
+</frameset>

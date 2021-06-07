@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="limp">
+<note>
+  Frames file for 'limp' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="limp.01" name="to move or proceed haltingly or unsteadily"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+</roles>
+
+<example name="automatically generated">
+<inflection person="ns" tense="past" aspect="both" voice="active" form="participle"/>
+<text>
+ He and his successor , Mary Anne Dolan , restored respect for the editorial product , and though in recent years the paper had been limping along on limited resources , its accomplishments were notable .
+</text>
+	<arg n="M" f="TMP">in recent years</arg>
+	<arg n="0">the paper</arg>
+	<rel>limping</rel>
+	<arg n="M" f="DIR">along</arg>
+	<arg n="M" f="MNR">on limited resources</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

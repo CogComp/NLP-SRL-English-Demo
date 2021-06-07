@@ -1,0 +1,69 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wire">
+<note>
+  Frames file for 'wire' based on sentences in wsj.  Verbnet entries
+  11.5, 22.4, 37.4, Framenet entry Communication means.
+</note>
+
+<roleset id="wire.01" vncls="11.5 37.4" name="send electronically">
+<roles>
+  <role n="0"  descr="sender"/>
+  <role n="1"  descr="sent, message"/>
+  <role n="2"  descr="recipient"/>
+</roles>
+
+<example name="all args">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary wired a note of condolences to John's parents.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >wired</rel>
+  <arg n="1"        >a note of condolences</arg>
+  <arg n="2" f="to">John's parents</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="wire.02" vncls="22.4" name="attach with wires">
+<roles>
+  <role descr="agent" n="0"><vnrole vncls="22.4" vntheta="Agent"/></role>
+  <role descr="entity wired" n="1"><vnrole vncls="22.4" vntheta="Patient"/></role>
+  <role descr="entity wired to" n="2"><vnrole vncls="22.4" vntheta="Patient2"/></role>
+</roles>
+
+<example name="specific meaning">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    Video Telecom Corp., which markets videoconferencing systems, is
+    working with court reporters [*-2] to wire a nationwide network to
+    allow depositions by live television. 
+</text>
+        <arg n="0">[*-2] ->  Video Telecom Corp., which markets
+        videoconferencing systems,</arg> 
+        <rel>wire</rel>
+        <arg n="1">a nationwide network to allow depositions by live
+        television</arg> 
+</example>
+
+<example name="arg2 as PRD">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Called Task Broker, the program acts something like an auctioneer
+    among a group of computers wired [*] together. 
+</text>
+        <rel>wired</rel>
+        <arg n="1">[*] ->  computers</arg>
+        <arg n="2" f="PRD">together</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

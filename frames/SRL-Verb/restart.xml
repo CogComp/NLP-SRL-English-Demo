@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="restart">
+<note>
+  Frames file for 'restart' based on survey of sentences in the WSJ
+  corpus. Comparison with 'start'.
+</note>
+
+<roleset id="restart.01" name="to start again or anew" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>  
+  <role n="1"  descr="entity restarted"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ The Belgian computer system finally was repaired and restarted [*-2] on Tuesday of this week , with the aid of Toronto Stock Exchange officials who [*T*-1] developed the system .
+</text>
+	<arg n="M" f="TMP">finally</arg>
+	<rel>restarted</rel>
+	<arg n="1">[*-2] ->  The Belgian computer system</arg>
+	<arg n="M" f="TMP">on Tuesday of this week</arg>
+	<arg n="M" f="MNR">with the aid of Toronto Stock Exchange officials who [*T*-1] developed the system</arg>
+</example>
+
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ She worked part-time as a consultant and wrote a book , but never restarted her high-powered legal career .
+</text>
+	<arg n="0">She</arg>
+	<arg n="M" f="TMP">never</arg>
+	<rel>restarted</rel>
+	<arg n="1">her high-powered legal career</arg>
+</example>
+
+
+<example name="intransitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="ns"/>
+<text>
+ At 13,000 feet , the engines restarted .
+</text>
+	<arg n="M" f="LOC">At 13,000 feet</arg>
+	<arg n="1">the engines</arg>
+	<rel>restarted</rel>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

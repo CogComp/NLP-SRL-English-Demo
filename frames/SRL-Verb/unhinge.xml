@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="unhinge">
+<note>
+  Frames file for 'unhinge' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="unhinge.01" name="to disrupt, confuse"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity unhinged"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="perfect" voice="active" form="participle"/>
+<text>
+ [*-1] Testifying before a House subcommittee , Mr. Mulford said that if the Treasury had n't intervened in foreign-exchange markets in September and early October [*-2] to reduce the dollar 's value , the plunge in the stock market might have provoked a steep fall in the currency that [*T*-97] might have `` unhinged financial markets . ''
+</text>
+	<arg n="0">[*T*-97] ->  that ->  a steep fall</arg>
+	<arg n="M" f="MOD">might</arg>
+	<rel>unhinged</rel>
+	<arg n="1">financial markets</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

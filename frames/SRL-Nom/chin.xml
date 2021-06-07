@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="chin">
+<roleset id="chin.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their chin
+</text>
+<arg n="1">their</arg>
+<rel>chin</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

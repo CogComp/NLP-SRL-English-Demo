@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="supplement">
+<note>
+  Frames file for 'supplement' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="supplement.01" vncls="-" name="add to, enhance">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing enhanced, added to"/>
+  <role n="2"  descr="the supplement itself"/>
+</roles>
+
+<example name="supplement as subject">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    But in private meetings yesterday, Budget Director Richard Darman
+    argued that only $1.5 billion in new federal appropriations are
+    needed [*-1] [*] to supplement existing resources. 
+</text>
+        <arg n="2">[*] -> [*-1] ->  only $1.5 billion in new federal
+        appropriations</arg> 
+        <rel>supplement</rel>
+        <arg n="1">existing resources</arg>
+</example>
+
+<example name="with agent">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     Mary supplemented the meagre payments from John's life insurance
+     policy with various acts of minor shoplifting.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >supplemented</rel>
+  <arg n="1"        >the meagre payments from John's life insurance
+  policy</arg> 
+  <arg n="2" f="with">various acts of minor shoplifting</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="glow">
+<note>
+  Frames file for 'glow' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="glow.01" name="to shine brightly and steadily, to be radiant"
+vncls="43.1">
+<roles>
+  <role n="0"  descr="entity glowing"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+ `` When you leave the room after your massage [*T*-1] , people say [0] you look like you 're glowing . ''
+</text>
+	<arg n="0">you</arg>
+	<rel>glowing</rel>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

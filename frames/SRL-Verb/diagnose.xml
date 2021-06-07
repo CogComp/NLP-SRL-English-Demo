@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="diagnose">
+<note>
+  Frames file for 'diagnose' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="diagnose.01" vncls="-" name="discover a sickness">
+<roles>
+  <role n="0"  descr="doctor"/>
+  <role n="1"  descr="patient"/>
+  <role n="2"  descr="illness"/>
+</roles>
+
+<example name="single arg usually illness">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    RESEARCHERS diagnosed a genetic defect in a three-day-old mouse
+    embryo in an experiment directly applicable to humans.
+</text>
+        <arg n="0">RESEARCHERS</arg>
+        <rel>diagnosed</rel>
+        <arg n="2">a genetic defect in a three-day-old mouse embryo</arg>
+        <arg n="M" f="LOC">in an experiment directly applicable to
+        humans</arg> 
+</example>
+
+<example name="semi-predicative illness">
+<inflection person="ns" tense="present" aspect="perfect" voice="passive" form="participle"/>
+<text>
+    Four workers at GTE Corp.'s headquarters have been diagnosed
+    *trace* as having hepatitis, and city health officials are
+    investigating whether a cafeteria worker may have exposed hundreds
+    of other GTE employees to the viral infection, company and city
+    officials said. 
+</text>
+        <rel>diagnosed</rel>
+        <arg n="1">*trace* ->  Four workers at GTE Corp.'s
+        headquarters</arg> 
+        <arg n="2" f="as">having hepatitis</arg>
+</example>
+
+<example name="all args">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     John diagnosed Mary with acute violent tendencies.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >diagnosed</rel>
+  <arg n="1"        >Mary</arg>
+  <arg n="2" f="with">acute violent tendencies</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

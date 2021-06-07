@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fog">
+<note>
+  Frames file for 'fog' based on sentences in wsj.  Verbnet entry 57
+  'weather phenomena' which is just plain wrong.
+</note>
+
+<roleset id="fog.01" vncls="-" name="cause to be covered with fog">
+<roles>
+  <role n="0"  descr="causer of fog"/>
+  <role n="1"  descr="thing covered with fog"/>
+</roles>
+
+<example name="one example is enough">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Though it's probably safe to assume that the majority of financial
+    planners are honest and even reasonably competent, the fact
+    remains that, as one wag puts it, ``anybody who [*T*-1] can fog a
+    mirror'' can call himself a financial planner. 
+</text>
+        <arg n="0">[*T*-1] ->  who ->  anybody</arg>
+        <arg n="M" f="MOD">can</arg>
+        <rel>fog</rel>
+        <arg n="1">a mirror</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

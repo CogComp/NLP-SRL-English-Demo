@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="pretend">
+<note>
+  Frames file for 'pretend' based on sentences in wsj.  No Verbnet
+  entry.
+</note>
+
+<roleset id="pretend.01" vncls="-" name="make-believe">
+<roles>
+  <role n="0"  descr="pretender"/>
+  <role n="1"  descr="premise (often PRD)"/>
+</roles>
+
+<example name="not PRD">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+     It's just comic when they try *trace* to pretend they're still
+     the master race.'' 
+</text>
+        <arg n="0">*trace* ->  they</arg>
+        <rel>pretend</rel>
+        <arg n="1">they 're still the master race</arg>
+</example>
+
+<example name="PRD">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    A Flemish game show has as its host a Belgian pretending to be
+    Italian. 
+</text>
+        <arg n="0">a Belgian</arg>
+        <rel>pretending</rel>
+        <arg n="1" f="PRD">to be Italian</arg>
+</example>
+
+<note>
+PRD is used when the pretender is described by the premise, or more
+concretely, when the premise is an infinitive with the arg0 in
+subject-control of the embedded clause.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="defend">
+<note>
+  Frames file for 'defend' based on sentences in financial subcorpus.
+  No verbnet entry.  Comparison to 'support'.
+</note>
+
+<roleset id="defend.01" name="defend">
+<roles>
+  <role n="0"  descr="defender"/>
+  <role n="1"  descr="defended"/>
+  <role n="2"  descr="instrument"/>
+</roles>
+
+<example name="no instrument">
+<text>
+   ...because there won't be a vigorous private bar *trace* *trace* to
+   defend the Bill of Rights... 
+</text>
+        <arg n="0">a vigorous private bar -> *trace* -> *trace*</arg>
+        <rel>defend</rel>
+        <arg n="1">the Bill of Rights</arg>
+</example>
+
+<example name="with instrument">
+  <text>
+    John defended Mary's honor with his rapier wit.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >defended</rel>
+  <arg n="1"        >Mary's honor</arg>
+  <arg n="2" f="with">rapier wit</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

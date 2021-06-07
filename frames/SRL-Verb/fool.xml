@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="fool">
+<note>
+  Frames file for 'fool' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="fool.01" name="to deceive or trick"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity deceived"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Trompe l'oeil painting is meant [*-1] to fool the eye , but Robert Lawrence Trotter , 35 , of Kennett Square , Pa. , took his fooling seriously .
+</text>
+	<arg n="0">[*-1] ->  Trompe l'oeil painting</arg>
+	<rel>fool</rel>
+	<arg n="1">the eye</arg>
+</example>
+</roleset>
+</predicate>
+
+
+<predicate lemma="fool_around">
+
+<roleset id="fool.02" name="to engage in idle or frivolous activity"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent fooling around"/>
+</roles>
+
+
+<example name="automatically generated">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Jeffrey Tarter , editor of SoftLetter , a Watertown , Mass. , industry newsletter , says : `` I 've seen a lot of people fooling around on the fringes of filtering information .
+</text>
+	<arg n="0">a lot of people</arg>
+	<rel>[ fooling] [ around]</rel>
+	<arg n="M" f="LOC">on the fringes of filtering information</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

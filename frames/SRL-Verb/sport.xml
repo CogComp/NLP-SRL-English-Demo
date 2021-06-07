@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="sport">
+<note>
+  Frames file for 'sport' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="sport.01" vncls="-" name="wear, display">
+<roles>
+	<role n="0" descr="wearer" /> 
+	<role n="1" descr="clothing" /> 
+</roles>
+
+<example name="typical usage">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    They're hiring models *trace* *trace* to stroll the aisles *trace*
+    sporting their jewels, and they're even beginning to borrow a
+    perennial favorite of the beauty business -- offering a gift when
+    consumers make a purchase. 
+</text>
+        <arg n="0">*trace* -> *trace* -> *trace* ->  models</arg>
+        <rel>sporting</rel>
+        <arg n="1">their jewels</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="sport.02" vncls="-" name="play with, toy with, tease">
+<roles>
+  <role n="0"  descr="sporter"/>
+  <role n="1"  descr="victim"/>
+</roles>
+
+<example name="idle cruelty">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John's cat sported with a mouse for over an hour before finally
+    killing the poor thing.
+  </text>
+  <arg n="0"        >John's cat</arg>
+  <rel              >sported</rel>
+  <arg n="1" f="with">a mouse</arg>
+  <arg n="m" f="TMP">for over an hour</arg>
+  <arg n="m" f="TMP">before finally killing the poor thing</arg>
+</example>
+
+<note>
+I bet you thought Mary was going to be the subject here, didn't you?
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,78 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ply">
+<note>
+  Frames file for 'ply' based on sentences in wsj.  Verbnet entry 13.4.2.
+</note>
+
+<roleset id="ply.01" vncls="13.4.2" name="supply with">
+<roles>
+	<role descr="provider" n="0">
+		<vnrole vncls="13.4.2" vntheta="Agent"/>
+  </role>
+
+	<role descr="entity getting stuff" n="1">
+		<vnrole vncls="13.4.2" vntheta="Recipient"/>
+  </role>
+
+	<role descr="stuff" n="2">
+		<vnrole vncls="13.4.2" vntheta="Theme"/>
+  </role>
+</roles>
+
+<example name="like a sailor on shore leave">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary plied John with chocolate and Kool-aid.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >plied</rel>
+  <arg n="1"        >John</arg>
+  <arg n="2" f="with">chocolate and Kool-aid</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="ply.02" vncls="-" name="work at some business/trade/skill">
+<roles>
+  <role n="0"  descr="worker"/>
+  <role n="1"  descr="business/trade/skill"/>
+</roles>
+
+<example name="typical usage">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    She concedes that such a position is ``unfair'' to the thousands
+    of conscientious and qualified people plying the trade, but as a
+    consumer advocate she feels impelled to take it. 
+</text>
+        <arg n="0">the thousands of conscientious and qualified people</arg>
+        <rel>plying</rel>
+        <arg n="1">the trade</arg>
+</example>
+
+<example name="lexical error">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="gerund"/>
+<text>
+    And [*] try plying new dollars free in a market that is softening,
+    hurt by a strong dollar and concerned about overcapacity -- the
+    industry's Darth Vadar. 
+</text>
+        <arg n="0">[*]</arg>
+        <rel>plying</rel>
+        <arg n="1">new dollars</arg>
+        <arg n="2" f="PRD">free</arg>
+        <arg n="M" f="LOC">in a market that is softening, hurt by a
+        strong dollar and concerned about overcapacity -- the
+        industry's Darth Vadar</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

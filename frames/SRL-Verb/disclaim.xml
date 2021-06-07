@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="disclaim">
+<note>
+  Frames file for 'disclaim' based on sentences in wsj.  No Verbnet
+  entry, which is unsurprising because this is only barely a verb.
+</note>
+
+<roleset id="disclaim.01" vncls="-" name="not claim">
+<roles>
+  <role n="0"  descr="agent, non-claimer"/>
+  <role n="1"  descr="topic, thing not claimed"/>
+</roles>
+
+<example name="still not sure what this means">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    Although Section 2 of the act expressly disclaims [*] requiring
+    that minorities win a proportional share of elective offices, few
+    municipal and state government plans achieve preclearance by the
+    Justice Department or survive the scrutiny of the lower federal
+    courts unless they carve out as many solidly minority districts as
+    possible. 
+</text>
+        <arg n="0">Section 2 of the act</arg>
+        <arg n="M" f="MNR">expressly</arg>
+        <rel>disclaims</rel>
+        <arg n="1">[*] requiring that minorities win a proportional
+        share of elective offices</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

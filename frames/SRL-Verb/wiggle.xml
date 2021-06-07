@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="wiggle">
+<note>
+  Frames file for 'wiggle' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="wiggle.01" vncls="-" name="mode of motion">
+<roles>
+  <role n="0"  descr="entity in motion"/>
+  <role n="1"  descr="path"/>
+</roles>
+
+<example name="not the flat-headed borer!">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Some 500 insects and 150 diseases wiggle, chew and romp through
+    growers' nightmares, including maggots, mites, mildew, thrips,
+    black rot and the flat-headed borer. 
+</text>
+        <arg n="0">Some 500 insects and 150 diseases</arg>
+        <rel>wiggle</rel>
+        <arg n="1" f="through">growers' nightmares</arg>
+        <arg n="M">including maggots, mites, mildew, thrips, black rot
+        and the flat-headed borer</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="wiggle.02" vncls="-" name="cause to wiggle">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="thing wiggling"/>
+</roles>
+
+<example name="wiggling fanny">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    ``She just wiggled her fanny and all the French fell in love with
+    her,'' sniffed the literary world's Maria Jolas, not entirely
+    inaccurately.  
+</text>
+        <arg n="0">She</arg>
+        <arg n="M" f="DIS">just</arg>
+        <rel>wiggled</rel>
+        <arg n="1">her fanny</arg>
+</example>
+
+<note>
+Rolesets could be merged?
+</note>
+
+</roleset>
+</predicate>
+</frameset>

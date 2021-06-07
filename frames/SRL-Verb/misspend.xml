@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="misspend">
+<note>
+  Frames file for 'misspend' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="misspend.01" vncls="-" name="spend inappropriately, waste">
+<roles>
+  <role n="0"  descr="misspender"/>
+  <role n="1"  descr="thing wasted"/>
+  <role n="2"  descr="instrument"/>
+</roles>
+
+<example name="only in passive?">
+<inflection person="third" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    The state has sued these charities in state court, complaining
+    that much of the money was grossly misspent *trace*; 82%, says
+    Mr. Ormstedt, went to fund raisers and most of the rest to the
+    people who ran the charities and to their relatives -- for fur
+    coats, trips to Florida, Lucullan restaurant tabs. 
+</text>
+        <arg n="M" f="MNR">grossly</arg>
+        <rel>misspent</rel>
+        <arg n="1">*trace* ->  much of the money</arg>
+</example>
+
+<example name="active?">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John misspent his youth learning classical languages.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >misspent</rel>
+  <arg n="1"        >his youth</arg>
+  <arg n="2"        >learning classical languages</arg>
+</example>
+
+<note>
+That doesn't sound entirely right to me.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

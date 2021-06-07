@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="unsteadiness">
+<roleset id="unsteadiness.01" name="attribute/nomadj-unsteady">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+unsteadiness in the industry
+</text>
+<arg f="REF" n="2">unsteadiness</arg>
+<rel>unsteadiness</rel>
+<arg n="1">in the industry</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

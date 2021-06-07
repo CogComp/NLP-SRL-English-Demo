@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="rumble">
+<note>
+  Frames file for 'rumble'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="rumble.01" name="to move or proceed with a long rolling sound"
+vncls="-">
+<roles> 
+  <role n="0"  descr="entity rumbling"/>   
+</roles>
+
+
+
+<example name="with direction">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="gerund"/>
+<text>
+ East Germany yesterday removed Erich Honecker , one of the staunchest holdouts against the reform rumbling through the Communist world , in an effort [*] to win back the confidence of its increasingly rebellious citizens .
+</text>
+	<arg n="0">the reform</arg>
+	<rel>rumbling</rel>
+	<arg n="M" f="DIR">through the Communist world</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

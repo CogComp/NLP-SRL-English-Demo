@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="envy-quotient">
+<roleset id="envy-quotient.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the event 's envy-quotient
+</text>
+<arg n="1">the event 's</arg>
+<arg f="REF" n="2">envy-quotient</arg>
+<rel>envy-quotient</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

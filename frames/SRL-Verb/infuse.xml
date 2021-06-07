@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="infuse">
+<note>
+  Frames file for 'infuse' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="infuse.01" name="to fill with something or put into"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing infused"/>
+  <role n="2"  descr="thing infused with or into"/>
+</roles>
+
+<example name="infuse with">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ If that attitude lasts , it could infuse covert action planning with a level of care and confidence that [*T*-2] has n't been seen [*-1] in years .
+</text>
+	<arg n="M" f="ADV">If that attitude lasts</arg>
+	<arg n="0">it</arg>
+	<arg n="M" f="MOD">could</arg>
+	<rel>infuse</rel>
+	<arg n="1">covert action planning</arg>
+	<arg n="2" f="with">a level of care and confidence that [*T*-2] has n't been seen [*-1] in years</arg>
+</example>
+
+
+<example name="infuse into">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="full"/>
+<text>
+ Delmed did say that the proposal still would infuse cash into Delmed but less than the $ 10 million [*U*] originally expected [*] .
+</text>
+	<arg n="0">the proposal</arg>
+	<arg n="M" f="TMP">still</arg>
+	<arg n="M" f="MOD">would</arg>
+	<rel>infuse</rel>
+	<arg n="1">cash</arg>
+	<arg n="2" f="into">Delmed</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

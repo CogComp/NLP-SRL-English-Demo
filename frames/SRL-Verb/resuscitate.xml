@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="resuscitate">
+<note>
+  Frames file for 'resuscitate' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="resuscitate.01" vncls="-" name="bring back to life">
+<roles>
+  <role n="0"  descr="resuscitator"/>
+  <role n="1"  descr="dead thing, now alive"/>
+</roles>
+
+<example name="bride of the reanimator">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    For his sixth novel, Mr. Friedman tried *trace* to resuscitate the
+    protagonist of his 1972 work, ``About Harry Towns.'' 
+</text>
+        <arg n="0">*trace* ->  Mr. Friedman</arg>
+        <rel>resuscitate</rel>
+        <arg n="1">the protagonist of his 1972 work, ``About Harry
+        Towns</arg>
+</example> 
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

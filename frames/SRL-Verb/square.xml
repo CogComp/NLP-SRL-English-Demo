@@ -1,0 +1,105 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="square">
+<note>
+  Frames file for 'square' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="square.01" name="set to rights, arrange properly">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing being set to rights"/>
+</roles>
+
+<example name="deplorable grammar">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    They said contributing to the downward drift was the fact that
+    many professional traders had chosen *trace* to square positions
+    ahead of the weekend. 
+</text>
+        <arg n="0">*trace* ->  many professional traders</arg>
+        <rel>square</rel>
+        <arg n="1">positions</arg>
+        <arg n="M" f="TMP">ahead of the weekend</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="square.02" name="mathematics">
+<roles>
+  <role n="0"  descr="mathematician"/>
+  <role n="1"  descr="number"/>
+  <role n="2"  descr="result"/>
+</roles>
+
+<example name="failing grade">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John squared three to ten.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >squared</rel>
+  <arg n="1"        >three</arg>
+  <arg n="2" f="to">ten</arg>
+</example>
+
+<note>
+I actually doubt the result argument would ever occur.  That sounds
+really odd to me.
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="square_off">
+
+<roleset id="square.03" vncls="-" name="compete">
+<roles>
+  <role n="0" descr="causal agent"/>
+  <role descr="competitor" n="1"/>
+  <role descr="opponent" n="2"/>
+  <role descr="prize" n="3"/>
+</roles>
+
+<example name="active">
+  <inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+  <text>
+     Not only are Japan's financial institutions putting their
+     enormous clot to work; increasingly they're squaring off against
+     one another in unprecedented public fashion.
+  </text>
+  <arg n="m" f="TMP">increasingly</arg>
+  <arg n="0"        >they</arg>
+  <rel              >squaring off</rel>
+  <arg n="2" f="against">one another</arg>
+  <arg n="m" f="MNR">in unprecedented public fashion</arg>
+</example>
+
+<note>
+Here causal agent and first competitor are merged.
+</note>
+
+<example name="(pseudo?)passive">
+  <inflection person="third" tense="present" aspect="ns" voice="passive" form="participle"/>
+  <text>
+     The restyled 300ZX costs as much as $33,000 and is squared off
+     against the Porsche 944, which begins at $41,900.
+  </text>
+  <arg n="1"        >The restyled 300ZX</arg>
+  <rel              >squared off</rel>
+  <arg n="2" f="against">the Porsche 944, which begins at $41,900</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

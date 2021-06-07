@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="baker">
+<roleset id="baker.01" name="create via heat" source="verb-bake.01">
+<roles>
+
+<role descr="baker" n="0"></role>
+
+<role descr="creation" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+<role descr="beneficiary" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+no cookie baker
+</text>
+<arg f="NEG" n="M">no</arg>
+<arg n="1">cookie</arg>
+<arg n="0">baker</arg>
+<rel>baker</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

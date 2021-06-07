@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="belly-flop">
+<note>
+  Frames file for 'belly-flop' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="belly-flop.01" vncls="-" name="fail spectacularly">
+<roles>
+  <role n="1"  descr="thing failing"/>
+</roles>
+
+<example name="short-n-sweet">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    It belly-flopped anyway.
+</text>
+        <arg n="1">It</arg>
+        <rel>belly-flopped</rel>
+        <arg n="M" f="DIS">anyway</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

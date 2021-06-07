@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="curse">
+<roleset id="curse.01" name="use bad language" source="verb-curse.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="utterance" n="1"></role>
+
+<role descr="listener" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the evil creature that is evoking the curses of so many observers
+</text>
+<arg n="2">the evil creature ---> that ---> *T*-2</arg>
+<arg n="Support">evoking</arg>
+<rel>curses</rel>
+<arg n="0">of so many observers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

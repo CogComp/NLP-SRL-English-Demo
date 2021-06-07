@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="tot">
+<note>
+  Frames file for 'tot'  based on survey of sentences in the WSJ
+  corpus.  Misparse for 'tote'.
+</note>
+
+<roleset id="tot.01" name="to carry lightly"
+vncls="-">
+<roles> 
+  <role n="0"  descr="carrier"/>
+  <role n="1"  descr="thing carried"/>
+  <role n="2"  descr="instrument"/>
+  <role n="3"  descr="'with' reflecting back on arg0"/>
+  <role n="4"  descr="benefactive (predicted but not seen)"/>
+</roles>
+
+<example name="participle">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="participle"/>
+<text>
+ But she asks a workman toting the bricks from the lawn [*-1] to give her a boost through an open first-floor window .
+</text>
+	<arg n="0">a workman</arg>
+	<rel>toting</rel>
+	<arg n="1">the bricks</arg>
+	<arg n="M" f="DIR">from the lawn</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga, changed by Paul.
+</note>
+
+</frameset>
+
+
+

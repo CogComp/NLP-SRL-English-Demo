@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="hunt">
+<note>
+  Frames file for 'hunt' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="hunt.01" name="to pursue, search for"
+vncls="35.1">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity hunted for"/>
+</roles>
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+ Mrs. Gorman took advantage of low prices after the 1987 crash [*-1] to buy stocks and has hunted for other bargains since the Oct. 13 plunge .
+</text>
+	<arg n="0">Mrs. Gorman</arg>
+	<rel>hunted</rel>
+	<arg n="1" f="for">other bargains</arg>
+	<arg n="M" f="TMP">since the Oct. 13 plunge</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

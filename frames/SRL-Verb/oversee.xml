@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="oversee">
+<note>
+  Frames file for 'oversee' based on sentences in financial subcorpus.
+  No Verbnet entry.  Comparison with 'manage'.
+</note>
+
+<roleset id="oversee.01" name="supervise">
+<roles>
+  <role n="0"  descr="supervisor"/>
+  <role n="1"  descr="thing supervised"/>
+</roles>
+
+<example name="they all look like this">
+<text>
+    Mr. Horton, who *trace* oversaw Gulf Power's governmental-affairs
+    efforts, died mysteriously in a plane crash... 
+</text>
+        <arg n="0">*trace* ->  who ->  Mr. Horton</arg>
+        <rel>oversaw</rel>
+        <arg n="1">Gulf Power's governmental-affairs efforts</arg>
+</example>
+
+<note>
+"Oversee" is a portmanteau for "supervise"; "over" = "super" and "see"
+= "vise" (eg, "vision" etc).
+</note>
+
+</roleset>
+</predicate>
+</frameset>

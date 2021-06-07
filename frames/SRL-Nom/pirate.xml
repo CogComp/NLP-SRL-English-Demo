@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pirate">
+<roleset id="pirate.01" name="be a pirate, steal" source="verb-pirate.01" vncls="10.5">
+<roles>
+
+<role descr="pirate, thief, agent" n="0">
+<vnrole vncls="10.5" vntheta="Agent"/></role>
+
+<role descr="thing stolen" n="1">
+<vnrole vncls="10.5" vntheta="Theme"/></role>
+
+<role descr="stolen from" n="2">
+<vnrole vncls="10.5" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+movie and book pirates
+</text>
+<arg n="1">movie and book</arg>
+<arg n="0">pirates</arg>
+<rel>pirates</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

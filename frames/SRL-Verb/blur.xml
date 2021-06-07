@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="blur">
+<note>
+  Frames file for 'blur' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="blur.01" name="to make indistinct"
+vncls="45.4">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity blurred"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ The selective approach blurred themes such as domestic-demand issues , large-capitalization issues or high-technology shares , which [*T*-1] had been providing at least some trading direction over the past few weeks , Mr. Wada said [0] [*T*-2] .
+</text>
+	<arg n="0">The selective approach</arg>
+	<rel>blurred</rel>
+	<arg n="1">themes such as domestic-demand issues , large-capitalization issues or high-technology shares , which [*T*-1] had been providing at least some trading direction over the past few weeks</arg>
+</example>
+
+
+<example name="intransitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ In practice , however , the line between interpretation and redefinition of the criminal law long ago began [*-1] to blur .
+</text>
+	<arg n="1">[*-1] ->  the line between interpretation and redefinition of the criminal law</arg>
+	<rel>blur</rel>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="spark">
+<roleset id="spark.01" name="attribute/nomadj-sparkly">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But too often , these routines lack spark because this sitcom ,
+like all sitcoms , is timid about confronting Mr. Mason 's stock
+in trade - ethnic differences .
+</text>
+<arg n="1">these routines</arg>
+<arg f="NEG" n="M">lack</arg>
+<arg n="Support">lack</arg>
+<arg f="REF" n="2">spark</arg>
+<rel>spark</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

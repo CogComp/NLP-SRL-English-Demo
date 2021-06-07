@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="navigation">
+<roleset id="navigation.01" name="steer" source="verb-navigate.01">
+<roles>
+
+<role descr="steerer" n="0"></role>
+
+<role descr="thing steered" n="1"></role>
+
+<role descr="path" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+low-altitude navigation and targeting equipment
+</text>
+<arg f="LOC" n="M">low-altitude</arg>
+<rel>navigation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

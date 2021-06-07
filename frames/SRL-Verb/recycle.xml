@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="recycle">
+<note>
+  Frames file for 'recycle' based on sentences in financial subcorpus.
+  No Verbnet entry, no Framenet entry.  No comparison.
+</note>
+
+<roleset id="recycle.01" vncls="-" name="use again">
+<roles>
+  <role n="0"  descr="recycler"/>
+  <role n="1"  descr="garbage"/>
+  <role n="2"  descr="shiny new product"/>
+</roles>
+
+<example name="all args">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    Ronald Sloan, executive vice president of Siebel Capital
+    Management, likes Wellman Inc., a company that *trace* recycles
+    plastic into synthetic fibers for carpeting. 
+</text>
+        <arg n="0">*trace* ->  that ->  a company</arg>
+        <rel>recycles</rel>
+        <arg n="1">plastic</arg>
+        <arg n="2" f="into">synthetic fibers for carpeting</arg>
+</example>
+
+<note>
+Arg2 normally omitted.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="resonate">
+<note>
+  Frames file for 'resonate' based on sentences in wsj.  Verbnet entry
+  47.4, sound existence.
+</note>
+
+<roleset id="resonate.01" vncls="47.4" name="sound robustly">
+<roles>
+  <role n="1"  descr="sound"/>
+  <role n="2"  descr="additional description of sound"/>
+</roles>
+
+<example name="normally inchoative">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    It was a profoundly moving moment for series television, and
+    Robert Loggia's acting resonated in the silence. 
+</text>
+        <arg n="1">Robert Loggia's acting</arg>
+        <rel>resonated</rel>
+        <arg n="M" f="LOC">in the silence</arg>
+</example>
+
+<example name="with additional description">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    It's set in New York, but it resonates with the terrible dynamics
+    of the Latin American drug wars. 
+</text>
+        <arg n="1">it</arg>
+        <rel>resonates</rel>
+        <arg n="2" f="with">the terrible dynamics of the Latin
+        American drug wars</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

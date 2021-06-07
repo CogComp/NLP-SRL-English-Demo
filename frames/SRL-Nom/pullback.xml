@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pullback">
+<roleset id="pullback.01" name="try to) cause motion" source="verb-pull.01">
+<roles>
+
+<role descr="puller" n="0"></role>
+
+<role descr="thing pulled" n="1"></role>
+
+<role descr="dir or attribute of arg1" n="2"></role>
+
+<role descr="ext, distance moved" n="3"></role>
+
+<role descr="goal, placed moved to" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+any further pullback by takeover financiers , both in the
+junkbond market and among commercial banks
+</text>
+<arg n="2">pullback</arg>
+<rel>pullback</rel>
+<arg n="0">by takeover financiers</arg>
+<arg n="4">both in the junkbond market and among commercial banks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Wall Street 's program-trading pullback
+</text>
+<arg n="0">Wall Street 's</arg>
+<arg n="1">program-trading</arg>
+<arg n="2">pullback</arg>
+<rel>pullback</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

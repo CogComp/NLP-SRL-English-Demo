@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sprawl">
+<note>
+  Frames file for 'sprawl' based on sentences in wsj.  Verbnet entry
+  47.6 and 50, Framenet entry Posture.
+</note>
+
+<roleset id="sprawl.01" vncls="47.6 50" name="extend horizontally and ungracefully">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="thing in sprawling mode"/>
+  <role n="2"  descr="location"/>
+</roles>
+
+<example name="odd agentive example">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Like Peter Sellars, Ms. Bogart manipulates her actors as if they
+    were rag dolls, [*-1] sprawling them on staircases, dangling them
+    off tables, even hanging them from precipices while having them
+    perform some gymnastic feats of derring-do. 
+</text>
+        <arg n="0">[*-1] ->  Ms. Bogart</arg>
+        <rel>sprawling</rel>
+        <arg n="1">them</arg>
+        <arg n="2" f="on">staircases</arg>
+</example>
+
+<example name="more typically ergative">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     John sprawled on the couch.
+  </text>
+  <arg n="1"        >John</arg>
+  <rel              >sprawled</rel>
+  <arg n="2" f="on">the couch</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

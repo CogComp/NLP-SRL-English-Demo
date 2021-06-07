@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="arbitrate">
+<note>
+  Frames file for 'arbitrate' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="arbitrate.01" vncls="-" name="judge, decide">
+<roles>
+  <role n="0"  descr="arbitrator"/>
+  <role n="1"  descr="decision or conflict"/>
+</roles>
+
+<example name="the one example">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    An adjudicator system -- that is, an investigator who [*T*-1] acts
+    first as a fact-finder and then switches hats and arbitrates the
+    facts -- has such advantages as speed, flexibility and maximum
+    privacy. 
+</text>
+        <arg n="0">[*T*-1] ->  who ->  an investigator</arg>
+        <rel>arbitrates</rel>
+        <arg n="1">the facts</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

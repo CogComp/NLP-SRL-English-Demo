@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="growl">
+<note>
+  Frames file for 'growl' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="growl.01" name="to speak in an angry or surly manner"
+vncls="37.3 40.2">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="utterance"/>
+</roles>
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ `` Babies , kiddies , '' growls [*T*-1] their manager -- a fellow named [*-2] Earl Weaver , who , in a different time , [*T*-3] handled four World Series teams and now [*T*-3] handles the Gold Coast Suns .
+</text>
+	<rel>growls</rel>
+	<arg n="1">[*T*-1] ->  Babies , kiddies ,</arg>
+	<arg n="0">their manager -- a fellow named [*-2] Earl Weaver , who , in a different time , [*T*-3] handled four World Series teams and now [*T*-3] handles the Gold Coast Suns</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

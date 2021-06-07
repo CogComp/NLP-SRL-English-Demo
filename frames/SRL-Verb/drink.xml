@@ -1,0 +1,92 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="drink">
+<note>
+  Frames file for 'drink' based on sentences in wsj.  Verbnet entry 39.1.
+</note>
+
+<roleset id="drink.01" vncls="39.1" name="ingest liquids">
+<roles>
+  <role n="0"  descr="drinker"/>
+  <role n="1"  descr="liquid"/>
+  <role n="2"  descr="source of liquid"/>
+</roles>
+
+<example name="basic transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    And another thing -- real Texans drink Lipton iced tea.''
+</text>
+        <arg n="0">real Texans</arg>
+        <rel>drink</rel>
+        <arg n="1">Lipton iced tea</arg>
+</example>
+
+<example name="intransitive">
+<inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+    He says  bowling helps him shed pounds, though that effort is
+    sometimes thwarted by the fact that ``when I'm drinking, I bowl
+    better.''  
+</text>
+        <arg n="0">I</arg>
+        <rel>drinking</rel>
+</example>
+
+<example name="adverbial arg1">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    They worry about their careers, drink too much and suffer through
+    broken marriages and desultory affairs. 
+</text>
+        <arg n="0">They</arg>
+        <rel>drink</rel>
+        <arg n="1">too much</arg>
+<note>
+The assumption is that there's an unstated noun behind the 'too much'.
+</note>
+</example>
+
+<example name="with source">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Jackals roam the streets at night, and gemsbok, hardy antelope
+    with long straight horns, wander in from the desert *trace* to
+    drink from water sprinklers. 
+</text>
+        <arg n="0">*trace* ->  gemsbok, hardy antelope with long
+        straight horns,</arg> 
+        <rel>drink</rel>
+        <arg n="2" f="from">water sprinklers</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="drink.02" vncls="-" name="salute">
+<roles>
+  <role n="0"  descr="drinker"/>
+  <role n="1"  descr="thing saluted"/>
+</roles>
+
+<example name="prost, prost, here's a toast">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    I've learned the hard way that too much booze / Takes revenge the
+    next day about nine; / No wonder I say, ``I drink to your health''
+    / -- It certainly isn't to mine!
+</text>
+        <arg n="0">I</arg>
+        <rel>drink</rel>
+        <arg n="1" f="to">your health</arg>
+</example>
+
+<note>
+Doggerel verse in the Wall Street Journal.  I love it.
+</note>
+
+</roleset>
+</predicate>
+</frameset>
+

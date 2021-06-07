@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="persuade">
+<note>
+  Frames file for 'persuade' based on sentences in financial
+  subcorpus.  No Verbnet entry, Framenet entry Suasion2.  Comparison
+  with 'convince'.
+</note>
+
+<roleset id="persuade.01" vncls="-" name="impelled action">
+<roles>
+  <role descr="convincer" n="0"/>
+  <role descr="impelled agent" n="1"/>
+  <role descr="impelled action, proposition" n="2"/>
+</roles>
+
+<example name="impelled action">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Mr. de Cholet said Mr. Fournier's biggest hope was *trace* to
+    somehow persuade regulatory authorities to block the bid. 
+</text>
+        <arg n="0">*trace* ->  Mr. Fournier's</arg>
+	<arg n="m" f="ADV">somehow</arg>
+        <rel>persuade</rel>
+        <arg n="1">regulatory authorities</arg>
+        <arg n="2" f="PRD">to block the bid</arg>
+</example>
+
+<example name="proposition">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    In an attempt *trace* to persuade investors that his bid wasn't
+    just ``a stock play,'' Mr. Trump promised last week to notify the
+    market before selling any shares. 
+</text>
+        <arg n="0">*trace* -> Mr. Trump</arg>
+        <rel>persuade</rel>
+        <arg n="1">investors</arg>
+        <arg n="2">his bid was n't just `` a stock play</arg>
+</example>
+
+<note>
+Impelled actions should take PRD to mark them as impelled actions.
+Propositions should not take PRD.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

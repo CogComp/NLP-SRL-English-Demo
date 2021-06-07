@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="cope">
+<note>
+  Frames file for 'cope' based on sentences in financial subcorpus.
+  No access to verbnet.  No comparison.
+</note>
+
+<roleset id="cope.01" name="get by">
+<roles>
+  <role n="0"  descr="entity coping"/>
+  <role n="1"  descr="coping with"/>
+</roles>
+
+<example name="with thing coped with">
+<text>
+    ``Our company has not been able *trace* to cope very effectively
+    with'' changes in the marketplace, said Ryosuke Ito, Sansui's
+    president. 
+</text>
+        <arg n="0">*trace* ->  Our company</arg>
+        <rel>cope</rel>
+        <arg n="M" f="MNR">very effectively</arg>
+        <arg n="1" f="with">changes in the marketplace</arg>
+</example>
+
+<example name="intransitive">
+  <text>
+    Despite all the pharmaceutical help, John just couldn't cope.
+  </text>
+  <arg n="m" f="ADV">Despite all the pharmaceutical help</arg>
+  <arg n="0"        >John</arg>
+  <arg n="m" f="DIS">just</arg>
+  <arg n="m" f="MOD">could</arg>
+  <arg n="m" f="NEG">n't</arg>
+  <rel              >cope</rel>
+</example>
+
+<note>
+Maybe that's a slang usage.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

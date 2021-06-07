@@ -1,0 +1,70 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="short">
+<note>
+  Frames file for 'short' based on sentences in wsj.  Verbnet entry 45.4.
+</note>
+
+<roleset id="short.01" vncls="-" name="sell stocks short">
+<roles>
+  <role n="0"  descr="stock broker"/>
+  <role n="1"  descr="stocks"/>
+</roles>
+
+<example name="wsj-ese strikes again!">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="gerund"/>
+<text>
+    For example, an investor may seek [*-1] to profit during some
+    takeover situations by [*-2] buying stock in one company involved
+    and shorting the stock of the other.  
+</text>
+        <arg n="0">[*-2] ->  [*-1] ->  an investor</arg>
+        <rel>shorting</rel>
+        <arg n="1">the stock of the other</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="short.02" vncls="45.4" name="short-circuit">
+<roles>
+  <role n="0"  descr="electrician"/>
+  <role n="1"  descr="circuit, electrical appliance"/>
+</roles>
+
+<note>
+I cannot come up with a decent sentence for this.
+</note>
+
+</roleset>
+
+<roleset id="short.03" vncls="-" name="short change">
+<roles>
+  <role n="0"  descr="giver of change"/>
+  <role n="1"  descr="receiver of change"/>
+  <role n="2"  descr="explicit mention of change"/>
+</roles>
+
+<example name="poor John">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    The clerk at Wawa shorted John of $58.13.
+  </text>
+  <arg n="0"        >The clerk at Wawa</arg>
+  <rel              >shorted</rel>
+  <arg n="1"        >John</arg>
+  <arg n="2" f="of">$58.13</arg>
+</example>
+
+<note>
+Not restricted to money; can be used anytime someone doesn't receive
+everything they "should" be getting.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

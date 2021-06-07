@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="disrupt">
+<note>
+  Frames file for 'disrupt' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+
+<roleset id="disrupt.01" name="to interrupt, throw into disorder"  vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity disrupted"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="future" aspect="ns" voice="active" form="full"/>
+<text>
+ The unusual seaborne meeting wo n't disrupt plans for a formal summit meeting next spring or summer , at which an arms-control treaty is likely [*-2] to be completed [*-224] [*T*-1] .
+</text>
+	<arg n="0">The unusual seaborne meeting</arg>
+	<arg n="M" f="MOD">wo</arg>
+	<arg n="M" f="NEG">n't</arg>
+	<rel>disrupt</rel>
+	<arg n="1">plans for a formal summit meeting next spring or summer , at which an arms-control treaty is likely [*-2] to be completed [*-224] [*T*-1]</arg>
+</example>
+
+
+
+
+<example name="passive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Since commercial airline flights were disrupted [*-1] , the company chartered three planes [*-3] to fly these executives back to the West Coast and bring along portable computers , cellular phones and some claims adjusters .
+</text>
+	<rel>disrupted</rel>
+	<arg n="1">[*-1] ->  commercial airline flights</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

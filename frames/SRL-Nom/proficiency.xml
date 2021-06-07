@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="proficiency">
+<roleset id="proficiency.01" name="nomadjlike-proficient">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="domain" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+English-language proficiency
+</text>
+<arg n="1">English-language</arg>
+<rel>proficiency</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

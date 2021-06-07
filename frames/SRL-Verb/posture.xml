@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="posture">
+<note>
+  Frames file for 'posture'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="posture.01" name="to assume a pose or mental attitude"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>  
+  <role n="1"  descr="pose"/>  
+</roles>
+
+<example name="prepositional Arg1">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="gerund"/>
+<text>
+ Unless Mr. Lawson 's resignation leads to a change in British interest-rate policy -- Mrs. Thatcher 's administration firmly supports high interest rates [*] to keep inflation in check -- or [*] posturing toward full inclusion in the European Monetary System 's exchange-rate mechanism , Mr. Lawson 's withdrawal will have little long-term impact on exchange rates , Mr. Chandross concluded [0] [*T*-1] .
+</text>
+	<arg n="0">[*]</arg>
+	<rel>posturing</rel>
+	<arg n="1" f="toward">full inclusion in the European Monetary System 's exchange-rate mechanism</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+
+

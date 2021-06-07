@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="scorn">
+<note>
+  Frames file for 'scorn' based on sentences in wsj.  Verbnet entry
+  33, Framenet entry Judgement.
+</note>
+
+<roleset id="scorn.01" vncls="33" name="despise">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing scorned"/>
+</roles>
+
+<example name="remember the yuppies?">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Where '60s dropouts professed [*-4] to scorn middle-class life and
+    ambitious yuppies hoped to leave it far behind as they scaled the
+    upper reaches of success, it now seems that so many people feel
+    they're slipping between the cracks, that middle-class life is
+    viewed with nostalgia or outright longing. 
+</text>
+        <arg n="0">[*-4] ->  '60s dropouts</arg>
+        <rel>scorn</rel>
+        <arg n="1">middle-class life</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

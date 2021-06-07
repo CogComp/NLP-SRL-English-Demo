@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="rear">
+<note>
+  Frames file for 'rear' based on sentences in financial subcorpus.
+  No Verbnet entry, comparison with 'raise'.
+</note>
+
+<roleset id="rear.01" vncls="-" name="raise a child">
+<roles>
+  <role n="0"  descr="parent"/>
+  <role n="1"  descr="child"/>
+</roles>
+
+<example name="passivized">
+<inflection person="third" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    While Mr. Roderick was reared *trace* in the shadows of
+    Pittsburgh's smoking mills, Mr. Corry grew up in Cincinnati, a
+    city nicknamed  ``Porkapolis'' and more accustomed to pork chops
+    than pig iron. 
+</text>
+        <rel>reared</rel>
+        <arg n="1">*trace* ->  Mr. Roderick</arg>
+        <arg n="M" f="LOC">in the shadows of Pittsburgh's smoking
+        mills</arg> 
+</example>
+
+<example name="with parent">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     John reared a litter of puppies.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >reared</rel>
+  <arg n="1"        >a litter of puppies</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

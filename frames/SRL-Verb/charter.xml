@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="charter">
+<note>
+  Frames file for 'charter'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="charter.01" name="to hire or lease by charter"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity chartered"/>
+  <role n="2"  descr="task"/>
+</roles>
+
+
+<example name="all arguments">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Since commercial airline flights were disrupted [*-1] , the company chartered three planes [*-3] to fly these executives back to the West Coast and bring along portable computers , cellular phones and some claims adjusters .
+</text>
+	<arg n="M" f="PRP">Since commercial airline flights were disrupted [*-1]</arg>
+	<arg n="0">the company</arg>
+	<rel>chartered</rel>
+	<arg n="1">three planes</arg>
+	<arg n="2">[*-3] to fly these executives back to the West Coast and bring along portable computers , cellular phones and some claims adjusters</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="stabilize">
+<note>
+  Frames file for 'stabilize' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="stabilize.01" name="to make stable" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing stabilized"/>
+  <role n="2"  descr="stabilized at"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+ Or [*] to supply enough money [0] [*T*-1] to meet the increased demand and stabilize the exchange rate , as the Chancellor argued [*?*] , and ensure the permanence of this policy by [*-2] joining the EMS .
+</text>
+	<arg n="0">[*T*-1] ->  [0]</arg>
+	<rel>stabilize</rel>
+	<arg n="1">the exchange rate</arg>
+</example>
+
+
+<example name="intransitive with Arg2">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ The unit stabilized about midday New York time at around 1.85 marks and 141 yen , [*] prompting unconfirmed rumors that the U.S. Federal Reserve had intervened [*-1] to blunt the unit 's tumble .
+</text>
+	<arg n="1">The unit</arg>
+	<rel>stabilized</rel>
+	<arg n="M" f="TMP">about midday New York time</arg>
+	<arg n="2" f="at">around 1.85 marks and 141 yen</arg>
+	<arg n="M" f="ADV">[*] prompting unconfirmed rumors that the U.S. Federal Reserve had intervened [*-1] to blunt the unit 's tumble</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

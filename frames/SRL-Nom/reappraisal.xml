@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reappraisal">
+<roleset id="reappraisal.01" name="find value of, again" source="verb-reappraise.01">
+<roles>
+
+<role descr="appraiser" n="0"></role>
+
+<role descr="thing appraised" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a sudden reappraisal of the excesses of leverage
+</text>
+<arg f="MNR" n="M">sudden</arg>
+<rel>reappraisal</rel>
+<arg n="1">of the excesses of leverage</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

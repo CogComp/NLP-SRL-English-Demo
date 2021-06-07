@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="salvage">
+<note>
+  Frames file for 'salvage'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="salvage.01" name="to save or rescue"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity salvaged"/>
+  <role n="2"  descr="entity salvaged from"/>
+</roles>
+
+
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Ms. Johnson tells them that , if the appliances ca n't be salvaged [*-1] , their policy covers the replacement cost .
+</text>
+	<arg n="M" f="MOD">ca</arg>
+	<arg n="M" f="NEG">n't</arg>
+	<rel>salvaged</rel>
+	<arg n="1">[*-1] ->  the appliances</arg>
+</example>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ [*-1] Noting that Sweden wound up [*-2] wasting state subsidies of about 35 billion Swedish kronor ( $ 5.47 billion [*U*] ) during the 1970s in a vain attempt [*] to salvage its shipbuilding industry , one analyst suggested that Mr. Suominen may have decided [*-3] to cut Finland 's losses once and for all .
+</text>
+	<arg n="0">[*] ->  [*-2] ->  Sweden</arg>
+	<rel>salvage</rel>
+	<arg n="1">its shipbuilding industry</arg>
+</example>
+
+
+
+
+<example name="all arguments">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Majority Whip William Gray owes a political debt to Southern agriculture lawmakers for his rise in the House , and the Philadelphia Democrat used his position in the conference [*-1] to salvage the exemption from a total ban .
+</text>
+	<arg n="0">[*-1] ->  the Philadelphia Democrat</arg>
+	<rel>salvage</rel>
+	<arg n="1">the exemption</arg>
+	<arg n="2" f="from">a total ban</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+
+

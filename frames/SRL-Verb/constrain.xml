@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="constrain">
+<note>
+  Frames file for 'constrain' based on sentences in financial
+  subcorpus.  No Verbnet entry, no Framenet entry.  Comparison with
+  prevent.
+</note>
+
+<roleset id="constrain.01" name="prevent, hinder">
+<roles>
+  <role n="0"  descr="Agent"/>
+  <role n="1"  descr="Theme (action or object being prevented)"/>
+  <role n="2"  descr="secondary predication or action"/>
+  <role n="3"  descr="instrument"/>
+</roles>
+
+<example name="theme and action">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    General Mills, meanwhile, finds itself constrained *trace* from
+    boosting sales further because its plants are operating at
+    capacity. 
+</text>
+        <rel>constrained</rel>
+        <arg n="1">*trace* ->  itself</arg>
+        <arg n="2" f="from">boosting sales further</arg>
+        <arg n="M" f="CAU">because its plants are operating at
+        capacity</arg> 
+</example>
+
+<note>
+Arg1 does not take -REC in this case because there is no other
+instance of that entity in this structure.  "Find" would take a -REC
+tag, because that shows both "GM" and "itself".
+</note>
+
+<example name="with agent?">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary constrained John from eating the chocolate bunny.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >constrained</rel>
+  <arg n="1"        >John</arg>
+  <arg n="2" f="from">eating the chocolate bunny</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

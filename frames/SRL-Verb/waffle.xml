@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="waffle">
+<note>
+  Frames file for 'waffle' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="waffle.01" name="to speak, write, or act evasively about" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="topic"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+ It [*EXP*-1] has n't helped that he 's waffled on abortion and gay rights , sought the support of both the Liberal and Conservative parties ( he won the Liberal endorsement ) and that he turned to comedian Jackie Mason for help with Jewish voters .
+</text>
+	<arg n="0">he</arg>
+	<rel>waffled</rel>
+	<arg n="1" f="on">abortion and gay rights</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

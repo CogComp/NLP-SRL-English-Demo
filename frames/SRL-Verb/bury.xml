@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="bury">
+<note>
+  Frames file for 'bury' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="bury.01" vncls="-" name="put in the ground">
+<roles>
+  <role n="0"  descr="burier"/>
+  <role n="1"  descr="buried"/>
+  <role n="2"  descr="ground (usually understood)"/>
+</roles>
+
+<example name="metaphorical ground must be stated">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Hitachi Zosen Corp., a shipbuilder buried *trace* in debt just a
+    few years ago, will build a machinery plant, its first expansion
+    in 14 years. 
+</text>
+        <rel>buried</rel>
+        <arg n="1">*trace* ->  a shipbuilder</arg>
+        <arg n="2" f="in">debt</arg>
+        <arg n="M" f="TMP">just a few years ago</arg>
+</example>
+
+<example name="with agent">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John buried Mary's silverware in the garden.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >buried</rel>
+  <arg n="1"        >Mary's silverware</arg>
+  <arg n="2" f="in">the garden</arg>
+</example>
+
+<note>
+The arg2 is troubling--it really should be just an ArgM-LOC, except
+for the 'buried in debt' example.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="unravel">
+<note>
+  Frames file for 'unravel' based on sentences in financial subcorpus.
+  No Verbnet entry.  No Framenet entry.  No comparison.
+</note>
+
+<roleset id="unravel.01" name="(cause to) fall apart">
+<roles>
+  <role n="0"  descr="unraveller"/>
+  <role n="1"  descr="thing unravelling"/>
+</roles>
+
+<example name="ergative">
+<inflection person="ns" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    That's the primary reason the company's share price has held up so
+    well when, in Mr. Smith's words, ``most companies would have
+    unraveled'' by now. 
+</text>
+        <arg n="1">most companies</arg>
+        <arg n="M" f="MOD">would</arg>
+        <rel>unraveled</rel>
+        <arg n="M" f="TMP">by now</arg>
+</example>
+
+<example name="agentive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    But the specter of Ford eventually launching a full-fledged bid
+    could unravel the GM-Jaguar talks.
+</text>
+        <arg n="M" f="DIS">But</arg>
+        <arg n="0">the specter of Ford eventually launching a
+        full-fledged bid</arg> 
+        <arg n="M" f="MOD">could</arg>
+        <rel>unravel</rel>
+        <arg n="1">the GM-Jaguar talks</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

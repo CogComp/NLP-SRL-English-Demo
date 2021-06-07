@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="prop_up">
+<note>
+  Frames file for 'prop up' based on sentences in financial subcorpus.
+  No Verbnet entry, no Framenet entry.  Comparison with support.
+</note>
+
+<roleset id="prop.01" vncls="-" name="support, hold upright">
+<roles>
+  <role descr="helper, prop" n="0"/>
+  <role descr="thing being held up" n="1"/>
+  <role n="2"  descr="instrument, if separate from arg0"/>
+</roles>
+
+<example name="just transitive">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+     Carried  even further, some investors assumed that since
+     leveraged buy-outs are the only thing propping up stock prices,
+     the market would collapse if no more LBOs could be done. 
+</text>
+        <arg n="0">the only thing</arg>
+        <rel>[ propping] [ up]</rel>
+        <arg n="1">stock prices</arg>
+</example>
+
+<example name="with instrument">
+  <inflection person="third" tense="present" aspect="ns" voice="passive" form="participle"/>
+  <text>
+    John's self-esteem is propped *trace* up with industrial-strength
+    pharmaceuticals. 
+  </text>
+  <rel              >propped up</rel>
+  <arg n="1"        >*trace* -> John's self-esteem</arg>
+  <arg n="2" f="with">industrial-strength pharmaceuticals</arg>
+</example>
+
+<note>
+I'm pretty sure this can only occur as 'prop up', although I have vague
+intuitions of 'prop open'.  That will be treated exactly the same way,
+though.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

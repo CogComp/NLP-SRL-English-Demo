@@ -1,0 +1,81 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="reopen">
+<note>
+Frames file for 'reopen' based on sentences in wsj and automatic
+expansion via verbnet.
+</note>
+
+<roleset id="open.01" name="open" vncls="40.3.2 45.4 47.6">
+<roles>
+  <role descr="opener" n="0"/>
+  <role descr="thing opening" n="1"/>
+  <role descr="instrument" n="2"/>
+  <role descr="benefactive" n="3"/>
+</roles>
+
+<example name="basic transitive">
+<inflection person="ns" tense="future" aspect="ns" voice="active" form="full"/>
+<text>
+    In a surprise announcement, the Treasury said it will reopen the
+    outstanding benchmark 30-year bond rather than create a new one
+    for next week's quarterly refunding of the federal debt. 
+</text>
+        <arg n="0">it</arg>
+        <arg n="M" f="MOD">will</arg>
+        <rel>reopen</rel>
+        <arg n="1">the outstanding benchmark 30-year bond</arg>
+</example>
+
+<example name="with instrument">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    By Wednesday, frustrated Belgian brokers reopened the market by
+    using the time-honored method of quoting stocks with chalk on a
+    blackboard. 
+</text>
+        <arg n="M" f="TMP">By Wednesday</arg>
+        <arg n="0">frustrated Belgian brokers</arg>
+        <rel>reopened</rel>
+        <arg n="1">the market</arg>
+        <arg n="2" f="by">using the time-honored method of quoting
+        stocks with chalk on a blackboard</arg> 
+</example>
+
+<example name="ergative">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="full"/>
+<text>
+    The new institution is also called Century Bank, and the failed
+    bank's five offices will reopen today. 
+</text>
+        <arg n="1">the failed bank's five offices</arg>
+        <arg n="M" f="MOD">will</arg>
+        <rel>reopen</rel>
+        <arg n="M" f="TMP">today</arg>
+</example>
+
+<example name="topicalized instrument" src="open.01">
+  <text>
+  This can opener reopens bottles, too!
+  </text>
+  <arg n="2">This can opener</arg>
+  <rel>reopens</rel>
+  <arg n="1">bottles</arg>
+  <arg f="DIS" n="m">too</arg>
+</example>
+
+<example name="benefactive" src="open.01">
+  <text>
+  South Korea has reopened its market to foreign cigarettes.
+  </text>
+  <arg n="0">South Korea</arg>
+  <rel>reopened</rel>
+  <arg n="1">its market</arg>
+  <arg f="to" n="3">foreign cigarettes</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

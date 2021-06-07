@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="savior">
+<roleset id="savior.01" name="desperate peril sense" source="verb-save.02">
+<roles>
+
+<role descr="hero" n="0"></role>
+
+<role descr="victim" n="1"></role>
+
+<role descr="peril" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+then we needed a savior to go into the Major Market Index , spend
+$ 2 million and get the program rally started
+</text>
+<arg n="1">we</arg>
+<arg n="Support">needed</arg>
+<arg n="0">savior</arg>
+<rel>savior</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

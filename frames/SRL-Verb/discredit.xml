@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="discredit">
+<note>
+  Frames file for 'discredit' based on sentences in wsj.  No Verbnet
+  entry. 
+</note>
+
+<roleset id="discredit.01" vncls="-" name="cause to lose prestige">
+<roles>
+  <role n="0"  descr="causal agent"/>
+  <role n="1"  descr="thing losing prestige"/>
+</roles>
+
+<example name="pretty simple">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Mr. Murray also said Judge Hampton's comments didn't discredit the
+    judiciary or the administration of justice. 
+</text>
+        <arg n="0">Judge Hampton's comments</arg>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>discredit</rel>
+        <arg n="1">the judiciary or the administration of justice</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="retiree">
+<roleset id="retiree.01" name="stop working" source="verb-retire.01">
+<roles>
+
+<role descr="retiree" n="0"></role>
+
+<role descr="former job" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+current retirees
+</text>
+<arg f="TMP" n="M">current</arg>
+<arg n="0">retirees</arg>
+<rel>retirees</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

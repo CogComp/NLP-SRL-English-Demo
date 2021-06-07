@@ -1,0 +1,72 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="spare">
+<note>
+  Frames file for 'spare' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="spare.01" name="to save or relieve from"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity spared"/>
+  <role n="2"  descr="entity spared from"/>
+</roles>
+
+<example name="all arguments">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Many women may even see the dead embryo [0] they have expelled [*T*-1] , a sight [0] the surgical-abortion industry typically spares them [*T*-2] .
+</text>
+	<arg n="0">the surgical-abortion industry</arg>
+	<arg n="M">typically</arg>
+	<rel>spares</rel>
+	<arg n="1">them</arg>
+	<arg n="2">[*T*-2] ->  [0] ->  a sight</arg>
+</example>
+
+<example name="prepositional Arg2">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Several factors apparently spared the Valley -- a sprawling suburban stretch from San Jose to Palo Alto -- from the kind of impact felt [*] in San Francisco , an hour 's drive north .
+</text>
+	<arg n="0">Several factors</arg>
+	<arg n="M" f="MOD">apparently</arg>
+	<rel>spared</rel>
+	<arg n="1">the Valley -- a sprawling suburban stretch from San Jose to Palo Alto --</arg>
+	<arg n="2" f="from">the kind of impact felt [*] in San Francisco , an hour 's drive north</arg>
+</example>
+</roleset>
+
+
+<roleset id="spare.02" name="to give up, part with"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity spared"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ A private challenge to the monolithic tractor industry will take more time and money than Poland can spare [*?*] , although a smokehouse or a local dairy can spring up fast .
+</text>
+	<arg n="0">Poland</arg>
+	<arg n="M" f="MOD">can</arg>
+	<rel>spare</rel>
+	<arg n="1">[*?*] ->  more time and money</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

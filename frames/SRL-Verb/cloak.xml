@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cloak">
+<note>
+  Frames file for 'cloak' based on sentences in wsj.  Verbnet entries
+  9.8 and 9.9, Framenet entry Adorning.
+</note>
+
+<roleset id="cloak.01" vncls="9.8 9.9" name="cover, as with a cloak">
+<roles>
+  <role n="0"  descr="agent of covering"/>
+  <role n="1"  descr="thing covered"/>
+  <role n="2"  descr="cloak"/>
+</roles>
+
+<example name="all args">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    The word ``death'' can not be escaped entirely by the industry,
+    but salesmen dodge it wherever possible or cloak it in euphemisms,
+    preferring to talk about ``savings'' and ``investment'' instead. 
+</text>
+        <arg n="0">salesmen</arg>
+        <rel>cloak</rel>
+        <arg n="1">it</arg>
+        <arg n="2" f="in">euphemisms</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

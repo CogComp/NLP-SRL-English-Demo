@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tar">
+<note>
+  Frames file for 'tar' based on sentences in wsj.  Verbnet entry 9.9.
+</note>
+
+<roleset id="tar.01" vncls="9.9" name="apply tar to a surface">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="surface"/>
+  <role n="2"  descr="explicit mention of tar"/>
+</roles>
+
+<example name="no feathers?">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+     And both the trust and Manville are seeking to avoid the bad
+     publicity that [*T*-2], in the asbestos era, tarred the Manville
+     name. 
+</text>
+        <arg n="0">[*T*-2] ->  that ->  the bad publicity</arg>
+        <arg n="M" f="TMP">in the asbestos era</arg>
+        <rel>tarred</rel>
+        <arg n="1">the Manville name</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

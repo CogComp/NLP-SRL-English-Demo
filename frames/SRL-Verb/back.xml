@@ -1,0 +1,183 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="back">
+<note>
+  Frames file for 'back' based on survey of initial sentences of big
+  corpus and comparison with 'face' and 'support'
+</note>
+
+<roleset id="back.01" name="support">
+<roles>
+  <role n="0"  descr="supporter"/>
+  <role n="1"  descr="thing being supported"/>
+</roles>
+
+<example name="support">
+  <text>
+  ...asking him *trace* to back a Palestinian bid to joing the committee.
+  </text>
+  <arg n="0"        >*trace*=him</arg>
+  <rel              >back</rel>
+  <arg n="1"        >a Palestinian bid to joing the committee</arg>
+</example>
+
+<example name="cease support">
+  <text>
+  The big brokerage firms back out of program trading for their own
+  accounts or for clients.
+  </text>
+  <arg n="0"        >The big brokerage firms</arg>
+  <rel              >back</rel>
+  <arg n="1" f="out">of program trading</arg>
+  <arg n="m" f="PRP">for their own accounts or for clients.</arg>
+</example>
+
+<note>
+Could be interpreted as phrasal "back_out" also (but I don't like
+that).  Follow Treebank's parsing.
+</note>
+
+<example name="cease support, with NP">
+  <text>
+  Eastern Airline's creditors committee backed off a move to come up
+  with its own alternative proposals to the carrier's bankruptcy
+  reorganization plans.
+  </text>
+  <arg n="0"        >Eastern Airline's creditors committee</arg>
+  <rel              >backed</rel>
+  <arg n="1" f="off">a move to come up
+  with its own alternative proposals to the carrier's bankruptcy
+  reorganization plans.</arg>
+</example>
+
+</roleset>
+
+<roleset id="back.02" name="move backwards">
+<roles>
+  <role n="0"  descr="causer of backwards motion"/>
+  <role n="1"  descr="entity in motion"/>
+</roles>
+
+<example name="retreat">
+  <text>
+  The Soviets might back away from the current conciliatory attitude
+  </text>
+  <arg n="1"        >The Soviets</arg>
+  <arg n="m" f="MOD">might</arg>
+  <rel              >back</rel>
+  <arg n="m" f="DIR">away from the current conciliatory attitude</arg>
+</example>
+
+<note>
+Could be interpreted as phrasal "back_away" also.  Follow
+the parsing given by Treebank.
+</note>
+
+</roleset>
+
+<roleset id="back.03" name="face backwards">
+<roles>
+  <role n="0"  descr="looker, facer"/>
+  <role n="1"  descr="looked at, faced"/>
+</roles>
+
+<example name="with PP">
+  <text>
+  John's house backs onto the city dump.
+  </text>
+  <arg n="0"        >John's house</arg>
+  <rel              >backs</rel>
+  <arg n="1" f="onto">the city dump</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="back_up">
+<roleset id="back.04" name="support">
+<roles>
+</roles>
+
+<note>
+Otherwise the same as "support" roleset id="back.05" above.
+</note>
+
+<example name="Reaganomics">
+  <text>
+  You should quote Mr. Reagan, the man who believed trees cause air
+  pollution, *trace* to back up your position that economics is more
+  important than the Earth.
+  </text>
+  <arg n="0"        >*trace*=You</arg>
+  <rel              >back up</rel>
+  <arg n="1"        >your position that economics is more
+  important than the Earth.</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="back.06" name="move backwards">
+<roles>
+</roles>
+
+<example name="oops">
+  <text>
+  The garbage truck backed up into John's living room.
+  </text>
+  <arg n="1"        >The garbage truck</arg>
+  <rel              >backed up</rel>
+  <arg n="m" f="DIR">into John's living room</arg>
+</example>
+
+
+<example name="double oops">
+  <text>
+  John backed the garbage truck up into Mary's living room.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >backed up</rel>
+  <arg n="1"        >the garbage truck</arg>
+  <arg n="m" f="DIR">into Mary's living room</arg>
+</example>
+
+<note>
+Otherwise the same as "move backwards" roleset id="back.07" above.
+</note>
+
+</roleset>
+
+<roleset id="back.08" name="face backwards">
+<roles>
+</roles>
+
+<example name="icky">
+  <text>
+  John's house backs up to the city dump.
+  </text>
+  <arg n="0"        >John's house</arg>
+  <rel              >backs up</rel>
+  <arg n="1" f="to">the city dump</arg>
+</example>
+
+<note>
+Otherwise the same as the "face backward" roleset id="back.09" above.
+</note>
+
+</roleset>
+</predicate>
+
+<note>
+Watch out!  The extraction procedure pulls out sentences with "back"
+as a particle ("hold back", etc), in addition to adjectives ("back
+taxes", etc).  Leave these alone!
+</note>
+
+</frameset>

@@ -1,0 +1,84 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="move">
+<note>
+  Frames file for 'move' based on survey of initial sentences of big
+  corpus.
+</note>
+
+<roleset id="move.01" name="change location" vncls="11.2 51.3.1">
+<roles>
+  <role descr="mover" n="0">
+		<vnrole vncls="11.2-1" vntheta="Agent"/>
+		<vnrole vncls="51.3.1" vntheta="Agent"/>
+  </role>
+
+  <role descr="moved" n="1">
+		<vnrole vncls="11.2-1" vntheta="Theme"/>
+		<vnrole vncls="51.3.1" vntheta="Theme"/>
+  </role>
+
+  <role descr="destination" n="2">
+		<vnrole vncls="11.2-1" vntheta="Destination"/>
+  </role>
+
+</roles>
+
+<example name="agentive">
+  <text>
+  The leadership hopes *trace* to move the compromise measure promptly
+  to the White House.
+  </text>
+  <arg n="0">*trace*=The leadership</arg>
+  <rel>move</rel>
+  <arg n="1">the compromise measure</arg>
+  <arg f="TMP" n="m">promptly</arg>
+  <arg f="to" n="2">the White House</arg>
+</example>
+
+<example name="ergative">
+  <text>
+  ...including about two million customers who *trace* have moved
+  during that period.
+  </text>
+  <arg n="1">*trace*=who=about two million customers</arg>
+  <rel>moved</rel>
+  <arg f="TMP" n="m">during that period</arg>
+</example>
+
+<example name="with EXT">
+  <text>
+  The Dow Jones Industrial Average moved 50 points.
+  </text>
+  <arg n="1">The Dow Jones Industrial Average</arg>
+  <rel>moved</rel>
+  <arg f="EXT" n="m">50 points</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="move.02" name="take measures" vncls="-">
+<roles>
+  <role descr="mover" n="0"/>
+  <role descr="measures" n="1"/>
+</roles>
+
+<example name="PRD">
+  <text>
+  Southeast Asian nations will move *trace* to accomodate Japanese business.
+  </text>
+  <arg n="0">Southeast Asian nations</arg>
+  <arg f="MOD" n="m">will</arg>
+  <rel>move</rel>
+  <arg f="PRD" n="1">*trace* to accomodate Japanese business</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

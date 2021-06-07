@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="">
+<note>
+  Frames file for '' based on sentences in financial subcorpus.  Verbnet entry
+</note>
+
+<roleset id="" vncls="-" name="">
+<roles>
+  <role n=""  descr=""/>
+</roles>
+
+<example name="">
+  <inflection person="" tense="" aspect="" voice="" form=""/>
+  <text>
+
+  </text>
+  <arg n=""        ></arg>
+  <rel              ></rel>
+  <arg n="" f=""></arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

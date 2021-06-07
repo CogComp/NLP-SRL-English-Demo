@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="conquer">
+<note>
+  Frames file for 'conquer'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="conquer.01" name="to gain control of"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity conquered"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Japanese chemical companies are at work [*-1] developing their own substitutes and hoping [*-2] to conquer new markets , of course .
+</text>
+	<arg n="0">[*-2] ->  [*-1] ->  Japanese chemical companies</arg>
+	<rel>conquer</rel>
+	<arg n="1">new markets</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

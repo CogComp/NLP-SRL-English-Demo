@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="enroll">
+<note>
+  Frames file for 'enroll' based on sentences in wsj.  Verbnet entry 29.2.
+</note>
+
+<roleset id="enroll.01" vncls="29.2" name="register membership in">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity enrolled"/>
+  <role n="2"  descr="enrolled in what"/>
+</roles>
+
+<example name="intransitive?">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    The plan is talking about applicants admitted, not students who
+    [*T*-1] enroll. 
+</text>
+        <arg n="0">[*T*-1] ->  who ->  students</arg>
+        <rel>enroll</rel>
+</example>
+
+<example name="sorta transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    At the Baltimore firm of Weinberg &amp; Green, new corporate and
+    banking associates are required [*-1] to enroll in a 20-class
+    course. 
+</text>
+        <arg n="0">[*-1] ->  new corporate and banking associates</arg>
+        <rel>enroll</rel>
+        <arg n="2" f="in">a 20-class course</arg>
+</example>
+
+<example name="all args">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John enrolled Mary in an anger-management program.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >enrolled</rel>
+  <arg n="1"        >Mary</arg>
+  <arg n="2" f="in">an anger-management program</arg>
+</example>
+
+<note>
+Agent and entity enrolled are often the same; use arg0 for these cases.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

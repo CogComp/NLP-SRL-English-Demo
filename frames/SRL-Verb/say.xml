@@ -1,0 +1,138 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<note>
+Frames file for &quot;say&quot;
+determined on examination of first, like, .03% of sentences
+But how hard is it, really?
+</note>
+<predicate lemma="say">
+<roleset id="say.01" name="say" vncls="37.7">
+  <roles>
+    <role descr="Sayer" n="0">
+		<vnrole vncls="37.7" vntheta="Agent"/>
+  </role>
+
+    <role descr="Utterance" n="1">
+		<vnrole vncls="37.7" vntheta="Topic"/>
+  </role>
+
+    <role descr="Hearer" n="2">
+		<vnrole vncls="37.7" vntheta="Recipient"/>
+  </role>
+
+    <role descr="Attributive" n="3"/>
+  </roles>
+
+<example name="Transitive">
+  <text>
+    A Lorillard spokeswoman said &quot;This is an old story.&quot;
+  </text>
+  <arg n="0">A Lorillard spokeswoman</arg>
+  <rel>said</rel>
+  <arg n="1">&quot;This is an old story&quot;</arg>
+</example>
+
+<example name="Fronted">
+  <text>
+    Kent cigarettes were sold, the company said *Trace*
+    (*Trace* --&gt; &quot;Kent cigarettes were sold&quot;)
+  </text>
+  <arg n="0">the company</arg>
+  <rel>said</rel>
+  <arg n="1">*trace=Kent cigarettes were sold*</arg>
+</example>
+
+<example name="Inverted">
+  <text>
+    What matters is what advertisers will pay, said *Trace* Newsweek's chairman
+    (*Trace* --&gt; &quot;What matters is what advertisers will pay&quot;)
+  </text>
+  <rel>said</rel>
+  <arg n="1">*trace=&quot;What matters is what advertisers will pay&quot;</arg>
+  <arg n="0">Newsweek's chairman</arg>
+</example>
+
+<example name="Split">
+  <text>
+    &quot;What you have to understand,&quot; said John, &quot;is that Philly literally 
+    stinks.&quot;
+  </text>
+  <arg n="1">[&quot;What you have to understand&quot;] [&quot;is that Philly
+  literally stinks&quot;]</arg>
+  <rel>said</rel>
+  <arg n="0">John</arg>
+</example>
+
+<note>
+Use pbtool's &quot;A&quot; command (rather than the usual &quot;a&quot;) to attach the
+second (and subsequent, if necessary) pieces of a split utterance.
+</note>
+
+<example name="with listener">
+  <text>
+    John said to Mary: &quot;you're an idiot.&quot;
+  </text>
+  <arg n="0">John</arg>
+  <rel>said</rel>
+  <arg f="to" n="2">to Mary</arg>
+  <arg n="1">&quot;you're an idiot&quot;</arg>
+</example>
+
+<example name="Weird, attributive usage:">
+  <text>
+    &quot;Well that's odd,&quot; said John of the disappearance of his nose.
+  </text>
+  <arg n="1">&quot;Well that's odd&quot;</arg>
+  <rel>said</rel>
+  <arg n="0">John</arg>
+  <arg f="of" n="3">of the disappearance of his nose</arg>
+</example>
+
+<example name="As discourse-level event">
+  <text>
+    Let's assume someone, say John, has been killed.
+		          rel Arg1
+  </text>
+  <rel>say</rel>
+  <arg n="1">John</arg>
+</example>
+
+<note>
+Oh look, here's an odd usage:
+
+John is said to be an idiot.
+
+Effectively this is an extraction from the Arg1 &quot;utterance&quot;, which
+suggests that the utterance should be regarded as TWO arguments
+(object and attribute).  But that would entail retagging *every single
+sentence* which we really don't want to do.  Also, notice that this
+isn't a normal passive, since it can't take an agent phrase:
+
+John is said to be an idiot by Mary.
+
+So let's say that this is effectively a variant of &quot;call&quot; and use the
+following:
+</note>
+
+<example name="call variant">
+  <text>
+    John is said to be an idiot.
+  </text>
+  <arg n="1">John</arg>
+  <rel voice="passive">said</rel>
+  <arg f="PRD" n="2">to be an idiot</arg>
+</example>
+
+<note>
+Note:
+In most cases Treebank suggests an S-BAR as the object of &quot;say&quot;; PReditor
+selects the S inside the S-BAR as the Arg1.  I feel it really should be the
+S-BAR, because of the cases like &quot;John said THAT he loved Mary&quot; where
+the S-BAR is selected as Arg1, but in actual usage the complementizer
+is usually dropped.  But since it would slow down throughput
+*enormously* to retag all of these cases, we'll accept what PReditor
+selects in both cases (with and without complementizer).
+</note>
+</roleset>
+</predicate>
+</frameset>

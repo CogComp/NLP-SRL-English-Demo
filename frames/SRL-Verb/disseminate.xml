@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="disseminate">
+<note>
+  Frames file for 'disseminate' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="disseminate.01" name="to scatter widely, spread"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing spread"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ `` The USIA officially and publicly declared the absolute right [*ICH*-2] of everyone except the USIA [*] to disseminate agency program materials in the United States , '' my lawyer , the scholarly Mark McCormick of Des Moines , said [*T*-1] in a memo pointing out the facts and trying [*] to make me feel good after the press reported that I had lost .
+</text>
+	<arg n="0">[*] ->  everyone except the USIA</arg>
+	<rel>disseminate</rel>
+	<arg n="1">agency program materials</arg>
+	<arg n="M" f="LOC">in the United States</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="appropriate">
+<note>
+  Frames file for 'appropriate' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="appropriate.01" name="to take possession of"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity appropriated"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+ The appeals court held : `` When a distinctive voice of a professional singer is widely known [*-3] and is deliberately imitated in order [*] to sell a product [*T*-2] , the sellers have appropriated what [*T*-1] is not theirs . ''
+</text>
+	<arg n="0">the sellers</arg>
+	<rel>appropriated</rel>
+	<arg n="1">what [*T*-1] is not theirs</arg>
+</example>
+
+
+
+<example name="transitive with adverbials">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ And while [*] setting a statutory limit of $ 1.6 billion [*U*] on the automated space probe , the conference appropriated $ 30 million [*U*] for the start-up of the CRAF-Cassini mission , a successor to the Voyager space probe .
+</text>
+	<arg n="M" f="TMP">while [*] setting a statutory limit of $ 1.6 billion [*U*] on the automated space probe</arg>
+	<arg n="0">the conference</arg>
+	<rel>appropriated</rel>
+	<arg n="1">$ 30 million [*U*]</arg>
+	<arg n="M" f="PNC">for the start-up of the CRAF-Cassini mission , a successor to the Voyager space probe</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

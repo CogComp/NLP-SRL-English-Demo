@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="locate">
+<note>
+  Frames file for 'locate' based on sentences in financial subcorpus.
+  No verbnet entry.  Comparison with 'base' and 'find'.
+</note>
+
+<roleset id="locate.01" name="be located in">
+<roles>
+  <role n="1"  descr="institution, thing located"/>
+  <role n="M" f="LOC"  descr="location"/>
+</roles>
+
+<example name="typical usage">
+<text>
+    The plastics plant is located *trace* on an 800-acre tract in the
+    heart of the petrochemical corridor that reaches along the
+    U.S. Gulf Coast. 
+</text>
+        <rel>located</rel>
+        <arg n="1">*trace*=The plastics plant</arg>
+        <arg n="M" f="LOC">on an 800-acre tract in the heart of the petrochemical corridor that  reaches along the U.S. Gulf Coast</arg>
+</example>
+
+<note>
+Could take an agent ("John located his company in Philadelphia")
+but that'd be a little bizarre.
+</note>
+
+</roleset>
+
+<roleset id="locate.02" name="find">
+<roles>
+  <role n="0"  descr="finder"/>
+  <role n="1"  descr="thing found"/>
+</roles>
+
+<example name="passivized">
+<text>
+    The telephone number for the charity in Shelton, Conn., has been disconnected, and the former officials couldn't be located *trace*.
+</text>
+        <arg n="M" f="MOD">could</arg>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>located</rel>
+        <arg n="1">*trace*=the former officials</arg>
+</example>
+
+<example name="with finder">
+  <text>
+    After much searching, John finally located his teddy bear.
+  </text>
+  <arg n="m" f="TMP">After much searching</arg>
+  <arg n="0"        >John</arg>
+  <arg n="m" f="TMP">finally</arg>
+  <rel              >located</rel>
+  <arg n="1"        >his teddy bear</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

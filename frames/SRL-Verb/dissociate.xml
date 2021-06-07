@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dissociate">
+<note>
+  Frames file for 'dissociate' based on sentences in wsj.  Verbnet
+  entry 23.1.
+</note>
+
+<roleset id="dissociate.01" vncls="23.1" name="un-associate">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing not associated"/>
+  <role n="2"  descr="separated from"/>
+</roles>
+
+<example name="oddly ergative">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    When an electric current is applied to the palladium and platinum
+    electrodes, the heavy water did begin [*-3] to break up, or
+    dissociate.
+</text>
+        <arg n="1">[*-3] ->  the heavy water</arg>
+        <rel>dissociate</rel>
+</example>
+
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+    It would go along [*-2] doing nothing but [*-3] dissociating the
+    heavy water and then at totally unpredictable times, it would
+    begin producing excess heat for as long as 10 or 11 hours before
+    quieting down. 
+</text>
+        <arg n="0">[*-3] ->  [*-2] ->  It</arg>
+        <rel>dissociating</rel>
+        <arg n="1">the heavy water</arg>
+</example>
+
+<example name="more normal usage">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John dissociated himself from Mary's band of thugs.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >dissociated</rel>
+  <arg n="1" f="REC">himself</arg>
+  <arg n="2" f="from">Mary's band of thugs</arg>
+</example>
+
+<note>
+The first two usages seem to be specialized and mean something like
+'fall apart'.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

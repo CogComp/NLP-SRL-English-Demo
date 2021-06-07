@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="stanch">
+<note>
+  Frames file for 'stanch' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="stanch.01" vncls="-" name="cause (blood) to stop seeping">
+<roles>
+  <role n="0"  descr="stancher"/>
+  <role n="1"  descr="stanched"/>
+</roles>
+
+<example name="the one example">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Thrombinar, a drug used *trace* *trace* to stanch bleeding, was
+    sold to Jones Medical Industries Inc., St. Louis. 
+</text>
+        <arg n="0">*trace* -> *trace* ->  a drug</arg>
+        <rel>stanch</rel>
+        <arg n="1">bleeding</arg>
+</example>
+
+<note>
+Usually 'staunch'.  Not that that's very common either.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

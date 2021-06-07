@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="addiction">
+<roleset id="addiction.01" name="cause a dependency, as to a drug" source="verb-addict.01">
+<roles>
+
+<role descr="causer of addiction" n="0"></role>
+
+<role descr="addicted entity" n="1"></role>
+
+<role descr="drug etc" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Some of the homeless , obviously , had pre-existing mental
+illness or addiction .
+</text>
+<arg n="1">Some of the homeless</arg>
+<arg n="Support">had</arg>
+<rel>addiction</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="publicize">
+<note>
+  Frames file for 'publicize' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="publicize.01" vncls="-" name="make widely-known">
+<roles>
+  <role n="0"  descr="publicist"/>
+  <role n="1"  descr="topic"/>
+  <role n="2"  descr="secondary predication"/>
+</roles>
+
+<example name="active">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Dealers say the firm apparently has wanted *trace* to publicize
+    its recent buying and subsequent selling of 30-year bonds by using
+    Cantor Fitzgerald Securities Corp. as a broker. 
+</text>
+        <arg n="0">*trace* ->  the firm</arg>
+        <rel>publicize</rel>
+        <arg n="1">its recent buying and subsequent selling of 30-year
+        bonds</arg> 
+        <arg n="M" f="MNR">by using Cantor Fitzgerald Securities
+        Corp. as a broker</arg> 
+</example>
+
+<example name="passive with attribute ">
+<inflection person="third" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Still, scientists breathed a collective sigh of relief about the
+    finding, because it demonstrates how to overcome the ``flux
+    pinning'' problem that *trace* earlier this year was widely
+    publicized as undercutting new superconductors' potential. 
+</text>
+        <arg n="1">*trace* ->  that ->  the ``flux pinning'' problem</arg>
+        <arg n="M" f="TMP">earlier this year</arg>
+        <arg n="M" f="MNR">widely</arg>
+        <rel>publicized</rel>
+        <arg n="2" f="as">undercutting new superconductors' potential</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

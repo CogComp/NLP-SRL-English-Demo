@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="campaigner">
+<roleset id="campaigner.01" name="work towards a goal" source="verb-campaign.01">
+<roles>
+
+<role descr="campaigner" n="0"></role>
+
+<role descr="cause, goal" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a negative campaigner
+</text>
+<arg f="MNR" n="M">negative</arg>
+<arg n="0">campaigner</arg>
+<rel>campaigner</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

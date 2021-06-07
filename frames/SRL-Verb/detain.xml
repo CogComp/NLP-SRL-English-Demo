@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="detain">
+<note>
+  Frames file for 'detain' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="detain.01" name="to keep in custody or delay"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity detained"/>
+  <role n="2"  descr="detained for what?"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ A splinter group demonstrated in Pushkin Square , where the police clubbed and detained a number of protesters [*T*-1] .
+</text>
+	<arg n="0">the police</arg>
+	<rel>detained</rel>
+	<arg n="1">a number of protesters</arg>
+	<arg n="M" f="LOC">[*T*-1] ->  where ->  Pushkin Square</arg>
+</example>
+
+
+
+<example name="all arguments">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ In 1960 , for example , when Mr. Noriega was both a cadet at an elite military academy in Peru and a spy-in-training for the U.S. Defense Intelligence Agency [*T*-1] , he was detained [*-3] by Lima authorities for [*] allegedly raping [*RNR*-2] and savagely beating [*RNR*-2] a prostitute , according to a U.S. Embassy cable from that period .
+</text>
+	<arg n="M" f="TMP">In 1960</arg>
+	<arg n="M" f="DIS">for example</arg>
+	<arg n="M" f="TMP">when Mr. Noriega was both a cadet at an elite military academy in Peru and a spy-in-training for the U.S. Defense Intelligence Agency [*T*-1]</arg>
+	<rel>detained</rel>
+	<arg n="1">[*-3] ->  he</arg>
+	<arg n="0">Lima authorities</arg>
+	<arg n="2" f="for">[*] allegedly raping [*RNR*-2] and savagely beating [*RNR*-2] a prostitute</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

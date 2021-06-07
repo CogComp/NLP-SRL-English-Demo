@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="backfire">
+<note>
+  Frames file for 'backfire' based on sentences in financial
+  subcorpus.  No Verbnet entry.
+</note>
+
+<roleset id="backfire.01" vncls="-" name="have a bad result">
+<roles>
+  <role n="1"  descr="thing with bad result"/>
+  <role n="2"  descr="'benefactive'"/>
+</roles>
+
+<example name="unaccusative">
+<inflection person="ns" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    Some other fare promotions have backfired.
+</text>
+        <arg n="1">Some other fare promotions</arg>
+        <rel>backfired</rel>
+</example>
+
+<example name="with 'benefactive'">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John's plan to make himself irresistable to women backfired on
+    him, when he instead became only irresistable to female cats.
+  </text>
+  <arg n="1"        >John's plan to make himself irresistable to women</arg>
+  <rel              >backfired</rel>
+  <arg n="2" f="on">him</arg>
+  <arg n="m" f="TMP">when he instead became only irresistable to
+  female cats</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

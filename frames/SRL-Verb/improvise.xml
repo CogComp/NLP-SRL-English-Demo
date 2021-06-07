@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="improvise">
+<note>
+  Frames file for 'improvise' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="improvise.01" name="to perform without preparation"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing improvised"/>
+</roles>
+
+<example name="prepositional Arg1">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ [*-1] Keeping the mood light , the two then chanted and chortled their way through some murderous polyrhythms , devised [*] by Mr. Douglas as an alternative to Hindemith 's dry theory-teaching techniques , and then , with Mr. Gomez , soared and improvised on the composer 's tight `` Bebop Etudes . ''
+</text>
+	<arg n="0">the two</arg>
+	<arg n="M" f="TMP">then</arg>
+	<rel>improvised</rel>
+	<arg n="1" f="on">the composer 's tight `` Bebop Etudes</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

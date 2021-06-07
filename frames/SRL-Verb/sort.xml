@@ -1,0 +1,103 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="sort">
+<note>
+  Frames file for 'sort' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="sort.01" vncls="-" name="put into order">
+<roles>
+  <role n="0"  descr="sorter"/>
+  <role n="1"  descr="thing being sorted"/>
+  <role n="2"  descr="order, criterion"/>
+</roles>
+
+<example name="all args">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    The new machines are capable of *trace* sorting by zip code up to
+    10,000 large flat mail pieces, including magazines and parcels, an
+    hour. 
+</text>
+        <arg n="0">*trace* ->  The new machines</arg>
+        <rel>sorting</rel>
+        <arg n="2" f="by">zip code</arg>
+        <arg n="1">up to 10,000 large flat mail pieces, including
+        magazines and parcels, an hour</arg> 
+</example>
+
+<example name="sort through">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Most companies still are trying *trace* to sort through the
+    wreckage caused by Hurricane Hugo in the Carolinas last month. 
+</text>
+        <arg n="0">*trace* ->  Most companies</arg>
+        <rel>sort</rel>
+        <arg n="1" f="through">the wreckage caused  by Hurricane Hugo
+        in the Carolinas last month</arg> 
+</example>
+
+<note>
+Sort through should perhaps be a separate roleset, since I don't think
+it can take an arg2.
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="sort_out">
+
+<roleset id="sort.02" vncls="-" name="make sense of, distinguish">
+<roles>
+  <role n="0"  descr="entity trying to understand"/>
+  <role n="1"  descr="subject of confusion"/>
+  <role n="2"  descr="in distinction to"/>
+</roles>
+
+<example name="make sense of">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    That process of *trace* sorting out specifics is likely to take
+    time, the Japanese say, no matter how badly the U.S. wants quick
+    results. 
+</text>
+        <arg n="0">*trace*</arg>
+        <rel>[ sorting] [ out]</rel>
+        <arg n="1">specifics</arg>
+</example>
+
+<example name="this from that">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Without a microscope and a subpoena, it's often hard *trace* to
+    sort out worthwhile causes from ripoffs if all you've got to go on
+    is the solicitation itself. 
+</text>
+        <arg n="0">*trace*</arg>
+        <rel>[ sort] [ out]</rel>
+        <arg n="1">worthwhile causes</arg>
+        <arg n="2" f="from">ripoffs</arg>
+</example>
+
+<example name="this and that merged">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    ``All these interconnected computers make it difficult *trace* to
+    sort out what's junk and what's important,'' says Chuck Digate, a
+    former Lotus Development executive who has started a new company
+    to cope with the problem. 
+</text>
+        <arg n="0">*trace*</arg>
+        <rel>[ sort] [ out]</rel>
+        <arg n="1">what's junk and what's important</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

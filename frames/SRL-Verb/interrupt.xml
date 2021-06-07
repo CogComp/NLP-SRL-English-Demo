@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="interrupt">
+<note>
+  Frames file for 'interrupt' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+
+<roleset id="interrupt.01" name="to break up"  vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing interrupted"/>
+</roles>
+
+
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="participle"/>
+<text>
+ The slip has come despite high-profile ads created [*] by Wells Rich , including one picturing a young man clad [*] only in pajama bottoms interrupting a festive brunch .
+</text>
+	<arg n="0">a young man clad [*] only in pajama bottoms</arg>
+	<rel>interrupting</rel>
+	<arg n="1">a festive brunch</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

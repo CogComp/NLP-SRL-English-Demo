@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="rearrange">
+<note>
+  Frames file for 'rearrange'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="rearrange.01" name="to change the arrangement of"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>  
+  <role n="1"  descr="item being rearranged"/>  
+</roles>
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Zaita the `` cripple-maker '' rearranges the limbs of aspiring beggars -- and takes a cut of every cent [0] they cadge [*T*-1] .
+</text>
+	<arg n="0">Zaita the `` cripple-maker ''</arg>
+	<rel>rearranges</rel>
+	<arg n="1">the limbs of aspiring beggars</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

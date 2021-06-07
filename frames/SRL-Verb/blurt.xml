@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="blurt_out">
+<note>
+  Frames file for 'blurt out' based on sentences in wsj.  Verbnet
+  entry 37.7.
+</note>
+
+<roleset id="blurt.01" vncls="37.7" name="say suddenly and inelegantly">
+<roles>
+  <role n="0"  descr="speaker"/>
+  <role n="1"  descr="utterance"/>
+  <role n="2"  descr="hearer"/>
+</roles>
+
+<example name="all args">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    What makes people blurt out their credit-card numbers to a caller
+    they've never heard of? 
+</text>
+        <arg n="0">people</arg>
+        <rel>[ blurt] [ out]</rel>
+        <arg n="1">their credit-card numbers</arg>
+        <arg n="2" f="to">a caller they've never heard of</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

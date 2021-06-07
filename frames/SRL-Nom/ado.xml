@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ado">
+<roleset id="ado.01" name="to worry or overprotect" source="verb-fuss.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="target of emotion" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+more ado about less
+</text>
+<arg f="EXT" n="M">more</arg>
+<rel>ado</rel>
+<arg n="1">about less</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

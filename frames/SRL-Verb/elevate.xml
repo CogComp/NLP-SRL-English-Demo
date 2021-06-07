@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="elevate">
+<note>
+  Frames file for 'elevate' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="elevate.01" name="to raise or lift"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity elevated"/>
+  <role n="2"  descr="endpoint"/>
+</roles>
+
+
+<example name="all arguments">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ The bill also elevates even minor rule infractions to felonies and provides for recovery of punitive damages in civil lawsuits and arbitration cases without any showing of willful misconduct .
+</text>
+	<arg n="0">The bill</arg>
+	<arg n="M" f="DIS">also</arg>
+	<rel>elevates</rel>
+	<arg n="1">even minor rule infractions</arg>
+	<arg n="2" f="to">felonies</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

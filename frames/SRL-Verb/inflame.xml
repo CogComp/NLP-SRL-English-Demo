@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="inflame">
+<note>
+  Frames file for 'inflame' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="inflame.01" vncls="-" name="cause to be fiery">
+<roles>
+  <role n="0"  descr="agent, causer"/>
+  <role n="1"  descr="inflamed thing"/>
+</roles>
+
+<example name="the one example">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Adm. Goupil's comments are likely [*-1] to inflame the broader
+    dispute within the military establishment here over the role of
+    Dassault. 
+</text>
+        <arg n="0">[*-1] ->  Adm. Goupil's comments</arg>
+        <rel>inflame</rel>
+        <arg n="1">the broader dispute within the military
+        establishment here over the role of Dassault</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

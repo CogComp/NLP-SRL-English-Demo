@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fighter">
+<roleset id="fighter.01" name="fight" source="verb-fight.01" vncls="36.3">
+<roles>
+
+<role descr="first fighter" n="0">
+<vnrole vncls="36.3" vntheta="Actor1"/></role>
+
+<role descr="second fighter, if separate" n="1">
+<vnrole vncls="36.3" vntheta="Actor2"/></role>
+
+<role descr="spoils" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Resistance fighters
+</text>
+<arg n="2">Resistance</arg>
+<arg n="0">fighters</arg>
+<rel>fighters</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a prize-fighter 's
+</text>
+<arg n="0">prize-fighter</arg>
+<arg n="2">prize-fighter</arg>
+<rel>prize-fighter</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

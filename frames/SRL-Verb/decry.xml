@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="decry">
+<note>
+  Frames file for 'decry' based on sentences in wsj.  Verbnet entry
+  33, Framenet entry Judgement.
+</note>
+
+<roleset id="decry.01" vncls="33" name="publicly express low opinion of">
+<roles>
+  <role n="0"  descr="agent, decrier"/>
+  <role n="1"  descr="thing with low value"/>
+  <role n="2"  descr="reason"/>
+</roles>
+
+<example name="no reason">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    Supportive callers decried unfair testing, not Mrs. Yeargin, on a
+    local radio talk show on which she appeared. 
+</text>
+        <arg n="0">Supportive callers</arg>
+        <rel>decried</rel>
+        <arg n="1">unfair testing, not Mrs. Yeargin,</arg>
+        <arg n="M" f="LOC">on a local radio talk show on which she
+        appeared </arg> 
+</example>
+
+
+<example name="with reason">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    Peter Anthony, who runs an employment agency in New York, decries
+    program trading as ``limiting the game to a few,'' but he also
+    isn't sure it should be more strictly regulated. 
+</text>
+        <arg n="0">Peter Anthony, who runs an employment agency in New
+        York,</arg> 
+        <rel>decries</rel>
+        <arg n="1">program trading</arg>
+        <arg n="2" f="as">limiting the game to a few</arg>
+</example>
+
+
+</roleset>
+</predicate>
+</frameset>

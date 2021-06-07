@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="tilt">
+<note>
+  Frames file for 'tilt' based on sentences in wsj.  Verbnet entries
+  47.6, 45.4.
+</note>
+
+<roleset id="tilt.01" vncls="47.6 45.4" name="(cause to) be not level">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing not level"/>
+  <role n="2"  descr="description of non-level-ness"/>
+</roles>
+
+<example name="most intuitive usage">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    As surely as a seesaw tilts, falling interest rates force up the
+    price of previously issued bonds. 
+</text>
+        <arg n="1">a seesaw</arg>
+        <rel>tilts</rel>
+</example>
+
+<example name="all args">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Mr. Black said he is ``pleased'' with the economy's recent
+    performance, and doesn't see ``a lot of excesses out there that
+    *trace* would tilt us into recession.'' 
+</text>
+        <arg n="0">*trace* ->  that ->  excesses</arg>
+        <rel>tilt</rel>
+        <arg n="1">us</arg>
+        <arg n="2" f="into">recession</arg>
+</example>
+
+<example name="ergative with description">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Will he, if he wins, be in the thrall of the most liberal of his
+    allies, who advocate such policies as rent control for commercial
+    buildings, or will he tilt toward the real-estate interests that
+    have funneled money into his campaign? 
+</text>
+        <arg n="M" f="MOD">will</arg>
+        <arg n="1">he</arg>
+        <rel>tilt</rel>
+        <arg n="2" f="toward">the real-estate interests that  have
+        funneled money into his campaign</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

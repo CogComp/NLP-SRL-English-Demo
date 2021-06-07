@@ -1,0 +1,19 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cataclysm">
+<roleset id="cataclysm.01" name="event">
+<roles>
+
+</roles>
+
+<example name="autogen1">
+<text>
+such short-term cataclysms
+</text>
+<arg f="TMP" n="M">short-term</arg>
+<rel>cataclysms</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

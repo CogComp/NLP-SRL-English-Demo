@@ -1,0 +1,80 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="cough">
+<note>
+  Frames file for 'cough' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="cough.01" vncls="-" name="cough, hack">
+<roles>
+  <role n="0"  descr="cougher"/>
+</roles>
+
+<example name="expectorant">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Just when Ms. Gruberova sat down away from her guests *trace* to
+    cough in private , her salon began sliding around the stage; her
+    country hideaway also has a very active set of drapes. 
+</text>
+        <arg n="0">*trace* ->  Ms. Gruberova</arg>
+        <rel>cough</rel>
+        <arg n="M" f="MNR">in private</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="cough.02" vncls="-" name="say in a coughing manner">
+<roles>
+  <role n="0"  descr="speaker"/>
+  <role n="1"  descr="utterance"/>
+  <role n="2"  descr="hearer"/>
+</roles>
+
+<example name="smoke inhalation">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     "I think I burned the wienies," coughed John.
+  </text>
+  <arg n="1"        >I think I burned the wienies</arg>
+  <rel              >coughed</rel>
+  <arg n="0"        >John</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="cough_up">
+
+<roleset id="cough.03" vncls="-" name="give under duress">
+<roles>
+  <role n="0"  descr="giver"/>
+  <role n="1"  descr="thing given"/>
+</roles>
+
+<example name="violent tendencies">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary kept hitting John until he coughed up $50.
+  </text>
+  <arg n="0"        >he</arg>
+  <rel              >coughed up</rel>
+  <arg n="1"        >$50</arg>
+</example>
+
+<note>
+might take benefactive?
+</note>
+
+</roleset>
+</predicate>
+</frameset>

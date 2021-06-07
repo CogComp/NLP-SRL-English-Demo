@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="excellence">
+<roleset id="excellence.01" name="be very good (at" source="verb-excel.01">
+<roles>
+
+<role descr="theme" n="1" source="0"></role>
+
+<role descr="domain" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+candidates to head the NIH and the CDC will be judged by ``
+standards of scientific and administrative excellence , '' not
+politics
+</text>
+<arg n="1">candidates to head the NIH and the CDC ---> *-3</arg>
+<arg n="Support">judged by standards of</arg>
+<arg n="2">scientific and administrative</arg>
+<rel>excellence</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

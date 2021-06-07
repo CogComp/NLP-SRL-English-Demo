@@ -1,0 +1,136 @@
+body {
+	font-family: 'Helvetica Neue', Helvetica, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+	font-size: 18px;
+}
+
+#senseFrameContainer {
+	width: 512px;
+}
+
+#senseFrameTitle {
+	
+}
+
+#senseFrameBody {
+	
+}
+
+.ANN-Label { color:#808080; background-color:#f8f8f8; }
+
+.NER-CONLL-NE { color:#000; background-color:#d9e9f9; }
+.NER-CONLL-PER { color:#000; background-color:#d9e9f9; }
+.NER-CONLL-GPE{ color:#000; background-color:#d9f9e9; }
+.NER-CONLL-LOC{ color:#000; background-color:#d9f9e9; }
+.NER-CONLL-NORP { color:#000; background-color:#e9d9f9; }
+.NER-CONLL-ORDINAL{ color:#000; background-color:#e9f9d9; }
+.NER-CONLL-DATE{ color:#000; background-color:#f9d9e9; }
+.NER-CONLL-ORG{ color:#000; background-color:#f9e9d9; }
+.NER-CONLL-LAW{ color:#000; background-color:#d9e9d9; }
+.NER-CONLL-EVENT{ color:#000; background-color:#d9d9e9; }
+.NER-CONLL-CARDINAL{ color:#000; background-color:#e9d9e9; }
+.NER-CONLL-QUANTITY{ color:#000; background-color:#e9e9d9; }
+.NER-CONLL-FAC{ color:#000; background-color:#d9c9e9; }
+
+.SRL-Verb-Predicate{ color:#000; background-color:#ffeb3b; }
+.SRL-Verb-ARG0{ color:#000; background-color:#ffdddd; }
+.SRL-Verb-ARG1{ color:#000; background-color:#fdf5e6; }
+.SRL-Verb-ARG2{ color:#000; background-color:#cddc39; }
+.SRL-Verb-ARG3{ color:#000; background-color:#cde9dc; }
+.SRL-Verb-ARGM-LOC{ color:#000; background-color:#ddffdd; }
+.SRL-Verb-ARGM-TMP{ color:#000; background-color:#87CEEB; }
+.SRL-Verb-ARGM-MNR{ color:#000; background-color:#8bc34a; }
+.SRL-Verb-ARGM-ADV{ color:#000; background-color:#ffBf8f; }
+.SRL-Verb-ARGM-DIS{ color:#000; background-color:#00bcd4; }
+.SRL-Verb-ARGM-MOD{ color:#000; background-color:#ffffcc; }
+.SRL-Verb-ARGM-NEG{ color:#000; background-color:#ddccFF; }
+.SRL-Verb-ARGM-PRD{ color:#000; background-color:#ccddFF; }
+.SRL-Verb-ARGM-PRP{ color:#000; background-color:#c0d0F0; }
+.SRL-Verb-Support{ color:#000; background-color:#FFddcc; }
+.SRL-Verb-C-Support{ color:#000; background-color:#F0d0c0; }
+.SRL-Verb-R-ARG0{ color:#000; background-color:#f8d2dc; }
+.SRL-Verb-R-ARG1{ color:#000; background-color:#f0d0d0; }
+.SRL-Verb-R-ARG2{ color:#000; background-color:#ddcc89; }
+.SRL-Verb-R-ARG3{ color:#000; background-color:#dcecd9; }
+.SRL-Verb-C-ARG0{ color:#000; background-color:#f8dcd2; }
+.SRL-Verb-C-ARG1{ color:#000; background-color:#f4d6d8; }
+.SRL-Verb-C-ARG2{ color:#000; background-color:#ddcc89; }
+.SRL-Verb-C-ARG3{ color:#000; background-color:#dce9d3; }
+
+.SRL-Nom-Predicate{ color:#000; background-color:#ffeb3b; }
+.SRL-Nom-ARG0{ color:#000; background-color:#ffdddd; }
+.SRL-Nom-ARG1{ color:#000; background-color:#fdf5e6; }
+.SRL-Nom-ARG2{ color:#000; background-color:#cddc89; }
+.SRL-Nom-ARG3{ color:#000; background-color:#cde9dc; }
+.SRL-Nom-ARG4{ color:#000; background-color:#d2e9c2; }
+.SRL-Nom-ARGM-LOC{ color:#000; background-color:#ddffdd; }
+.SRL-Nom-ARGM-TMP{ color:#000; background-color:#87CEEB; }
+.SRL-Nom-ARGM-MNR{ color:#000; background-color:#8bc34a; }
+.SRL-Nom-ARGM-ADV{ color:#000; background-color:#ffBf8f; }
+.SRL-Nom-ARGM-DIS{ color:#000; background-color:#00bcd4; }
+.SRL-Nom-ARGM-MOD{ color:#000; background-color:#ffffcc; }
+.SRL-Nom-ARGM-NEG{ color:#000; background-color:#ddccFF; }
+.SRL-Nom-ARGM-EXT{ color:#000; background-color:#ddFFcc; }
+.SRL-Nom-Support{ color:#000; background-color:#FFddcc; }
+.SRL-Nom-C-Support{ color:#000; background-color:#F0d0c0; }
+.SRL-Nom-R-ARG0{ color:#000; background-color:#f8d2dc; }
+.SRL-Nom-R-ARG1{ color:#000; background-color:#f0d0d0; }
+.SRL-Nom-R-ARG2{ color:#000; background-color:#ddcc89; }
+.SRL-Nom-R-ARG3{ color:#000; background-color:#dcecd9; }
+.SRL-Nom-C-ARG0{ color:#000; background-color:#f8dcd2; }
+.SRL-Nom-C-ARG1{ color:#000; background-color:#f4d6d8; }
+.SRL-Nom-C-ARG2{ color:#000; background-color:#ddcc89; }
+.SRL-Nom-C-ARG3{ color:#000; background-color:#dce9d3; }
+
+
+.SRL-Nom-ALL-Predicate{ color:#000; background-color:#ffeb3b; }
+.SRL-Nom-ALL-ARG0{ color:#000; background-color:#ffdddd; }
+.SRL-Nom-ALL-ARG1{ color:#000; background-color:#fdf5e6; }
+.SRL-Nom-ALL-ARG2{ color:#000; background-color:#cddc89; }
+.SRL-Nom-ALL-ARG3{ color:#000; background-color:#cde9dc; }
+.SRL-Nom-ALL-ARG4{ color:#000; background-color:#d2e9c2; }
+.SRL-Nom-ALL-ARGM-LOC{ color:#000; background-color:#ddffdd; }
+.SRL-Nom-ALL-ARGM-TMP{ color:#000; background-color:#87CEEB; }
+.SRL-Nom-ALL-ARGM-MNR{ color:#000; background-color:#8bc34a; }
+.SRL-Nom-ALL-ARGM-ADV{ color:#000; background-color:#ffBf8f; }
+.SRL-Nom-ALL-ARGM-DIS{ color:#000; background-color:#00bcd4; }
+.SRL-Nom-ALL-ARGM-MOD{ color:#000; background-color:#ffffcc; }
+.SRL-Nom-ALL-ARGM-NEG{ color:#000; background-color:#ddccFF; }
+.SRL-Nom-ALL-ARGM-EXT{ color:#000; background-color:#ddFFcc; }
+.SRL-Nom-ALL-Support{ color:#000; background-color:#FFddcc; }
+.SRL-Nom-ALL-C-Support{ color:#000; background-color:#F0d0c0; }
+.SRL-Nom-ALL-R-ARG0{ color:#000; background-color:#f8d2dc; }
+.SRL-Nom-ALL-R-ARG1{ color:#000; background-color:#f0d0d0; }
+.SRL-Nom-ALL-R-ARG2{ color:#000; background-color:#ddcc89; }
+.SRL-Nom-ALL-R-ARG3{ color:#000; background-color:#dcecd9; }
+.SRL-Nom-ALL-C-ARG0{ color:#000; background-color:#f8dcd2; }
+.SRL-Nom-ALL-C-ARG1{ color:#000; background-color:#f4d6d8; }
+.SRL-Nom-ALL-C-ARG2{ color:#000; background-color:#ddcc89; }
+.SRL-Nom-ALL-C-ARG3{ color:#000; background-color:#dce9d3; }
+
+.SRL-Prep-Predicate{ color:#000; background-color:#ffeb3b; }
+.SRL-Prep-OBJ{ color:#000; background-color:#A7CEEB; }
+.SRL-Prep-GOV{ color:#000; background-color:#CED7AB; }
+.SRL-Prep-Manner{ color:#000; background-color:#ffeb3b; }
+.SRL-Prep-Topic{ color:#000; background-color:#ffeb3b; }
+.SRL-Prep-ObjectOfVerb{ color:#000; background-color:#ffeb3b; }
+.SRL-Prep-Attribute{ color:#000; background-color:#ffeb3b; }
+.SRL-Prep-Other{ color:#000; background-color:#ffeb3b; }
+.SRL-Prep-Location{ color:#000; background-color:#ffeb3b; }
+.SRL-Prep-PartWhole{ color:#000; background-color:#ffeb3b; }
+.SRL-Prep-Source{ color:#000; background-color:#ffeb3b; }
+.SRL-Prep-Possessor{ color:#000; background-color:#ffeb3b; }
+.SRL-Prep-Temporal{ color:#000; background-color:#ffeb3b; }
+.SRL-Prep-Species{ color:#000; background-color:#ffeb3b; }
+.SRL-Prep-Numeric-Level{ color:#000; background-color:#ffeb3b; }
+.SRL-Prep-Cause{ color:#000; background-color:#ebff3b; }
+.SRL-Prep-Agent{ color:#000; background-color:#8bc34a; }
+.SRL-Prep-Separation{ color:#000; background-color:#87CEEB; }
+.SRL-Prep-Beneficiary{ color:#000; background-color:#CE87EB; }
+
+.SRL-Prep-NP{ color:#000; background-color:#ffBf8f; }
+.SRL-Prep-VP{ color:#000; background-color:#cddc39; }
+.SRL-Prep-PP{ color:#000; background-color:#39cddc; }
+.SRL-Prep-ADVP{ color:#000; background-color:#Bfff8f; }
+
+.separator{ background-color:#fff; font-size: 4px;}
+

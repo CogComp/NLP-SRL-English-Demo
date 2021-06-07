@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mirror">
+<roleset id="mirror.01" name="cast an image back, reflect" source="verb-mirror.01">
+<roles>
+
+<role descr="thing casting a reflection" n="1"></role>
+
+<role descr="surface casting the reflection, image being reflected" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a `` mirror of Japan 's fabled virtues of hard work and harmony
+</text>
+<arg n="2">mirror</arg>
+<rel>mirror</rel>
+<arg n="1">of Japan 's fabled virtues of hard work and harmony</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

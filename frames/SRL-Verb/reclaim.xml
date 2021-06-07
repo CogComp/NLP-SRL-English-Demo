@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="reclaim">
+<note>
+  Frames file for 'reclaim' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="reclaim.01" name="to claim back"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity reclaimed"/>
+  <role n="2"  descr="entity reclaimed from"/>
+</roles>
+
+
+<example name="all arguments">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Decent life in the inner cities wo n't be restored [*-1] unless the government reclaims the streets from the drug gangs .
+</text>
+	<arg n="0">the government</arg>
+	<rel>reclaims</rel>
+	<arg n="1">the streets</arg>
+	<arg n="2" f="from">the drug gangs</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

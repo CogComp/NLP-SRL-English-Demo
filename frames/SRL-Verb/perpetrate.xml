@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="perpetrate">
+<note>
+  Frames file for 'perpetrate' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="perpetrate.01" vncls="-" name="do, act, commit">
+<roles>
+  <role n="0"  descr="perp"/>
+  <role n="1"  descr="crime"/>
+  <role n="2"  descr="victim"/>
+</roles>
+
+<example name="all args">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+     The U.S. defines it as ``premediated, politically motivated
+     violence perpetrated [*] against noncombatant targets by
+     subnational groups or clandestine state agents.'' 
+</text>
+        <rel>perpetrated</rel>
+        <arg n="1">[*] ->  premediated, politically motivated violence</arg>
+        <arg n="2" f="against">noncombatant targets</arg>
+        <arg n="0" f="by">subnational groups or clandestine state agents</arg>
+</example>
+
+<note>
+It could be argued that the victim arg is part of the crime arg
+(violence against noncombatants as a constituent, in other words).
+</note>
+
+</roleset>
+</predicate>
+</frameset>

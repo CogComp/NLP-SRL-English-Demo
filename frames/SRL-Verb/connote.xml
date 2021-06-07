@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="connote">
+<note>
+  Frames file for 'connote'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="connote.01" name="to imply or predicate"
+vncls="-">
+<roles> 
+  <role n="0"  descr="entity implying"/>
+  <role n="1"  descr="entity implied"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ The name is supposed [*-1] to connote feminine grandeur , but in Japanese it means `` eyeglasses . ''
+</text>
+	<arg n="0">[*-1] ->  The name</arg>
+	<rel>connote</rel>
+	<arg n="1">feminine grandeur</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

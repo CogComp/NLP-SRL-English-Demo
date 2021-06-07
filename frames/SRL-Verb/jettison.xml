@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="jettison">
+<note>
+  Frames file for 'jettison' based on sentences in financial
+  subcorpus.  No Verbnet entry, no Framenet entry.
+</note>
+
+<roleset id="jettison.01" name="get rid of in a hurry">
+<roles>
+  <role n="0"  descr="agent, entity getting rid of something"/>
+  <role n="1"  descr="thing gotten rid of"/>
+</roles>
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+    And while Polly Peck isn't jettisoning the existent top-management
+    structure of Sansui, it is bringing in a former Toshiba
+    Corp. executive as executive vice president and chief operating
+    officer. 
+</text>
+        <arg n="0">Polly Peck</arg>
+        <arg n="M" f="NEG">n't</arg>
+        <rel>jettisoning</rel>
+        <arg n="1">the existent top-management structure of Sansui</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="generalize">
+<note>
+  Frames file for 'generalize' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="generalize.01" name="to reduce to a general form"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="topic"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ It [*EXP*-1] 's hard [*] to generalize , but age seems [*-2] to be the best predictor .
+</text>
+	<arg n="0">[*]</arg>
+	<rel>generalize</rel>
+</example>
+
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ It [*EXP*-2] 's hard [*] to generalize about a reasonable price for puts .
+</text>
+	<arg n="0">[*]</arg>
+	<rel>generalize</rel>
+	<arg n="1" f="about">a reasonable price for puts</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

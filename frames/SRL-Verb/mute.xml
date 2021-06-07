@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="mute">
+<note>
+  Frames file for 'mute' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="mute.01" name="to soften"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity muted"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ But President Bush is expected [*-1] to veto the congressional legislation and that , along with the easy approval of the Pennsylvania measure , is likely [*-2] to mute the abortion-rights activists ' claims of momentum and underline the challenges faced [*] by this resurgent movement .
+</text>
+	<arg n="0">[*-2] ->  that</arg>
+	<rel>mute</rel>
+	<arg n="1">the abortion-rights activists ' claims of momentum</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+

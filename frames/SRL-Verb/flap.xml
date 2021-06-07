@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="flap">
+<note>
+  Frames file for 'flap' based on sentences in wsj.  Verbnet entries
+  47.3 and 40.3.2, Framenet entry Body movement.
+</note>
+
+<roleset id="flap.01" vncls="47.3 40.3.2" name="move back and forth randomly">
+<roles>
+  <role n="0"  descr="causer of motion"/>
+  <role n="1"  descr="thing flapping"/>
+</roles>
+
+<example name="ergative">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    But what about all those non-duck ducks flapping over Washington?
+</text>
+        <arg n="1">all those non-duck ducks</arg>
+        <rel>flapping</rel>
+        <arg n="M" f="LOC">over Washington</arg>
+</example>
+
+<example name="agentive">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     John flapped his arms, trying to fly.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >flapped</rel>
+  <arg n="1"        >his arms</arg>
+  <arg n="m"        >trying to fly</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

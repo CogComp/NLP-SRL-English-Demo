@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="go-ahead">
+<roleset id="go-ahead.01" name="permit, let, allow" source="verb-permit.01">
+<roles>
+
+<role descr="allower" n="0"></role>
+
+<role descr="action allowed" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In a ruling by the Fifth U.S. Circuit Court of Appeals in New
+Orleans , Mr. Gaubert received the go-ahead to pursue a claim
+against the Federal Home Loan Bank Board and the Federal Home
+Loan Bank of Dallas for losses he suffered when the Bank Board
+closed the Independent American Savings Association of Irving ,
+Texas .
+</text>
+<arg n="2">Mr. Gaubert</arg>
+<arg n="Support">received</arg>
+<rel>go-ahead</rel>
+<arg f="PRD" n="1">
+to pursue a claim against the Federal Home Loan Bank Board and
+the Federal Home Loan Bank of Dallas for losses he suffered when
+the Bank Board closed the Independent American Savings
+Association of Irving , Texas</arg>
+</example>
+
+<example name="autogen2">
+<text>
+it receives the go-ahead from French stock market authorities
+</text>
+<arg n="2">it</arg>
+<arg n="Support">receives</arg>
+<rel>go-ahead</rel>
+<arg n="0">from French stock market authorities</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

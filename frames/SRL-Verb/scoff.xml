@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="scoff">
+<note>
+  Frames file for 'scoff' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="scoff.01" name="to laugh"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity scoffed at"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Carl Schramm , president of the Health Insurance Association of America , scoffs at `` capitalists who [*T*-1] want [*-2] to socialize the entire financing system '' for health .
+</text>
+	<arg n="0">Carl Schramm , president of the Health Insurance Association of America ,</arg>
+	<rel>scoffs</rel>
+	<arg n="1" f="at">capitalists who [*T*-1] want [*-2] to socialize the entire financing system '' for health</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

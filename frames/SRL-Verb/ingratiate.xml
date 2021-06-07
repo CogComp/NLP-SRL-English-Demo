@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ingratiate">
+<note>
+  Frames file for 'ingratiate' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="ingratiate.01" vncls="-" name="cause to be grateful, suck
+up to">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="us. 'self'"/>
+  <role n="2"  descr="grateful entity"/>
+</roles>
+
+<example name="toady?">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    ``It's not uncommon for these guys to send pictures of themselves
+    or their families [*-3] to ingratiate themselves to their
+    clients,'' says Terree Bowers, chief of the major-frauds section
+    of the U.S. attorney's office in Los Angeles. 
+</text>
+        <arg n="0">[*-3] ->  these guys</arg>
+        <rel>ingratiate</rel>
+        <arg n="1" f="REC">themselves</arg>
+        <arg n="2" f="to">their clients</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

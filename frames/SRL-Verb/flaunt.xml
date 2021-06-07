@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="flaunt">
+<note>
+  Frames file for 'flaunt'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="flaunt.01" name="to show or exhibit"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>  
+  <role n="1"  descr="entity flaunted"/>  
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ But MCI , of Washington , was displeased with the FCC decision concerning Tariff 12 , [*-1] arguing that `` AT&amp;T can not be allowed [*-2] to flaunt FCC rules . ''
+</text>
+	<arg n="0">[*-2] ->  AT&amp;T</arg>
+	<rel>flaunt</rel>
+	<arg n="1">FCC rules</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

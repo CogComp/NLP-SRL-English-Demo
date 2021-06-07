@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="outshine">
+<note>
+  Frames file for 'outshine' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="outshine.01" name="to be more splendid or successful"
+vncls="-">
+<roles>
+  <role n="0"  descr="entity compared to"/>
+  <role n="1"  descr="entity outshone"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Afterward , as the A 's toasted their victory with beer ( they dispensed with traditional champagne showers in deference to the quake victims ) , Stewart said [0] he thought [0] his championship-team ring would outshine his individual trophy .
+</text>
+	<arg n="0">his championship-team ring</arg>
+	<arg n="M" f="MOD">would</arg>
+	<rel>outshine</rel>
+	<arg n="1">his individual trophy</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

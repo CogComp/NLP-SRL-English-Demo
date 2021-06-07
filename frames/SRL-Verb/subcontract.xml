@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="subcontract">
+<note>
+  Frames file for 'subcontract' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="subcontract.01" vncls="-" name="send out part of a job">
+<roles>
+  <role n="0"  descr="employer, entity with big job"/>
+  <role n="1"  descr="(part of) job"/>
+  <role n="2"  descr="subcontractor"/>
+</roles>
+
+<example name="unstated subcontractors">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+     The company has no immediate plans to close any operations, she
+     said, but Quotron may subcontract some work that it has been
+     doing in-house, including refurbishment and production of Quotron
+     1000 equipment used in delivering financial data. 
+</text>
+        <arg n="0">Quotron</arg>
+        <arg n="M" f="MOD">may</arg>
+        <rel>subcontract</rel>
+        <arg n="1">some work that it has been doing in-house,
+        including refurbishment and production of Quotron 1000
+        equipment used in delivering financial data</arg> 
+</example>
+
+<example name="with subcontractor">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     John subcontracted his yardwork to the neighborhood kids.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >subcontracted</rel>
+  <arg n="1"        >his yardwork</arg>
+  <arg n="2" f="to">the neighborhood kids</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

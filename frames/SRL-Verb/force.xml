@@ -1,0 +1,114 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="force">
+<note>
+  Frames file for 'force' based on survey of initial sentences of big
+  corpus and comparison with 'make'
+</note>
+
+<roleset id="force.01" name="impelled action">
+<roles>
+  <role n="0"  descr="forcer"/>
+  <role n="1"  descr="impelled agent"/>
+  <role n="2"  descr="impelled action"/>
+</roles>
+
+<example name="sentential predicate">
+  <text>
+  Commonwealth Edison said the ruling could force it to slash its 1989
+  earnings by $1.55 a share.
+  </text>
+  <arg n="0"        >the ruling</arg>
+  <arg n="m" f="MOD">could</arg>
+  <rel              >force</rel>
+  <arg n="1"        >it</arg>
+  <arg n="2" f="PRD">to slash its 1989 earnings by $1.55 a share.</arg>
+</example>
+
+<example name="prepositional predicate">
+  <text>
+  Low test scores force entire districts into wrenching,
+  state-supervised interventions that can mean firings.
+  </text>
+  <arg n="0"        >Low test scores</arg>
+  <rel              >force</rel>
+  <arg n="1"        >entire districts</arg>
+  <arg n="2" f="into">wrenching, state-supervised interventions that
+  can mean firings.</arg>
+</example>
+
+<example name="preposition and passive">
+  <text>
+  Insurance agents have been forced *trace* by their companies into
+  *trace* becoming registered reps.
+  </text>
+  <arg n="1"        >*trace*=Insurance agents</arg>
+  <rel voice="passive">forced</rel>
+  <arg n="0" f="by">their companies</arg>
+  <arg n="2" f="into">*trace* becoming registered reps</arg>
+</example>
+
+<example name="weird tertiary predication">
+  <text>
+  R. Gordon McGovern was forced *trace* out as Campbell Soup's
+  president and CEO.
+  </text>
+  <arg n="1"        >*trace*=R. Gordon McGovern</arg>
+  <rel              >forced</rel>
+  <arg n="2" f="DIR">out</arg>
+  <arg n="m" f="PRD">as Campbell Soup's president and CEO.</arg>
+</example>
+
+<example name="and again">
+  <text>
+  Arm troubles forced him back to the minors the next year.
+  </text>
+  <arg n="0"        >Arm troubles</arg>
+  <rel              >forced</rel>
+  <arg n="1"        >him</arg>
+  <arg n="2" f="DIR">back</arg>
+  <arg n="m" f="DIR">to the minors</arg>
+  <arg n="m" f="TMP">the next year</arg>
+</example>
+
+<note>
+????
+</note>
+
+</roleset>
+
+<roleset id="force.02" name="force a thing">
+<roles>
+  <role n="0"  descr="forcer"/>
+  <role n="1"  descr="thing forced"/>
+  <role n="2"  descr="benefactive, forced-on"/>
+</roles>
+
+<example name="typical">
+  <text>
+  The new pact will force huge debt on the new firm.
+  </text>
+  <arg n="0"        >The new pact</arg>
+  <arg n="m" f="MOD">will</arg>
+  <rel              >force</rel>
+  <arg n="1"        >huge debt</arg>
+  <arg n="2" f="on">the new firm</arg>
+</example>
+
+<example name="nominal predicate">
+  <text>
+  The scandal forced John's resignation.
+  </text>
+  <arg n="0"        >The scandal</arg>
+  <rel              >forced</rel>
+  <arg n="1"        >John's resignation</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

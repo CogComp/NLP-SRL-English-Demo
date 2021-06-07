@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stable">
+<roleset id="stable.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a stable of classics -- Bordeaux first growths -LRB-
+Lafite-Rothschild , Latour , Haut-Brion , Petrus -RRB- , Grand
+Cru Burgundies -LRB- Romanee-Conti and La Tache -RRB- deluxe
+Champagnes -LRB- Dom Perignon or Roederer Cristal -RRB- ,
+rarefied sweet wines -LRB- Chateau Yquem or Trockenbeerenauslesen
+Rieslings from Germany , and Biondi-Santi Brunello Riserva from
+Tuscany -RRB-
+</text>
+<rel>stable</rel>
+<arg n="1">
+of classics -- Bordeaux first growths -LRB- Lafite-Rothschild ,
+Latour , Haut-Brion , Petrus -RRB- , Grand Cru Burgundies -LRB-
+Romanee-Conti and La Tache -RRB- deluxe Champagnes -LRB- Dom
+Perignon or Roederer Cristal -RRB- , rarefied sweet wines -LRB-
+Chateau Yquem or Trockenbeerenauslesen Rieslings from Germany ,
+and Biondi-Santi Brunello Riserva from Tuscany -RRB-</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his stable of stocks
+</text>
+<rel>stable</rel>
+<arg n="1">of stocks</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

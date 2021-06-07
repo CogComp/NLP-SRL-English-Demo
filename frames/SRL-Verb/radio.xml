@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="radio">
+<note>
+  Frames file for 'radio' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="radio.01" name="to transmit by radio"
+vncls="37.4">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity transmitted"/>
+  <role n="2"  descr="destination"/>
+</roles>
+
+
+<example name="all arguments">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+ In a 1961 incident , a Soviet mail plane disappeared off the radar screen just after [*-1] radioing its position to ground control in Sverdlovsk .
+</text>
+	<arg n="0">[*-1] ->  a Soviet mail plane</arg>
+	<rel>radioing</rel>
+	<arg n="1">its position</arg>
+	<arg n="2" f="to">ground control in Sverdlovsk</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

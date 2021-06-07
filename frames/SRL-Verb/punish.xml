@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="punish">
+<note>
+  Frames file for 'punish' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+
+<roleset id="punish.01" name="to subject to a penalty for an offense" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="person punished"/>
+  <role n="2"  descr="punished for"/>
+</roles>
+
+<example name="all arguments">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+ Cartoonist Garry Trudeau is suing the Writers Guild of America East for $ 11 million [*U*] , [*-1] alleging [0] it mounted a `` campaign [*] to harass and punish '' him for [*] crossing a screenwriters ' picket line .
+</text>
+	<arg n="0">[*] ->  it</arg>
+	<rel>punish</rel>
+	<arg n="1">him</arg>
+	<arg n="2" f="for">[*] crossing a screenwriters ' picket line</arg>
+</example>
+
+
+<example name="arbitrary subject">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+ The officials said [0] the meeting agreed [*-3] to continue [*-2] working toward [*-4] `` streamlining '' Cocom 's restricted products list , and to improve procedures for [*] punishing companies that [*T*-1] do n't comply with the export restrictions .
+</text>
+	<arg n="0">[*]</arg>
+	<rel>punishing</rel>
+	<arg n="1">companies that [*T*-1] do n't comply with the export restrictions</arg>
+</example>
+
+
+
+<example name="passive">
+<inflection person="ns" tense="future" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Foreigners involved [*] in prostitution will be punished [*-2] according to the law , and those with sexually transmitted diseases will be expelled [*-1] from the country , according to the regulations .
+</text>
+	<arg n="M" f="MOD">will</arg>
+	<rel>punished</rel>
+	<arg n="1">[*-2] ->  Foreigners involved [*] in prostitution</arg>
+	<arg n="M" f="MNR">according to the law</arg>
+</example>
+
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="jingle">
+<note>
+  Frames file for 'jingle' based on sentences in wsj.  Verbnet entry 43.2
+</note>
+
+<roleset id="jingle.01" vncls="43.2" name="make noise like a little bell">
+<roles>
+  <role n="0"  descr="causal agent"/>
+  <role n="1"  descr="emitter of jingling sound"/>
+</roles>
+
+<example name="agentive">
+<inflection person="ns" tense="past" aspect="progressive" voice="active" form="participle"/>
+<text>
+    While people were jingling their change, the LDP politicians were
+    caught in scandals. 
+</text>
+        <arg n="0">people</arg>
+        <rel>jingling</rel>
+        <arg n="1">their change</arg>
+</example>
+
+<example name="more commonly ergative">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     John's doorbell jingled, but he ignored it.
+  </text>
+  <arg n="1"        >John's doorbell</arg>
+  <rel              >jingled</rel>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

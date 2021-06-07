@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="bandy_about">
+<note>
+  Frames file for 'bandy' based on sentences in WSJ corpus. Comparison
+with 'discuss'.
+</note>
+
+<roleset id="bandy.01" name="discuss casually" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="topic"/>
+</roles>
+
+<example name="passive transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Some investors whose names [*T*-2] were bandied [*-1] about by traders as potential UAL stock buyers said [0] they were n't buying .
+</text>
+	<rel>[ bandied] [ about]</rel>
+	<arg n="1">[*-1] ->  [*T*-2] ->  whose names</arg>
+	<arg n="0" f="by">traders</arg>
+</example>
+
+
+<note>
+  frames created by Olga
+</note>
+
+</roleset>
+</predicate>
+</frameset>
+
+
+
+
+
+
+
+
+

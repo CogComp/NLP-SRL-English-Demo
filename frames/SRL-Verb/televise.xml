@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="televise">
+<note>
+  Frames file for 'televise' based on sentences in wsj.  Verbnet entry 25.4.
+</note>
+
+<roleset id="televise.01" vncls="25.4" name="put on television">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="event on television"/>
+</roles>
+
+<example name="adjectival">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    A crowd estimated at 100,000 held a torch-lit march through
+    Budapest as Acting President Szuros delivered a nationally
+    televised address rejecting communist dominance. 
+</text>
+        <arg n="M" f="LOC">nationally</arg>
+        <rel>televised</rel>
+        <arg n="1">address</arg>
+</example>
+
+<example name="verbal">
+  <inflection person="third" tense="past" aspect="ns" voice="passive" form="participle"/>
+  <text>
+    John's funeral was televised [*] -- on a public access channel, to
+    be sure. 
+  </text>
+  <rel              >televised</rel>
+  <arg n="1"        >[*] -> John's funeral</arg>
+  <arg n="m" f="LOC">on a public access channel</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

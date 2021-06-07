@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="roam">
+<note>
+  Frames file for 'roam' based on sentences in wsj.  Verbnet entry
+  51.3.2, Framenet entry Self motion.
+</note>
+
+<roleset id="roam.01" vncls="51.3.2" name="move over a wide area">
+<roles>
+  <role n="0"  descr="entity in motion"/>
+  <role n="1"  descr="range, wide area"/>
+</roles>
+
+<example name="jackals?">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Jackals roam the streets at night, and gemsbok, hardy antelope
+    with long straight horns, wander in from the desert to drink from
+    water sprinklers. 
+</text>
+        <arg n="0">Jackals</arg>
+        <rel>roam</rel>
+        <arg n="1">the streets</arg>
+        <arg n="M" f="TMP">at night</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

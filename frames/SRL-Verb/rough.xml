@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="rough_up">
+<note>
+  Frames file for 'rough up' based on sentences in wsj.  No Verbnet
+  entry. 
+</note>
+
+<roleset id="rough.01" vncls="-" name="commit violence on">
+<roles>
+  <role n="0"  descr="committer of violence"/>
+  <role n="1"  descr="victim"/>
+</roles>
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="full"/>
+<text>
+    Last week the stock hit an all-time high of 37 1/4 before *trace*
+    getting roughed *trace* up in the Friday-the-13th minicrash. 
+</text>
+        <rel>[ roughed] [ up]</rel>
+        <arg n="1">*trace* -> *trace* ->  the stock</arg>
+        <arg n="M" f="LOC">in the Friday-the-13th minicrash</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

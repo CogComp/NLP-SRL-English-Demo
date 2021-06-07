@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="index">
+<note>
+  Frames file for 'index'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="index.01" name="to provide an index"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity indexed"/> 
+  <role n="2"  descr="attribute"/>   
+</roles>
+
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Based on historical rates of return , Mr. Anderson reckons [0] a 100 % stock portfolio , indexed [*] to the market , would have kept up with tuition and taxes in the 20th century .
+</text>
+	<rel>indexed</rel>
+	<arg n="1">[*] ->  a 100 % stock portfolio</arg>
+	<arg n="2" f="to">the market</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

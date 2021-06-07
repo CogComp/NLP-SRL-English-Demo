@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="disclose">
+<note>
+  Frames file for 'disclose' based on survey of initial sentences of
+  big corpus and comparison with all the other verbs-of-saying.
+</note>
+
+<roleset id="disclose.01" name="say">
+<roles>
+    <role n="0"    descr="Sayer"/>
+    <role n="1"    descr="Utterance"/>
+    <role n="2"    descr="Hearer"/>
+    <role n="3"    descr="Attributive"/>
+</roles>
+
+<example name="transitive">
+  <text>
+  Documents filed with the SEC on the pending spinoff disclosed that
+  Cray Research Inc. will withdraw the almost $100 million in
+  financing it is providing the new firm if Mr. Cray leaves.
+  </text>
+  <arg n="0"        >Documents filed with the SEC on the pending spinoff</arg>
+  <rel              >disclosed</rel>
+  <arg n="1" f="PRD">Cray Research Inc. will withdraw the almost $100
+  million in financing it is providing the new firm if Mr. Cray
+  leaves.</arg>
+</example>
+
+<note>
+As with other verbs-of-saying, the complementizer is left out of the PAS.
+</note>
+
+<example name="disclosed NP, passivized to boot">
+  <text>
+  Terms weren't disclosed *trace*.
+  </text>
+  <arg n="1"        >*trace*=Terms</arg>
+  <arg n="m" f="NEG">n't</arg>
+  <rel voice="passive">disclosed</rel>
+</example>
+
+<example name="split, sorta">
+  <text>
+  Billings *trace-1* weren't disclosed *trace-2* for the small account.
+  </text>
+  <arg n="1"        >*trace-2*=[Billings *trace-1*]</arg>
+  <arg n="m" f="NEG">n't</arg>
+  <rel voice="passive">disclosed</rel>
+  <arg n="1"        >*trace-1*=for the small account</arg>
+</example>
+
+<note>
+Other syntactic formations (fronted, etc) probably will not occur.
+For usage of higher-numbered arguments consult the frames files for
+the other verbs-of-saying, such as "tell" "ask" "say" "report" etc.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

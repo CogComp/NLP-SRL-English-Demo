@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="amble">
+<note>
+  Frames file for 'amble' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="amble.01" name="to walk leisurely"
+vncls="51.3.2">
+<roles>
+ <role n="0"  descr="agent"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ After long stretches of this attendant ground activity came 20 or so lovely minutes of [*] drifting above the Vosges [*-1] watching the silver mists rise off the river and the French cows amble about the fields .
+</text>
+	<arg n="0">the French cows</arg>
+	<rel>amble</rel>
+	<arg n="M" f="LOC">about the fields</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

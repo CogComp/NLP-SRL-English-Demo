@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="chuck">
+<note>
+  Frames file for 'chuck'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="chuck.01" name="to throw, give up"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>  
+  <role n="1"  descr="entity chucked"/>  
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Last summer , he chucked his 10-year career as a London stockbroker and headed for the mountains .
+</text>
+	<arg n="M" f="TMP">Last summer</arg>
+	<arg n="0">he</arg>
+	<rel>chucked</rel>
+	<arg n="1">his 10-year career as a London stockbroker</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

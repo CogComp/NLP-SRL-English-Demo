@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="scarcity">
+<roleset id="scarcity.01" name="attribute/nomadj-scarce">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the scarcity of bank capital for recent deals
+</text>
+<arg f="REF" n="2">scarcity</arg>
+<rel>scarcity</rel>
+<arg n="1">of bank capital for recent deals</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="insert">
+<note>
+  Frames file for 'insert' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="insert.01" name="to put or set into, between, or among"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity inserted"/>
+  <role n="2"  descr="location"/>
+</roles>
+
+
+<example name="passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+ At Plant Genetic Systems , researchers have isolated a pollen-inhibiting gene that [*T*-1] can be inserted [*-20] in a plant [*] to confer male sterility .
+</text>
+	<arg n="M" f="MOD">can</arg>
+	<rel>inserted</rel>
+	<arg n="1">[*-20] ->  [*T*-1] ->  that ->  a pollen-inhibiting gene</arg>
+	<arg n="2" f="in">a plant</arg>
+	<arg n="M" f="PNC">[*] to confer male sterility</arg>
+</example>
+
+
+
+<example name="all arguments">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Congress inserted the following into the Interior appropriation : `` None of the funds available under this title may be used [*-1] [*] to prepare reports on contacts between employees of the Dept. of the Interior and Members and committees of Congress and their staff . ''
+</text>
+	<arg n="0">Congress</arg>
+	<rel>inserted</rel>
+	<arg n="1">the following</arg>
+	<arg n="2" f="into">the Interior appropriation</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

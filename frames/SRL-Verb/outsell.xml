@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="outsell">
+<note>
+  Frames file for 'outsell' based on sentences in financial
+  subcorpus.  No Verbnet entry.  Comparison with other 'out...' verbs
+  (outrun, outpace, etc).
+</note>
+
+<roleset id="outsell.01" name="sell better">
+<roles>
+  <role n="0"  descr="better seller"/>
+  <role n="1"  descr="other seller"/>
+  <role n="2"  descr="margin"/>
+</roles>
+
+<example name="die Microsoft, die!">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    He estimated that 1-2-3 outsold Microsoft's Excel spreadsheet by
+    four-to-one in the quarter, and held a 70% or better share of the
+    spreadsheet market.  
+</text>
+        <arg n="0">1-2-3</arg>
+        <rel>outsold</rel>
+        <arg n="1">Microsoft 's Excel spreadsheet</arg>
+        <arg n="2" f="by">four-to-one</arg>
+        <arg n="M" f="TMP">in the quarter</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

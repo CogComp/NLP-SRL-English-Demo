@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="communicate">
+<note>
+  Frames file for 'communicate' based on sentences in wsj.  Verbnet
+  entry 36.1, Framenet entry Communication.
+</note>
+
+<roleset id="communicate.01" vncls="36.1" name="communicate">
+<roles>
+  <role n="0"  descr="first (or all) communicator"/>
+  <role n="1"  descr="utterance"/>
+  <role n="2"  descr="other communicator(s)"/>
+</roles>
+
+<example name="all args">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    Mr. Guber says that Mr. Semel did convey that information and that
+    Mr. Semel said Mr. Ross was ``crazy because of the Time deal,''
+    meaning, Mr. Guber says, that Mr. Ross ``did not want *trace* to
+    communicate to his new merger partner, Time Inc., that Warner's
+    agreements provided for our departure under these circumstances.'' 
+</text>
+        <arg n="0">*trace* ->  Mr. Ross</arg>
+        <rel>communicate</rel>
+        <arg n="2">his new merger partner, Time Inc.,</arg>
+        <arg n="1">Warner's agreements provided for our departure
+        under these circumstances</arg> 
+</example>
+
+<example name="unstated communication">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    We lost our chance *trace* to communicate with sweet-natured
+    visitors ``about four feet tall (who) looked as though they were
+    made of puffed-up marshmallow.'' 
+</text>
+        <arg n="0">*trace* ->  We</arg>
+        <rel>communicate</rel>
+        <arg n="2" f="with">sweet-natured visitors ``about four feet
+        tall (who) looked as though they were made of puffed-up
+        marshmallow</arg> 
+</example>
+
+<note>
+Sometimes ya gotta wonder.
+</note>
+
+<example name="no co-communicator">
+  <inflection person="ns" tense="ns" aspect="ns" voice="ns" form="gerund"/>
+  <text>
+     John is not very good at *trace* communicating his wishes.
+  </text>
+  <arg n="0"        >*trace* -> John</arg>
+  <rel              >communicating</rel>
+  <arg n="1"        >his wishes</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

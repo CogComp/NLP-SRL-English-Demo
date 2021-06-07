@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fundamentalism">
+<roleset id="fundamentalism.01" name="nomadjlike-literal">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the basic market fundamentalism
+</text>
+<arg n="1">market</arg>
+<rel>fundamentalism</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="modify">
+<note>
+  Frames file for 'modify' based on sentences in financial subcorpus.
+  No Verbnet entry.  Comparison with 'change'.
+</note>
+
+<roleset id="modify.01" name="change">
+<roles>
+  <role n="0"  descr="causer of transformation"/>
+  <role n="1"  descr="thing changing"/>
+  <role n="2"  descr="end state"/>
+  <role n="3"  descr="start state"/>
+</roles>
+
+<example name="just transitive">
+<text>
+    Sea Containers said the offer will proceed after the Bermuda
+    Supreme Court lifts or modifies an interim injunction restraining
+    the company from buying its shares. 
+</text>
+        <arg n="0">the Bermuda Supreme Court</arg>
+        <rel>modifies</rel>
+        <arg n="1">an interim injunction restraining the company from
+        buying its shares</arg> 
+</example>
+
+<example name="with start and end states">
+  <text>
+    John modified his Jaguar from a sportster to a hearse.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >modified</rel>
+  <arg n="1"        >his Jaguar</arg>
+  <arg n="3" f="from">a sportster</arg>
+  <arg n="2" f="to">a hearse</arg>
+</example>
+
+<note>
+Name that movie!
+</note>
+
+</roleset>
+</predicate>
+</frameset>

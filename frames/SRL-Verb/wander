@@ -1,0 +1,71 @@
+##PRELIMINARY PAS LEXICAL FILE FOR "wander"
+##EDITED THROUGH COMPARISON WITH THE INITIAL 25% OF "wander.sents"
+
+## Two basic usages: wander + direction, and wander + location.
+
+## DIRECTION:
+##'in' + 'from' VARIANT
+
+##"Antelopes wandered in from the desert." 
+
+ARG0 REL ARGM-DIR
+
+## LOCATION:
+
+##'among'
+
+##"John wandered among the workers."
+
+ARG0 REL ARGM-LOC
+
+##'around'
+
+##"John wandered around Guatemala."
+
+ARG0 REL ARGM-LOC
+
+## Seemingly transitive:
+
+## "John wanders the land"
+Arg0 rel ArgM-LOC
+
+
+## Phrasal, with a particle of end state:
+
+##'around' + STATIVE = phrasal wander_around
+
+##"John wandered around in a daze."
+##"John wandered around confused."
+
+ARG0 REL ARGM-MNR
+
+##wander_off
+
+##"John wandered off."
+
+ARG0 REL
+
+## plus direction:
+## 'John wandered off into the distance'
+ARG0 rel ARGM-DIR
+
+## Whether you count the off as part of the ARGM-DIR depends on how
+## the Treebank parses the sentence--sometimes the "off" is part of the PP,
+## sometimes it's a separate particle.  If it's a separate particle make
+## a phrasal verb, else count it as part of the ARGM-DIR PP.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

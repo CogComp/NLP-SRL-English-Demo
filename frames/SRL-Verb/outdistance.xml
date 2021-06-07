@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="outdistance">
+<note>
+  Frames file for 'outdistance' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="outdistance.01" name="to surpass by a wide margin"
+vncls="-">
+<roles>
+  <role n="0"  descr="entity ahead"/>
+  <role n="1"  descr="entity outdistanced"/>
+</roles>
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+ `` Even the 7.2 % return from the risk-free three-month Treasury bill has easily outdistanced the 4.1 % return from junk bonds , '' wrote [*T*-1] Moody 's economist John Lonski in yesterday 's market report .
+</text>
+	<arg n="0">Even the 7.2 % return from the risk-free three-month Treasury bill</arg>
+	<arg n="M" f="MNR">easily</arg>
+	<rel>outdistanced</rel>
+	<arg n="1">the 4.1 % return from junk bonds</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

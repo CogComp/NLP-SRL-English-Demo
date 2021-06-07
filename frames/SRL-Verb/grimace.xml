@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="grimace">
+<note>
+  Frames file for 'grimace' based on sentences in wsj.  Verbnet entry
+  40.2, Framenet entry Body movement.
+</note>
+
+<roleset id="grimace.01" vncls="40.2" name="smile painfully">
+<roles>
+  <role n="0"  descr="grimacer"/>
+  <role n="1"  descr="source of pain"/>
+</roles>
+
+<example name="clear source of pain">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    Mr. Pilson's rivals at ABC and NBC grimaced at the price.
+</text>
+        <arg n="0">Mr. Pilson 's rivals at ABC and NBC</arg>
+        <rel>grimaced</rel>
+        <arg n="1" f="at">the price</arg>
+</example>
+
+
+<example name="somewhat trickier">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Watching Congress sweat and grimace through its annual budget
+    labors, fighting the urge to spend more, we're reminded of those
+    late-night movies in which the anguished serial killer turns
+    himself in to police and says, ``Stop me before I kill again.'' 
+</text>
+        <arg n="0">Congress</arg>
+        <rel>grimace</rel>
+        <arg n="1" f="through">its annual budget labors</arg>
+        <arg n="M" f="ADV">fighting the urge to spend more</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

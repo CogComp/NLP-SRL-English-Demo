@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="overreact">
+<note>
+  Frames file for 'overreact' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="overreact.01" name="to react too strongly"
+vncls="-">
+<roles>
+  <role n="0"  descr="entity overreacted"/>
+  <role n="1"  descr="reason"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+ But he thinks [0] investors may be overreacting to the market 's problems .
+</text>
+	<arg n="0">investors</arg>
+	<arg n="M" f="MOD">may</arg>
+	<rel>overreacting</rel>
+	<arg n="1" f="to">the market 's problems</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

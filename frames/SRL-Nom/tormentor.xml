@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tormentor">
+<roleset id="tormentor.01" name="cause anguish" source="verb-torment.01" vncls="31.1">
+<roles>
+
+<role descr="tormenter" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="tormented" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their tormentors
+</text>
+<arg n="1">their</arg>
+<arg n="0">tormentors</arg>
+<rel>tormentors</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="fine">
+<note>
+  Frames file for 'fine' based on sentences in wsj.  Verbnet entries
+  33 and 54.5, Framenet entry Fining.  Doesn't match framing of class 33.
+</note>
+
+<roleset id="fine.01" vncls="54.5" name="extract money because of misdeed">
+<roles>
+  <role n="0"  descr="finer, receiver of money"/>
+  <role n="1"  descr="fine, money"/>
+  <role n="2"  descr="fined, giver of money"/>
+  <role n="3"  descr="cause, misdeed"/>
+</roles>
+
+<example name="passive, fine and cause">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Biscayne Securities Corp., of Lauderhill, Fla., and a principal of
+    the firm, Alvin Rosenblum of Plantation, Fla., were jointly fined
+    *trace* $20,000 and given 10-day suspensions for allegedly selling
+    securities at unfair prices. 
+</text>
+        <arg n="M" f="MNR">jointly</arg>
+        <rel>fined</rel>
+        <arg n="2">*trace* ->  Biscayne Securities Corp., of
+        Lauderhill, Fla., and a principal of the firm, Alvin Rosenblum
+        of Plantation, Fla.,</arg> 
+        <arg n="1">$20,000 </arg>
+        <arg n="3" f="for">allegedly selling securities at unfair
+        prices</arg> 
+</example>
+
+<example name="with agent">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Meanwhile, inside the courtroom, the judge said he would fine
+    attorneys for the two creditors $50 every time they referred to
+    each other with terms such as ``liar'' or ``slime.'' 
+</text>
+        <arg n="0">he</arg>
+        <arg n="M" f="MOD">would</arg>
+        <rel>fine</rel>
+        <arg n="2">attorneys for the two creditors</arg>
+        <arg n="1">$50 </arg>
+        <arg n="M" f="TMP">every time they referred to each other with
+        terms such as ``liar'' or ``slime</arg> 
+</example>
+
+<example name="passive with one arg">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Two firms were expelled from the NASD, three were suspended or
+    barred and nine were fined *trace*. 
+</text>
+        <rel>fined</rel>
+        <arg n="2">*trace* ->  nine</arg>
+</example>
+
+<note>
+Argument ordering suggested by 'charge' and 'bill', class 54.5.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

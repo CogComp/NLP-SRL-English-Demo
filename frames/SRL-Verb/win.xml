@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="win">
+<note>
+  Frames file for 'win' based on survey of initial sentences of big
+  corpus and comparison with 'gain'
+</note>
+
+<roleset id="win.01" name="win" vncls="13.5.1">
+<roles>
+  <role descr="winner" n="0">
+		<vnrole vncls="13.5.1" vntheta="Agent"/>
+  </role>
+
+  <role descr="thing won (contest or prize)" n="1">
+		<vnrole vncls="13.5.1" vntheta="Theme"/>
+  </role>
+
+</roles>
+
+<example name="win a prize">
+  <text>
+  The PLO failed earlier this year *trace* to win membership in the
+  World Health Organization and the World Tourism Organization.
+  </text>
+  <arg n="0"> *trace*=The PLO</arg>
+  <rel>win</rel>
+  <arg n="1">membership in the
+  World Health Organization and the World Tourism Organization</arg>
+</example>
+
+<example name="win a contest">
+  <text>
+  Wall Street's old guard seems *trace* to be winning the
+  program-trading battle.
+  </text>
+  <arg n="0">*trace*=Wall Street's old guard</arg>
+  <rel>winning</rel>
+  <arg n="1">the program-trading battle.</arg>
+</example>
+
+<note>
+Yes, I know &quot;win a race&quot; and &quot;win a prize&quot; are very different
+senses--but they take the same syntax!
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="counsel">
+<note>
+  Frames file for 'counsel' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="counsel.01" name="to advice"
+vncls="37.9-1">
+<roles>
+  <role n="0"  descr="advisor"/>
+  <role n="1"  descr="entity adviced"/>
+  <role n="2"  descr="advice"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="participle"/>
+<text>
+ The former $ 3 million-a-year [*U*] lobbyist now frequents shelters for the homeless and devotes a third of his time [*-1] counseling other recovering alcoholics .
+</text>
+	<arg n="0">[*-1] ->  The former $ 3 million-a-year [*U*] lobbyist</arg>
+	<rel>counseling</rel>
+	<arg n="1">other recovering alcoholics</arg>
+</example>
+
+
+<example name="all arguments">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Computer Sciences would n't disclose the proposed purchase price for Cleveland Consulting , which [*T*-1] counsels companies on logistics and supply .
+</text>
+	<arg n="0">[*T*-1] ->  which ->  Cleveland Consulting</arg>
+	<rel>counsels</rel>
+	<arg n="1">companies</arg>
+	<arg n="2" f="on">logistics and supply</arg>
+</example>
+
+
+
+<example name="with Arg2">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Underneath the headline `` Diversification , '' it counsels , `` Based on the events of the past week , all investors need [*-1] to know [0] their portfolios are balanced [*-2] [*] to help [*-3] protect them against the market 's volatility . ''
+</text>
+	<arg n="M" f="ADV">Underneath the headline `` Diversification</arg>
+	<arg n="0">it</arg>
+	<rel>counsels</rel>
+	<arg n="2">Based on the events of the past week , all investors need [*-1] to know [0] their portfolios are balanced [*-2] [*] to help [*-3] protect them against the market 's volatility</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

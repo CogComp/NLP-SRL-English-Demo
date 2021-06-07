@@ -1,0 +1,55 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="overbid">
+<note>
+  Frames file for 'overbid' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="overbid.01" vncls="-" name="bid too much">
+<roles>
+  <role n="0"  descr="bidder"/>
+</roles>
+
+<example name="the one example">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="full"/>
+<text>
+    J. William Grimes, former president of ESPN, says NBC may ``come
+    in with a huge bid for college basketball to take it away from CBS
+    and say, `We can overbid, too.''' 
+</text>
+        <arg n="0">We</arg>
+        <arg n="M" f="MOD">can</arg>
+        <rel>overbid</rel>
+        <arg n="M" f="DIS">too</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="overbid.02" vncls="-" name="bid more than someone else">
+<roles>
+  <role n="0"  descr="higher bidder"/>
+  <role n="1"  descr="lower bidder"/>
+</roles>
+
+<example name="the other example">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    ``Our competitors say we overbid them.
+</text>
+        <arg n="0">we</arg>
+        <rel>overbid</rel>
+        <arg n="1">them</arg>
+</example>
+
+<note>
+Maybe these two senses could be conflated, but it's hard to see how.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

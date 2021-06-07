@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pre-eminence">
+<roleset id="pre-eminence.01" name="nomadj-pre-eminent">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="setting" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his alleged pre-eminence in his profession
+</text>
+<arg n="0">his</arg>
+<arg f="ADV" n="M">alleged</arg>
+<rel>pre-eminence</rel>
+<arg n="3">in his profession</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

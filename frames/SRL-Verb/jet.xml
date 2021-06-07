@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="jet_off">
+<note>
+  Frames file for 'jet' based on sentences in wsj.  Verbnet entry
+  vehicle-51.4.1. 
+</note>
+
+<roleset id="jet.01" vncls="51.4.1" name="move quickly, as in a jetplane">
+<roles>
+  <role n="1"  descr="entity in motion"/>
+  <role n="2"  descr="destination"/>
+</roles>
+
+<example name="life in the jet set">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    When it's time for their biannual powwow, the nation's
+    manufacturing titans typically jet off to the sunny confines of
+    resort towns like Boca Raton and Hot Springs. 
+</text>
+        <arg n="M" f="TMP">When it's time for their biannual powwow </arg>
+        <arg n="1">the nation's manufacturing titans</arg>
+        <arg n="M" f="ADV">typically</arg>
+        <rel>[ jet] [ off]</rel>
+        <arg n="2" f="to">the sunny confines of resort towns like Boca
+        Raton and Hot Springs</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

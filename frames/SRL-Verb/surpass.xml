@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="surpass">
+<note>
+  Frames file for 'surpass' based on sentences in financial subcorpus.
+  No Verbnet entry.  No comparison.
+</note>
+
+<roleset id="surpass.01" vncls="-" name="go beyond">
+<roles>
+  <role n="0"  descr="thing going beyond"/>
+  <role n="1"  descr="thing left in the dust"/>
+</roles>
+
+<example name="straight transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    That means it's unlikely the company will surpass last year's $4.9
+    billion full-year profit, even though net for the first nine
+    months was up 1.9% to $3.52 billion on revenue of $95.57 billion. 
+</text>
+        <arg n="0">the company</arg>
+        <arg n="M">will</arg>
+        <rel>surpass</rel>
+        <arg n="1">last year's $4.9 billion full-year profit</arg> 
+</example>
+
+<example name="with secondary predication">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    Conner Peripherals Inc., which has a near-monopoly on a key part
+    used in many portable computers, is on target *trace* to surpass
+    Compaq Computer Corp. as the fastest-growing start-up
+    manufacturing firm in U.S. business history. 
+</text>
+        <arg n="0">*trace* ->  Conner Peripherals Inc., which has a
+        near-monopoly on a key part used  in many portable computers
+        ,</arg> 
+        <rel>surpass</rel>
+        <arg n="1">Compaq Computer Corp.</arg>
+        <arg n="M" f="PRD">as the fastest-growing start-up
+        manufacturing firm in U.S. business history</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

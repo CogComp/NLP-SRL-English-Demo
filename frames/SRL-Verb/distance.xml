@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="distance">
+<note>
+  Frames file for 'distance' based on sentences in financial
+  subcorpus.  No Verbnet entry.
+</note>
+
+<roleset id="distance.01" vncls="-" name="cause distance between two things">
+<roles>
+  <role n="0"  descr="causer of distance"/>
+  <role n="1"  descr="first thing"/>
+  <role n="2"  descr="second thing"/>
+</roles>
+
+<example name="arg1 always reflexive?">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Nevertheless, Mr. Corry, once named chief executive, didn't waste
+    any time *trace* distancing himself from his former boss, who
+    still has an office on the 62nd floor of the USX tower in
+    Pittsburgh. 
+</text>
+        <arg n="0">*trace* ->  Mr. Corry</arg>
+        <rel>distancing</rel>
+        <arg n="1" f="REC">himself</arg>
+        <arg n="2" f="from">his former boss, who still has an office
+        on the 62nd floor of the USX tower in Pittsburgh</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

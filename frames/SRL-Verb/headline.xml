@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="headline">
+<note>
+  Frames file for 'headline' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="headline.01" name="to provide with a headline"  vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing headlined"/>
+  <role n="1"  descr="name"/>
+</roles>
+
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+ At Merrill Lynch &amp; Co. , the nation 's biggest brokerage firm , a news release [*ICH*-2] was prepared [*-3] headlined [*] `` Merrill Lynch Comments on Market Drop . ''
+</text>
+	<arg n="1">[*-3] ->  a news release [*ICH*-2]</arg>
+	<rel>headlined</rel>
+	<arg n="2">[*] `` Merrill Lynch Comments on Market Drop</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+
+
+

@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="retardation">
+<roleset id="retardation.01" name="make slow" source="verb-retard.01">
+<roles>
+
+<role descr="cause of slowing" n="0"></role>
+
+<role descr="thing getting slower" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+mental retardation
+</text>
+<arg n="1">mental</arg>
+<rel>retardation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

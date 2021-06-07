@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="excision">
+<roleset id="excision.01" name="to remove by or as if by cutting" source="verb-excise.01">
+<roles>
+
+<role descr="remover, agent" n="0"></role>
+
+<role descr="entity excised" n="1"></role>
+
+<role descr="excised from" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The excision of unconstitutional conditions in an appropriations
+bill
+</text>
+<rel>excision</rel>
+<arg n="1">of unconstitutional conditions in an appropriations bill</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the president asserts a right of excision over unconstitutional
+conditions in the fiscal 1990 appropriations bills
+</text>
+<arg n="0">the president</arg>
+<arg n="Support">asserts right of</arg>
+<rel>excision</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

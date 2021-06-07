@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="augment">
+<note>
+  Frames file for 'augment' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="augment.01" name="to increase" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity augmented"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="future" aspect="ns" voice="active" form="full"/>
+<text>
+ `` We will support it , we will thank him , and we will augment it where appropriate , '' said [*T*-1] Rep. Vic Fazio ( D. , Calif . ) .
+</text>
+	<arg n="0">we</arg>
+	<arg n="M" f="MOD">will</arg>
+	<rel>augment</rel>
+	<arg n="1">it</arg>
+	<arg n="M" f="LOC">where appropriate</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

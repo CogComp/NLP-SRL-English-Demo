@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="betterment">
+<roleset id="betterment.01" name="to improve" source="verb-better.01">
+<roles>
+
+<role descr="causer of improvement, agent" n="0"></role>
+
+<role descr="entity made better" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+school betterment
+</text>
+<arg n="1">school</arg>
+<rel>betterment</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

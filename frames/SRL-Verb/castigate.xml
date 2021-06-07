@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="castigate">
+<note>
+  Frames file for 'castigate' based on sentences in wsj.  Verbnet
+  entry 33, Framenet entry Judgement.
+</note>
+
+<roleset id="castigate.01" vncls="33" name="blame">
+<roles>
+  <role n="0"  descr="assigner of blame"/>
+  <role n="1"  descr="guilty party"/>
+  <role n="2"  descr="crime"/>
+</roles>
+
+<example name="all args">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+    Yet much of the political culture seems intent on *trace*
+    castigating the Bush administration for not ``helping''
+    Mr. Gorbachev. 
+</text>
+        <arg n="0">*trace* ->  much of the political culture</arg>
+        <rel>castigating</rel>
+        <arg n="1">the Bush administration</arg>
+        <arg n="2" f="for">not `` helping '' Mr. Gorbachev</arg>
+</example>
+
+<example name="unstated crime">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+    From Chevy trucks to Lipton iced tea to a host of battling banks,
+    the state has been inundated with broadcast commercials and print
+    advertising campaigns celebrating Texans and castigating
+    outsiders. 
+</text>
+        <arg n="0">broadcast commercials and print advertising campaigns</arg>
+        <rel>castigating</rel>
+        <arg n="1">outsiders</arg>
+<note>
+The crime, I guess, is not being Texan.
+</note>
+</example>
+
+<example name="just one arg">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Program traders were publicly castigated *trace* following the
+    508-point crash Oct. 19, 1987, and a number of brokerage firms
+    pulled back from using this strategy for a while. 
+</text>
+        <arg n="M" f="MNR">publicly</arg>
+        <rel>castigated</rel>
+        <arg n="1">*trace* ->  Program traders</arg>
+        <arg n="M" f="TMP">following the 508-point crash Oct. 19,
+        1987</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

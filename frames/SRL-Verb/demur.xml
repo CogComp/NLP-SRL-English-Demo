@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="demur">
+<note>
+  Frames file for 'demur'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="demur.01" name="to object politely"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>  
+  <role n="1"  descr="objection"/>  
+</roles>
+
+<example name="transitive">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ `` I would n't say [0] it 's quite a veto , '' Mr. Boren demurs [*T*-1] .
+</text>
+	<arg n="0">Mr. Boren</arg>
+	<rel>demurs</rel>
+	<arg n="1">[*T*-1] ->  I would n't say [0] it 's quite a veto</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+
+

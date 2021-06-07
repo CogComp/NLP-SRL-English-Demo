@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="redistribute">
+<note>
+  Frames file for 'redistribute' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="redistribute.01" name="to distribute again in a different way"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity redistributed"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Stadiums tend [*-1] to redistribute existing wealth within a community , not create more of it .
+</text>
+	<arg n="0">[*-1] ->  Stadiums</arg>
+	<rel>redistribute</rel>
+	<arg n="1">existing wealth</arg>
+	<arg n="M" f="LOC">within a community</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

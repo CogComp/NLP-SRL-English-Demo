@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="alleviate">
+<note>
+  Frames file for 'alleviate' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="alleviate.01" name="to make (pain, problems) less severe" vncls="-">
+<roles>
+  <role n="0"  descr="agent, causer"/>
+  <role n="1"  descr="problems"/>
+</roles>
+
+
+<example name="inanimate causer">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Barge rates on the Mississippi River sank yesterday on speculation that widespread rain [*ICH*-3] this week in the Midwest might temporarily alleviate the situation .
+</text>
+	<arg n="0">widespread rain [*ICH*-3]</arg>
+	<arg n="M" f="TMP">this week</arg>
+	<arg n="M" f="LOC">in the Midwest</arg>
+	<arg n="M" f="MOD">might</arg>
+	<arg n="M" f="TMP">temporarily</arg>
+	<rel>alleviate</rel>
+	<arg n="1">the situation</arg>
+</example>
+
+
+
+<example name="agentive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ American Telephone &amp; Telegraph Co. , MCI Communications Inc. and United Telecommunications ' U S Sprint unit were blocking phone calls into the Bay area [*-1] to alleviate congestion .
+</text>
+	<arg n="0">[*-1] ->  American Telephone &amp; Telegraph Co. , MCI Communications Inc. and United Telecommunications ' U S Sprint unit</arg>
+	<rel>alleviate</rel>
+	<arg n="1">congestion</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

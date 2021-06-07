@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="seduce">
+<note>
+  Frames file for 'seduce' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="seduce.01" vncls="-" name="cause romantic action">
+<roles>
+  <role n="0"  descr="seducer"/>
+  <role n="1"  descr="seduced"/>
+  <role n="2"  descr="action"/>
+</roles>
+
+<example name="action as PP">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    The paper accused him of being a leading proponent of ``peaceful
+    evolution,'' a catch phrase to describe what China believes is the
+    policy of Western countries *trace* to seduce socialist nations
+    into the capitalist sphere. 
+</text>
+        <arg n="0">*trace* ->  the policy </arg>
+        <rel>seduce</rel>
+        <arg n="1">socialist nations</arg>
+        <arg n="2" f="into">the capitalist sphere</arg>
+</example>
+
+<example name="action better left unsaid">
+<inflection person="third" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+    But it is the Trinity Rep newcomer, Jonathan Fried (Zamislov , the
+    paralegal) who  is the actor to watch, whether he is hamming it up
+    while conducting the chamber musicians or seducing his neighbor's
+    wife (Becca Lish) by licking her bosom. 
+</text>
+        <arg n="0">he</arg>
+        <rel>seducing</rel>
+        <arg n="1">his neighbor's wife (Becca Lish)</arg>
+        <arg n="M" f="MNR">by licking her bosom</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

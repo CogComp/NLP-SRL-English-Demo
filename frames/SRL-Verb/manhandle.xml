@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="manhandle">
+<note>
+  Frames file for 'manhandle' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="manhandle.01" vncls="-" name="handle roughly">
+<roles>
+  <role n="0"  descr="handler"/>
+  <role n="1"  descr="thing handled"/>
+</roles>
+
+<example name="words fail me">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    The owner, who begs anonymity, asserts that the dwarf, appearing
+    as a dark shadow, has manhandled her, tossing her around the
+    living room and yanking out a hank of hair. 
+</text>
+        <arg n="0">the dwarf</arg>
+        <arg n="M">appearing as a dark shadow</arg>
+        <rel>manhandled</rel>
+        <arg n="1">her</arg>
+        <arg n="M" f="ADV">tossing her around the living room and
+        yanking out a hank of hair</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

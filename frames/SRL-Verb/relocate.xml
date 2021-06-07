@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="relocate">
+<note>
+  Frames file for 'relocate' based on survey of sentences in the WSJ
+  corpus. Comparison with 'send', 'transfer'.
+</note>
+
+<roleset id="relocate.01" name="to change residence"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent, causer"/>
+  <role n="1"  descr="entity relocated"/>
+  <role n="2"  descr="destination"/>
+  <role n="3"  descr="source"/>
+</roles>
+
+<example name="all arguments">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Kerr-McGee Corp. said [0] it will spend $ 42 million [*U*] [*-1] to purchase land and relocate its ammonium perchlorate storage facility to Clark County , Nev. , from Henderson , Nev .
+</text>
+	<arg n="0">[*-1] ->  it</arg>
+	<rel>relocate</rel>
+	<arg n="1">its ammonium perchlorate storage facility</arg>
+	<arg n="2" f="to">Clark County , Nev. ,</arg>
+	<arg n="3" f="from">Henderson , Nev</arg>
+</example>
+
+
+<example name="intransitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="gerund"/>
+<text>
+ Tuesday 's earthquake will depress local real-estate values in the short term and force companies to reconsider [*-1] expanding in [*RNR*-2] or relocating to [*RNR*-2] the Bay Area and California , real-estate and relocation specialists said [0] [*T*-3] .
+</text>
+	<arg n="1">[*-1] ->  companies</arg>
+	<rel>relocating</rel>
+	<arg n="2" f="to">[ [*RNR*-2]] [ the Bay Area and California]</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

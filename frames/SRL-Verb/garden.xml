@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="garden">
+<note>
+  Frames file for 'garden' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="garden.01" vncls="-" name="do work in a garden">
+<roles>
+  <role n="0"  descr="gardener"/>
+</roles>
+
+<example name="the one example">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    While she applauds the fact that more Americans are getting up
+    from the television *trace* to stroll or garden, she says the
+    percentage of Americans who do ``real exercise to build the
+    heart'' is only 10% to 20%. 
+</text>
+        <arg n="0">*trace* ->  more Americans</arg>
+        <rel>garden</rel>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

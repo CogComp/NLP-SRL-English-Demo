@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="colorization">
+<roleset id="colorization.01" name="cause to) have some color" source="verb-color.01" vncls="24">
+<roles>
+
+<role descr="causer of coloration" n="0">
+<vnrole vncls="24" vntheta="Agent"/></role>
+
+<role descr="thing with color" n="1">
+<vnrole vncls="24" vntheta="Patient"/></role>
+
+<role descr="the color itself" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+colorization of old films
+</text>
+<rel>colorization</rel>
+<arg n="1">of old films</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

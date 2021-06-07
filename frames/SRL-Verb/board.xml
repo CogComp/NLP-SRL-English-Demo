@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="board">
+<note>
+  Frames file for 'board' based on sentences in wsj.  Verbnet entry
+  butter-9.9.  That doesn't seem right at all.  
+</note>
+
+<roleset id="board.01" vncls="-" name="board, get on a vehicle">
+<roles>
+  <role n="0"  descr="passenger"/>
+  <role n="1"  descr="vehicle"/>
+</roles>
+
+<example name="all aboard!">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Back downtown, the execs squeezed in a few meetings at the hotel
+    before *trace* boarding the buses again. 
+</text>
+        <arg n="0">*trace* ->  the execs</arg>
+        <rel>boarding</rel>
+        <arg n="1">the buses</arg>
+        <arg n="M" f="TMP">again</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

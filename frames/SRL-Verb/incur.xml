@@ -1,0 +1,82 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="incur">
+<note>
+  Frames file for 'incur' based on sentences in financial subcorpus.
+  No verbnet entry.  Comparison with 'suffer'.
+</note>
+
+<roleset id="incur.01" name="incur, unwillingly take on">
+<roles>
+  <role n="0"  descr="entity taking something on"/>
+  <role n="1"  descr="penalty"/>
+  <role n="2"  descr="reason for penalty"/>
+</roles>
+
+<example name="active">
+<text>
+   Or he might have *trace* to incur a huge expense of either buying
+   Mr. Icahn's stock, possibly at a premium, or paying stockholders a
+   special dividend partly because of Mr. Icahn's pressure.
+</text>
+        <arg n="0">*trace*=he</arg>
+        <rel> incur</rel>
+        <arg n="1">a huge expense of either buying Mr. Icahn's stock,
+        possibly at a premium, or paying stockholders a special
+        dividend partly because of Mr. Icahn's pressure</arg>
+</example>
+
+<example name="with cause of penalty">
+<text>
+    The law could redound to the advantage of brokers and banks, who
+    *trace* incur high administrative costs to deliver securities to
+    investors. 
+</text>
+        <arg n="0">*trace*=who=brokers and banks </arg>
+        <rel> incur</rel>
+        <arg n="1"> high administrative costs</arg>
+        <arg n="2" f="PRP">  to deliver securities to investors</arg>
+</example>
+
+<example name="automatically generated">
+<text>
+    Takeover stock speculators have incurred paper losses of over $700
+    million from the failed UAL offer, their worst loss ever on a
+    single deal.
+</text>
+        <arg n="0"> Takeover stock speculators</arg>
+        <rel> incurred</rel>
+        <arg n="1"> paper losses of over $ 700 million </arg>
+        <arg n="2" f="from">the failed UAL offer</arg>
+        <arg n="M"> their worst loss ever on a single deal</arg>
+</example>
+
+<example name="passivized">
+<text>
+    The company also said expenses incurred *trace* by the previous
+    board and management in the recent contest for control were
+    recognized primarily in the first quarter ended Sept. 30. 
+</text>
+        <rel> incurred</rel>
+        <arg n="1">*trace*=expenses </arg>
+        <arg n="0" f="by"> the previous board and management</arg>
+        <arg n="M" f="LOC"> in the recent contest for control</arg>
+</example>
+
+<example name="">
+  <text>
+
+  </text>
+  <arg n=""        ></arg>
+  <rel              ></rel>
+  <arg n="" f=""></arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

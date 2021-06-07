@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="sidetrack">
+<note>
+  Frames file for 'sidetrack'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="sidetrack.01" name="to divert from a main issue"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity diverted"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ `` If any of us think [0] we 're going [*-1] to sidetrack David 's determination [0] [*T*-2] to be the best possible mayor because of his obligations to us , we are making a sad mistake . ''
+</text>
+	<arg n="0">[*-1] ->  we</arg>
+	<rel>sidetrack</rel>
+	<arg n="1">David 's determination [0] [*T*-2] to be the best possible mayor</arg>
+	<arg n="M" f="PNC">because of his obligations to us</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="overtake">
+<note>
+  Frames file for 'overtake' based on sentences in wsj.  No Verbnet
+  entry. 
+</note>
+
+<roleset id="overtake.01" vncls="-" name="surpass, go past">
+<roles>
+  <role n="0"  descr="thing going beyond"/>
+  <role n="1"  descr="thing left in the dust"/>
+</roles>
+
+<example name="the one example">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+    Polyvinyl chloride capacity ``has overtaken demand and we are
+    experiencing reduced profit margins as a result,'' said John
+    D. Ong, chairman and chief executive. 
+</text>
+        <arg n="0">Polyvinyl chloride capacity</arg>
+        <rel>overtaken</rel>
+        <arg n="1">demand</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

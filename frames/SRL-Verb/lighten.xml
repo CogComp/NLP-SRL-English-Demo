@@ -1,0 +1,95 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="lighten">
+<note>
+  Frames file for 'lighten' based on sentences in wsj.  Verbnet entry 45.4.
+</note>
+
+<roleset id="lighten.01" vncls="45.4" name="(make) get lighter">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="thing getting lighter"/>
+  <role n="2"  descr="EXT"/>
+  <role n="3"  descr="start point"/>
+  <role n="4"  descr="end point"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    But the researchers found that while children's household tasks
+    eased the mother's burden appreciably, the husband's helping hand
+    ``appears *trace* to lighten the children's load almost on a
+    one-for-one basis and to reduce the wife's responsibility only
+    modestly.'' 
+</text>
+        <arg n="0">*trace* ->  the husband 's helping hand</arg>
+        <rel>lighten</rel>
+        <arg n="1">the children's load</arg>
+        <arg n="M" f="MNR">almost on a one-for-one basis</arg>
+</example>
+
+<example name="with start and end point">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John lightened his hair from raven-black to bright orange.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >lightened</rel>
+  <arg n="1"        >his hair</arg>
+  <arg n="3" f="from">raven-black</arg>
+  <arg n="4" f="to">bright orange</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="lighten_up">
+
+<roleset id="lighten.02" vncls="45.4" name="(make) get lighter, phrasal">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="thing getting lighter"/>
+  <role n="2"  descr="EXT"/>
+</roles>
+
+<example name="ergative">
+<inflection person="third" tense="present" aspect="progressive" voice="active" form="full"/>
+<text>
+    ``There were no (sell) lists and the calendar is lightening up a bit.
+</text>
+        <arg n="1">the calendar</arg>
+        <rel>[ lightening] [ up]</rel>
+        <arg n="M" f="MNR">a bit</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="lighten.03" name="become easier" vncls="-">
+<roles>
+  <role descr="thing helping" n="0"/>
+  <role descr="thing being helped" n="1"/>
+</roles>
+
+<example name="cf. ease">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+     Investors who *trace* listened, and lightened up on stocks,
+     ``have just hurt themselves,'' he says. 
+</text>
+        <arg n="0">*trace* ->  who ->  Investors</arg>
+        <rel>[ lightened] [ up]</rel>
+        <arg n="1" f="on">stocks</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

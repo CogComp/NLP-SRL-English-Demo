@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="crawl">
+<note>
+  Frames file for 'crawl' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+
+<roleset id="crawl.01" name="to  advance slowly"
+vncls="47.7">
+<roles>
+  <role n="0"  descr="agent, entity crawling"/>
+  <role n="1"  descr="direction"/>
+</roles>
+
+<example name="with direction">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ For months the Johns Hopkins researchers , [*-1] using gene probes , experimentally crawled down the length of chromosome 17 , [*-1] looking for the smallest common bit of genetic material lost [*] in all tumor cells .
+</text>
+	<arg n="M" f="TMP">For months</arg>
+	<arg n="0">the Johns Hopkins researchers</arg>
+	<arg n="M" f="MNR">experimentally</arg>
+	<rel>crawled</rel>
+	<arg n="1" f="DIR">down the length of chromosome 17</arg>
+	<arg n="M" f="ADV">[*-1] looking for the smallest common bit of genetic material lost [*] in all tumor cells</arg>
+</example>
+
+
+<example name="prepositional Arg1">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ Colleagues today recall with some humor how meetings would crawl into the early morning hours [*T*-1] as Mr. Dinkins would march his staff out of board meetings and into his private office [*-2] to discuss , en masse , certain controversial proposals .
+</text>
+	<arg n="0">meetings</arg>
+	<arg n="M" f="MOD">would</arg>
+	<rel>crawl</rel>
+	<arg n="1" f="into">the early morning hours</arg>
+	<arg n="M" f="ADV">as Mr. Dinkins would march his staff out of board meetings and into his private office [*-2] to discuss , en masse , certain controversial proposals</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="contestant">
+<roleset id="contestant.01" name="challenge" source="verb-contest.01">
+<roles>
+
+<role descr="challenger" n="0"></role>
+
+<role descr="challenged" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+On a recent Saturday night , in the midst of West Germany 's most
+popular prime-time show , a contestant bet the host that she
+could name any of 100 different cheeses after just one nibble ,
+while blindfolded .
+</text>
+<arg n="0">contestant</arg>
+<rel>contestant</rel>
+<arg n="Support">bet</arg>
+<arg n="1">the host</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Topping the cheese stunt , on another typical evening of fun on
+`` Wetten Dass , '' a contestant won a bet with the show 's host
+, Thomas Gottschalk , that he could identify 300 German dialects
+over the telephone .
+</text>
+<arg n="0">contestant</arg>
+<rel>contestant</rel>
+<arg n="Support">won bet</arg>
+<arg n="1">with the show 's host , Thomas Gottschalk ,</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

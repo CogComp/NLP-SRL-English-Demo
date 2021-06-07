@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="transact">
+<note>
+  Frames file for 'transact' based on sentences in financial
+  subcorpus.  This is a stupid, stupid, stupid verb backformed from
+  'transaction'.  
+</note>
+
+<roleset id="transact.01" name="perform a transaction">
+<roles>
+  <role n="0"  descr="entity performing the transaction"/>
+</roles>
+
+<example name="see what I mean?">
+<text>
+    The current opportunities arise because the process for executing
+    a buy or sell order in the actual stocks that make up the S&amp;P
+    500 is more cumbersome than *trace* transacting in the futures
+    market.  
+</text>
+	<arg n="0">*trace*</arg>
+	<rel>transacting</rel>
+	<arg n="M" f="LOC">in the futures market</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

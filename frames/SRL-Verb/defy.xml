@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="defy">
+<note>
+  Frames file for 'defy' based on survey of sentences in the WSJ
+  corpus. Comparison with 'oppose'.
+</note>
+
+<roleset id="defy.01" name="to oppose, resist, or refuse" vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity defied"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Four years ago , he jailed all nine members of the Cambria County School Board for several hours after they defied his order [*] to extend the school year by several weeks [*-2] to make up for time lost [*] during a teachers ' strike .
+</text>
+	<arg n="0">they</arg>
+	<rel>defied</rel>
+	<arg n="1">his order [*] to extend the school year by several weeks [*-2] to make up for time lost [*] during a teachers ' strike</arg>
+</example>
+
+
+
+<example name="inanimate subject">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ The move defied a law , approved [*] in Moscow this month , banning such walkouts .
+</text>
+	<arg n="0">The move</arg>
+	<rel>defied</rel>
+	<arg n="1">a law , approved [*] in Moscow this month , banning such walkouts</arg>
+</example>
+
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

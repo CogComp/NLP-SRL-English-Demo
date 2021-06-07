@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="relevancy">
+<roleset id="relevancy.01" name="attribute/nomadj-relevant">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="value" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the stock market 's relevancy to the economic outlook
+</text>
+<arg n="1">the stock market 's</arg>
+<arg f="REF" n="3">relevancy</arg>
+<rel>relevancy</rel>
+<arg n="2">to the economic outlook</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

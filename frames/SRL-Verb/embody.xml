@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="embody">
+<note>
+  Frames file for 'embody' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="embody.01" name="to represent in bodily form or incorporate"
+vncls="-">
+<roles>
+ <role n="0"  descr="agent"/>
+ <role n="1"  descr="entity embodied"/>
+ <role n="2"  descr="embodied in"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ The Bush administration plans [*-2] to announce a series of principles and to work with congressional leaders in [*-3] writing specific legislative proposals that [*T*-1] embody them .
+</text>
+	<arg n="0">[*T*-1] ->  that ->  specific legislative proposals</arg>
+	<rel>embody</rel>
+	<arg n="1">them</arg>
+</example>
+
+
+<example name="passive">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+ It implies that the British Empire was rooted [*-1] in its subjects ' minds , manners and morals , and argues , tacitly , that its self-destructive flaws were embodied [*-2] in the defensive snobbery , willful blindness , role-playing and especially the locutions of its domestic servants .
+</text>
+	<rel>embodied</rel>
+	<arg n="1">[*-2] ->  its self-destructive flaws</arg>
+	<arg n="2" f="in">the defensive snobbery , willful blindness , role-playing and especially the locutions of its domestic servants</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

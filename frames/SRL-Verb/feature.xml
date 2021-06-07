@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="feature">
+<note>
+  Frames file for 'feature' based on sentences in financial subcorpus.
+  No Verbnet entry, no Framenet entry.  No comparison.
+</note>
+
+<roleset id="feature.01" name="bring into prominence">
+<roles>
+  <role n="0"  descr="cause of prominence"/>
+  <role n="1"  descr="thing featured"/>
+  <role n="2"  descr="featured in"/>
+</roles>
+
+<example name="just transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="gerund"/>
+<text>
+    The Machinists rejected a proposal featuring a 10% base wage
+    increase over the life of the three-year contract, plus bonuses of
+    8% the first year and 3% the second. 
+</text>
+        <arg n="0">a proposal</arg>
+        <rel>featuring</rel>
+        <arg n="1">a 10% base wage increase over the life of the
+        three-year contract, plus bonuses of 8% the first year and 3
+        %the second</arg> 
+</example>
+
+<example name="with location argument">
+<inflection person="ns" tense="future" aspect="ns" voice="passive" form="participle"/>
+<text>
+    The characters will also be featured *trace* in a new public
+    service effort for the United Way. 
+</text>
+        <arg n="M" f="MOD">will</arg>
+        <arg n="M" f="DIS">also</arg>
+        <rel>featured</rel>
+        <arg n="1">*trace* ->  The characters</arg>
+        <arg n="2" f="in">a new public service effort for the United Way</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

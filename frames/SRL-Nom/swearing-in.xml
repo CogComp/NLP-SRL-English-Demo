@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="swearing-in">
+<roleset id="swearing-in.01" name="nomlike" source="verb-appoint.01" vncls="29.1">
+<roles>
+
+<role descr="appointer, employer" n="0">
+<vnrole vncls="29.1" vntheta="Agent"/></role>
+
+<role descr="appointee, employee" n="1">
+<vnrole vncls="29.1" vntheta="Theme"/></role>
+
+<role descr="job, position" n="2">
+<vnrole vncls="29.1" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the judge 's swearing-in
+</text>
+<arg n="1">the judge 's</arg>
+<rel>swearing-in</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

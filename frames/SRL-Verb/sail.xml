@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="sail">
+<note>
+  Frames file for 'sail'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="sail.01" name="to move along, navigate"
+vncls="51.4.2">
+<roles> 
+  <role n="0"  descr="entity sailing"/>
+  <role n="1"  descr="vessel"/>
+</roles>
+
+<example name="with direction">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ The pitch sailed toward Bobby Thomson high and inside and then , with a crack of the bat , was sent [*-1] rocketing back into the lower leftfield stands .
+</text>
+	<arg n="0">The pitch</arg>
+	<rel>sailed</rel>
+	<arg n="M" f="DIR">toward Bobby Thomson</arg>
+	<arg n="M" f="MNR">high and inside</arg>
+</example>
+
+
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+ The split comes in the midst of a court battle over whether the San Diego Yacht Club should be allowed [*-1] to keep the international trophy for [*] sailing a catamaran against the New Zealand challengers ' 90-foot monohull .
+</text>
+	<arg n="0">[*] ->  [*-1] ->  the San Diego Yacht Club</arg>
+	<rel>sailing</rel>
+	<arg n="1">a catamaran</arg>
+	<arg n="M" f="MNR">against the New Zealand challengers ' 90-foot monohull</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

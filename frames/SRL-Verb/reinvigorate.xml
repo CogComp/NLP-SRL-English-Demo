@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="reinvigorate">
+<note>
+  Frames file for 'reinvigorate'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="reinvigorate.01" name="to give new life or energy to"
+vncls="-">
+<roles> 
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="entity reinvigorated"/> 
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+ Mr. Rosen , though , believes [0] imports have reinvigorated the industry in which he has worked for most of his 57 years [*T*-1] .
+</text>
+	<arg n="0">imports</arg>
+	<rel>reinvigorated</rel>
+	<arg n="1">the industry in which he has worked for most of his 57 years [*T*-1]</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>

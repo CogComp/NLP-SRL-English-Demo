@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="jockey">
+<roleset id="jockey.01" name="cf work" source="verb-operate.01" vncls="45.4">
+<roles>
+
+<role descr="agent, operator" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing operated" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="explicit patient (thing operated on" n="2"></role>
+
+<role descr="explicit role" n="3"></role>
+
+<role descr="explicit instrument (with or on, ususally" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the computer jockeys
+</text>
+<arg n="1">computer</arg>
+<arg n="0">jockeys</arg>
+<rel>jockeys</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

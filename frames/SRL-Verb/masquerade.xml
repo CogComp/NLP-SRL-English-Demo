@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="masquerade">
+<note>
+  Frames file for 'masquerade'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="masquerade.01" name="to have a deceptive appearance"
+vncls="29.6">
+<roles> 
+ <role n="0"  descr="agent"/>
+ <role n="1"  descr="secondary predicate"/>  
+</roles>
+
+
+<example name="gerund">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="gerund"/>
+<text>
+ This follows earlier new guidelines from the Tax Division prohibiting Princeton\/Newport-like tax cases from [*] masquerading as RICO cases .
+</text>
+	<arg n="0">[*] ->  Princeton\/Newport-like tax cases</arg>
+	<rel>masquerading</rel>
+	<arg n="1" f="as">RICO cases</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

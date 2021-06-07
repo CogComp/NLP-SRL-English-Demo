@@ -1,0 +1,70 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="score">
+<note>
+  Frames file for 'score' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="score.01" vncls="-" name="earn points (in athletic competition)">
+<roles>
+  <role n="0"  descr="athlete, scorer"/>
+  <role n="1"  descr="cognate object, points"/>
+  <role n="2"  descr="opponent"/>
+</roles>
+
+<example name="tor!">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John's soccer team scored 115 points against the neighborhood kids.
+  </text>
+  <arg n="0"        >John's soccer team</arg>
+  <rel              >scored</rel>
+  <arg n="1"        >115 points</arg>
+  <arg n="2" f="against">the neighborhood kids</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="score.02" vncls="-" name="set music, orchestrate">
+<roles>
+  <role n="0"  descr="musical composer"/>
+  <role n="1"  descr="piece of music"/>
+  <role n="2"  descr="for what, ensemble"/>
+</roles>
+
+<example name="unhelpful passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Also, Teodulo Mabellini's ``Lux aeterna'' was intriguingly scored
+    *trace* and splendidly put across by Mr. Rilling. 
+</text>
+        <arg n="M" f="DIS">Also</arg>
+        <arg n="M" f="MNR">intriguingly</arg>
+        <rel>scored</rel>
+        <arg n="1">*trace* ->  Teodulo Mabellini's ``Lux
+        aeterna''</arg> 
+</example>
+
+<example name="all args">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John scored his magnum opus for slide whistle and kazoo choir.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >scored</rel>
+  <arg n="1"        >his magnum opus</arg>
+  <arg n="2" f="for">slide whistle and kazoo choir</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

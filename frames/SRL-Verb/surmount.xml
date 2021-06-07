@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="surmount">
+<note>
+  Frames file for 'surmount' based on sentences in wsj.  Verbnet entry 47.8.
+</note>
+
+<roleset id="surmount.01" vncls="47.8" name="(cause to) be atop">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing on top"/>
+  <role n="2"  descr="on top of what"/>
+ </roles>
+
+ <example name="all args">
+   <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+   <text>
+    John surmounted his enormous ice cream sundae with fifteen
+    maraschino cherries.
+   </text>
+   <arg n="0"        >John</arg>
+   <rel              >surmounted</rel>
+   <arg n="2"        >his enormous ice cream sundae</arg>
+   <arg n="1" f="with">fifteen maraschino cherries</arg>
+ </example>
+
+ <example name="more typically ergative">
+   <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+   <text>
+     Fifteen maraschino cherries surmounted John's enormous ice cream sundae.
+   </text>
+   <arg n="1"        >Fifteen maraschino cherries</arg>
+   <rel              >surmounted</rel>
+   <arg n="2"        >John's enormous ice cream sundae</arg>
+ </example>
+
+ <note>
+This is a marginal usage; much more common is the 'overcome' sense
+below (surmount.02).
+ </note>
+
+ </roleset>
+
+<roleset id="surmount.02" vncls="-" name="overcome">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="challenge"/>
+</roles>
+
+<example name="the one example">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="gerund"/>
+<text>
+    Indeed, during a recent post-production audience discussion, the
+    director explained that her fondest artistic wish was to find a
+    way to play ``Somewhere Over the Rainbow'' so that the song's
+    ``original beauty comes through,'' [*-1] surmounting the cliche. 
+</text>
+        <arg n="0">[*-1] ->  the song's ``original beauty</arg>
+        <rel>surmounting</rel>
+        <arg n="1">the cliche</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

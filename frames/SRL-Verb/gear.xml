@@ -1,0 +1,118 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="gear">
+<note>
+  Frames file for 'gear' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="gear.01" vncls="-" name="aim at, design for">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing under consideration"/>
+  <role n="2"  descr="target"/>
+</roles>
+
+<example name="gear towards">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Most revisions it will propose will be geared *trace* toward
+    slowing down program trading during stressful periods, said
+    officials working with the exchange. 
+</text>
+        <arg n="M" f="MOD">will</arg>
+        <rel>geared</rel>
+        <arg n="1">*trace* ->  Most revisions  it will propose </arg>
+        <arg n="2" f="toward">slowing down program trading during
+        stressful periods</arg> 
+</example>
+
+<example name="gear to">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    He's totally geared to a punitive position.''
+</text>
+        <arg n="1">He</arg>
+        <arg n="M" f="EXT">totally</arg>
+        <rel>geared</rel>
+        <arg n="2" f="to">a punitive position</arg>
+</example>
+
+<example name="with agent">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary geared John to expect chocolate pudding for dinner.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >geared</rel>
+  <arg n="1"        >John</arg>
+  <arg n="2" f="PRD">to expect chocolate pudding for dinner</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="gear_up">
+
+<roleset id="gear.02" vncls="-" name="prepare">
+<roles>
+  <role n="0"  descr="preparer"/>
+  <role n="1"  descr="thing/entity prepared"/>
+  <role n="2"  descr="purpose"/>
+</roles>
+
+<example name="arg2 as PP">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    HEALTH CLUBS gear up for a graying clientele.
+</text>
+        <arg n="0">HEALTH CLUBS</arg>
+        <rel>[ gear] [ up]</rel>
+        <arg n="2" f="for">a graying clientele</arg>
+</example>
+
+<example name="arg2 as predicate">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    But because of the uncertainty of the outcome of the suit,
+    Mr. Conner's team has done little *trace* to begin *trace* gearing
+    up to defend its title. 
+</text>
+        <arg n="0">*trace* -> *trace* ->  Mr. Conner's team</arg>
+        <rel>[ gearing] [ up]</rel>
+        <arg n="2" f="PNC">to defend its title</arg>
+</example>
+
+<example name="intransitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    PaineWebber also was able *trace* to gear up quickly thanks to the
+    1987 crash. 
+</text>
+        <arg n="0">*trace* ->  PaineWebber</arg>
+        <rel>[ gear] [ up]</rel>
+        <arg n="M" f="MNR">quickly</arg>
+</example>
+
+<example name="with arg1 explicitly mentioned">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John geared himself up for another fight with Mary.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >geared up</rel>
+  <arg n="1" f="REC">himself</arg>
+  <arg n="2" f="for">another fight with Mary</arg>
+</example>
+
+<note>
+Arg1 defaults to some reflexive pronoun and is usually dropped--but it
+can occur!
+</note>
+
+</roleset>
+</predicate>
+</frameset>

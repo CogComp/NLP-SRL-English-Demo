@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="shoehorn">
+<note>
+  Frames file for 'shoehorn' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="shoehorn.01" vncls="-" name="put into a container with some difficulty">
+<roles>
+  <role n="0"  descr="putter"/>
+  <role n="1"  descr="thing put"/>
+  <role n="2"  descr="put in, container"/>
+</roles>
+
+<example name="usually passive?">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="full"/>
+<text>
+    Accordingly, the hidebound traditionalist reconstructed
+    hypothetical organisms from the Burgess fossils in such a way that
+    they could be shoehorned [*-1] into familiar categories. 
+</text>
+        <arg n="M" f="MOD">could</arg>
+        <rel>shoehorned</rel>
+        <arg n="1">[*-1] ->  they</arg>
+        <arg n="2" f="into">familiar categories</arg>
+</example>
+
+<note>
+A fascinating word; probably not one person in ten still living has
+even seen a shoehorn and yet we all still know instinctively what this
+verb means.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

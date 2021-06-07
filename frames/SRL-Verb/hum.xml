@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="hum">
+<note>
+  Frames file for 'hum' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="hum.01" name="to make a continuous low sound"
+vncls="-">
+<roles>
+  <role n="0"  descr="entity humming"/>
+  <role n="1"  descr="song or sound"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ The rest are split [*-1] roughly between optimists who [*T*-2] expect Hong Kong to hum along as [*-4] [*?*] before and pessimists who [*T*-3] foresee irreparable chaos .
+</text>
+	<arg n="0">Hong Kong</arg>
+	<rel>hum</rel>
+	<arg n="M" f="MNR">along</arg>
+	<arg n="M" f="MNR">as [*-4] [*?*] before</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+

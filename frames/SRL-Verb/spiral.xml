@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="spiral">
+<note>
+  Frames file for 'spiral' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="spiral.01" vncls="-" name="move in spiral direction">
+<roles>
+  <role descr="mover" n="0"/>
+  <role descr="moved" n="1"/>
+  <role descr="destination" n="2"/>
+</roles>
+
+<example name="down">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    Confusion about the two banks' hurried efforts to round up
+financing for a new bid that the UAL board hasn't even seen yet helped
+send UAL stock spiraling downward. 
+</text>
+        <arg n="1">UAL stock</arg>
+        <rel>spiraling</rel>
+        <arg n="2" f="DIR">downward</arg>
+</example>
+
+
+<example name="up">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    Kenneth Mitchell, director of Dow's polyethylene business, says
+producers were surprised to learn how much inventories had swelled
+throughout the distribution chain as prices spiraled up. 
+</text>
+        <arg n="1">prices</arg>
+        <rel>spiraled</rel>
+        <arg n="2" f="DIR">up</arg>
+</example>
+
+<note>
+Actually, I kinda doubt the agent could appear.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

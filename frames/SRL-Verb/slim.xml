@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="slim_down">
+<note>
+  Frames file for 'slim' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="slim.01" name="to reduce, melt off, lose weight"
+vncls="-">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="entity slimming down"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+ But Akzo is still slimming down : It recently announced plans [*] to eliminate about 1,700 fiber-related jobs in the Netherlands and West Germany .
+</text>
+	<arg n="M" f="DIS">But</arg>
+	<arg n="1">Akzo</arg>
+	<arg n="M" f="TMP">still</arg>
+	<rel>[ slimming] [ down]</rel>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

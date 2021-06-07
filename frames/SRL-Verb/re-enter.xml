@@ -1,0 +1,95 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="re-enter">
+<note>
+  Frames file for 're-enter' based on sentences in financial subcorpus.
+  Verbnet class 51.1, other framed members are 'leave'.  Also
+  comparison with 'go in'.
+</note>
+
+<roleset id="re-enter.01" name="enter, go in">
+<roles>
+  <role n="0"  descr="entity entering"/>
+  <role n="1"  descr="place or thing entered"/>
+</roles>
+
+<example name="place entered as NP">
+<text>
+    An ambitious expansion has left Magna with excess capacity and a
+    heavy debt load as the automotive industry re-enters a downturn.
+</text>
+        <arg n="0">the automotive industry</arg>
+        <rel>re-enters</rel>
+        <arg n="1">a downturn</arg>
+</example>
+
+<example name="place entered as a PP">
+<text>
+    The two concerns said they re-entered into a definitive merger
+    agreement under which Ratners will begin a tender offer for all of
+    Weisfield's common shares for $57.50 each.
+</text>
+        <arg n="0">they</arg>
+        <rel>re-entered</rel>
+        <arg n="1" f="into">a definitive merger agreement under which
+        Ratners will begin a tender offer for all of Weisfield's
+        common shares for $57.50 each</arg>
+</example>
+
+</roleset>
+
+<roleset id="re-enter.02" name="submit again, cause to enter again">
+<roles>
+  <role n="0"  descr="submitter"/>
+  <role n="1"  descr="thing submitted"/>
+  <role n="2"  descr="submitted to"/>
+  <role n="3"  descr="benefactive"/>
+</roles>
+
+<example name="submit, transitive">
+<text>
+    On Oct. 19, 1987, some investors learned the consequences of
+    *trace* re-entering ``good-til-canceled limit orders'' and then
+    forgetting about them. 
+</text>
+        <arg n="0">*trace* ->  some investors</arg>
+        <rel>re-entering</rel>
+        <arg n="1">good-til-canceled limit orders</arg>
+</example>
+
+<example name="including manner">
+<text>
+    A limit order to sell could be re-entered *trace* at that price .
+</text>
+        <arg n="M" f="MOD">could</arg>
+        <rel>re-entered</rel>
+        <arg n="1">*trace* ->  A limit order  to sell</arg>
+        <arg n="M" f="MNR">at that price</arg>
+</example>
+
+<example name="with benefactive">
+<text>
+    And even when a specific order is acceptable to an exchange, a
+    brokerage firm can refuse *trace* to re-enter it for a customer.
+</text>
+        <arg n="0">*trace* ->  a brokerage firm</arg>
+        <rel>re-enter</rel>
+        <arg n="1">it</arg>
+        <arg n="3" f="for">a customer</arg>
+</example>
+
+<example name="dunno why Arg2 didn't show up">
+  <text>
+    John re-entered his crayon drawings into an art competition.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >re-entered</rel>
+  <arg n="1"        >his crayon drawings</arg>
+  <arg n="2" f="into">an art competition</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

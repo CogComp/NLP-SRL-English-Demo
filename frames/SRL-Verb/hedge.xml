@@ -1,0 +1,74 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="hedge">
+<note>
+  Frames file for 'hedge' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="hedge.01" name="protect, minimize the loss">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing protected"/>
+  <role n="2"  descr="protected from"/>
+  <role n="3"  descr="instrument"/>
+</roles>
+
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ If the weather allowed farmers to work in their fields over the weekend , many Midwest grain elevators will probably sell futures contracts today at the Chicago Board of Trade in order [*-1] to hedge their weekend purchases from farmers .
+</text>
+	<arg n="0">[*-1] ->  many Midwest grain elevators</arg>
+	<rel>hedge</rel>
+	<arg n="1">their weekend purchases from farmers</arg>
+</example>
+
+
+
+<example name="with Arg2">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ A number of commercial grain users buttressed that opinion yesterday by [*] buying certain corn options for delivery in March , [*] indicating to analysts that the commercial companies would use the options [*-1] to hedge against expected corn sales in next year 's first quarter .
+</text>
+	<arg n="0">[*-1] ->  the commercial companies</arg>
+	<rel>hedge</rel>
+	<arg n="2" f="against">expected corn sales</arg>
+	<arg n="M" f="TMP">in next year 's first quarter</arg>
+</example>
+
+
+
+<example name="intransitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ `` That 's the problem with [*] trying [*-1] to hedge too much , '' said [*T*-2] Mr. Brouwer .
+</text>
+	<arg n="0">[*-1]</arg>
+	<rel>hedge</rel>
+	<arg n="M" f="MNR">too much</arg>
+</example>
+
+
+<example name="with instrument">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Some analysts suggest , however , that the ratio has weakened in value as an indicator because options and other products can be used [*-1] [*] to hedge short positions .
+</text>
+	<arg n="3">[*] ->  [*-1] ->  options and other products</arg>
+	<rel>hedge</rel>
+	<arg n="1">short positions</arg>
+</example>
+
+
+
+<note>
+  frames created by Olga
+</note>
+
+</roleset>
+</predicate>
+</frameset>

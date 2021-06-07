@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="carp">
+<note>
+  Frames file for 'carp' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="carp.01" vncls="-" name="complain ineffectually">
+<roles>
+  <role n="0"  descr="carper (carp?)"/>
+  <role n="1"  descr="complaining at/about"/>
+</roles>
+
+<example name="carpe diem: fish of the day">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Rivals carp at ``the principle of Pilson,'' as NBC's Arthur Watson
+    once put it -- ``he's always expounding that rights are too high,
+    then he's going crazy.'' 
+</text>
+        <arg n="0">Rivals</arg>
+        <rel>carp</rel>
+        <arg n="1" f="at">the principle of Pilson</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

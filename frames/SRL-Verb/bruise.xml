@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bruise">
+<note>
+  Frames file for 'bruise' based on sentences in wsj.  Verbnet entries
+  21.2 and 40.8.3, Framenet entry Cause harm.
+</note>
+
+<roleset id="bruise.01" vncls="21.2 40.8.3" name="bruise">
+<roles>
+  <role n="0"  descr="bruiser"/>
+  <role n="1"  descr="bruised"/>
+</roles>
+
+<example name="agentive adjective">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+     Leading up to the speech was a drumroll of economic statistics
+     suggesting that the British war on inflation will be more
+     bruising than previously assumed.
+</text>
+        <arg n="0">the British war on inflation</arg>
+        <rel>bruising</rel>
+</example>
+
+
+<example name="patientive(?) adjective">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    NO MORE STUBBED toes or bruised shins, promises Geste Corp. of
+    Goshen, Ind., the designer of a bed support to replace traditional
+    frames. 
+</text>
+        <rel>bruised</rel>
+        <arg n="1">shins</arg>
+</example>
+
+<example name="actually verbal">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary bruised John's skull.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >bruised</rel>
+  <arg n="1"        >John's skull</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

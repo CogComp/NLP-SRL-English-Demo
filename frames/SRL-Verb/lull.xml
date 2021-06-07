@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lull">
+<note>
+  Frames file for 'lull' based on sentences in wsj.  Verbnet entry 31.1.
+</note>
+
+<roleset id="lull.01" vncls="31.1" name="cause to feel calm or sleepy">
+<roles>
+  <role n="0"  descr="causer of lulling"/>
+  <role n="1"  descr="lulled entity"/>
+  <role n="2"  descr="end state"/>
+</roles>
+
+<example name="no end state">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    This is clearly not good news to all you people who [*T*-1] sleep
+    like babies every night, [*-2] lulled [*-3] by visions of your
+    money sitting risk-free in six-month CDs. 
+</text>
+        <rel>lulled</rel>
+        <arg n="1">[*-3] ->  [*-2] ->  [*T*-1] ->  who ->  all you people</arg>
+        <arg n="0" f="by">visions of your money sitting risk-free in
+        six-month CDs</arg> 
+</example>
+
+<example name="all args">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John lulled Mary to sleep by talking about predicate-argument structure.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >lulled</rel>
+  <arg n="1"        >Mary</arg>
+  <arg n="2" f="PRD">to sleep</arg>
+  <arg n="m" f="MNR">by talking about predicate-argument structure</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

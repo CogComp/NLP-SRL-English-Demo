@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="initiator">
+<roleset id="initiator.01" name="begin" source="verb-initiate.01" vncls="55.2">
+<roles>
+
+<role descr="causer" n="0">
+<vnrole vncls="55.2" vntheta="Agent"/></role>
+
+<role descr="theme(-creation" n="1">
+<vnrole vncls="55.2" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The arbitragers and takeover initiatiors
+</text>
+<arg n="1">takeover</arg>
+<arg n="0">initiatiors</arg>
+<rel>initiatiors</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

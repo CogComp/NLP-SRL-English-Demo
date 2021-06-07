@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="murder">
+<note>
+  Frames file for 'murder' based on sentences in wsj.  Verbnet entry
+  42.1, along with other assorted verbs of killing.
+</note>
+
+<roleset id="murder.01" vncls="42.1" name="cause to die">
+<roles>
+  <role descr="killer" n="0"/>
+  <role descr="corpse" n="1"/>
+  <role descr="instrument" n="2"/>
+</roles>
+
+<example name="passive, no agent">
+<inflection person="ns" tense="ns" aspect="progressive" voice="passive" form="participle"/>
+<text>
+     To quote the highly regarded director of a privately funded
+     drop-in center for the homeless in New York: ``If you're
+     homeless, you don't sleep for fear of *trace* being robbed or
+     murdered. 
+</text>
+        <rel>murdered</rel>
+        <arg n="1">*trace* -> *trace* ->  you</arg>
+</example>
+
+<example name="agentive; true gerund!">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="gerund"/>
+<text>
+   For example, one of my favorite movies is the 1949 British comedy
+   ``Kind Hearts and Coronets,'' in which the entire comedy is based
+   on actor Dennis Price's murdering eight titled relatives (all
+   played  by Alec Guinness) because they snubbed his mother and stand
+   in the way of his acquiring the family title. 
+</text>
+        <arg n="0">actor Dennis Price's</arg>
+        <rel>murdering</rel>
+        <arg n="1">eight titled relatives (all played by Alec
+        Guinness)</arg> 
+        <arg n="M" f="CAU">because they snubbed his mother and stand
+        in the way of his acquiring the family title</arg> 
+</example>
+
+<example name="with instrument">
+  <inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+  <text>
+    John dreamed of *trace* murdering Mary with nothing more than a
+    plastic teaspoon, three pairs of pantyhose, and a live sea urchin.
+  </text>
+  <arg n="0"        >*trace* -> dreamed</arg>
+  <rel              >murdering</rel>
+  <arg n="1"        >Mary</arg>
+  <arg n="2" f="with">nothing more than a
+    plastic teaspoon, three pairs of pantyhose, and a live sea urchin</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

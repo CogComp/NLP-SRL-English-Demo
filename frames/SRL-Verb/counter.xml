@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="counter">
+<note>
+  Frames file for 'counter' based on sentences in financial subcorpus.
+  No Verbnet entry.  No comparison.
+</note>
+
+<roleset id="counter.01" name="make a reaction">
+<roles>
+  <role n="0"  descr="reactor"/>
+  <role n="1"  descr="in reaction to"/>
+  <role n="2"  descr="reaction"/>
+</roles>
+
+<example name="just prompting of action">
+<text>
+    But LTV's move marks the first effort by a major steelmaker
+    *trace* to counter the free fall in spot prices. 
+</text>
+        <arg n="0">*trace* ->  a major steelmaker</arg>
+        <rel>counter</rel>
+        <arg n="1">the free fall in spot prices</arg>
+</example>
+
+<example name="with reaction">
+  <text>
+    John countered Mary's intelligent objection to his ideas with a
+    screaming tantrum.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >countered</rel>
+  <arg n="1"        >Mary's intelligent objection to his ideas</arg>
+  <arg n="2" f="with">a screaming tantrum</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

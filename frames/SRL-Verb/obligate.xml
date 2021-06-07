@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="obligate">
+<note>
+  Frames file for 'obligate' based on sentences in wsj.  No Verbnet
+  entry. 
+</note>
+
+<roleset id="obligate.01" vncls="-" name="impelled action">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="obligated, impelled agent"/>
+  <role n="2"  descr="obligation, impelled action"/>
+</roles>
+
+<example name="always passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Thus, an institution obligated *trace* to make fixed-rate interest
+    payments on debt swaps the payments with another making
+    floating-rate payments. 
+</text>
+        <rel>obligated</rel>
+        <arg n="1">*trace* ->  an institution</arg>
+        <arg n="2">to make fixed-rate interest payments on debt</arg>
+</example>
+
+<note>
+The only difference between 'oblige' and 'obligate' is that the latter
+can only occur in the passive.  The former also prefers the passive,
+though.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

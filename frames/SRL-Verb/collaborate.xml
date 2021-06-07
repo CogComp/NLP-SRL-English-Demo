@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="collaborate">
+<note>
+  Frames file for 'collaborate' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="collaborate.01" name="to work together"  vncls="36.1">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="second party"/>
+  <role n="2"  descr="shared task"/>
+</roles>
+
+
+
+<example name="two arguments">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Du Pont Co. , Hewlett-Packard Co. and Los Alamos National Laboratory said [0] they signed a three-year , $ 11 million [*U*] agreement [*] to collaborate on superconductor research .
+</text>
+	<arg n="0">[*] ->  they</arg>
+	<rel>collaborate</rel>
+	<arg n="2" f="on">superconductor research</arg>
+</example>
+
+
+<example name="all arguments">
+<inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+ Already two major pharmaceutical companies , the Squibb unit of Bristol-Myers Squibb Co. and Hoffmann-La Roche Inc. , are collaborating with gene hunters [*-1] to turn the anticipated cascade of discoveries into predictive tests and , maybe , new therapies .
+</text>
+	<arg n="M" f="TMP">Already</arg>
+	<arg n="0">two major pharmaceutical companies , the Squibb unit of Bristol-Myers Squibb Co. and Hoffmann-La Roche Inc. ,</arg>
+	<rel>collaborating</rel>
+	<arg n="1" f="with">gene hunters</arg>
+	<arg n="2">[*-1] to turn the anticipated cascade of discoveries into predictive tests and , maybe , new therapies</arg>
+</example>
+
+
+<example name="all arguments with prepositional Arg2">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Also Jonathan Silvers , who [*T*-1] collaborated with Mr. Hoffman on two books .
+</text>
+	<arg n="0">[*T*-1] ->  who ->  Jonathan Silvers</arg>
+	<rel>collaborated</rel>
+	<arg n="1" f="with">Mr. Hoffman</arg>
+	<arg n="2" f="on">two books</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

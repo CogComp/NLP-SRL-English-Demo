@@ -1,0 +1,129 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shuffle">
+<note>
+  Frames file for 'shuffle' based on sentences in wsj.  Verbnet
+  entries 51.5, 51.3.2, 40.3.2, 22.3; Framenet entries Body movement
+  and Self motion.
+</note>
+
+<roleset id="shuffle.01" vncls="51.5" name="style of dance">
+<roles>
+  <role n="0"  descr="dancer"/>
+</roles>
+
+<example name="good trick">
+  <inflection person="ns" tense="ns" aspect="ns" voice="active" form="full"/>
+  <text>
+    Even though he's dead, John can still shuffle pretty good.
+  </text>
+  <arg n="m" f="ADV">Even though he's dead</arg>
+  <arg n="0"        >John</arg>
+  <arg n="m" f="MOD">can</arg>
+  <arg n="m" f="TMP">still</arg>
+  <rel              >shuffle</rel>
+  <arg n="m" f="MNR">pretty good</arg>
+</example>
+
+<note>
+More commonly 'do the shuffle.'
+</note>
+
+</roleset>
+
+<roleset id="shuffle.02" vncls="51.3.2" name="mode of motion">
+<roles>
+  <role n="A"  descr="cause of motion"/>
+  <role n="0"  descr="entity in motion"/>
+  <role n="1"  descr="path"/>
+</roles>
+
+<example name="yet another causal agent">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    While D.T. shuffled its king back and forth in a defensive crouch,
+    Mr. Kasparov maneuvered the knight to a dominant outpost. 
+</text>
+        <arg n="A">D.T.</arg>
+        <rel>shuffled</rel>
+        <arg n="0">its king</arg>
+        <arg n="1">back and forth</arg>
+        <arg n="M" f="MNR">in a defensive crouch</arg>
+</example>
+
+<note>
+Compare 'the king shuffled back and forth'.
+</note>
+
+</roleset>
+
+<roleset id="shuffle.03" vncls="40.3.2" name="not pick up the
+  feet while walking">
+<roles>
+  <role n="0"  descr="agent, walker"/>
+  <role n="1"  descr="feet"/>
+</roles>
+
+<example name="haunted house?">
+  <inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+  <text>
+     Mary swears she can hear John shuffling his feet upstairs.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >shuffling</rel>
+  <arg n="1"        >his feet</arg>
+  <arg n="m" f="LOC">upstairs</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="shuffle.05" vncls="22.3" name="randomize a deck of cards">
+<roles>
+  <role n="0"  descr="dealer"/>
+  <role n="1"  descr="cards"/>
+</roles>
+
+<example name="nervous guilt?">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary shuffled the deck for her 85th game of solitaire that night.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >shuffled</rel>
+  <arg n="1"        >the deck</arg>
+  <arg n="m" f="PRP">for her 85th game of solitaire that night</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="shuffle_off">
+
+<roleset id="shuffle.04" vncls="-" name="idiom for dying">
+<roles>
+  <role n="0"  descr="corpse"/>
+  <role n="1"  descr="this mortal coil"/>
+</roles>
+
+<example name="had to fit this one in">
+  <inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+  <text>
+    John isn't quite ready to shuffle off this mortal coil.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >shuffle off</rel>
+  <arg n="1"        >this mortail coil</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

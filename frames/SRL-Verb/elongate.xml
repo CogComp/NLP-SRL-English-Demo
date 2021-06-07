@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="elongate">
+<note>
+  Frames file for 'elongate' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="elongate.01" vncls="-" name="(make/be) longer">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing getting longer"/>
+</roles>
+
+<example name="the one example">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    And he hadn't used hormones, which many growers employ [*-2] to
+    elongate their Delicious apples for greater eye appeal. 
+</text>
+        <arg n="0">[*-2] ->  many growers</arg>
+        <rel>elongate</rel>
+        <arg n="1">their Delicious apples</arg>
+        <arg n="M" f="PNC">for greater eye appeal</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

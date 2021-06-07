@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ranking">
+<roleset id="ranking.01" name="assign a position in a list" source="verb-rank.01" vncls="29.2">
+<roles>
+
+<role descr="assigner" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing assigned a position" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="position" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the bottom of 14 district high schools in rankings carried
+annually by local newspapers
+</text>
+<arg n="2">the bottom of 14 district high schools</arg>
+<rel>rankings</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

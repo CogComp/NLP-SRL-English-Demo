@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="rehabilitate">
+<note>
+  Frames file for 'rehabilitate'  based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="rehabilitate.01" name="to restore"
+vncls="-">
+<roles> 
+  <role n="0"  descr="agent"/>  
+  <role n="1"  descr="entity rehabilitated"/>
+</roles>
+
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+ Enthusiasts assume that national service would get important work done cheaply : forest fires fought [*-1] , housing rehabilitated [*-2] , students tutored [*-3] , day-care centers staffed [*-4] .
+</text>
+	<rel>rehabilitated</rel>
+	<arg n="1">[*-2] ->  housing</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="ripen">
+<note>
+  Frames file for 'ripen' based on sentences in wsj.  Verbnet entry
+  45.4, along with about half the verbs in the English language.
+</note>
+
+<roleset id="ripen.01" vncls="45.4" name="(make) become ripe">
+<roles>
+  <role n="0"  descr="causer of ripening"/>
+  <role n="1"  descr="thing becoming ripe"/>
+</roles>
+
+<example name="unaccusative">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    It's made only in years when the grapes ripen perfectly (the last
+    was 1979) and comes from a single acre of grapes that yielded a
+    mere 75 cases in 1987. 
+</text>
+        <arg n="1">the grapes</arg>
+        <rel>ripen</rel>
+        <arg n="M" f="MNR">perfectly</arg>
+        <arg n="M" f="TMP">*trace* ->  when ->  years</arg>
+</example>
+
+<example name="agentive">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John ripened the green peaches in a paper bag.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >ripened</rel>
+  <arg n="1"        >the green peaches</arg>
+  <arg n="m" f="LOC">in a paper bag</arg>
+</example>
+
+<note>
+That won't work, by the way; peaches don't get any sweeter once they
+leave the tree.  Always buy tree-ripened peaches.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

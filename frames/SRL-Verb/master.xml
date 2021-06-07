@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="master">
+<note>
+  Frames file for 'master' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="master.01" name="to make oneself a master of"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing mastered"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ But success for Unilever and P&amp;G is far from guaranteed , as [*] shown [*-3] by the many consumer-product companies that [*T*-2] have tried and failed [*-4] to master the quirky beauty business .
+</text>
+	<arg n="0">[*-4] ->  [*T*-2] ->  that ->  the many consumer-product companies</arg>
+	<rel>master</rel>
+	<arg n="1">the quirky beauty business</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

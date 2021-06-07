@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="flirt">
+<note>
+  Frames file for 'flirt' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="flirt.01" name="to deal playfully or superficially"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity flirted with"/>
+</roles>
+
+
+<example name="both arguments">
+<inflection person="ns" tense="past" aspect="perfect" voice="active" form="participle"/>
+<text>
+ Hearst had flirted with a conversion to tabloid format for years but never executed the plan .
+</text>
+	<arg n="0">Hearst</arg>
+	<rel>flirted</rel>
+	<arg n="1" f="with">a conversion to tabloid format</arg>
+	<arg n="M" f="TMP">for years</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

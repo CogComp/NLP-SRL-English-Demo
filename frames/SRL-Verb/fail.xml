@@ -1,0 +1,69 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="fail">
+<note>
+  Frames file for 'fail' based on survey of initial sentences of big
+  corpus
+</note>
+
+<roleset id="fail.01" name="not succeed">
+<roles>
+  <role n="0"  descr="assessor of not failing (professor)"/>
+  <role n="1"  descr="thing failing"/>
+  <role n="2"  descr="task"/>
+  <role n="3"  descr="benefactive"/>
+</roles>
+
+<example name="sentential task">
+  <text>
+  Saudi Arabia allegedly failed to honor US patents, copyrights, and
+  other intellectual-property rights.
+  </text>
+  <arg n="1"        >Saudi Arabia</arg>
+  <arg n="m" f="ADV">allegedly</arg>
+  <rel              >failed</rel>
+  <arg n="2"        >to honor US patents, copyrights, and
+  other intellectual-property rights</arg>
+</example>
+
+<example name="NP task">
+  <text>
+  John failed calculus twice.
+  </text>
+  <arg n="1"        >John</arg>
+  <rel              >failed</rel>
+  <arg n="2"        >calculus</arg>
+  <arg n="m" f="TMP">twice</arg>
+</example>
+
+<example name="with benefactive">
+  <text>
+  My car failed on me this morning.
+  </text>
+  <arg n="1"        >My car</arg>
+  <rel              >failed</rel>
+  <arg n="3" f="on">me</arg>
+  <arg n="m" f="TMP">this morning</arg>
+</example>
+</roleset>
+
+<roleset id="fail.02" name="give failing grade">
+<roles>
+  <role n="0"  descr="teacher"/>
+  <role n="1"  descr="student"/>
+</roles>
+
+<example name="I wish I could do this">
+  <text>
+  The evil professor failed all of his students.
+  </text>
+  <arg n="0"        >The evil professor</arg>
+  <rel              >failed</rel>
+  <arg n="1"        >all of his students</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

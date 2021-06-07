@@ -1,0 +1,85 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gobble">
+<note>
+  Frames file for 'gobble' based on sentences in wsj.  Verbnet entries
+  39.3 and 38; Framenet entries Ingestion and Perception noise.
+</note>
+
+<roleset id="gobble.01" vncls="39.3" name="eat voraciously">
+<roles>
+  <role n="0"  descr="eater"/>
+  <role n="1"  descr="food"/>
+</roles>
+
+<example name="slightly odd without particle">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John gobbled the chocolate cake.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >gobbled</rel>
+  <arg n="1"        >the chocolate cake</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="gobble.02" vncls="38" name="make like a turkey">
+<roles>
+  <role n="0"  descr="turkey"/>
+</roles>
+
+<example name="Old McDonald">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John gobbled, oinked, neighed, and did whatever gnu do.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >gobbled</rel>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="gobble_up">
+
+<roleset id="gobble.03" vncls="39.3" name="eat voraciously and completely">
+<roles>
+  <role n="0"  descr="eater"/>
+  <role n="1"  descr="food"/>
+</roles>
+
+<example name="the one example">
+<inflection person="ns" tense="present" aspect="progressive" voice="passive" form="participle"/>
+<text>
+    More than ever, independent magazines and small publishing groups
+    are being gobbled [*-1] up by larger publishing groups, such as
+    American Express Publishing Corp., a unit of American Express Co.,
+    and Conde Nast Publications Inc., a unit of Advance Publications
+    Inc., which are consolidating in order to gain leverage with
+    advertisers. 
+</text>
+        <arg n="M" f="TMP">More than ever</arg>
+        <rel>[ gobbled] [ up]</rel>
+        <arg n="1">[*-1] ->  independent magazines and small
+        publishing groups</arg> 
+        <arg n="0" f="by">larger publishing groups, such as American
+        Express Publishing Corp., a unit of American Express Co., and
+        Conde Nast Publications Inc., a unit of Advance Publications
+        Inc., which are consolidating in order to gain leverage with
+        advertisers</arg> 
+</example>
+
+<note>
+Probably also gobble down.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

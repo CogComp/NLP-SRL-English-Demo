@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="parallel">
+<note>
+  Frames file for 'parallel' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="parallel.01" vncls="-" name="be an equal to, match">
+<roles>
+  <role n="0"  descr="thing under consideration, figure"/>
+  <role n="1"  descr="in comparison to, ground"/>
+</roles>
+
+<example name="normally active">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    But, analysts say, Asian cooperation isn't likely *trace* to
+    parallel the European Common Market approach. 
+</text>
+        <arg n="0">*trace* ->  Asian cooperation</arg>
+        <rel>parallel</rel>
+        <arg n="1">the European Common Market approach</arg>
+</example>
+
+<example name="passive">
+  <inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+  <text>
+     Mary's violent tendencies towards John are paralleled *trace* by her
+     feelings of intellectual inadequacy.
+  </text>
+  <rel              >paralleled</rel>
+  <arg n="1"        >*trace* -> Mary's violent tendencies towards John</arg>
+  <arg n="0" f="by">her feelings of intellectual inadequacy.</arg>
+</example>
+
+<note>
+Hah!  Take that, Mary!
+</note>
+
+<note>
+Although there is an apparent similarity between 'parallel' and
+'match', note that the two arguments of 'parallel' cannot be merged in
+the same way they can for 'match': "These two lines match." *"These
+two lines parallel."  Hence the use of two separately-numbered args.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

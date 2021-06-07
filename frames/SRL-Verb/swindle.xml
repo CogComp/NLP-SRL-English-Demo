@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="swindle">
+<note>
+  Frames file for 'swindle' based on sentences in wsj.  Verbnet entry 10.6.
+</note>
+
+<roleset id="swindle.01" vncls="10.6" name="cheat, steal">
+<roles>
+  <role descr="entity removing" n="0"><vnrole vncls="10.6" vntheta="Agent"/></role>
+  <role descr="thing being removed" n="1"><vnrole vncls="10.6" vntheta="Theme"/></role>
+  <role descr="removed from" n="2"><vnrole vncls="10.6" vntheta="Source"/></role>
+</roles>
+
+<example name="just one arg">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    The Attorney General's investigation was sparked by lawsuits and
+    charges by angry California businesspeople that they were swindled
+    [*-2] in a bureau-sponsored directory project contracted by Better
+    Book. 
+</text>
+        <rel>swindled</rel>
+        <arg n="2">[*-2] ->  they</arg>
+        <arg n="M" f="LOC">in a bureau-sponsored directory project
+        contracted by Better Book</arg> 
+</example>
+
+<example name="all args">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    Mary swindled John out of all his desserts for the next decade.
+  </text>
+  <arg n="0"        >Mary</arg>
+  <rel              >swindled</rel>
+  <arg n="2"        >John</arg>
+  <arg n="1" f="out">of all his desserts for the next decade</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

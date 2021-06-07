@@ -1,0 +1,114 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="insure">
+<note>
+  Frames file for 'insure' based on sentences in wsj.  No Verbnet entry.
+</note>
+
+<roleset id="insure.01" vncls="-" name="make sure, guarantee">
+<roles>
+  <role n="0"  descr="entity making guarantee"/>
+  <role n="1"  descr="guarantee"/>
+  <role n="2"  descr="benefactive, guaranteed-to"/>
+</roles>
+
+<example name="arg1 usually a propositon">
+<inflection person="ns" tense="ns" aspect="ns" voice="ns" form="infinitive"/>
+<text>
+    ``Our intent is *trace* to spread them out ''*trace* to insure
+    they are well integrated into the community, he said. 
+</text>
+        <arg n="0">*trace* -> *trace*</arg>
+        <rel>insure</rel>
+        <arg n="1">they are well integrated  into the community</arg>
+</example>
+
+<note>
+can also be 'ensure'; technically the two are different but modern
+usage conflates the two.  *sigh* barbarians at the gates, and all that.
+</note>
+
+</roleset>
+
+<roleset id="insure.02" vncls="-" name="act like an insurance agency">
+<roles>
+  <role n="0"  descr="insurance company"/>
+  <role n="1"  descr="thing insured"/>
+  <role n="2"  descr="for how much"/>
+  <role n="3"  descr="beneficiary"/>
+  <role n="4"  descr="danger"/>
+</roles>
+
+<example name="one arg, passive">
+<inflection person="ns" tense="present" aspect="ns" voice="passive" form="participle"/>
+<text>
+    The bonds are insured and triple-A-rated.
+</text>
+        <arg n="1">The bonds</arg>
+        <rel>insured</rel>
+<note>
+Should be a trace.
+</note>
+</example>
+
+<example name="transitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Right now, the largest loan *trace* the FHA can insure *trace* in
+    high-cost housing markets is $101,250. 
+</text>
+        <arg n="0">the FHA</arg>
+        <arg n="M" f="MOD">can</arg>
+        <rel>insure</rel>
+        <arg n="1">*trace* -> *trace* ->  the largest loan</arg>
+        <arg n="M" f="LOC">in high-cost housing markets</arg>
+</example>
+
+<example name="with amount">
+<inflection person="ns" tense="past" aspect="ns" voice="passive" form="participle"/>
+<text>
+    He assumed that principal and interest were ``fully insured
+    *trace* up to $100,000,'' he adds. 
+</text>
+        <arg n="M" f="MNR">fully</arg>
+        <rel>insured</rel>
+        <arg n="1">*trace* ->  principal and interest</arg>
+        <arg n="2">up to $100,000</arg>
+</example>
+
+<example name="with beneficiary">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    The agency, which is funded through insurance premiums from
+    employers, insures pension benefits for some 30 million
+    private-sector workers who take part in single-employer pension
+    plans. 
+</text>
+        <arg n="0">The agency, which is funded through insurance
+        premiums from employers,</arg> 
+        <rel>insures</rel>
+        <arg n="1">pension benefits</arg>
+        <arg n="3" f="for">some 30 million private-sector workers who
+        take part in single-employer pension plans</arg> 
+</example>
+
+<example name="with danger">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+    Then, if the stocks fell sharply, he planned to begin buying them
+    aggressively, on the theory that the companies that *trace* insure
+    against property damage and accidents will have to raise rates
+    eventually to compensate for the claims they will pay to
+    earthquake victims and victims of last month's Hurricane Hugo.
+</text>
+        <arg n="0">*trace* ->  that ->  the companies</arg>
+        <rel>insure</rel>
+        <arg n="4" f="against">property damage and accidents</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hurtle">
+<note>
+  Frames file for 'hurtle' based on sentences in wsj.  Verbnet entry 51.3.2.
+</note>
+
+<roleset id="hurtle.01" vncls="51.3.2" name="move very fast">
+<roles>
+  <role n="0"  descr="entity in motion"/>
+  <role n="1"  descr="path"/>
+</roles>
+
+<example name="with direction">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+    But with the impending passage of these new programs, Mr. Bush
+    will surely be sending many people hurtling back into the
+    regulatory thicket that he had helped cut back.
+</text>
+        <arg n="0">many people</arg>
+        <rel>hurtling</rel>
+        <arg n="M" f="DIR">back</arg>
+        <arg n="M" f="DIR">into the regulatory thicket that he had
+        helped cut back</arg> 
+</example>
+
+<example name="with path">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     John's car hurtled down the highway.
+  </text>
+  <arg n="0"        >John's car</arg>
+  <rel              >hurtled</rel>
+  <arg n="1" f="down">the highway</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

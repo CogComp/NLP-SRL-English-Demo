@@ -1,0 +1,216 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pick">
+<note>
+  Frames file for 'pick' based on sentences in financial subcorpus.
+  Verbnet class get-13.5.1, other framed members include buy, call,
+  catch, earn, find, gain, get, hire, order, pull, reach, win.
+  Comparison with 'get'.
+</note>
+
+<roleset id="pick.01" name="select from a group" vncls="13.5.1">
+<roles>
+  <role descr="picker" n="0">
+		<vnrole vncls="13.5.1" vntheta="Agent"/>
+  </role>
+
+  <role descr="thing picked" n="1">
+		<vnrole vncls="13.5.1" vntheta="Theme"/>
+  </role>
+
+  <role descr="group or source" n="2">
+		<vnrole vncls="13.5.1" vntheta="Source"/>
+  </role>
+
+  <role descr="benefactive" n="3">
+		<vnrole vncls="13.5.1" vntheta="Beneficiary"/>
+  </role>
+
+</roles>
+
+<example name="boring transitive">
+<text>
+    Since the value of its assets wasn't known, analysts were free
+    *trace* to pick a number. 
+</text>
+        <arg n="0">*trace* -&gt;  analysts</arg>
+        <rel>pick</rel>
+        <arg n="1">a number</arg>
+</example>
+
+<example name="benefactive, sorta">
+<text>
+    The 486 is the descendant of a long series of Intel chips that
+    began dominating the market ever since IBM picked the 16-bit 8088
+    chip for its first personal computer. 
+</text>
+        <arg n="0">IBM</arg>
+        <rel>picked</rel>
+        <arg n="1">the 16-bit 8088 chip</arg>
+        <arg f="for" n="3">its first personal computer</arg>
+</example>
+
+<example name="with group">
+  <text>
+    John picked a mismatched pair of socks from the pile on his floor.
+  </text>
+  <arg n="0">John</arg>
+  <rel>picked</rel>
+  <arg n="1">a mismatched pair of socks</arg>
+  <arg f="from" n="2">the pile on his floor</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="pick_on">
+
+<roleset id="pick.02" name="bully" vncls="-">
+<roles>
+  <role descr="bully" n="0"/>
+  <role descr="bullied" n="1"/>
+</roles>
+
+<example name="straightforward">
+  <text>
+    Mary picks on John relentlessly.
+  </text>
+  <arg n="0">Mary</arg>
+  <rel>picks on</rel>
+  <arg n="1">John</arg>
+  <arg f="MNR" n="m">relentlessly</arg>
+</example>
+
+<note>
+WSJ doesn't seem to show this construction.
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="pick_out">
+<note>
+  otherwise identical to &quot;pick&quot; above
+</note>
+
+<roleset id="pick.03" name="select from a group" vncls="13.5.1">
+<roles>
+  <role descr="picker" n="0">
+		<vnrole vncls="13.5.1" vntheta="Agent"/>
+  </role>
+
+  <role descr="thing picked" n="1">
+		<vnrole vncls="13.5.1" vntheta="Theme"/>
+  </role>
+
+  <role descr="group or source" n="2">
+		<vnrole vncls="13.5.1" vntheta="Source"/>
+  </role>
+
+</roles>
+
+<example name="made up">
+  <text>
+    John picked out a bunch of flowers from the pile in the dumpster.
+  </text>
+  <arg n="0">John</arg>
+  <rel>picked out</rel>
+  <arg n="1">a bunch of flowers</arg>
+  <arg f="from" n="2">the pile in the dumpster</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="pick_up">
+
+<roleset id="pick.04" name="acquire" vncls="-">
+<roles>
+  <role descr="agent, entity acquiring something" n="0"/>
+  <role descr="thing acquired" n="1"/>
+  <role descr="seller" n="2"/>
+  <role descr="price paid" n="3"/>
+  <role descr="benefactive" n="4"/>
+</roles>
+
+<example name="basic transitive">
+<text>
+    Thus the band-wagon psychology of recent days picks up new
+    impetus. 
+</text>
+        <arg f="DIS" n="M">Thus</arg>
+        <arg n="0">the band-wagon psychology of recent days</arg>
+        <rel>[ picks] [ up]</rel>
+        <arg n="1">new impetus</arg>
+</example>
+
+<example name="with price">
+<text>
+    There, on one of his first shopping trips, Mr. Paul picked up
+    several paintings at stunning prices. 
+</text>
+        <arg f="LOC" n="M">There</arg>
+        <arg f="TMP" n="M">on one of his first shopping trips</arg>
+        <arg n="0">Mr. Paul</arg>
+        <rel>[ picked] [ up]</rel>
+        <arg n="1">several paintings</arg>
+        <arg f="at" n="3">stunning prices</arg>
+</example>
+
+<example name="pushing the metaphor">
+<text>
+    When the announcement came out, ``I picked up the phone and said,
+    `Why don't you come to us?''' Mr. Spielvogel said. 
+</text>
+        <arg n="0">I</arg>
+        <rel>[ picked] [ up]</rel>
+        <arg n="1">the phone</arg>
+</example>
+
+<example name="other args">
+  <text>
+    John picked up a box of chocolates from the grocer for Mary.
+  </text>
+  <arg n="0">John</arg>
+  <rel>picked up</rel>
+  <arg n="1">a box of chocolates</arg>
+  <arg f="from" n="2">the grocer</arg>
+  <arg f="for" n="4">Mary</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="pick.05" name="increase" vncls="-">
+<roles>
+    <role descr="thing increasing" n="1"/>
+    <role descr="amount increased by, EXT or MNR" n="2"/>
+    <role descr="start point" n="3"/>
+    <role descr="end point" n="4"/>
+</roles>
+
+<example name="basic">
+<text>
+    If sales don't pick up, the cuts will go deeper and incentives
+    will sprout again. 
+</text>
+        <arg n="1">sales</arg>
+        <arg f="NEG" n="M">n't</arg>
+        <rel>[ pick] [ up]</rel>
+</example>
+
+<note>
+Actually, I doubt this will show start/end points.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

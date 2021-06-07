@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="pause">
+<note>
+  Frames file for 'pause' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="pause.01" name="to suspend an action, to hesitate"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+</roles>
+
+
+<example name="with purpose">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Mr. Perry , who [*T*-1] runs Unilever Group 's world-wide personal-care business , paused [*-2] to scan the crowd .
+</text>
+	<arg n="0">Mr. Perry , who [*T*-1] runs Unilever Group 's world-wide personal-care business ,</arg>
+	<rel>paused</rel>
+	<arg n="M" f="PNC">[*-2] to scan the crowd</arg>
+</example>
+
+
+
+<example name="with temporal ArgM">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ -- If Dow Industrials fall 25 points at opening , contract trading pauses for 10 minutes .
+</text>
+	<arg n="M" f="ADV">If Dow Industrials fall 25 points at opening</arg>
+	<arg n="0">contract trading</arg>
+	<rel>pauses</rel>
+	<arg n="M" f="TMP">for 10 minutes</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

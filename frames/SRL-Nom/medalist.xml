@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="medalist">
+<roleset id="medalist.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Olympic gold medalist Florence Griffith-Joyner
+</text>
+<arg n="1">Olympic</arg>
+<arg n="3">gold</arg>
+<arg n="0">medalist</arg>
+<rel>medalist</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

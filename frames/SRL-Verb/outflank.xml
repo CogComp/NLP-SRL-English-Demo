@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="outflank">
+<note>
+  Frames file for 'outflank' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+
+<roleset id="outflank.01" name="to gain a tactical advantage over" vncls="-">
+<roles>
+  <role n="1"  descr="agent"/>
+  <role n="2"  descr="entity outflanked"/>
+</roles>
+
+<example name="transitive">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+ Earlier this month , Convex made a bid [*-1] to outflank other supercomputer competitors like Digital Equipment Corp. and International Business Machines Corp. by [*-3] adopting an open set of standards and introducing new hardware and software [0] [*T*-2] to link different systems .
+</text>
+	<arg n="0">[*-1] ->  Convex</arg>
+	<rel>outflank</rel>
+	<arg n="1">other supercomputer competitors like Digital Equipment Corp. and International Business Machines Corp.</arg>
+	<arg n="M" f="MNR">by [*-3] adopting an open set of standards and introducing new hardware and software [0] [*T*-2] to link different systems</arg>
+</example>
+
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

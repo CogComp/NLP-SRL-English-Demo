@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="verge">
+<note>
+  Frames file for 'verge'  based on survey of sentences in the WSJ
+  corpus. Comparison with 'approach'.
+</note>
+
+<roleset id="verge.01" name="to approach, come close to"
+vncls="-">
+<roles> 
+  <role n="1"  descr="entity verging"/>   
+  <role n="2"  descr="entity coming close to"/>  
+</roles>
+
+<example name="both arguments">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ But in the week following the 1987 stock crash , the exchange verged on collapse , and the stock and futures markets in Hong Kong were closed [*-1] for four days .
+</text>
+	<arg n="M" f="DIS">But</arg>
+	<arg n="M" f="TMP">in the week following the 1987 stock crash</arg>
+	<arg n="1">the exchange</arg>
+	<rel>verged</rel>
+	<arg n="2" f="on">collapse</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

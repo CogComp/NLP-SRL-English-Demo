@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bang">
+<note>
+  Frames file for 'bang' based on sentences in wsj.  Verbnet entries
+  18.1, 43.2, 18.4, and 9.3; Framenet entry Motion noise.
+</note>
+
+<roleset id="bang.01" vncls="43.2" name="emit banging noise">
+<roles>
+  <role n="0"  descr="thing emitting noise"/>
+</roles>
+
+<example name="bang!">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     The window shutters banged in the wind.
+  </text>
+  <arg n="0"        >The window shutters</arg>
+  <rel              >banged</rel>
+  <arg n="m" f="LOC">in the wind</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+
+<roleset id="bang.02" vncls="18.1 18.4" name="strike so as to make
+  banging noise">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="thing hit"/>
+  <role n="2"  descr="secondary predication"/>
+</roles>
+
+<example name="just transitive">
+<inflection person="third" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+    He bangs on the piece of paper in frustration, then turns and
+    walks away. 
+</text>
+        <arg n="0">He</arg>
+        <rel>bangs</rel>
+        <arg n="1" f="on">the piece of paper</arg>
+        <arg n="M" f="MNR">in frustration</arg>
+</example>
+
+<example name="with secondary predication">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+    John banged open the lid of his coffin.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >banged</rel>
+  <arg n="2" f="PRD">open</arg>
+  <arg n="1"        >the lid of his coffin</arg>
+</example>
+
+<note>
+He's back!
+</note>
+
+</roleset>
+</predicate>
+</frameset>

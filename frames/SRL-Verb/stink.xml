@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="stink">
+<note>
+  Frames file for 'stink' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="stink.01" name="to emit a strong odor or  be extremely bad"
+vncls="43.3">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity stinking"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/>
+<text>
+ I think [0] re-enactments stink . ''
+</text>
+	<arg n="1">re-enactments</arg>
+	<rel>stink</rel>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+   frames created by Olga
+</note>
+
+</frameset>
+

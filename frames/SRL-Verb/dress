@@ -1,0 +1,80 @@
+##PRELIMINARY LEXICAL ENTRTY FOR "dress"
+##CONSTRUCTED VIA LEVIN
+##EDITED THROUGH COMPARISON WITH INITIAL 25% OF "dress.sents"
+
+
+
+##INTRANSITIVE
+
+##"John dressed."
+
+ARG0 REL
+
+
+
+	##MANNER-VARIANT
+
+	##"John dressed badly."
+	##"John dresses better than Fred."
+	##"John dressed in shorts."
+	##"John dressed for success."
+	##"John dressed like Noriega."
+	##"John dressed as a Mainland Haole."
+
+	ARG0 REL ARGM-MNR
+
+
+
+		##PASSIVE
+
+		##"John was badly dressed."
+		##"John was dressed in shorts."
+		##"John was dressed for success."
+		##"John was dressed like Noriega."
+
+		ARG1 REL.passive ARGM-MNR
+
+
+##TRANSITIVE
+
+##"John dressed himself."
+##"John dressed Mary."
+
+ARG0 REL ARG1
+
+
+
+##DRESS_DOWN
+##SHOULD ULTIMATELY GET ITS OWN LEX-ENTRY
+
+
+##TRANSITIVE
+
+##"John dressed Mary down."
+
+ARG0 REL ARG1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

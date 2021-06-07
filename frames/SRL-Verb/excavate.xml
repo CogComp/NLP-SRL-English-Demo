@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="excavate">
+<note>
+  Frames file for 'excavate' based on sentences in wsj.  Verbnet entry 35.2.
+</note>
+
+<roleset id="excavate.01" vncls="35.2" name="dig a big hole">
+<roles>
+  <role n="0"  descr="excavator, digger"/>
+  <role n="1"  descr="hole"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="past" aspect="perfect" voice="active" form="participle"/>
+<text>
+    The city's mayor vowed to take legal action against developers who
+*trace* had been excavating at the crest of the hill. 
+</text>
+        <arg n="0">*trace* ->  who ->  developers</arg>
+        <rel>excavating</rel>
+        <arg n="M" f="LOC">at the crest of the hill</arg>
+</example>
+
+
+<example name="passive">
+<inflection person="ns" tense="ns" aspect="ns" voice="passive" form="participle"/>
+<text>
+    Before the Gutfreunds finally left this unfriendly environment for
+a prodigious duplex on Fifth Avenue and an 18th-century mansion with a
+specially excavated $1 million garage in Paris, the Postels had
+obtained an injunction to prevent any future hoisting of trees, and in
+a neighborly spirit hit both the Gutfreunds and the building with a
+$35 million lawsuit. 
+</text>
+        <arg n="M" f="MNR">specially</arg>
+        <rel>excavated</rel>
+        <arg n="1">garage</arg>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

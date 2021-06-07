@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="liquefy">
+<note>
+  Frames file for 'liquefy' based on sentences in wsj.  Verbnet entry
+  45.4. 
+</note>
+
+<roleset id="liquify.01" vncls="45.4" name="(cause to) become a liquid">
+<roles>
+  <role n="0"  descr="causal agent"/>
+  <role n="1"  descr="thing now liquid"/>
+</roles>
+
+<example name="financial liquidity">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="infinitive"/>
+<text>
+    The trust isn't commenting on when it might need [*-2] to liquefy
+    its Manville stock. 
+</text>
+        <arg n="0">[*-2] ->  it</arg>
+        <rel>liquefy</rel>
+        <arg n="1">its Manville stock</arg>
+</example>
+
+<example name="literal liquidity">
+<inflection person="ns" tense="present" aspect="ns" voice="active" form="full"/><text>
+     Areas that are made of `fill' liquefy. 
+</text>
+        <arg n="1">Areas that are made of `fill'</arg>
+        <rel>liquefy</rel>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

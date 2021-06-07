@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="accrue">
+<note>
+  Frames file for 'accrue' based on sentences in financial subcorpus.
+  No access to verbnet.
+</note>
+
+<roleset id="accrue.01" name="accumulate, gather">
+<roles>
+  <role n="0"  descr="agent, gatherer"/>
+  <role n="1"  descr="thing gathered, accrued"/>
+</roles>
+
+<example name="agentive, with rate">
+<text>
+    The El Paso, Texas, maker of Western boots and leather accessories
+    said the preferred stock would accrue dividends at a 12% rate, but
+    wouldn't be paid for the first two years. 
+</text>
+        <arg n="0">the preferred stock</arg>
+        <arg n="M" f="MOD">would</arg>
+        <rel>accrue</rel>
+        <arg n="1">dividends</arg>
+        <arg n="M" f="MNR">at a 12% rate</arg>
+</example>
+
+<example name="ergative, sorta">
+<text>
+    Geoffrey Kalmus said that unsecured creditors would be paid in
+    full credits and interest of about $855 million, accrued *trace*
+    before PS of New Hampshire's Jan. 1988 filing for bankruptcy court
+    protection. 
+</text>
+        <rel>accrued</rel>
+        <arg n="1">*trace* ->  interest</arg>
+        <arg n="M" f="TMP">before PS of New Hampshire's Jan. 1988
+        filing for bankruptcy court protection</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

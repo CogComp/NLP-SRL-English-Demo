@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="doom">
+<note>
+  Frames file for 'doom' based on survey of sentences in the WSJ
+  corpus.
+</note>
+
+<roleset id="doom.01" name="to condemn"
+vncls="-">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity doomed"/>
+  <role n="2"  descr="doomed to"/>
+</roles>
+
+<example name="all arguments">
+<inflection person="ns" tense="ns" aspect="ns" voice="active" form="participle"/>
+<text>
+ A minor bureaucrat dies suddenly , [*-1] dooming his family to poverty and eventual disgrace .
+</text>
+	<arg n="0">[*-1] ->  A minor bureaucrat</arg>
+	<rel>dooming</rel>
+	<arg n="1">his family</arg>
+	<arg n="2" f="to">poverty and eventual disgrace</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>

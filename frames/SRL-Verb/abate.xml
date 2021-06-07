@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="abate">
+<note>
+  Frames file for 'abate' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="abate.01" name="to decrease,  become less strong"  vncls="45.4">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="entity decreased"/>
+</roles>
+
+<example name="intransitive">
+<inflection person="ns" tense="present" aspect="progressive" voice="active" form="participle"/>
+<text>
+ Economists consider that a sign that inflationary pressures are abating .
+</text>
+	<arg n="1">inflationary pressures</arg>
+	<rel>abating</rel>
+</example>
+
+
+<example name="intransitive with adverbials">
+<inflection person="third" tense="present" aspect="perfect" voice="active" form="participle"/>
+<text>
+ What [*T*-1] 's more , the corporate borrowing binge has n't abated in the past two years .
+</text>
+	<arg n="1">the corporate borrowing binge</arg>
+	<arg n="M" f="NEG">n't</arg>
+	<rel>abated</rel>
+	<arg n="M" f="TMP">in the past two years</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

@@ -1,0 +1,69 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="concentrate">
+<note>
+  Frames file for 'concentrate' based on sentences in financial
+  subcorpus.  No Verbnet entry.  Comparison with 'focus'.
+</note>
+
+<roleset id="concentrate.01" name="affix attention on">
+<roles>
+  <role n="0"  descr="agent, contrentrater"/>
+  <role n="1"  descr="contrentrated-on"/>
+  <role n="2"  descr="thing contrentrated, if separate from agent"/>
+</roles>
+
+<example name="most typical usage">
+<text>
+    The move also would allow the company to concentrate on core
+    businesses, which include ceramic tile, floor coverings and
+    furniture. 
+</text>
+        <arg n="0">the company</arg>
+        <rel>concentrate</rel>
+        <arg n="1" f="on">core businesses, which include ceramic tile,
+        floor coverings and furniture</arg>
+</example>
+
+<example name="with thing concentrated">
+<text>
+    Hunter wants *trace* to concentrate its resources on the insurance
+    business. 
+</text>
+        <arg n="0">*trace* ->  Hunter</arg>
+        <rel>concentrate</rel>
+        <arg n="2">its resources</arg>
+        <arg n="1" f="on">the insurance business</arg>
+</example>
+
+<note>
+Args 1 and 2 are reversed from 'focus'.
+</note>
+
+</roleset>
+
+<roleset id="concentrate.02" name="cause a reduction in volume (as of a liquid)">
+<roles>
+  <role n="0"  descr="causer"/>
+  <role n="1"  descr="liquid"/>
+</roles>
+
+<example name="somewhat bizarre">
+  <text>
+    John concentrated the herbal extract.
+  </text>
+  <arg n="0"        >John</arg>
+  <rel              >concentrated</rel>
+  <arg n="1"        >the herbal extract</arg>
+</example>
+
+<note>
+This is mostly here to account for future adjectival usages like
+"concentrated orange juice".
+</note>
+
+</roleset>
+</predicate>
+</frameset>

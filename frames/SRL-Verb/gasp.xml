@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="gasp">
+<note>
+  Frames file for 'gasp' based on sentences in financial subcorpus.
+  No Verbnet entry.
+</note>
+
+<roleset id="gasp.01" vncls="-" name="breathe hard">
+<roles>
+  <role n="0"  descr="breather"/>
+  <role n="1"  descr="air, hopefully"/>
+</roles>
+
+<example name="gasp for air">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+    Never once did she gasp for air or mop her brow.
+</text>
+        <arg n="M" f="TMP">Never once</arg>
+        <arg n="0">she</arg>
+        <rel>gasp</rel>
+        <arg n="1" f="for">air</arg>
+</example>
+
+<note>
+Usually as 'gasp for'?
+</note>
+
+</roleset>
+
+<roleset id="gasp.02" vncls="-" name="say breathily">
+<roles>
+  <role n="0"  descr="speaker"/>
+  <role n="1"  descr="utterance"/>
+  <role n="2"  descr="hearer"/>
+</roles>
+
+<example name="no hearer">
+  <inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+  <text>
+     "The British are coming!" gasped John.
+  </text>
+  <arg n="1"        >The British are coming!</arg>
+  <rel              >gasped</rel>
+  <arg n="0"        >John</arg>
+</example>
+
+<note>
+Expect the usual range of syntaces as the other verbs-of-saying.
+</note>
+
+</roleset>
+</predicate>
+</frameset>

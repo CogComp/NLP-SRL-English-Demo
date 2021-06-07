@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lifeline">
+<roleset id="lifeline.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its lifeline
+</text>
+<arg n="0">its</arg>
+<rel>lifeline</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

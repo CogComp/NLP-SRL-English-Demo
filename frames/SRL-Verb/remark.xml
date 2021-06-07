@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+
+
+<frameset>
+<predicate lemma="remark">
+<note>
+  Frames file for 'remark' based on survey of sentences in the WSJ
+  corpus. 
+</note>
+
+<roleset id="remark.01" name="to express briefly"  vncls="37.7">
+<roles>
+  <role n="0"  descr="agent"/>
+  <role n="1"  descr="utterance"/>
+  <role n="2"  descr="hearer"/>
+</roles>
+
+
+
+<example name="transitive">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ Mr. Pratt remarked that he thinks [0] steeper prices have come about because producers do n't like [*-1] to see a hit wine dramatically increase in price later on .
+</text>
+	<arg n="0">Mr. Pratt</arg>
+	<rel>remarked</rel>
+	<arg n="1">he thinks [0] steeper prices have come about because producers do n't like [*-1] to see a hit wine dramatically increase in price later on</arg>
+</example>
+
+
+<example name="prepositional Arg1">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ One writer , signing his letter as `` Red-blooded , balanced male , '' remarked on the `` frequency of women fainting in peals , '' and suggested that they `` settle back into their traditional role of [*] making tea at meetings . ''
+</text>
+	<arg n="0">One writer , signing his letter as `` Red-blooded , balanced male , ''</arg>
+	<rel>remarked</rel>
+	<arg n="1" f="on">the `` frequency of women fainting in peals</arg>
+</example>
+
+
+</roleset>
+</predicate>
+
+<note>
+  frames created by Olga
+</note>
+
+</frameset>
+

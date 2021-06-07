@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="extract">
+<roleset id="extract.01" name="to remove or obtain" source="verb-extract.01" vncls="10.1">
+<roles>
+
+<role descr="remover, agent" n="0">
+<vnrole vncls="10.1" vntheta="Agent"/></role>
+
+<role descr="thing extracted" n="1">
+<vnrole vncls="10.1" vntheta="Theme"/></role>
+
+<role descr="entity extracted from" n="2">
+<vnrole vncls="10.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a rooster-comb extract
+</text>
+<arg n="2">rooster-comb</arg>
+<arg n="1">extract</arg>
+<rel>extract</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>
